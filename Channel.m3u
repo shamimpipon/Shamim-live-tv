@@ -16,7 +16,7 @@ http://10.247.249.10:8088/121/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbe
 http://10.247.249.10:8088/123/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
 #EXTINF:0 tvg-id="ext" group-title="Sports"tvg-name="Star Sports select 2" tvg-logo="http://103.153.48.81/assets/images/STAR%20SELECT%201%20HD1745038777.png"
 http://10.247.249.10:8088/124/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
-#EXTINF:0 tvg-id="ext" group-title="Sports",tvg-name="A Sports" tvg-logo=" http://103.153.48.81/assets/images/A%20SPORTS%20HD1745044782.png"
+#EXTINF:0 tvg-id="ext" group-title="Sports",tvg-name="A Sports" tvg-logo="http://103.153.48.81/assets/images/A%20SPORTS%20HD1745044782.png"
 http://10.247.249.10:8088/127/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
 #EXTINF:0 tvg-id="ext" group-title="NEWS",JUMUNA TV
 http://10.247.249.10:8088/209/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
@@ -50,6 +50,7 @@ http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 http://172.31.235.10:8080/hls/34-tsportssd/0_1/index.m3u8?tkn=2505362738
 #EXTINF:0 tvg-id="ext" group-title="SPORTS",tsports icc ftb
 http://10.16.100.206:8080/hls/tsports.m3u8
+
 
 
 
