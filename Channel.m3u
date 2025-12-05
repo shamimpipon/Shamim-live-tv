@@ -1,6 +1,6 @@
 
 #EXTM3U
-#EXTINF:0 tvg-id="ext" group-title="Sports" tvg-name="Tsports" tvg-logo="https://en.wikipedia.org/wiki/File:T_Sports_logo.svg"
+#EXTINF:0 tvg-id="ext" group-title="Sports",tvg-name="Tsports" tvg-logo="https://en.wikipedia.org/wiki/File:T_Sports_logo.svg"
 http://10.247.249.10:8088/102/tracks-v1a1/mono.m3u8?token=f0e24b2ecd02b868cf7254bdf0016f6dd14f4389-a6f576cdafa788cbbe885fd2152c2e29-1760201128-1760197528
 #EXTINF:0 tvg-id="ext" group-title="Sports",tvg-name="STAR SPORTS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png"
 http://10.247.249.10:8088/110/tracks-v1a1/mono.m3u8?token=e9bc2f6feef34ffc7866390d2ab71f9fd96faa4e-cab79edea153348dbdb0551793915853-1760201922-1760198322
@@ -50,6 +50,7 @@ http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 http://172.31.235.10:8080/hls/34-tsportssd/0_1/index.m3u8?tkn=2505362738
 #EXTINF:0 tvg-id="ext" group-title="SPORTS",tsports icc ftb
 http://10.16.100.206:8080/hls/tsports.m3u8
+
 
 
 
