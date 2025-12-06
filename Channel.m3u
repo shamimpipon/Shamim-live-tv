@@ -2,7 +2,7 @@
 #EXTM3U
 #EXTINF:0 tvg-id="ext" group-title="Sports",Tsports tvg-logo="http://103.153.48.81/assets/images/T%20SPORTS1744972630.png"
 http://10.247.249.10:8088/102/tracks-v1a1/mono.m3u8?token=f0e24b2ecd02b868cf7254bdf0016f6dd14f4389-a6f576cdafa788cbbe885fd2152c2e29-1760201128-1760197528
-#EXTINF:0 tvg-id="ext" group-title="Sports",tvg-name="STAR SPORTS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png"
+#EXTINF:0 tvg-id="ext" group-title="Sports",tvg-name="STARSPORTS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png"
 http://10.247.249.10:8088/110/tracks-v1a1/mono.m3u8?token=e9bc2f6feef34ffc7866390d2ab71f9fd96faa4e-cab79edea153348dbdb0551793915853-1760201922-1760198322
 #EXTINF:0 tvg-id="ext" group-title="Sports",tvg-name="Star Sports 2" tvg-logo="https://cdnhost.akashbd.net/assets/uploads/channels_images/1569729776-80484720.png?v=8.5.1"
 http://10.247.249.10:8088/115/tracks-v1a1/mono.m3u8?token=5c91612a2b181f083b3c6ecdf360e84966ff0aef-9c3c7557c62561abd14dc14a04d9cab5-1760201995-1760198395
@@ -14,7 +14,7 @@ http://10.247.249.10:8088/120/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbe
 http://10.247.249.10:8088/121/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
 #EXTINF:0 tvg-id="ext" group-title="Sports",tvg-name="Star Sports select 1" tvg-logo="http://103.153.48.81/assets/images/STAR%20SELECT%201%20HD1745038777.png"
 http://10.247.249.10:8088/123/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
-#EXTINF:0 tvg-id="ext" group-title="Sports"tvg-name="Star Sports select 2" tvg-logo="http://103.153.48.81/assets/images/STAR%20SELECT%201%20HD1745038777.png"
+#EXTINF:0 tvg-id="ext" group-title="Sports"tvg-name="StarSports select 2" tvg-logo="http://103.153.48.81/assets/images/STAR%20SELECT%201%20HD1745038777.png"
 http://10.247.249.10:8088/124/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
 #EXTINF:0 tvg-id="ext" group-title="Sports",tvg-name="A Sports" tvg-logo="http://103.153.48.81/assets/images/A%20SPORTS%20HD1745044782.png"
 http://10.247.249.10:8088/127/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
@@ -50,6 +50,7 @@ http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 http://172.31.235.10:8080/hls/34-tsportssd/0_1/index.m3u8?tkn=2505362738
 #EXTINF:0 tvg-id="ext" group-title="SPORTS",tsports icc ftb
 http://10.16.100.206:8080/hls/tsports.m3u8
+
 
 
 
