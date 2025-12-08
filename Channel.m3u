@@ -1,63 +1,47 @@
 #EXTM3U
-#EXTINF:0 tvg-id="ext" group-title="Sports" Tsports" tvg-logo="http://10.247.249.10/assets/images/Tsports.png",tsports
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="Sports",T Sports
 http://10.247.249.10:8088/102/tracks-v1a1/mono.m3u8?token=f0e24b2ecd02b868cf7254bdf0016f6dd14f4389-a6f576cdafa788cbbe885fd2152c2e29-1760201128-1760197528
-#EXTINF:0 tvg-id="StarSports1.in" group-title="Sports" Star sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png",Star Sports 1
+#EXTINF:0 tvg-id="StarSports1.in" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",Star Sports 1
 http://10.247.249.10:8088/110/tracks-v1a1/mono.m3u8?token=e9bc2f6feef34ffc7866390d2ab71f9fd96faa4e-cab79edea153348dbdb0551793915853-1760201922-1760198322
-#EXTINF:0 tvg-id="StarSports2.in" group-title="Sports",Star Sports 2" tvg-logo="https://cdnhost.akashbd.net/assets/uploads/channels_images/1569729776-80484720.png",Star Sports 2
+#EXTINF:0 tvg-id="StarSports2.in" group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/daeac3b0e17bfabd911bd5dc63c69aa8" group-title="Sports",Star Sports 2
 http://10.247.249.10:8088/115/tracks-v1a1/mono.m3u8?token=5c91612a2b181f083b3c6ecdf360e84966ff0aef-9c3c7557c62561abd14dc14a04d9cab5-1760201995-1760198395
-#EXTINF:0 tvg-id="TenSports1.in" group-title="Sports" Sony ten 1" Tvg-logo"https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png",Sony Sports Ten 1
+#EXTINF:0 tvg-id="TenSports.in" group-title="Sports" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="Sports",Sony ten 1
 http://10.247.249.10:8088/119/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
-#EXTINF:0 tvg-id="TenAction.in" group-title="Sports"Sony ten 2" Tvg-logo"https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png",Sony Sports Ten 2
+#EXTINF:0 tvg-id="TenAction.in" group-title="Sports" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="Sports",Sony ten 2
 http://10.247.249.10:8088/120/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
-#EXTINF:0 tvg-id="ext" group-title="Sports" Sony ten 5" Tvg-logo"https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png",Sony Sports Ten 5
+#EXTINF:0 tvg-id="ext" group-title="Sports" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",Sony ten 5
 http://10.247.249.10:8088/121/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
-#EXTINF:0 tvg-id="StarSportsSelect1.in" group-title="Sports",Star Sports select 1
+#EXTINF:0 tvg-id="StarSportsSelect1.in" group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/c96957383c33f1948e34fdcc07fbc29f" group-title="Sports",Star Sports select 1
 http://10.247.249.10:8088/123/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
-#EXTINF:0 tvg-id="StarSportsSelect2.in" group-title="Sports",Star Sports select 2
+#EXTINF:0 tvg-id="StarSportsSelect2.in" group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/16ee3a1243424dfe8f4341a90afbd46e" group-title="Sports",Star Sports select 2
 http://10.247.249.10:8088/124/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
-#EXTINF:0 tvg-id="ext" group-title="Sports",A Sports
+#EXTINF:0 tvg-id="ext" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0c/A_Sports_Logo.png" group-title="Sports",A Sports
 http://10.247.249.10:8088/127/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
-#EXTINF:0 tvg-id="ext" group-title="NEWS",JUMUNA TV
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",JUMUNA TV
 http://10.247.249.10:8088/209/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
-#EXTINF:0 tvg-id="ext" group-title="NEWS",DBC NEWS
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",DBC NEWS
 http://10.247.249.10:8088/204/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
-#EXTINF:0 tvg-id="ext" group-title="NEWS",SOMOY TV
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",SOMOY TV
 http://10.247.249.10:8088/205/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
-#EXTINF:0 tvg-id="ext" group-title="NEWS",EKTTOR TV
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",EKTTOR TV
 http://10.247.249.10:8088/201/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
-#EXTINF:0 tvg-id="ext" group-title="NEWS",ATN NEWS
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",ATN NEWS
 http://10.247.249.10:8088/203/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
-#EXTINF:0 tvg-id="ext" group-title="NEWS",EKTTOR tv
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",EKTTOR tv
 https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8
-#EXTINF:0 tvg-id="ext" group-title="NEWS",Jamuna Tv GPCDN.NET
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",Jamuna Tv GPCDN.NET
 https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/1701-audio_113312_eng=113200-video=1692000.m3u8
-#EXTINF:0 tvg-id="ext" group-title="NEWS",sunbangla
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",sunbangla
 https://smart.bengaldigital.live/sun-bangla-paid/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-id="avi" group-title="NEWS",Jalsha Movie
+#EXTINF:0 tvg-id="avi" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",Jalsha Movie
 https://tiger-hub.vercel.app/Jalsha_movies/tracks-v1a1/mono.ts.m3u8
-#EXTINF:0 tvg-id="ext" group-title="NEWS",Channel 24 GPCDN.NET
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",Channel 24 GPCDN.NET
 https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/1703-audio_113332_eng=113200-video=1692000.m3
-#EXTINF:0 tvg-id="ext" group-title="NEWS",Maasranga TV sunplex
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",Maasranga TV sunplex
 https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-id="ext" group-title="NEWS",Somay News GPCDN.NET
+#EXTINF:0 tvg-id="ext" group-title="NEWS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="NEWS",Somay News GPCDN.NET
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
-#EXTINF:0 tvg-id="ext" group-title="SPORTS",T SPORTS JADOO
+#EXTINF:0 tvg-id="ext" group-title="SPORTS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="SPORTS",T SPORTS JADOO
 http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-id="ext" group-title="SPORTS",STAR SPORTS 1 JADOO
+#EXTINF:0 tvg-id="ext" group-title="SPORTS" tvg-logo="https://oxolive.com/wp-content/uploadc" group-title="SPORTS",STAR SPORTS 1 JADOO
 http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-id="ext" group-title="SPORTS",T SPORTS 1 172.31.235.10
-http://172.31.235.10:8080/hls/34-tsportssd/0_1/index.m3u8?tkn=2505362738
-#EXTINF:0 tvg-id="ext" group-title="SPORTS",tsports icc ftb
-http://10.16.100.206:8080/hls/tsports.m3u8
-
-
-
-
-
-
-
-
-
-
-
-
