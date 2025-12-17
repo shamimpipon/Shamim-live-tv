@@ -45,3 +45,34 @@ http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
 http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://dl.dropbox.com/s/7xwwb8hetz3w8rp/independent_tv.png" group-title="NEWS",INDEPENDENT TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8
+#EXTINF:0 tvg-id="StarSportsHD1.in" group-title="Sports",STAR SPORTS 1 HD
+https://redbooks.site/2026/150/index.ts
+#EXTINF:0 tvg-id="StarSportsHD1.in" group-title="Sports",STAR SPORTS 1 HD
+https://redbooks.site/2026/151/index.ts
+#EXTINF:0 tvg-id="StarSports3.in" group-title="Sports",STAR SPORTS 1 HINDI
+https://redbooks.site/2026/152/index.ts
+#EXTINF:0 tvg-id="StarSports3.in" group-title="Sports",STAR SPORTS 1 HINDI
+https://redbooks.site/2026/153/index.ts
+#EXTINF:0 tvg-id="StarSports2.in" group-title="Sports",STAR SPORTS 2
+https://redbooks.site/2026/154/index.ts
+#EXTINF:0 tvg-id="ext" group-title="Sports",STAR SPORTS 2 HINDI
+https://redbooks.site/2026/155/index.ts
+#EXTINF:0 tvg-id="StarSports3.in" group-title="Sports",STAR SPORTS 3
+https://redbooks.site/2026/156/index.ts
+#EXTINF:0 tvg-id="ext" group-title="Sports",SONY SPORTS 1 HD
+https://redbooks.site/2026/157/index.ts
+#EXTINF:0 tvg-id="ext" group-title="Sports",SONY SPOTRS 1 HD
+https://redbooks.site/2026/158/index.ts
+#EXTINF:0 tvg-id="ext" group-title="Sports",SONY SPORTS 2 HD
+https://redbooks.site/2026/159/index.ts
+#EXTINF:0 tvg-id="ext" group-title="Sports",SONY SPORTS 2 HD
+https://redbooks.site/2026/160/index.ts
+#EXTINF:0 tvg-id="ext" group-title="Sports",SONY SPORTS 3 HD
+https://redbooks.site/2026/161/index.ts
+#EXTINF:0 tvg-id="ext" group-title="Sports",SONY SPORTS 3
+https://redbooks.site/2026/162/index.ts
+#EXTINF:0 tvg-id="ext" group-title="Sports",SONY SPORTS 4
+https://redbooks.site/2026/163/index.ts
+#EXTINF:0 tvg-id="StarSportsSelectHD2.in" group-title="Sports",STAR SPORTS SELECT 2 HD
+https://redbooks.site/2026/164/index.ts
+
