@@ -19,6 +19,12 @@ https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
 http://10.247.249.10:8088/102/tracks-v1a1/mono.m3u8?token=f0e24b2ecd02b868cf7254bdf0016f6dd14f4389-a6f576cdafa788cbbe885fd2152c2e29-1760201128-1760197528
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Sports Ten 5 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%205.png" group-title="Sports",Sony Sports Ten 5 HD
 http://87.255.35.150:18818
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="Sports",T Sports
+http://10.16.100.213:8080/hls/tsports.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ptv Sports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSig8_4hjKmRq-Y17RsWbROwhvzkHrq2vTnl-xVKBk9W1xkRxZvrI4XlCOi&s=10" group-title="Sports",Ptv Sports 
+http://10.16.100.213:8080/hls/PtvSportsHD.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="A Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0c/A_Sports_Logo.png" group-title="Sports",A Sports
+http://10.16.100.213:8080/hls/asports.m3u8
 #EXTINF:-1 tvg-id="StarSports1.in" tvg-name="Star Sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",Star Sports 1
 http://10.247.249.10:8088/110/tracks-v1a1/mono.m3u8?token=e9bc2f6feef34ffc7866390d2ab71f9fd96faa4e-cab79edea153348dbdb0551793915853-1760201922-1760198322
 #EXTINF:-1 tvg-id="StarSports2.in" tvg-name="Star Sports 2" tvg-logo="https://cdnhost.akashbd.net/assets/uploads/channels_images/1569729776-80484720.png?v=8.g:1765472795754&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeoJTKjrFjVxydQWqI2NcOhYPURIv2wPgv_w_sE_0Sc6QOmrjYlN7_biLOTe8C6_CS_e12bqCWDNVq2Wcd2fZEjcXNtCzhRM" group-title="Sports",Star Sports 2
@@ -35,36 +41,7 @@ http://10.247.249.10:8088/123/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbe
 http://10.247.249.10:8088/124/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
 #EXTINF:-1 tvg-id="ext" tvg-name="A Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0c/A_Sports_Logo.png" group-title="Sports",A Sports
 http://10.247.249.10:8088/127/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
-#EXTINF:-1 tvg-id="StarSportsHD1.in" tvg-name="STAR SPORTS 1 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 HD
-https://redbooks.site/2026/150/index.ts
-#EXTINF:-1 tvg-id="StarSportsHD1.in" tvg-name="STAR SPORTS 1 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 HD
-https://redbooks.site/2026/151/index.ts
-#EXTINF:-1 tvg-id="StarSports3.in" tvg-name="STAR SPORTS 1 HINDI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 HINDI
-https://redbooks.site/2026/152/index.ts
-#EXTINF:-1 tvg-id="StarSports3.in" tvg-name="STAR SPORTS 1 HINDI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 HINDI
-https://redbooks.site/2026/153/index.ts
-#EXTINF:-1 tvg-id="StarSports2.in" tvg-name="STAR SPORTS 2" tvg-logo="https://cdnhost.akashbd.net/assets/uploads/channels_images/1569729776-80484720.png?v=8.g:1765472795754&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeoJTKjrFjVxydQWqI2NcOhYPURIv2wPgv_w_sE_0Sc6QOmrjYlN7_biLOTe8C6_CS_e12bqCWDNVq2Wcd2fZEjcXNtCzhRM" group-title="Sports",STAR SPORTS 2
-https://redbooks.site/2026/154/index.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2 HINDI" tvg-logo="https://cdnhost.akashbd.net/assets/uploads/channels_images/1569729776-80484720.png?v=8.g:1765472795754&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeoJTKjrFjVxydQWqI2NcOhYPURIv2wPgv_w_sE_0Sc6QOmrjYlN7_biLOTe8C6_CS_e12bqCWDNVq2Wcd2fZEjcXNtCzhRM" group-title="Sports",STAR SPORTS 2 HINDI
-https://redbooks.site/2026/155/index.ts
-#EXTINF:-1 tvg-id="StarSports3.in" tvg-name="STAR SPORTS 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_m8Vr36qfwbwYpUZ5ZBU1iAaWUDifj5RNM0UjngbIS8-midS09RDwWgVw&s=10" group-title="Sports",STAR SPORTS 3
-https://redbooks.site/2026/156/index.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%201.png" group-title="Sports",SONY SPORTS 1 HD
-https://redbooks.site/2026/157/index.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPOTRS 1 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%201.png" group-title="Sports",SONY SPOTRS 1 HD
-https://redbooks.site/2026/158/index.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%202.png" group-title="Sports",SONY SPORTS 2 HD
-https://redbooks.site/2026/159/index.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%202.png" group-title="Sports",SONY SPORTS 2 HD
-https://redbooks.site/2026/160/index.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%203.png" group-title="Sports",SONY SPORTS 3 HD
-https://redbooks.site/2026/161/index.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%203.png" group-title="Sports",SONY SPORTS 3
-https://redbooks.site/2026/162/index.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 4" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%204.png" group-title="Sports",SONY SPORTS 4
-https://redbooks.site/2026/163/index.ts
-#EXTINF:-1 tvg-id="StarSportsSelectHD2.in" tvg-name="STAR SPORTS SELECT 2 HD" tvg-logo="https://s3.aynaott.com/storage/16ee3a1243424dfe8f4341a90afbd46e" group-title="Sports",STAR SPORTS SELECT 2 HD
-https://redbooks.site/2026/164/index.ts
+
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS JADOO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="Sports",T SPORTS JADOO
 http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 JADOO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 JADOO
@@ -113,3 +90,4 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NTV " tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/1200px-NTV_%28Bangladesh%29_logo.svg.png" group-title="Akash Go",NTV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+
