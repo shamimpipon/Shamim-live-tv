@@ -10,7 +10,7 @@ https://tvsen6.aynaott.com/dbcnews/index.m3u8?e=1753741204&u=9a031201-22d8-4f7e-
 #EXTINF:-1 tvg-id="ext" tvg-name="EKTTOR TV" tvg-logo="https://s4.gifyu.com/images/imagea02f4314e761661d.png" group-title="NEWS",EKTTOR TV
 https://tvsen6.aynaott.com/ekattorbdtv/index.m3u8?e=1753741205&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=8464bbbc9450c5e5935bca44a76de9c1
 #EXTINF:-1 tvg-id="ext" tvg-name="ATN NEWS" tvg-logo="https://dl.dropbox.com/s/4ldi1dp09s8o6bm/atn_news_bd.png" group-title="NEWS",ATN NEWS
-https://tvsen5.aynaott.com/atnbangla/index.m3u8?e=1753741200&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=3d1a0272a03dccbd358530e453306a0e
+https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
 #EXTINF:-1 tvg-id="avi" tvg-name="Jalsha Movie" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/f/fe/Jalsha_Movies_HD_logo_%282013-present%29.png/revision/latest?cb=20210423101024" group-title="NEWS",Jalsha Movie
 http://10.247.249.10:8088/303/index.m3u8?token=3bea3ca6d5eeda0cb6e92ca50c8be2893a795a6a-90a2d9610120cc20255b45d2c84224d0-1765229533-1765225933
 #EXTINF:-1 tvg-id="ext" tvg-name="Maasranga TV sunplex" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Maasranga_Television_Logo.jpg/180px-Maasranga_Television_Logo.jpg" group-title="NEWS",Maasranga TV sunplex
@@ -90,6 +90,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NTV " tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/1200px-NTV_%28Bangladesh%29_logo.svg.png" group-title="Akash Go",NTV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+
 
 
 
