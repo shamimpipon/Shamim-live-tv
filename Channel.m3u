@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Roarzone " tvg-logo="https://i.imgur.com/EJFFEeF.jpeg" group-title="NEWS",Roarzone 
-http://103.73.107.122:3255/TSportsHD/index.m3u8
+https://bd-mc-fdlive.fancode.com/mumbai/138925_english_hls_94185bf7d073249_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SOMOY TV" tvg-logo="https://upload.wikimedia.org/wikipedia/bn/thumb/f/f6/%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg/2560px-%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%B" group-title="NEWS",SOMOY TV
 https://tvsen6.aynaott.com/somoytv/index.m3u8?e=1753741201&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=8f952f655c5a7cbcfac7872ccb7c18c7
 #EXTINF:-1 tvg-id="ext" tvg-name="JUMUNA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Jamuna_TV_logo.svg/2560px-Jamuna_TV_logo.svg.png" group-title="NEWS",JUMUNA TV
@@ -16,11 +16,11 @@ http://10.247.249.10:8088/303/index.m3u8?token=3bea3ca6d5eeda0cb6e92ca50c8be2893
 #EXTINF:-1 tvg-id="ext" tvg-name="Maasranga TV sunplex" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Maasranga_Television_Logo.jpg/180px-Maasranga_Television_Logo.jpg" group-title="NEWS",Maasranga TV sunplex
 https://tvsen5.aynaott.com/maasrangatv/index.m3u8?e=1753741198&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=19e5421b215c0b8937049f0ea7e35a3d
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="Sports",T Sports
-http://10.247.249.10:8088/102/tracks-v1a1/mono.m3u8?token=f0e24b2ecd02b868cf7254bdf0016f6dd14f4389-a6f576cdafa788cbbe885fd2152c2e29-1760201128-1760197528
+http://stvlive.net:8080/tsports1/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Sports Ten 5 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%205.png" group-title="Sports",Sony Sports Ten 5 HD
-http://87.255.35.150:18818
+http://stvlive.net:8080/sonyten5/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="Sports",T Sports
-http://10.16.100.213:8080/hls/tsports.m3u8
+http://stvlive.net:8080/tsports1/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ptv Sports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSig8_4hjKmRq-Y17RsWbROwhvzkHrq2vTnl-xVKBk9W1xkRxZvrI4XlCOi&s=10" group-title="Sports",Ptv Sports 
 http://10.16.100.213:8080/hls/PtvSportsHD.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="A Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0c/A_Sports_Logo.png" group-title="Sports",A Sports
@@ -28,24 +28,24 @@ http://10.16.100.213:8080/hls/asports.m3u8
 #EXTINF:-1 tvg-id="StarSports1.in" tvg-name="Star Sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",Star Sports 1
 http://10.247.249.10:8088/110/tracks-v1a1/mono.m3u8?token=e9bc2f6feef34ffc7866390d2ab71f9fd96faa4e-cab79edea153348dbdb0551793915853-1760201922-1760198322
 #EXTINF:-1 tvg-id="StarSports2.in" tvg-name="Star Sports 2" tvg-logo="https://cdnhost.akashbd.net/assets/uploads/channels_images/1569729776-80484720.png?v=8.g:1765472795754&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeoJTKjrFjVxydQWqI2NcOhYPURIv2wPgv_w_sE_0Sc6QOmrjYlN7_biLOTe8C6_CS_e12bqCWDNVq2Wcd2fZEjcXNtCzhRM" group-title="Sports",Star Sports 2
-http://10.247.249.10:8088/115/tracks-v1a1/mono.m3u8?token=5c91612a2b181f083b3c6ecdf360e84966ff0aef-9c3c7557c62561abd14dc14a04d9cab5-1760201995-1760198395
+http://stvlive.net:8080/starsports2/index.m3u8
 #EXTINF:-1 tvg-id="TenSports.in" tvg-name="Sony ten 1" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="Sports",Sony ten 1
-http://10.247.249.10:8088/119/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
+http://stvlive.net:8080/sonyten1/index.m3u8
 #EXTINF:-1 tvg-id="TenAction.in" tvg-name="Sony ten 2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="Sports",Sony ten 2
-http://10.247.249.10:8088/120/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
+http://stvlive.net:8080/sonyten2/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Sony ten 5" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",Sony ten 5
-http://10.247.249.10:8088/121/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
+http://stvlive.net:8080/tvg-name/index.m3u8
 #EXTINF:-1 tvg-id="StarSportsSelect1.in" tvg-name="Star Sports select 1" tvg-logo="https://s3.aynaott.com/storage/c96957383c33f1948e34fdcc07fbc29f" group-title="Sports",Star Sports select 1
-http://10.247.249.10:8088/123/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
+http://stvlive.net:8080/starselect1/index.m3u8
 #EXTINF:-1 tvg-id="StarSportsSelect2.in" tvg-name="Star Sports select 2" tvg-logo="https://s3.aynaott.com/storage/16ee3a1243424dfe8f4341a90afbd46e" group-title="Sports",Star Sports select 2
-http://10.247.249.10:8088/124/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
+http://stvlive.net:8080/starselect2/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="A Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0c/A_Sports_Logo.png" group-title="Sports",A Sports
 http://10.247.249.10:8088/127/tracks-v1a1/mono.m3u8?token=2137844f440a01eedc5bbecc75d3e30b89905d9d-72ac6e66848a18f09ce564b034083a92-1760202698-1760199098
 
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS JADOO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="Sports",T SPORTS JADOO
-http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
+http://172.17.50.112:84/ant1005/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 JADOO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 JADOO
-http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
+http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ananda TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Logo_of_Ananda_TV.svg/1200px-Logo_of_Ananda_TV.svg.png" group-title="Akash Go",Ananda TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bijoy TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logo_of_Bijoy_TV.svg/1200px-Logo_of_Bijoy_TV.svg.png" group-title="Akash Go",Bijoy TV
@@ -90,6 +90,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NTV " tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/1200px-NTV_%28Bangladesh%29_logo.svg.png" group-title="Akash Go",NTV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+
 
 
 
