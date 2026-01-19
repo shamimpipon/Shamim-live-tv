@@ -1,7 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/VL5yTtwr/20250707_141739.png" group-title="Sports", Tsports
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="tsport" tvg-logo="https://i.postimg.cc/VL5yTtwr/20250707_141739.png"
 https://bongoflixbd.top/tsports.m3u8?user=bongoflix&pass=eaminvai
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/K89SfFWN/20251208_221926.png" group-title="Sports", Euro Sports
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Euro sports" tvg-logo="https://i.postimg.cc/K89SfFWN/20251208_221926.png"
 https://bongoflixbd.top/toffee/euro_sports_hd.m3u8?user=bongoflix&pass=eaminvai
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/fWV00yP8/tencricket.png" group-title="Sports", Ten Cricket
 https://bongoflixbd.top/toffee/ten_cricket.m3u8?user=bongoflix&pass=eaminvai
@@ -203,6 +203,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NTV " tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/1200px-NTV_%28Bangladesh%29_logo.svg.png" group-title="Akash Go",NTV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+
 
 
 
