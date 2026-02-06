@@ -22,6 +22,11 @@ http://172.17.50.112:84/ant1008/tracks-v1a1/mono.m3u8
 http://103.182.170.32:8888/play/a040
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2 " tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Sports%202%40.jpeg" group-title="Sports",STAR SPORTS 2
 http://103.182.170.32:8888/play/a020
+
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%202.png" group-title="Sports",SONY SPORTS 2 HD
+http://103.182.170.32:8888/play/a026
+
+
 #EXTINF:-1 tvg-id="StarSportsSelectHD1.in" tvg-name="STAR SPORTS SELECT 1 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Sports%20Select%201%40.jpeg" group-title="Sports",STAR SPORTS SELECT 1 HD
 http://103.182.170.32:8888/play/a045
 #EXTINF:-1 tvg-id="StarSportsSelectHD2.in" tvg-name="STAR SPORTS SELECT 2 HD" tvg-logo="https://s3.aynaott.com/storage/16ee3a1243424dfe8f4341a90afbd46e" group-title="Sports",STAR SPORTS SELECT 2 HD
@@ -148,6 +153,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NTV " tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/1200px-NTV_%28Bangladesh%29_logo.svg.png" group-title="Akash Go",NTV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+
 
 
 
