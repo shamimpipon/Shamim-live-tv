@@ -1,4 +1,15 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS JADOO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="Sports",T SPORTS JADOO
+http://172.17.50.112:84/ant1005/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 JADOO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 JADOO
+http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_bein_sports_2.png" group-title="Sports",BEIN SPORTS 2
+http://172.17.50.112:84/ant1007/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="SKY SPORTS" tvg-logo="tvg-logo="https://toppng.com/uploads/preview/sky-sports-logo-sky-sports-logo-2017-11562893928jxfigpzsqy.png
+group-title="Sports",SKY SPORTS 
+http://172.17.50.112:84/ant1006/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Astro  football " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Astro_Football_%282024%29.png" group-title="Sports", Astro football 
+http://172.17.50.112:84/ant1008/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Roarzone " tvg-logo="https://i.imgur.com/EJFFEeF.jpeg" group-title="NEWS",Roarzone 
 https://static.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/starnewsbd.stream/playlist.m3u8|referer=https://www.jagobd.com
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T sports " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="IPTV ",T sports 
@@ -123,6 +134,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NTV " tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/1200px-NTV_%28Bangladesh%29_logo.svg.png" group-title="Akash Go",NTV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+
 
 
 
