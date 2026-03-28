@@ -1,13 +1,12 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Roarzone " tvg-logo="https://i.imgur.com/EJFFEeF.jpeg" group-title="NEWS",Roarzone 
-http://103.99.249.139/starsport2/index.m3u8
+https://roarzone.geoclaster.xyz/main/stream.php?id=ZWRnZTIvamFsc2hhLW1vdmllcw%3D%3D&name=Star+Jalsha+Movies&format=.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Peace Tv bangla " tvg-logo="https://i.ibb.co/Gfw89mC/20240804-033102.png" group-title="NEWS",Peace Tv
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v2a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Roarzone Liv " tvg-logo="https://i.imgur.com/EJFFEeF.jpeg" group-title="NEWS",Roarzone 
-https://edge2.roarzone.info:444/roarzone/edge2/star-sports-1/index.m3u8?token=89e67e6fb4b7574beb7ab13fe51e0729a9b13d16-7d367506ab7ade64dd1baeb5ab0b3cab-1771263312-1771252512
-
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Roarzone Liv " tvg-logo="https://i.imgur.com/EJFFEeF.jpeg" group-title="NEWS",Islamic TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="Sports",T SPORTS JADOO
