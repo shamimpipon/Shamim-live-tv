@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T sports " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="IPTV ",T sports 
+https://go.iptvpulse.top/wr2r.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T sports " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="IPTV ",T sports 
+https://go.iptvpulse.top/8smt.m3u8
+
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Roarzone " tvg-logo="https://i.imgur.com/EJFFEeF.jpeg" group-title="NEWS",Roarzone 
 https://roarzone.geoclaster.xyz/main/stream.php?id=ZWRnZTIvamFsc2hhLW1vdmllcw%3D%3D&name=Star+Jalsha+Movies&format=.m3u8
 
@@ -25,7 +31,7 @@ http://103.99.249.139/starsport1/index.m3u8
 http://103.182.170.32:8888/play/a020
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%202.png" group-title="Sports",SONY SPORTS 2 HD
-http://103.182.170.32:8888/play/a026
+https://go.iptvpulse.top/rypp.m3u8
 
 
 #EXTINF:-1 tvg-id="StarSportsSelectHD1.in" tvg-name="STAR SPORTS SELECT 1 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Sports%20Select%201%40.jpeg" group-title="Sports",STAR SPORTS SELECT 1 HD
