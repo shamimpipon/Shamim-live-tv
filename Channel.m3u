@@ -26,9 +26,9 @@ http://172.17.50.112:84/ant1006/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Astro  football " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Astro_Football_%282024%29.png" group-title="Sports", Astro football 
 http://172.17.50.112:84/ant1008/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1
-http://103.99.249.139/starsport1/index.m3u8
+http://stvlive.net:8080/sonyten5/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2 " tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Sports%202%40.jpeg" group-title="Sports",STAR SPORTS 2
-http://103.182.170.32:8888/play/a020
+http://stvlive.net:8080/starsports2/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sports%20Ten%202.png" group-title="Sports",SONY SPORTS 2 HD
 https://go.iptvpulse.top/rypp.m3u8
