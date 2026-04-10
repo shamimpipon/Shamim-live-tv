@@ -1,13 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T sports " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/1200px-T_Sports_logo.svg.png" group-title="IPTV ",T sports 
-https://go.iptvpulse.top/wr2r.m3u8
-
-
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Roarzone " tvg-logo="https://i.imgur.com/EJFFEeF.jpeg" group-title="NEWS",Roarzone 
-http://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvZ2F6aQ==&e=.m3u8
-
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Peace Tv bangla " tvg-logo="https://i.ibb.co/Gfw89mC/20240804-033102.png" group-title="NEWS",Peace Tv
-https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v2a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Roarzone Liv " tvg-logo="https://i.imgur.com/EJFFEeF.jpeg" group-title="NEWS",Islamic TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8
