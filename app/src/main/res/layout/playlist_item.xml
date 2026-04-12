@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="6dp"
+    app:cardBackgroundColor="#101840"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_agenda"
+            app:tint="#00E5FF" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlaylistName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Playlist Name"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPlaylistUrl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="url_or_path_here"
+                android:textColor="#80FFFFFF"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_delete"
+            app:tint="#D81B60" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channel_container"
+    android:layout_width="match_parent"
+    android:layout_height="155dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/channel_item_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- 1. Logo Area -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.2"
+            android:padding="12dp">
+
+            <ImageView
+                android:id="@+id/channel_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tvlogo" />
+        </RelativeLayout>
+
+        <!-- 2. Light Divider Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:background="#33FFFFFF" />
+
+        <!-- 3. Name Area -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.8">
+
+            <!-- Channel Name -->
+            <TextView
+                android:id="@+id/channel_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Channel Name"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:paddingBottom="2dp"
+                android:shadowColor="#CC000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+name: Android APK Build and Auto Update
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+          cache: gradle
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug
+
+      - name: Get Version Code
+        id: get_version
+        run: |
+          # Extract versionCode from build output or generate same as gradle
+          VCODE=$(date +%s / 1000 | cut -d. -f1)
+          echo "VCODE=$VCODE" >> $GITHUB_ENV
+
+      - name: Create or Update Update.json
+        run: |
+          echo '{
+            "versionCode": ${{ env.VCODE }},
+            "apkUrl": "https://github.com/${{ github.repository }}/raw/main/app/build/outputs/apk/debug/app-debug.apk",
+            "whatsNew": "Automatic bug fixes and performance improvements."
+          }' > update.json
+
+      - name: Commit and Push update.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add update.json
+          git commit -m "Auto-update version to ${{ env.VCODE }}" || echo "No changes to commit"
+          git push

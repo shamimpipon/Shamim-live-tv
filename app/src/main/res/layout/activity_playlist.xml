@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050A30">
+
+    <!-- Custom RGB Toolbar -->
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1A1A1A"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/goback"
+            app:tint="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/btnBack"
+            android:text="Playlists / IPTV"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginEnd="15dp"
+                android:src="@android:drawable/btn_star_big_off"
+                app:tint="#FFFFFF" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginEnd="15dp"
+                android:src="@android:drawable/stat_notify_sync"
+                app:tint="#FFFFFF" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@android:drawable/ic_menu_search"
+                app:tint="#FFFFFF" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPlaylists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:paddingTop="10dp"
+        android:paddingBottom="80dp"
+        android:clipToPadding="false" />
+
+    <TextView
+        android:id="@+id/tvEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Playlists Found\nClick + to Add"
+        android:textAlignment="center"
+        android:textColor="#50FFFFFF"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="25dp"
+        android:backgroundTint="#D81B60"
+        android:src="@android:drawable/ic_input_add"
+        app:elevation="8dp"
+        app:tint="#FFFFFF" />
+
+</RelativeLayout>

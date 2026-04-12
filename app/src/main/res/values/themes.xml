@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TV" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#050A30</item>
+        <item name="colorPrimaryVariant">#050A30</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#050A30</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">#050A30</item>
+    </style>
+
+    <style name="Theme.TV.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

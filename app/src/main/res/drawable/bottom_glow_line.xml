@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ২. নিচের উজ্জ্বল চিকন রেখা (Bright Bottom Streak) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:startColor="#00304FFE"
+                android:centerColor="#FF304FFE"
+                android:endColor="#00304FFE"
+                android:angle="0" />
+        </shape>
+    </item>
+</layer-list>
