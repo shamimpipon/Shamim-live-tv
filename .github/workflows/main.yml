@@ -47,17 +47,24 @@ jobs:
 
       - name: Push update.json to Shamim-Live-TV-Update Repo
         env:
-          MY_PAT: ${{ secrets.MY_PAT }} # This needs to be added to your GitHub Secrets
+          MY_PAT: ${{ secrets.MY_PAT }}
         run: |
+          # Configure Git
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          
+          # Clone the update repo
           git clone https://x-access-token:${MY_PAT}@github.com/shamimpipon/Shamim-Live-TV-Update.git update_repo
           cd update_repo
+          
+          # Create update.json with safe quotes
           echo '{
             "versionCode": '${{ env.VCODE }}',
             "apkUrl": "https://github.com/shamimpipon/Shamim-live-tv/releases/download/v${{ env.VCODE }}/app-debug.apk",
-            "whatsNew": "New Premium UI and Auto-Update system."
+            "whatsNew": "Automatic bug fixes and performance improvements."
           }' > update.json
-          git config user.email "action@github.com"
-          git config user.name "GitHub Action"
+          
+          # Commit and Push
           git add update.json
-          git commit -m "Update version to ${{ env.VCODE }}"
-          git push
+          git commit -m "Auto-update version to ${{ env.VCODE }}" || echo "No changes to commit"
+          git push origin main || git push origin master
