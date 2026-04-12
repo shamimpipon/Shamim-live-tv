@@ -19,21 +19,9 @@
             android:scaleType="centerCrop"
             android:src="@drawable/shamim_tolbar" />
 
-        <!-- Back Button stays on top left -->
-        <ImageView
-            android:id="@+id/btnBack"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="15dp"
-            android:padding="8dp"
-            android:src="@drawable/goback"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            app:tint="#FFFFFF" />
-
         <!-- Title Text BELOW the logo and CENTERED -->
         <TextView
+            android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/toolbar_logo"
