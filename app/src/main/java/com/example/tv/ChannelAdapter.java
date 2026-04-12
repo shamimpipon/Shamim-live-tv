@@ -65,13 +65,12 @@ public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.ViewHold
         border.setColor(Color.parseColor("#050A30")); // ভেতরের ডার্ক কালার
         holder.container.setBackground(border);
 
-        // ২. নিচের নামের অংশের ব্যাকগ্রাউন্ড কালার সেট করা
+        // ২. নিচের নামের অংশের ব্যাকগ্রাউন্ড কালার সেট করা (সবুজ ফিক্সড)
         GradientDrawable nameBg = new GradientDrawable();
         nameBg.setShape(GradientDrawable.RECTANGLE);
-        // শুধুমাত্র নিচের দুই কোণা রাউন্ড করার জন্য (TopLeft, TopRight, BottomRight, BottomLeft)
         float radius = 22f;
         nameBg.setCornerRadii(new float[]{0, 0, 0, 0, radius, radius, radius, radius});
-        nameBg.setColor(color);
+        nameBg.setColor(Color.parseColor("#2E7D32")); // প্রিমিয়াম ডার্ক গ্রিন (সবুজ)
         holder.nameBgArea.setBackground(nameBg);
 
         holder.name.setTextColor(Color.WHITE);
