@@ -112,20 +112,13 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <!-- Main Content Area: SwipeRefreshLayout with RecyclerView -->
-    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-        android:id="@+id/swipeRefresh"
+    <!-- Main Content Area: RecyclerView for Channel Grid -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/headerRow">
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="6dp"
-            android:clipToPadding="false" />
-
-    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        android:layout_below="@id/headerRow"
+        android:padding="6dp"
+        android:clipToPadding="false" />
 
 </RelativeLayout>
