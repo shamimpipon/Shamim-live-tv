@@ -59,15 +59,68 @@ public class PlaylistActivity extends AppCompatActivity {
     }
 
     private void setupAdapter() {
-        adapter = new PlaylistAdapter(playlistList, (playlist) -> {
-            // এখন আর হোমস্ক্রিনের লিঙ্ক চেঞ্জ হবে না
-            // সরাসরি নতুন পেজে ওই প্লেলিস্টের চ্যানেলগুলো ওপেন হবে
-            Intent intent = new Intent(PlaylistActivity.this, PlaylistChannelsActivity.class);
-            intent.putExtra("playlist_url", playlist.getUrl());
-            intent.putExtra("playlist_name", playlist.getName());
-            startActivity(intent);
+        adapter = new PlaylistAdapter(playlistList, new PlaylistAdapter.OnPlaylistClickListener() {
+            @Override
+            public void onPlaylistClick(PlaylistModel playlist) {
+                Intent intent = new Intent(PlaylistActivity.this, PlaylistChannelsActivity.class);
+                intent.putExtra("playlist_url", playlist.getUrl());
+                intent.putExtra("playlist_name", playlist.getName());
+                startActivity(intent);
+            }
+
+            @Override
+            public void onPlaylistDelete(int position) {
+                new AlertDialog.Builder(PlaylistActivity.this)
+                        .setTitle("Delete Playlist")
+                        .setMessage("Are you sure you want to delete this?")
+                        .setPositiveButton("Yes", (dialog, which) -> {
+                            playlistList.remove(position);
+                            savePlaylists();
+                            adapter.notifyItemRemoved(position);
+                            adapter.notifyItemRangeChanged(position, playlistList.size());
+                        })
+                        .setNegativeButton("No", null)
+                        .show();
+            }
+
+            @Override
+            public void onPlaylistEdit(int position, PlaylistModel playlist) {
+                showEditDialog(position, playlist);
+            }
         });
         rvPlaylists.setAdapter(adapter);
+    }
+
+    private void showEditDialog(int position, PlaylistModel playlist) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Edit Playlist");
+        LinearLayout layout = new LinearLayout(this);
+        layout.setOrientation(LinearLayout.VERTICAL);
+        layout.setPadding(50, 20, 50, 20);
+        
+        final EditText nameInput = new EditText(this);
+        nameInput.setHint("Name");
+        nameInput.setText(playlist.getName());
+        layout.addView(nameInput);
+        
+        final EditText urlInput = new EditText(this);
+        urlInput.setHint("URL");
+        urlInput.setText(playlist.getUrl());
+        layout.addView(urlInput);
+        
+        builder.setView(layout);
+        builder.setPositiveButton("Update", (dialog, which) -> {
+            String newName = nameInput.getText().toString().trim();
+            String newUrl = urlInput.getText().toString().trim();
+            if (!newName.isEmpty() && !newUrl.isEmpty()) {
+                playlistList.set(position, new PlaylistModel(newName, newUrl));
+                savePlaylists();
+                adapter.notifyItemChanged(position);
+                Toast.makeText(this, "Playlist Updated", Toast.LENGTH_SHORT).show();
+            }
+        });
+        builder.setNegativeButton("Cancel", null);
+        builder.show();
     }
 
     private void startRGBAnimation() {

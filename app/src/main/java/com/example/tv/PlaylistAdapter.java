@@ -16,6 +16,8 @@ public class PlaylistAdapter extends RecyclerView.Adapter<PlaylistAdapter.ViewHo
 
     public interface OnPlaylistClickListener {
         void onPlaylistClick(PlaylistModel playlist);
+        void onPlaylistDelete(int position);
+        void onPlaylistEdit(int position, PlaylistModel playlist);
     }
 
     public PlaylistAdapter(List<PlaylistModel> playlistList, OnPlaylistClickListener listener) {
@@ -38,12 +40,9 @@ public class PlaylistAdapter extends RecyclerView.Adapter<PlaylistAdapter.ViewHo
 
         holder.itemView.setOnClickListener(v -> listener.onPlaylistClick(playlist));
         
-        holder.btnDelete.setOnClickListener(v -> {
-            playlistList.remove(position);
-            notifyItemRemoved(position);
-            notifyItemRangeChanged(position, playlistList.size());
-            // সেভ করার লজিক এখানে কল হবে (অ্যাক্টিভিটির মাধ্যমে)
-        });
+        holder.btnEdit.setOnClickListener(v -> listener.onPlaylistEdit(position, playlist));
+
+        holder.btnDelete.setOnClickListener(v -> listener.onPlaylistDelete(position));
     }
 
     @Override
@@ -53,13 +52,14 @@ public class PlaylistAdapter extends RecyclerView.Adapter<PlaylistAdapter.ViewHo
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView name, url;
-        ImageView btnDelete;
+        ImageView btnDelete, btnEdit;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             name = itemView.findViewById(R.id.tvPlaylistName);
             url = itemView.findViewById(R.id.tvPlaylistUrl);
             btnDelete = itemView.findViewById(R.id.btnDelete);
+            btnEdit = itemView.findViewById(R.id.btnEdit);
         }
     }
 }

@@ -50,6 +50,14 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/btnEdit"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="15dp"
+            android:src="@android:drawable/ic_menu_edit"
+            app:tint="#00E5FF" />
+
+        <ImageView
             android:id="@+id/btnDelete"
             android:layout_width="24dp"
             android:layout_height="24dp"
