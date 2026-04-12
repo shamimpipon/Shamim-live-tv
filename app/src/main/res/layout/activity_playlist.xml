@@ -9,14 +9,14 @@
     <RelativeLayout
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="100dp"> <!-- Height increased to fit text below logo -->
+        android:layout_height="80dp"> <!-- Height reduced -->
 
         <!-- Toolbar Image (Logo) -->
         <ImageView
             android:id="@+id/toolbar_logo"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:scaleType="centerCrop"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"
             android:src="@drawable/shamim_tolbar" />
 
         <!-- Title Text BELOW the logo and CENTERED -->

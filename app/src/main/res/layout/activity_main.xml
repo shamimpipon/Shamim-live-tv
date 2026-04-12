@@ -9,13 +9,13 @@
     <RelativeLayout
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="80dp">
+        android:layout_height="60dp">
 
         <!-- Toolbar Image with Proper Scaling -->
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="centerCrop"
+            android:scaleType="fitXY"
             android:src="@drawable/shamim_tolbar" />
 
         <!-- Neon Bottom Border -->
