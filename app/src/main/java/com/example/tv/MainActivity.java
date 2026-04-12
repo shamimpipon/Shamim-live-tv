@@ -59,9 +59,9 @@ public class MainActivity extends AppCompatActivity {
 
         startRGBAnimation();
 
-        // NETWORK বাটন - এখানে ক্লিক করলে URL দেওয়ার অপশন আসবে
-        findViewById(R.id.btnNetwork).setOnClickListener(v -> {
-            showNetworkDialog();
+        // PLAYLIST বাটন - প্লেলিস্ট স্ক্রিনে নিয়ে যাবে
+        findViewById(R.id.btnPlaylist).setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, PlaylistActivity.class));
         });
 
         // আপডেট চেক বাটন - ম্যানুয়ালি চেক করার জন্য
