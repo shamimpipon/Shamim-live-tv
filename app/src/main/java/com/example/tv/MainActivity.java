@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
     private void checkUpdateExplicitly() {
         Toast.makeText(this, "Checking for updates...", Toast.LENGTH_SHORT).show();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/main/")
+                .baseUrl("https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/main/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
