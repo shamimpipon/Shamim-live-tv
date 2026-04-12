@@ -211,9 +211,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showUpdateDialog(UpdateResponse update) {
+        String currentVersionName = "";
+        try {
+            currentVersionName = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+        } catch (Exception e) {}
+
         new AlertDialog.Builder(this)
                 .setTitle("New Update Available")
-                .setMessage(update.getUpdateMessage())
+                .setMessage("Current Version: " + currentVersionName + "\n" +
+                           "New Version: " + update.getVersionCode() + "\n\n" +
+                           update.getUpdateMessage())
                 .setCancelable(true)
                 .setPositiveButton("Update Now", (dialog, which) -> {
                     startDownload(update.getApkUrl());
@@ -231,14 +238,27 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.setCancelable(false);
         progressDialog.show();
 
+        String fileName = "ShamimLiveTV_v" + System.currentTimeMillis() + ".apk";
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
         request.setTitle("Shamim Live TV Update");
         request.setDescription("Downloading new version...");
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "ShamimLiveTV_Update.apk");
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, fileName);
 
         DownloadManager manager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
         downloadID = manager.enqueue(request);
+
+        BroadcastReceiver onComplete = new BroadcastReceiver() {
+            public void onReceive(Context ctxt, Intent intent) {
+                long id = intent.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1);
+                if (downloadID == id) {
+                    progressDialog.dismiss();
+                    installApk(fileName);
+                    unregisterReceiver(this);
+                }
+            }
+        };
+        registerReceiver(onComplete, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
 
         new Thread(() -> {
             boolean downloading = true;
@@ -254,19 +274,33 @@ public class MainActivity extends AppCompatActivity {
                         downloading = false;
                     }
 
-                    final int progress = (int) ((bytes_downloaded * 100L) / bytes_total);
-                    runOnUiThread(() -> {
-                        progressDialog.setProgress(progress);
-                        progressDialog.setMessage("Downloaded: " + progress + "%");
-                        if (progress == 100) {
-                            progressDialog.dismiss();
-                            Toast.makeText(MainActivity.this, "Download Complete. Check Notifications.", Toast.LENGTH_LONG).show();
-                        }
-                    });
+                    if (bytes_total > 0) {
+                        final int progress = (int) ((bytes_downloaded * 100L) / bytes_total);
+                        runOnUiThread(() -> {
+                            progressDialog.setProgress(progress);
+                            progressDialog.setMessage("Downloaded: " + progress + "%");
+                        });
+                    }
                 }
                 cursor.close();
-                try { Thread.sleep(500); } catch (InterruptedException e) { e.printStackTrace(); }
+                try { Thread.sleep(500); } catch (InterruptedException e) {}
             }
         }).start();
+    }
+
+    private void installApk(String fileName) {
+        try {
+            java.io.File file = new java.io.File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), fileName);
+            if (file.exists()) {
+                Uri path = androidx.core.content.FileProvider.getUriForFile(this, getPackageName() + ".fileprovider", file);
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setDataAndType(path, "application/vnd.android.package-archive");
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                startActivity(intent);
+            }
+        } catch (Exception e) {
+            Toast.makeText(this, "Auto-install failed. Please install from Downloads folder.", Toast.LENGTH_LONG).show();
+            e.printStackTrace();
+        }
     }
 }
