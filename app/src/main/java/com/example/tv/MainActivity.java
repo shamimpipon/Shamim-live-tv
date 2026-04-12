@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
     private SharedPreferences sharedPreferences;
     private RelativeLayout toolbar;
     private long downloadID;
+    private androidx.swiperefreshlayout.widget.SwipeRefreshLayout swipeRefresh;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,10 +55,17 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new androidx.recyclerview.widget.GridLayoutManager(this, 3));
         toolbar = findViewById(R.id.toolbar);
+        swipeRefresh = findViewById(R.id.swipeRefresh);
         
         channelList = new ArrayList<>();
 
         startRGBAnimation();
+
+        // Swipe to Refresh setup
+        swipeRefresh.setOnRefreshListener(() -> {
+            loadCurrentM3U();
+        });
+        swipeRefresh.setColorSchemeColors(Color.parseColor("#00E5FF"), Color.parseColor("#D81B60"));
 
         // NETWORK বাটন - এখানে ক্লিক করলে URL দেওয়ার অপশন আসবে
         findViewById(R.id.btnNetwork).setOnClickListener(v -> {
@@ -131,6 +139,7 @@ public class MainActivity extends AppCompatActivity {
                 reader.close();
 
                 runOnUiThread(() -> {
+                    if (swipeRefresh != null) swipeRefresh.setRefreshing(false);
                     channelList.clear();
                     channelList.addAll(channels);
                     if (adapter == null) {
