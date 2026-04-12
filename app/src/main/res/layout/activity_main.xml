@@ -9,8 +9,21 @@
     <RelativeLayout
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:background="@drawable/shamim_tolbar">
+        android:layout_height="80dp">
+
+        <!-- Toolbar Image with Proper Scaling -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shamim_tolbar" />
+
+        <!-- Neon Bottom Border -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00E5FF" /> <!-- Cyan Neon Glow Line -->
 
         <ImageView
             android:id="@+id/btnCheckUpdate"
