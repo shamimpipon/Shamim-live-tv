@@ -166,8 +166,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    private static boolean isUpdateChecked = false;
+
     private void checkUpdateExplicitly() {
-        Toast.makeText(this, "Checking for updates...", Toast.LENGTH_SHORT).show();
+        if (isUpdateChecked) return;
+        
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/main/")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -177,20 +180,21 @@ public class MainActivity extends AppCompatActivity {
         service.checkUpdate("update.json").enqueue(new Callback<UpdateResponse>() {
             @Override
             public void onResponse(Call<UpdateResponse> call, retrofit2.Response<UpdateResponse> response) {
+                isUpdateChecked = true;
                 if (response.isSuccessful() && response.body() != null) {
                     UpdateResponse update = response.body();
                     try {
-                        int currentVersion = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
+                        long currentVersion = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
                         if (update.getVersionCode() > currentVersion) {
                             showUpdateDialog(update);
-                        } else {
-                            Toast.makeText(MainActivity.this, "Up to date", Toast.LENGTH_SHORT).show();
                         }
                     } catch (Exception e) {}
                 }
             }
             @Override
-            public void onFailure(Call<UpdateResponse> call, Throwable t) {}
+            public void onFailure(Call<UpdateResponse> call, Throwable t) {
+                isUpdateChecked = true;
+            }
         });
     }
 
