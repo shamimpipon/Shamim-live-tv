@@ -9,14 +9,8 @@
     <RelativeLayout
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="75dp">
-
-        <ImageView
-            android:id="@+id/title_image"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:src="@drawable/shamim_tolbar" />
+        android:layout_height="75dp"
+        android:background="@drawable/shamim_tolbar">
 
         <ImageView
             android:id="@+id/btnCheckUpdate"
