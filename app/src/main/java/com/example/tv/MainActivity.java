@@ -64,6 +64,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this, PlaylistActivity.class));
         });
 
+        // URL LINK বাটন - কাস্টম লিঙ্ক প্লে করার জন্য
+        findViewById(R.id.btnNetwork).setOnClickListener(v -> showNetworkDialog());
+
         // আপডেট চেক বাটন - ম্যানুয়ালি চেক করার জন্য
         findViewById(R.id.btnCheckUpdate).setOnClickListener(v -> {
             Toast.makeText(this, "Checking for updates...", Toast.LENGTH_SHORT).show();
