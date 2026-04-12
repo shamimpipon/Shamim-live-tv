@@ -219,9 +219,9 @@ public class MainActivity extends AppCompatActivity {
         new AlertDialog.Builder(this)
                 .setTitle("New Update Available")
                 .setMessage("Current Version: " + currentVersionName + "\n" +
-                           "New Version: " + update.getVersionCode() + "\n\n" +
+                           "New Version: " + update.getVersionName() + "\n\n" +
                            update.getUpdateMessage())
-                .setCancelable(true)
+                .setCancelable(false) // আপডেট বাধ্যতামূলক করার জন্য false রাখা ভালো
                 .setPositiveButton("Update Now", (dialog, which) -> {
                     startDownload(update.getApkUrl());
                 })
