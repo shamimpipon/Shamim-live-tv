@@ -100,7 +100,7 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <!-- Main Content Area -->
+    <!-- Main Content Area: RecyclerView for Channel Grid -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
