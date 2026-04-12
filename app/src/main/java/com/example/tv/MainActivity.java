@@ -64,13 +64,14 @@ public class MainActivity extends AppCompatActivity {
             showNetworkDialog();
         });
 
-        // PLAYLIST বাটন - প্লেলিস্ট স্ক্রিনে নিয়ে যাবে
-        findViewById(R.id.btnPlaylist).setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, PlaylistActivity.class));
+        // আপডেট চেক বাটন - ম্যানুয়ালি চেক করার জন্য
+        findViewById(R.id.btnCheckUpdate).setOnClickListener(v -> {
+            Toast.makeText(this, "Checking for updates...", Toast.LENGTH_SHORT).show();
+            checkUpdate(true);
         });
 
-        // অ্যাপ ওপেন হওয়ার সাথে সাথে অটোমেটিক আপডেট চেক করবে
-        checkUpdateExplicitly();
+        // অ্যাপ ওপেন হওয়ার সাথে সাথে অটোমেটিক আপডেট চেক করবে (Silent)
+        checkUpdate(false);
     }
 
     private void showNetworkDialog() {
@@ -168,8 +169,8 @@ public class MainActivity extends AppCompatActivity {
 
     private static boolean isUpdateChecked = false;
 
-    private void checkUpdateExplicitly() {
-        if (isUpdateChecked) return;
+    private void checkUpdate(boolean isManual) {
+        if (!isManual && isUpdateChecked) return;
         
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/main/")
@@ -187,13 +188,20 @@ public class MainActivity extends AppCompatActivity {
                         long currentVersion = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
                         if (update.getVersionCode() > currentVersion) {
                             showUpdateDialog(update);
+                        } else {
+                            if (isManual) {
+                                Toast.makeText(MainActivity.this, "App is up to date!", Toast.LENGTH_SHORT).show();
+                            }
                         }
-                    } catch (Exception e) {}
+                    } catch (Exception e) {
+                        if (isManual) Toast.makeText(MainActivity.this, "Error checking update", Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
             @Override
             public void onFailure(Call<UpdateResponse> call, Throwable t) {
                 isUpdateChecked = true;
+                if (isManual) Toast.makeText(MainActivity.this, "Check failed: " + t.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }
