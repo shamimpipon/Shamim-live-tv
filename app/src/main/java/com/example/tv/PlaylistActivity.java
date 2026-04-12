@@ -55,7 +55,6 @@ public class PlaylistActivity extends AppCompatActivity {
         startRGBAnimation();
 
         findViewById(R.id.fabAdd).setOnClickListener(v -> showAddOptionsDialog());
-        findViewById(R.id.btnBack).setOnClickListener(v -> finish());
     }
 
     private void setupAdapter() {
