@@ -1,9 +1,9 @@
-name: Android APK Build and Auto Update
+name: Android APK Build and Release
 
 on:
   push:
     branches:
-      - main
+      - master  # Changed from main to master
 
 jobs:
   build:
@@ -31,16 +31,15 @@ jobs:
       - name: Get Version Code
         id: get_version
         run: |
-          # Extract versionCode from build output or generate same as gradle
-          VCODE=$(date +%s / 1000 | cut -d. -f1)
+          VCODE=$(date +%s)
           echo "VCODE=$VCODE" >> $GITHUB_ENV
 
-      - name: Create or Update Update.json
+      - name: Update Update.json
         run: |
           echo '{
-            "versionCode": ${{ env.VCODE }},
-            "apkUrl": "https://github.com/${{ github.repository }}/raw/main/app/build/outputs/apk/debug/app-debug.apk",
-            "whatsNew": "Automatic bug fixes and performance improvements."
+            "versionCode": '${{ env.VCODE }}',
+            "apkUrl": "https://github.com/${{ github.repository }}/releases/download/v${{ env.VCODE }}/app-debug.apk",
+            "whatsNew": "New Premium UI and Auto-Update system."
           }' > update.json
 
       - name: Commit and Push update.json
@@ -50,3 +49,14 @@ jobs:
           git add update.json
           git commit -m "Auto-update version to ${{ env.VCODE }}" || echo "No changes to commit"
           git push
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ env.VCODE }}
+          name: Shamim Live TV v2.1 (Build ${{ env.VCODE }})
+          files: app/build/outputs/apk/debug/app-debug.apk
+          body: "Automatic build of the latest version with new UI."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
