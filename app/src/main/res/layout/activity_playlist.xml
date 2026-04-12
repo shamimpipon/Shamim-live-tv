@@ -5,17 +5,45 @@
     android:layout_height="match_parent"
     android:background="@drawable/main_app_bg">
 
-    <!-- Premium Custom Toolbar (Compact) -->
+    <!-- Premium Custom Toolbar (Enhanced) -->
     <RelativeLayout
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="70dp">
+        android:layout_height="100dp"> <!-- Height increased to fit text below logo -->
 
+        <!-- Toolbar Image (Logo) -->
         <ImageView
+            android:id="@+id/toolbar_logo"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="70dp"
             android:scaleType="centerCrop"
             android:src="@drawable/shamim_tolbar" />
+
+        <!-- Back Button stays on top left -->
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:padding="8dp"
+            android:src="@drawable/goback"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="#FFFFFF" />
+
+        <!-- Title Text BELOW the logo and CENTERED -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="IPTV PLAYLIST"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1" />
 
         <!-- Neon Bottom Border -->
         <View
@@ -23,28 +51,6 @@
             android:layout_height="2dp"
             android:layout_alignParentBottom="true"
             android:background="#00E5FF" />
-
-        <ImageView
-            android:id="@+id/btnBack"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="10dp"
-            android:padding="8dp"
-            android:src="@drawable/goback"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            app:tint="#FFFFFF" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="10dp"
-            android:layout_toEndOf="@id/btnBack"
-            android:text="IPTV PLAYLIST"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="bold" />
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
