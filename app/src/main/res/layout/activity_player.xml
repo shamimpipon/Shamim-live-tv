@@ -16,6 +16,21 @@
         app:resize_mode="fill"
         app:use_controller="false" />
 
+    <!-- Speed Meter -->
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#80000000"
+        android:padding="5dp"
+        android:text="0 KB/s"
+        android:textColor="#00FF00"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <!-- ব্রাইটনেস এবং ভলিউম ইন্ডিকেটর লেআউট -->
     <LinearLayout
         android:id="@+id/volume_brightness_layout"

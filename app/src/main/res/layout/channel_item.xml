@@ -17,7 +17,6 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="7.8"
-            android:background="#050A30"
             android:layout_margin="1dp">
 
             <ImageView
@@ -26,6 +25,7 @@
                 android:layout_height="match_parent"
                 android:layout_centerInParent="true"
                 android:scaleType="fitCenter"
+                android:alpha="0.8"
                 android:padding="12dp"
                 android:src="@drawable/tvlogo" />
         </RelativeLayout>

@@ -34,12 +34,24 @@ public class PlayerActivity extends AppCompatActivity {
     private StyledPlayerView playerView;
     private ExoPlayer player;
     private ProgressBar progressBar;
-    private TextView tvChannelName, controlText;
+    private TextView tvChannelName, controlText, tvSpeed;
     private ImageButton btnNext, btnPrev;
     private LinearLayout volBrightLayout, controlsLayout;
     private ImageView controlIcon;
     private final Handler hideHandler = new Handler();
-    private final Runnable hideRunnable = () -> controlsLayout.setVisibility(View.GONE);
+    private final Runnable hideRunnable = () -> {
+        controlsLayout.setVisibility(View.GONE);
+        tvSpeed.setVisibility(View.GONE);
+    };
+    private final Handler speedHandler = new Handler();
+    private final Runnable speedRunnable = new Runnable() {
+        @Override
+        public void run() {
+            updateSpeed();
+            speedHandler.postDelayed(this, 1000);
+        }
+    };
+    private long lastBytes = 0;
 
     private List<Channel> channelList;
     private int currentPosition;
@@ -66,6 +78,7 @@ public class PlayerActivity extends AppCompatActivity {
         volBrightLayout = findViewById(R.id.volume_brightness_layout);
         controlIcon = findViewById(R.id.control_icon);
         controlText = findViewById(R.id.control_text);
+        tvSpeed = findViewById(R.id.tv_speed);
 
         audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         
@@ -109,6 +122,23 @@ public class PlayerActivity extends AppCompatActivity {
         }
     }
 
+    private void updateSpeed() {
+        long currentBytes = android.net.TrafficStats.getTotalRxBytes();
+        if (lastBytes != 0) {
+            long bytesPerSecond = currentBytes - lastBytes;
+            String speedText;
+            if (bytesPerSecond < 1024) {
+                speedText = bytesPerSecond + " B/s";
+            } else if (bytesPerSecond < 1024 * 1024) {
+                speedText = (bytesPerSecond / 1024) + " KB/s";
+            } else {
+                speedText = String.format("%.2f MB/s", (float) bytesPerSecond / (1024 * 1024));
+            }
+            runOnUiThread(() -> tvSpeed.setText(speedText));
+        }
+        lastBytes = currentBytes;
+    }
+
     private void setupGestures() {
         gestureDetector = new GestureDetector(this, new GestureDetector.SimpleOnGestureListener() {
             @Override
@@ -143,8 +173,10 @@ public class PlayerActivity extends AppCompatActivity {
             public boolean onSingleTapConfirmed(MotionEvent e) {
                 if (controlsLayout.getVisibility() == View.VISIBLE) {
                     controlsLayout.setVisibility(View.GONE);
+                    tvSpeed.setVisibility(View.GONE);
                 } else {
                     controlsLayout.setVisibility(View.VISIBLE);
+                    tvSpeed.setVisibility(View.VISIBLE);
                     hideHandler.removeCallbacks(hideRunnable);
                     hideHandler.postDelayed(hideRunnable, 3000);
                 }
@@ -194,8 +226,12 @@ public class PlayerActivity extends AppCompatActivity {
         tvChannelName.setVisibility(View.VISIBLE);
 
         controlsLayout.setVisibility(View.VISIBLE);
+        tvSpeed.setVisibility(View.VISIBLE);
         hideHandler.removeCallbacks(hideRunnable);
         hideHandler.postDelayed(hideRunnable, 3000);
+        
+        speedHandler.removeCallbacks(speedRunnable);
+        speedHandler.post(speedRunnable);
 
         if (player != null) {
             player.release();
@@ -271,6 +307,7 @@ public class PlayerActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        speedHandler.removeCallbacks(speedRunnable);
         if (player != null) {
             player.release();
             player = null;

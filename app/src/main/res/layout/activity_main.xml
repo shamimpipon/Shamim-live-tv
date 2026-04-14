@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
-            android:src="@drawable/shamim_tolbar" />
+            android:src="@drawable/Title_bar" />
 
         <!-- Neon Bottom Border -->
         <View
@@ -74,7 +74,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="URL LINK"
+                        android:text="🌐 Network Stream"
                         android:textColor="#FFFFFF"
                         android:textSize="11sp"
                         android:textStyle="bold" />
@@ -111,10 +111,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="IPTV PLAYLIST"
+                    android:text="IPTV Playlist"
                     android:textColor="#FFFFFF"
                     android:textSize="10sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:drawableStart="@android:drawable/ic_menu_sort_by_size"
+                    android:drawablePadding="5dp" />
             </RelativeLayout>
         </LinearLayout>
     </RelativeLayout>
@@ -126,6 +128,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/headerRow"
         android:padding="6dp"
-        android:clipToPadding="false" />
+        android:clipToPadding="false"
+        android:background="@drawable/background" />
 
 </RelativeLayout>
