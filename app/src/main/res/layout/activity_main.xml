@@ -3,39 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_app_bg">
+    android:background="@drawable/background">
 
     <!-- Premium Custom Toolbar -->
     <RelativeLayout
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="60dp">
+        android:layout_height="75dp"
+        android:background="@android:color/transparent">
 
-        <!-- Toolbar Image with Proper Scaling -->
+        <!-- Toolbar Image with Proper Scaling (Zoomed) -->
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:src="@drawable/Title_bar" />
-
-        <!-- Neon Bottom Border -->
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_alignParentBottom="true"
-            android:background="#00E5FF" /> <!-- Cyan Neon Glow Line -->
-
-        <ImageView
-            android:id="@+id/btnCheckUpdate"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="15dp"
-            android:padding="8dp"
-            android:src="@android:drawable/stat_notify_sync"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            app:tint="#FFFFFF" />
+            android:scaleType="centerCrop"
+            android:src="@drawable/title_bar" />
     </RelativeLayout>
 
     <!-- Header Stats Row -->
@@ -48,11 +30,18 @@
         android:layout_marginEnd="10dp"
         android:layout_marginTop="5dp">
 
+        <!-- Background Image -->
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
             android:src="@drawable/time_tolbar_bg" />
+
+        <!-- Orange Border Overlay -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/orange_border_bg" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -74,14 +63,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="🌐 Network Stream"
+                        android:text="Network Stream"
                         android:textColor="#FFFFFF"
-                        android:textSize="11sp"
+                        android:textSize="10sp"
                         android:textStyle="bold" />
                     <ImageView
-                        android:layout_width="12dp"
-                        android:layout_height="12dp"
-                        android:layout_marginStart="6dp"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="4dp"
                         android:src="@android:drawable/ic_media_play"
                         app:tint="#FFFFFF" />
                 </LinearLayout>
@@ -91,12 +80,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1">
-                <TextClock
-                    android:id="@+id/textClock"
+                <TextView
+                    android:id="@+id/tvVisitorCount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:format12Hour="hh:mm a"
+                    android:text="Visitors: --"
                     android:textColor="#FFFFFF"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -114,19 +103,106 @@
                     android:text="IPTV Playlist"
                     android:textColor="#FFFFFF"
                     android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:drawableStart="@android:drawable/ic_menu_sort_by_size"
-                    android:drawablePadding="5dp" />
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
     </RelativeLayout>
+
+    <!-- Categories Tab Row -->
+    <HorizontalScrollView
+        android:id="@+id/categoryScroll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/headerRow"
+        android:layout_marginTop="5dp"
+        android:scrollbars="none"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <LinearLayout
+            android:id="@+id/categoryContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/catAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/toolbar_title_capsule"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/catSports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sports"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/toolbar_title_capsule"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/catNews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BD News"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/toolbar_title_capsule"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/catBangla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bangla"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/toolbar_title_capsule"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/catMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movies"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/toolbar_title_capsule"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/btnCheckUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/toolbar_title_capsule"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
 
     <!-- Main Content Area: RecyclerView for Channel Grid -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/headerRow"
+        android:layout_below="@id/categoryScroll"
         android:padding="6dp"
         android:clipToPadding="false"
         android:background="@drawable/background" />

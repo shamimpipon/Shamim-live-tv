@@ -28,19 +28,55 @@ public class SlappScreen extends AppCompatActivity {
 
     private static final String UPDATE_JSON_URL = "https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/main/update.json";
 
+    private android.widget.ProgressBar progressBar;
+    private android.widget.TextView tvPercentage;
+    private android.widget.TextView tvLoading;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
         try {
             setContentView(R.layout.activity_slapp_screen);
+            progressBar = findViewById(R.id.progressBar);
+            tvPercentage = findViewById(R.id.tvPercentage);
+            tvLoading = findViewById(R.id.tvLoading);
+            
+            // ভার্সন নাম্বার সেট করা
+            if (tvLoading != null) {
+                tvLoading.setText("Version " + BuildConfig.VERSION_NAME + " - Processing...");
+            }
         } catch (Exception e) {
             startMainActivity();
             return;
         }
 
-        // সরাসরি মেইন অ্যাক্টিভিটিতে চলে যাবে, অটো-আপডেট চেক করবে না
-        startMainActivityDelayed();
+        startLoadingAnimation();
+    }
+
+    private void startLoadingAnimation() {
+        final int totalTime = 2000; // 2 seconds
+        final int interval = 20;   // Update every 20ms
+        final Handler handler = new Handler();
+        
+        new Thread(() -> {
+            for (int i = 0; i <= 100; i++) {
+                final int progress = i;
+                handler.post(() -> {
+                    if (tvPercentage != null) tvPercentage.setText(progress + "%");
+                    if (progressBar != null) {
+                        progressBar.setIndeterminate(false);
+                        progressBar.setProgress(progress);
+                    }
+                });
+                try {
+                    Thread.sleep(totalTime / 100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            handler.post(this::startMainActivity);
+        }).start();
     }
 
     private void checkUpdate() {
@@ -102,7 +138,9 @@ public class SlappScreen extends AppCompatActivity {
                 Response response = client.newCall(request).execute();
                 
                 if (response.isSuccessful() && response.body() != null) {
-                    File apkFile = new File(getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "update.apk");
+                    // ডাউনলোড করা ফাইলটির নাম ভার্সনসহ সেট করা হয়েছে
+                    String fileName = "Shamim Live TV v" + BuildConfig.VERSION_NAME + ".apk";
+                    File apkFile = new File(getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), fileName);
                     InputStream is = response.body().byteStream();
                     FileOutputStream fos = new FileOutputStream(apkFile);
                     byte[] buffer = new byte[4096];

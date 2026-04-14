@@ -42,9 +42,11 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ChannelAdapter adapter;
     private List<Channel> channelList;
+    private List<Channel> fullChannelList;
     private SharedPreferences sharedPreferences;
     private RelativeLayout toolbar;
     private long downloadID;
+    private android.widget.TextView tvVisitorCount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,10 +56,16 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new androidx.recyclerview.widget.GridLayoutManager(this, 3));
         toolbar = findViewById(R.id.toolbar);
+        toolbar.setBackgroundColor(Color.TRANSPARENT);
+        tvVisitorCount = findViewById(R.id.tvVisitorCount);
         
         channelList = new ArrayList<>();
+        fullChannelList = new ArrayList<>();
 
-        startRGBAnimation();
+        setupCategoryClickListeners();
+        updateVisitorCount();
+
+        // startRGBAnimation(); // Removed RGB animation as requested
 
         // PLAYLIST বাটন - প্লেলিস্ট স্ক্রিনে নিয়ে যাবে
         findViewById(R.id.btnPlaylist).setOnClickListener(v -> {
@@ -102,6 +110,100 @@ public class MainActivity extends AppCompatActivity {
         loadCurrentM3U();
     }
 
+    private void updateVisitorCount() {
+        // একটি ইউনিক কি (Key) ব্যবহার করা হচ্ছে আপনার অ্যাপের জন্য
+        String apiKey = "shamim_live_tv_visitors"; 
+        String url = "https://api.countapi.xyz/hit/" + apiKey + "/visits";
+
+        new Thread(() -> {
+            try {
+                java.net.HttpURLConnection connection = (java.net.HttpURLConnection) new java.net.URL(url).openConnection();
+                connection.setRequestMethod("GET");
+                java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(connection.getInputStream()));
+                StringBuilder response = new StringBuilder();
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    response.append(line);
+                }
+                reader.close();
+
+                // JSON থেকে ভ্যালু বের করা
+                String result = response.toString();
+                if (result.contains("\"value\":")) {
+                    String count = result.substring(result.indexOf("\"value\":") + 8, result.lastIndexOf("}"));
+                    runOnUiThread(() -> tvVisitorCount.setText("Visitors: " + count));
+                }
+            } catch (Exception e) {
+                runOnUiThread(() -> tvVisitorCount.setText("Visitors: Live"));
+            }
+        }).start();
+    }
+
+    private void setupCategoryClickListeners() {
+        // All
+        findViewById(R.id.catAll).setOnClickListener(v -> filterChannels("All"));
+        // Sports
+        findViewById(R.id.catSports).setOnClickListener(v -> filterChannels("Sports"));
+        // BD News
+        findViewById(R.id.catNews).setOnClickListener(v -> filterChannels("News"));
+        // Bangla
+        findViewById(R.id.catBangla).setOnClickListener(v -> filterChannels("Bangla"));
+        // Movies
+        findViewById(R.id.catMovies).setOnClickListener(v -> filterChannels("Movie"));
+    }
+
+    private void filterChannels(String category) {
+        List<Channel> filteredList = new ArrayList<>();
+        String categoryLower = category.toLowerCase();
+        
+        if (category.equalsIgnoreCase("All")) {
+            filteredList.addAll(fullChannelList);
+        } else {
+            for (Channel channel : fullChannelList) {
+                String nameLower = channel.getName().toLowerCase();
+                
+                if (category.equalsIgnoreCase("News")) {
+                    // BD News এর জন্য বিশেষ কি-ওয়ার্ড (বাংলাদেশের জনপ্রিয় নিউজ চ্যানেলসমূহ)
+                    if (nameLower.contains("news") || nameLower.contains("somoy") || 
+                        nameLower.contains("ekattor") || nameLower.contains("jamuna") || 
+                        nameLower.contains("independent") || nameLower.contains("dbc") || 
+                        nameLower.contains("channel 24") || nameLower.contains("atn news") || 
+                        nameLower.contains("news24") || nameLower.contains("71") ||
+                        nameLower.contains("ekattor tv") || nameLower.contains("ekattor.tv")) {
+                        filteredList.add(channel);
+                    }
+                } else if (category.equalsIgnoreCase("Sports")) {
+                    if (nameLower.contains("sports") || nameLower.contains("t sports") || 
+                        nameLower.contains("gtv") || nameLower.contains("star sports") || 
+                        nameLower.contains("sony") || nameLower.contains("ptv sports")) {
+                        filteredList.add(channel);
+                    }
+                } else if (category.equalsIgnoreCase("Movie")) {
+                    if (nameLower.contains("movie") || nameLower.contains("cinema") || 
+                        nameLower.contains("star jalsha movies") || nameLower.contains("sony max") || 
+                        nameLower.contains("zee cinema")) {
+                        filteredList.add(channel);
+                    }
+                } else {
+                    // সাধারণ সার্চ (Bangla বা অন্য ক্যাটাগরির জন্য)
+                    if (nameLower.contains(categoryLower)) {
+                        filteredList.add(channel);
+                    }
+                }
+            }
+        }
+        
+        channelList.clear();
+        channelList.addAll(filteredList);
+        if (adapter != null) {
+            adapter.notifyDataSetChanged();
+        }
+        
+        if (filteredList.isEmpty()) {
+            Toast.makeText(this, "No channels found in " + category, Toast.LENGTH_SHORT).show();
+        }
+    }
+
     private void loadCurrentM3U() {
         // হোম স্ক্রিনের জন্য আপনার নির্দিষ্ট ফিক্সড লিঙ্ক
         String url = "https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/main/Channel.m3u";
@@ -134,6 +236,9 @@ public class MainActivity extends AppCompatActivity {
                 reader.close();
 
                 runOnUiThread(() -> {
+                    fullChannelList.clear();
+                    fullChannelList.addAll(channels);
+
                     channelList.clear();
                     channelList.addAll(channels);
                     if (adapter == null) {
@@ -188,16 +293,24 @@ public class MainActivity extends AppCompatActivity {
                 if (response.isSuccessful() && response.body() != null) {
                     UpdateResponse update = response.body();
                     try {
-                        long currentVersion = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
-                        if (update.getVersionCode() > currentVersion) {
+                        long currentVersionCode = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
+                        String currentVersionName = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+                        
+                        if (update.getVersionCode() > currentVersionCode) {
                             showUpdateDialog(update);
                         } else {
                             if (isManual) {
-                                Toast.makeText(MainActivity.this, "App is up to date!", Toast.LENGTH_SHORT).show();
+                                new AlertDialog.Builder(MainActivity.this)
+                                        .setTitle("App Up to Date")
+                                        .setMessage("You are running the latest version.\n\n" +
+                                                   "Running Version: " + currentVersionName + " (" + currentVersionCode + ")\n" +
+                                                   "Latest Version: " + update.getVersionName())
+                                        .setPositiveButton("OK", null)
+                                        .show();
                             }
                         }
                     } catch (Exception e) {
-                        if (isManual) Toast.makeText(MainActivity.this, "Error checking update", Toast.LENGTH_SHORT).show();
+                        if (isManual) Toast.makeText(MainActivity.this, "Error checking version", Toast.LENGTH_SHORT).show();
                     }
                 }
             }

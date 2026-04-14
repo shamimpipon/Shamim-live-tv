@@ -41,7 +41,6 @@ public class PlayerActivity extends AppCompatActivity {
     private final Handler hideHandler = new Handler();
     private final Runnable hideRunnable = () -> {
         controlsLayout.setVisibility(View.GONE);
-        tvSpeed.setVisibility(View.GONE);
     };
     private final Handler speedHandler = new Handler();
     private final Runnable speedRunnable = new Runnable() {
@@ -173,10 +172,8 @@ public class PlayerActivity extends AppCompatActivity {
             public boolean onSingleTapConfirmed(MotionEvent e) {
                 if (controlsLayout.getVisibility() == View.VISIBLE) {
                     controlsLayout.setVisibility(View.GONE);
-                    tvSpeed.setVisibility(View.GONE);
                 } else {
                     controlsLayout.setVisibility(View.VISIBLE);
-                    tvSpeed.setVisibility(View.VISIBLE);
                     hideHandler.removeCallbacks(hideRunnable);
                     hideHandler.postDelayed(hideRunnable, 3000);
                 }
@@ -226,7 +223,6 @@ public class PlayerActivity extends AppCompatActivity {
         tvChannelName.setVisibility(View.VISIBLE);
 
         controlsLayout.setVisibility(View.VISIBLE);
-        tvSpeed.setVisibility(View.VISIBLE);
         hideHandler.removeCallbacks(hideRunnable);
         hideHandler.postDelayed(hideRunnable, 3000);
         

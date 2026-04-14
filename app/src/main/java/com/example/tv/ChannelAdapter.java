@@ -1,6 +1,8 @@
 package com.example.tv;
 
+import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +11,12 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.palette.graphics.Palette;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.target.CustomTarget;
+import com.bumptech.glide.request.transition.Transition;
 import java.util.List;
 
 public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.ViewHolder> {
@@ -50,28 +56,16 @@ public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.ViewHold
 
         Glide.with(holder.itemView.getContext())
                 .load(channel.getLogoUrl())
-                .placeholder(R.drawable.tvlogo)
-                .error(R.drawable.tvlogo)
+                .override(200, 200)
+                .placeholder(R.drawable.app_icon)
+                .error(R.drawable.app_icon)
                 .into(holder.logo);
 
-        // ছবিতে যেমন দেখা যাচ্ছে, ডাইনামিক বর্ডার এবং নাম এর ব্যাকগ্রাউন্ড সেট করা হচ্ছে
-        int color = colors[position % colors.length];
+        // লোগো এরিয়া শুধুমাত্র সাদা ব্যাকগ্রাউন্ড (কোনো বর্ডার থাকবে না)
+        holder.container.setBackgroundColor(Color.WHITE);
 
-        // ১. পুরো বক্সের বর্ডার সেট করা
-        GradientDrawable border = new GradientDrawable();
-        border.setShape(GradientDrawable.RECTANGLE);
-        border.setCornerRadius(25); // ছবির মতো রাউন্ডেড কর্নার
-        border.setStroke(4, color); // বর্ডার কালার
-        border.setColor(Color.parseColor("#050A30")); // ভেতরের ডার্ক কালার
-        holder.container.setBackground(border);
-
-        // ২. নিচের নামের অংশের ব্যাকগ্রাউন্ড কালার সেট করা (সবুজ ফিক্সড)
-        GradientDrawable nameBg = new GradientDrawable();
-        nameBg.setShape(GradientDrawable.RECTANGLE);
-        float radius = 22f;
-        nameBg.setCornerRadii(new float[]{0, 0, 0, 0, radius, radius, radius, radius});
-        nameBg.setColor(Color.parseColor("#2E7D32")); // প্রিমিয়াম ডার্ক গ্রিন (সবুজ)
-        holder.nameBgArea.setBackground(nameBg);
+        // চ্যানেলের নামের অংশের ব্যাকগ্রাউন্ড কালার (Premium Deep Navy Blue)
+        holder.nameBgArea.setBackgroundColor(Color.parseColor("#050A30"));
 
         holder.name.setTextColor(Color.WHITE);
 
