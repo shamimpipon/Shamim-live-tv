@@ -75,11 +75,16 @@ public class SlappScreen extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }
-            handler.post(this::startMainActivity);
+            // লোডিং শেষ হলে আপডেট চেক শুরু হবে (Get & Process flow)
+            handler.post(this::checkUpdate);
         }).start();
     }
 
     private void checkUpdate() {
+        runOnUiThread(() -> {
+            if (tvLoading != null) tvLoading.setText("Checking for updates...");
+        });
+
         // GitHub Raw URL থেকে আপডেট চেক করার সঠিক পদ্ধতি
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/main/")
@@ -87,7 +92,6 @@ public class SlappScreen extends AppCompatActivity {
                 .build();
 
         UpdateService service = retrofit.create(UpdateService.class);
-        // update.json ফাইলটি চেক করা হচ্ছে
         service.checkUpdate("update.json").enqueue(new Callback<UpdateResponse>() {
             @Override
             public void onResponse(Call<UpdateResponse> call, retrofit2.Response<UpdateResponse> response) {
@@ -96,20 +100,19 @@ public class SlappScreen extends AppCompatActivity {
                     int currentVersion = BuildConfig.VERSION_CODE;
                     int latestVersion = update.getVersionCode();
 
-                    // যদি GitHub এর ভার্সন অ্যাপের ভার্সন এর চেয়ে বেশি হয়, তবেই আপডেট দেখাবে
                     if (latestVersion > currentVersion) {
                         showUpdateDialog(update);
                     } else {
-                        startMainActivityDelayed();
+                        startMainActivity();
                     }
                 } else {
-                    startMainActivityDelayed();
+                    startMainActivity();
                 }
             }
 
             @Override
             public void onFailure(Call<UpdateResponse> call, Throwable t) {
-                startMainActivityDelayed();
+                startMainActivity();
             }
         });
     }
@@ -117,46 +120,77 @@ public class SlappScreen extends AppCompatActivity {
     private void showUpdateDialog(UpdateResponse update) {
         new AlertDialog.Builder(this)
                 .setTitle("New Update Available")
-                .setMessage(update.getUpdateMessage())
+                .setMessage("A new version is available. Do you want to download Shamim Live TV v" + update.getVersionCode() + "?")
                 .setCancelable(false)
-                .setPositiveButton("Update Now", (dialog, which) -> downloadAndInstallApk(update.getApkUrl()))
-                .setNegativeButton("Later", (dialog, which) -> {
-                    // Later এ ক্লিক করলে ওই ভার্সনের জন্য আর নোটিফিকেশন দেবে না
-                    SharedPreferences prefs = getSharedPreferences("UpdatePrefs", MODE_PRIVATE);
-                    prefs.edit().putInt("lastPromptedVersion", update.getVersionCode()).apply();
-                    startMainActivity();
-                })
+                .setPositiveButton("Update Now", (dialog, which) -> downloadAndInstallApk(update.getApkUrl(), String.valueOf(update.getVersionCode())))
+                .setNegativeButton("Later", (dialog, which) -> startMainActivity())
                 .show();
     }
 
-    private void downloadAndInstallApk(String url) {
-        // এপিকে ডাউনলোডের জন্য একটি সহজ থ্রেড
+    private void downloadAndInstallApk(String url, String version) {
+        runOnUiThread(() -> {
+            if (tvLoading != null) tvLoading.setText("Getting Shamim Live TV v" + version + "...");
+            if (tvPercentage != null) tvPercentage.setText("Connecting...");
+        });
+
+        // পুরনো সেই DownloadManager সিস্টেম যা আপনার রিপোজিটরির সাথে কাজ করত
+        android.app.DownloadManager.Request request = new android.app.DownloadManager.Request(android.net.Uri.parse(url));
+        request.setTitle("Shamim Live TV v" + version);
+        request.setDescription("Getting update from GitHub...");
+        request.setNotificationVisibility(android.app.DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+        
+        String fileName = "Shamim_Live_TV_v" + version + ".apk";
+        request.setDestinationInExternalPublicDir(android.os.Environment.DIRECTORY_DOWNLOADS, fileName);
+
+        android.app.DownloadManager manager = (android.app.DownloadManager) getSystemService(android.content.Context.DOWNLOAD_SERVICE);
+        long downloadID = manager.enqueue(request);
+
         new Thread(() -> {
-            try {
-                OkHttpClient client = new OkHttpClient();
-                Request request = new Request.Builder().url(url).build();
-                Response response = client.newCall(request).execute();
-                
-                if (response.isSuccessful() && response.body() != null) {
-                    // ডাউনলোড করা ফাইলটির নাম ভার্সনসহ সেট করা হয়েছে
-                    String fileName = "Shamim Live TV v" + BuildConfig.VERSION_NAME + ".apk";
-                    File apkFile = new File(getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), fileName);
-                    InputStream is = response.body().byteStream();
-                    FileOutputStream fos = new FileOutputStream(apkFile);
-                    byte[] buffer = new byte[4096];
-                    int len;
-                    while ((len = is.read(buffer)) != -1) {
-                        fos.write(buffer, 0, len);
+            boolean downloading = true;
+            while (downloading) {
+                android.app.DownloadManager.Query query = new android.app.DownloadManager.Query();
+                query.setFilterById(downloadID);
+                android.database.Cursor cursor = manager.query(query);
+                if (cursor.moveToFirst()) {
+                    int status = cursor.getInt(cursor.getColumnIndex(android.app.DownloadManager.COLUMN_STATUS));
+                    int bytes_downloaded = cursor.getInt(cursor.getColumnIndex(android.app.DownloadManager.COLUMN_BYTES_DOWNLOADED_SO_FAR));
+                    int bytes_total = cursor.getInt(cursor.getColumnIndex(android.app.DownloadManager.COLUMN_TOTAL_SIZE_BYTES));
+
+                    if (status == android.app.DownloadManager.STATUS_SUCCESSFUL) {
+                        downloading = false;
+                        runOnUiThread(() -> {
+                            if (tvLoading != null) tvLoading.setText("Posting/Updating to v" + version + "...");
+                            installApkFromFile(fileName);
+                        });
                     }
-                    fos.close();
-                    is.close();
-                    
-                    runOnUiThread(() -> installApk(apkFile));
+
+                    if (bytes_total > 0) {
+                        final int progress = (int) ((bytes_downloaded * 100L) / bytes_total);
+                        runOnUiThread(() -> {
+                            if (tvPercentage != null) tvPercentage.setText(progress + "%");
+                            if (progressBar != null) progressBar.setProgress(progress);
+                        });
+                    }
                 }
-            } catch (Exception e) {
-                runOnUiThread(() -> startMainActivity());
+                cursor.close();
+                try { Thread.sleep(500); } catch (InterruptedException e) {}
             }
         }).start();
+    }
+
+    private void installApkFromFile(String fileName) {
+        try {
+            java.io.File file = new java.io.File(android.os.Environment.getExternalStoragePublicDirectory(android.os.Environment.DIRECTORY_DOWNLOADS), fileName);
+            if (file.exists()) {
+                android.net.Uri path = androidx.core.content.FileProvider.getUriForFile(this, getPackageName() + ".fileprovider", file);
+                android.content.Intent intent = new android.content.Intent(android.content.Intent.ACTION_VIEW);
+                intent.setDataAndType(path, "application/vnd.android.package-archive");
+                intent.setFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK | android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                startActivity(intent);
+            }
+        } catch (Exception e) {
+            startMainActivity();
+        }
     }
 
     private void installApk(File file) {
