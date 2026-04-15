@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS " tvg-logo="https://en.wikipedia.org/wiki/File:A_Sports_Logo.png" group-title="Sports",A SPORT
+#EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS " tvg-logo="https://github.com/subirkumarpaul/Logo/blob/main/A%20Sports.png" group-title="File",A SPORT
 http://198.195.239.50:8095/Eurosport/tracks-v1a1/mono.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
 
 #EXTINF:-1 tvg-id="ext" tvg-name="P TV " tvg-logo="https://www.pngkey.com/png/full/961-9618670_ptv-sports-channel.png" group-title="Sports",P TV
