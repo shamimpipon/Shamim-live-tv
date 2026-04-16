@@ -100,7 +100,7 @@ public class PlaylistActivity extends AppCompatActivity {
         spannableMessage.setSpan(new android.text.style.ForegroundColorSpan(Color.parseColor("#00E5FF")), phoneStart, phoneEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         spannableMessage.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), phoneStart, phoneEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
-        AlertDialog dialog = new AlertDialog.Builder(this)
+        AlertDialog dialog = new androidx.appcompat.app.AlertDialog.Builder(this)
                 .setCustomTitle(titleView)
                 .setMessage(spannableMessage)
                 .setPositiveButton("CLOSE", null)
@@ -155,7 +155,7 @@ public class PlaylistActivity extends AppCompatActivity {
                             showUpdateDialog(update);
                         } else {
                             if (isManual) {
-                                new AlertDialog.Builder(PlaylistActivity.this)
+                                new androidx.appcompat.app.AlertDialog.Builder(PlaylistActivity.this)
                                         .setTitle("App Up to Date")
                                         .setMessage("You are running the latest version.\n\n" +
                                                 "Running Version: " + currentVersionName + " (" + currentVersionCode + ")\n" +
@@ -177,7 +177,7 @@ public class PlaylistActivity extends AppCompatActivity {
     }
 
     private void showUpdateDialog(UpdateResponse update) {
-        new AlertDialog.Builder(this)
+        new androidx.appcompat.app.AlertDialog.Builder(this)
                 .setTitle("New Update Available")
                 .setMessage("New Version: " + update.getVersionName() + "\n\n" + update.getUpdateMessage())
                 .setPositiveButton("Update Now", (dialog, which) -> {
