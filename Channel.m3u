@@ -2,7 +2,7 @@
 
 #EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS " tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/A%20Sports.png" group-title="File",A SPORT
 http://198.195.239.50:8095/Eurosport/tracks-v1a1/mono.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
-
+#EXTINF:-1 tvg-id="ext" tvg-name="g SPORTS " tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/GEO%20Super.png" group-title="File",g SPORT
 #EXTINF:-1 tvg-id="ext" tvg-name="P TV " tvg-logo="https://www.pngkey.com/png/full/961-9618670_ptv-sports-channel.png" group-title="Sports",P TV
 http://198.195.239.50:8095/PTV-kutta/video.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
 
@@ -15,6 +15,8 @@ http://172.17.50.112:84/ant1005/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 JADOO
 http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_bein_sports_2.png" group-title="Sports",BEIN SPORTS 2
+http://180.94.28.28:8097/BEIN-SPORTS-USA/tracks-a1/index.fmp4.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-17756298528
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_bein_sports_2.png" group-title="Sports",BEIN SPORTS 2
 http://172.17.50.112:84/ant1007/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SKY SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Sky_Sports_logo_2020.svg/1280px-Sky_Sports_logo_2020.svg.png" group-title="Sports", SKY SPORTS 
