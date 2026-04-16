@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shamim.premium.tv.pc_fixed"
+4    android:versionCode="3"
+5    android:versionName="3.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+15-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:9:5-83
+15-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:9:22-80
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\0620a3f91645aa740a44902a6eb42425\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.shamim.premium.tv.pc_fixed.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\0620a3f91645aa740a44902a6eb42425\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\0620a3f91645aa740a44902a6eb42425\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.shamim.premium.tv.pc_fixed.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\0620a3f91645aa740a44902a6eb42425\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\0620a3f91645aa740a44902a6eb42425\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:11:5-53:19
+24        android:allowBackup="true"
+24-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:12:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\0620a3f91645aa740a44902a6eb42425\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:hardwareAccelerated="true"
+27-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:19:9-43
+28        android:icon="@drawable/app_icon"
+28-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:13:9-42
+29        android:label="@string/app_name"
+29-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:14:9-41
+30        android:resizeableActivity="true"
+30-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:20:9-42
+31        android:roundIcon="@drawable/app_icon"
+31-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:15:9-47
+32        android:supportsRtl="true"
+32-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:16:9-35
+33        android:theme="@style/Theme.AppCompat.NoActionBar"
+33-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:17:9-59
+34        android:usesCleartextTraffic="true" >
+34-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:18:9-44
+35        <meta-data
+35-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:22:9-24:35
+36            android:name="android.max_aspect"
+36-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:23:13-46
+37            android:value="2.1" />
+37-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:24:13-32
+38        <meta-data
+38-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:25:9-27:37
+39            android:name="android.window.PROPERTY_ACTIVITY_EMBEDDING_SPLIT_ENABLED"
+39-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:26:13-84
+40            android:value="false" />
+40-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:27:13-34
+41
+42        <activity
+42-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:29:9-36:20
+43            android:name="com.example.tv.SlappScreen"
+43-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:30:13-40
+44            android:exported="true" >
+44-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:31:13-36
+45            <intent-filter>
+45-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:32:13-35:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:33:17-69
+46-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:33:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:34:17-77
+48-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:34:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:38:9-87
+52            android:name="com.example.tv.MainActivity"
+52-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:38:19-47
+53            android:screenOrientation="portrait" />
+53-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:38:48-84
+54        <activity
+54-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:39:9-91
+55            android:name="com.example.tv.PlaylistActivity"
+55-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:39:19-51
+56            android:screenOrientation="portrait" />
+56-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:39:52-88
+57        <activity
+57-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:40:9-99
+58            android:name="com.example.tv.PlaylistChannelsActivity"
+58-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:40:19-59
+59            android:screenOrientation="portrait" />
+59-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:40:60-96
+60        <activity
+60-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:41:9-90
+61            android:name="com.example.tv.PlayerActivity"
+61-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:41:19-49
+62            android:screenOrientation="landscape" />
+62-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:41:50-87
+63
+64        <provider
+65            android:name="androidx.core.content.FileProvider"
+65-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:44:13-62
+66            android:authorities="com.shamim.premium.tv.pc_fixed.fileprovider"
+66-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:45:13-64
+67            android:exported="false"
+67-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:46:13-37
+68            android:grantUriPermissions="true" >
+68-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:47:13-47
+69            <meta-data
+69-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:48:13-50:54
+70                android:name="android.support.FILE_PROVIDER_PATHS"
+70-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:49:17-67
+71                android:resource="@xml/file_paths" />
+71-->C:\Users\Shamim Pipon\Documents\LiveTvApp-main\LiveTvApp-main\app\src\main\AndroidManifest.xml:50:17-51
+72        </provider>
+73        <provider
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\dc68ac0e936444ac011872a58157d136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\dc68ac0e936444ac011872a58157d136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+75            android:authorities="com.shamim.premium.tv.pc_fixed.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\dc68ac0e936444ac011872a58157d136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\dc68ac0e936444ac011872a58157d136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\dc68ac0e936444ac011872a58157d136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\dc68ac0e936444ac011872a58157d136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\dc68ac0e936444ac011872a58157d136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\daabcb173be9e2ce8f16cb8aec9c960b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\daabcb173be9e2ce8f16cb8aec9c960b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shamim Pipon\.gradle\caches\transforms-3\daabcb173be9e2ce8f16cb8aec9c960b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+83        </provider>
+84    </application>
+85
+86</manifest>

@@ -3,51 +3,73 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_app_bg">
+    android:background="@drawable/background">
 
-    <!-- Premium Custom Toolbar (Enhanced) -->
-    <RelativeLayout
-        android:id="@+id/toolbar"
+    <!-- Unified Top Section from MainActivity -->
+    <LinearLayout
+        android:id="@+id/topSection"
         android:layout_width="match_parent"
-        android:layout_height="80dp"> <!-- Height reduced -->
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-20dp">
 
-        <!-- Toolbar Image (Logo) -->
-        <ImageView
-            android:id="@+id/toolbar_logo"
+        <!-- Premium Custom Toolbar (Zoomed and Filled) -->
+        <RelativeLayout
+            android:id="@+id/toolbar_container"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/title_bar" />
+        </RelativeLayout>
+
+        <!-- Header Row (Directly below Toolbar with Aggressive Overlap) -->
+        <RelativeLayout
+            android:id="@+id/headerRow"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/shamim_tolbar" />
+            android:layout_marginTop="-40dp">
 
-        <!-- Title Text BELOW the logo and CENTERED -->
-        <TextView
-            android:id="@+id/tvTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/toolbar_logo"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="2dp"
-            android:text="IPTV PLAYLIST"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:letterSpacing="0.1" />
+            <!-- Background Image -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/time_tolbar_bg" />
 
-        <!-- Neon Bottom Border -->
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_alignParentBottom="true"
-            android:background="#00E5FF" />
-    </RelativeLayout>
+            <!-- Orange Border Overlay -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/orange_border_bg" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvPageTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="IPTV PLAYLIST"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvPlaylists"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolbar"
-        android:paddingTop="10dp"
-        android:paddingBottom="80dp"
+        android:layout_below="@id/topSection"
+        android:padding="6dp"
         android:clipToPadding="false" />
 
     <TextView
@@ -68,9 +90,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_margin="25dp"
-        android:backgroundTint="#D81B60"
+        android:backgroundTint="#00FF00"
         android:src="@android:drawable/ic_input_add"
         app:elevation="8dp"
-        app:tint="#FFFFFF" />
+        app:tint="#000000" />
 
 </RelativeLayout>

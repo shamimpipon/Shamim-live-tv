@@ -15,7 +15,16 @@
         android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="true"
+        android:resizeableActivity="true">
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+        <meta-data
+            android:name="android.window.PROPERTY_ACTIVITY_EMBEDDING_SPLIT_ENABLED"
+            android:value="false" />
 
         <activity
             android:name=".SlappScreen"

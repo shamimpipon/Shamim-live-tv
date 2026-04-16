@@ -38,83 +38,67 @@ public class SlappScreen extends AppCompatActivity {
         
         try {
             setContentView(R.layout.activity_slapp_screen);
-            progressBar = findViewById(R.id.progressBar);
-            tvPercentage = findViewById(R.id.tvPercentage);
-            tvLoading = findViewById(R.id.tvLoading);
             
-            // ভার্সন নাম্বার সেট করা
-            if (tvLoading != null) {
-                tvLoading.setText("Version " + BuildConfig.VERSION_NAME + " - Processing...");
-            }
+            // Start checking for updates immediately without artificial delays
+            checkUpdate();
+
+            // Safety fallback: If something goes wrong, move to MainActivity after 1 second
+            new Handler().postDelayed(() -> {
+                if (!isFinishing()) {
+                    startMainActivity();
+                }
+            }, 1200);
+
         } catch (Exception e) {
             startMainActivity();
-            return;
         }
-
-        startLoadingAnimation();
     }
 
     private void startLoadingAnimation() {
-        final int totalTime = 2000; // 2 seconds
-        final int interval = 20;   // Update every 20ms
-        final Handler handler = new Handler();
-        
-        new Thread(() -> {
-            for (int i = 0; i <= 100; i++) {
-                final int progress = i;
-                handler.post(() -> {
-                    if (tvPercentage != null) tvPercentage.setText(progress + "%");
-                    if (progressBar != null) {
-                        progressBar.setIndeterminate(false);
-                        progressBar.setProgress(progress);
-                    }
-                });
-                try {
-                    Thread.sleep(totalTime / 100);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-            // লোডিং শেষ হলে আপডেট চেক শুরু হবে (Get & Process flow)
-            handler.post(this::checkUpdate);
-        }).start();
+        // Removed artificial animation
     }
 
     private void checkUpdate() {
-        runOnUiThread(() -> {
-            if (tvLoading != null) tvLoading.setText("Checking for updates...");
-        });
+        try {
+            runOnUiThread(() -> {
+                if (tvLoading != null) tvLoading.setText("Checking for updates...");
+            });
 
-        // GitHub Raw URL থেকে আপডেট চেক করার সঠিক পদ্ধতি
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/main/")
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
+            // GitHub Raw URL থেকে আপডেট চেক করার সঠিক পদ্ধতি
+            Retrofit retrofit = new Retrofit.Builder()
+                    .baseUrl("https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/main/")
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .build();
 
-        UpdateService service = retrofit.create(UpdateService.class);
-        service.checkUpdate("update.json").enqueue(new Callback<UpdateResponse>() {
-            @Override
-            public void onResponse(Call<UpdateResponse> call, retrofit2.Response<UpdateResponse> response) {
-                if (response.isSuccessful() && response.body() != null) {
-                    UpdateResponse update = response.body();
-                    int currentVersion = BuildConfig.VERSION_CODE;
-                    int latestVersion = update.getVersionCode();
-
-                    if (latestVersion > currentVersion) {
-                        showUpdateDialog(update);
+            UpdateService service = retrofit.create(UpdateService.class);
+            service.checkUpdate("update.json").enqueue(new Callback<UpdateResponse>() {
+                @Override
+                public void onResponse(Call<UpdateResponse> call, retrofit2.Response<UpdateResponse> response) {
+                    if (response.isSuccessful() && response.body() != null) {
+                        UpdateResponse update = response.body();
+                        try {
+                            long currentVersion = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
+                            if (update.getVersionCode() > currentVersion) {
+                                showUpdateDialog(update);
+                            } else {
+                                startMainActivity();
+                            }
+                        } catch (Exception e) {
+                            startMainActivity();
+                        }
                     } else {
                         startMainActivity();
                     }
-                } else {
+                }
+
+                @Override
+                public void onFailure(Call<UpdateResponse> call, Throwable t) {
                     startMainActivity();
                 }
-            }
-
-            @Override
-            public void onFailure(Call<UpdateResponse> call, Throwable t) {
-                startMainActivity();
-            }
-        });
+            });
+        } catch (Exception e) {
+            startMainActivity();
+        }
     }
 
     private void showUpdateDialog(UpdateResponse update) {

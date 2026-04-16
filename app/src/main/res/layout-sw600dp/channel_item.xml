@@ -24,7 +24,7 @@
                 android:layout_height="match_parent"
                 android:layout_centerInParent="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/tvlogo" />
+                android:src="@drawable/logo" />
         </RelativeLayout>
 
         <!-- 2. Light Divider Line (Closer to text) -->

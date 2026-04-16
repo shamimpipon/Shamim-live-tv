@@ -1,9 +1,8 @@
 package com.example.tv;
 
-import android.graphics.Bitmap;
 import android.graphics.Color;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.GradientDrawable;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,18 +10,20 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.palette.graphics.Palette;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.target.CustomTarget;
-import com.bumptech.glide.request.transition.Transition;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.ViewHolder> {
 
     private List<Channel> channelList;
     private OnChannelClickListener listener;
+    private final ExecutorService executorService = Executors.newFixedThreadPool(4);
+    private final Handler mainHandler = new Handler(Looper.getMainLooper());
 
     public interface OnChannelClickListener {
         void onChannelClick(Channel channel);
@@ -40,15 +41,6 @@ public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.ViewHold
         return new ViewHolder(view);
     }
 
-    private int[] colors = {
-            Color.parseColor("#D81B60"), // Pink
-            Color.parseColor("#00E5FF"), // Cyan
-            Color.parseColor("#4CAF50"), // Green
-            Color.parseColor("#FFC107"), // Yellow
-            Color.parseColor("#2196F3"), // Blue
-            Color.parseColor("#9C27B0")  // Purple
-    };
-
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Channel channel = channelList.get(position);
@@ -61,15 +53,64 @@ public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.ViewHold
                 .error(R.drawable.app_icon)
                 .into(holder.logo);
 
-        // লোগো এরিয়া শুধুমাত্র সাদা ব্যাকগ্রাউন্ড (কোনো বর্ডার থাকবে না)
         holder.container.setBackgroundColor(Color.WHITE);
-
-        // চ্যানেলের নামের অংশের ব্যাকগ্রাউন্ড কালার (Premium Deep Navy Blue)
         holder.nameBgArea.setBackgroundColor(Color.parseColor("#050A30"));
-
         holder.name.setTextColor(Color.WHITE);
 
+        // Update Status UI
+        updateStatusUI(holder, channel);
+
+        // Start checking if not checked yet
+        if (channel.isChecking()) {
+            checkChannelStatus(holder, channel);
+        }
+
         holder.itemView.setOnClickListener(v -> listener.onChannelClick(channel));
+    }
+
+    private void updateStatusUI(ViewHolder holder, Channel channel) {
+        if (channel.isChecking()) {
+            holder.tvLiveStatus.setText("CHECK");
+            holder.tvLiveStatus.getBackground().setTint(Color.GRAY);
+        } else if (channel.isOnline()) {
+            holder.tvLiveStatus.setText("LIVE");
+            holder.tvLiveStatus.getBackground().setTint(Color.parseColor("#4CAF50")); // Green
+        } else {
+            holder.tvLiveStatus.setText("OFF");
+            holder.tvLiveStatus.getBackground().setTint(Color.RED);
+        }
+    }
+
+    private void checkChannelStatus(ViewHolder holder, Channel channel) {
+        executorService.execute(() -> {
+            boolean isOnline = false;
+            try {
+                HttpURLConnection connection = (HttpURLConnection) new URL(channel.getUrl()).openConnection();
+                connection.setRequestMethod("GET");
+                connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36");
+                connection.setConnectTimeout(8000);
+                connection.setReadTimeout(8000);
+                
+                // শুধুমাত্র কানেকশন চেক করার জন্য প্রথম কয়েক বাইট পড়ার চেষ্টা করবে
+                int responseCode = connection.getResponseCode();
+                isOnline = (responseCode >= 200 && responseCode < 400);
+                connection.disconnect();
+            } catch (Exception e) {
+                isOnline = false;
+            }
+
+            final boolean finalStatus = isOnline;
+            mainHandler.post(() -> {
+                channel.setOnline(finalStatus);
+                // Only update if the holder is still showing the same channel
+                if (holder.getAdapterPosition() != RecyclerView.NO_POSITION) {
+                    Channel currentChannel = channelList.get(holder.getAdapterPosition());
+                    if (currentChannel.getUrl().equals(channel.getUrl())) {
+                        updateStatusUI(holder, channel);
+                    }
+                }
+            });
+        });
     }
 
     @Override
@@ -82,6 +123,7 @@ public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.ViewHold
         ImageView logo;
         View container;
         RelativeLayout nameBgArea;
+        TextView tvLiveStatus;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -89,6 +131,7 @@ public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.ViewHold
             logo = itemView.findViewById(R.id.channel_logo);
             container = itemView.findViewById(R.id.channel_container);
             nameBgArea = itemView.findViewById(R.id.name_bg_area);
+            tvLiveStatus = itemView.findViewById(R.id.tvLiveStatus);
         }
     }
 }

@@ -9,6 +9,7 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -30,13 +31,14 @@ import java.util.List;
 
 public class PlaylistActivity extends AppCompatActivity {
 
+    private RelativeLayout toolbar;
+    private View borderView;
     private RecyclerView rvPlaylists;
     private TextView tvEmpty;
     private List<PlaylistModel> playlistList;
     private PlaylistAdapter adapter;
     private SharedPreferences sharedPreferences;
     private Gson gson;
-    private RelativeLayout toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,16 +47,40 @@ public class PlaylistActivity extends AppCompatActivity {
 
         rvPlaylists = findViewById(R.id.rvPlaylists);
         tvEmpty = findViewById(R.id.tvEmpty);
-        toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar_container);
         
+        // Find the border view
+        LinearLayout topSection = findViewById(R.id.topSection);
+        RelativeLayout headerRow = topSection.findViewById(R.id.headerRow);
+        borderView = headerRow.getChildAt(1); // The second child is the View with orange_border_bg
+
         rvPlaylists.setLayoutManager(new LinearLayoutManager(this));
         sharedPreferences = getSharedPreferences("Playlists", Context.MODE_PRIVATE);
         gson = new Gson();
         
         loadPlaylists();
-        startRGBAnimation();
+        startBorderAnimation();
 
         findViewById(R.id.fabAdd).setOnClickListener(v -> showAddOptionsDialog());
+    }
+
+    private void startBorderAnimation() {
+        if (borderView == null) return;
+        
+        int color1 = Color.parseColor("#FF8C00"); // Orange
+        int color2 = Color.parseColor("#00FF00"); // Green
+        int color3 = Color.parseColor("#00E5FF"); // Cyan
+        int color4 = Color.parseColor("#D81B60"); // Pink
+
+        ValueAnimator colorAnimation = ValueAnimator.ofObject(new ArgbEvaluator(), color1, color2, color3, color4, color1);
+        colorAnimation.setDuration(4000); 
+        colorAnimation.setRepeatCount(ValueAnimator.INFINITE);
+        colorAnimation.addUpdateListener(animator -> {
+            int color = (int) animator.getAnimatedValue();
+            android.graphics.drawable.GradientDrawable drawable = (android.graphics.drawable.GradientDrawable) borderView.getBackground();
+            drawable.setStroke(4, color);
+        });
+        colorAnimation.start();
     }
 
     private void setupAdapter() {
@@ -69,17 +95,28 @@ public class PlaylistActivity extends AppCompatActivity {
 
             @Override
             public void onPlaylistDelete(int position) {
-                new AlertDialog.Builder(PlaylistActivity.this)
-                        .setTitle("Delete Playlist")
-                        .setMessage("Are you sure you want to delete this?")
-                        .setPositiveButton("Yes", (dialog, which) -> {
-                            playlistList.remove(position);
-                            savePlaylists();
-                            adapter.notifyItemRemoved(position);
-                            adapter.notifyItemRangeChanged(position, playlistList.size());
-                        })
-                        .setNegativeButton("No", null)
-                        .show();
+                View dialogView = getLayoutInflater().inflate(R.layout.dialog_delete_confirm, null);
+                Button btnYes = dialogView.findViewById(R.id.btn_yes);
+                Button btnNo = dialogView.findViewById(R.id.btn_no);
+
+                AlertDialog dialog = new AlertDialog.Builder(PlaylistActivity.this)
+                        .setView(dialogView)
+                        .create();
+
+                if (dialog.getWindow() != null) {
+                    dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+                }
+
+                btnYes.setOnClickListener(v -> {
+                    playlistList.remove(position);
+                    savePlaylists();
+                    adapter.notifyItemRemoved(position);
+                    adapter.notifyItemRangeChanged(position, playlistList.size());
+                    dialog.dismiss();
+                });
+
+                btnNo.setOnClickListener(v -> dialog.dismiss());
+                dialog.show();
             }
 
             @Override
@@ -91,24 +128,24 @@ public class PlaylistActivity extends AppCompatActivity {
     }
 
     private void showEditDialog(int position, PlaylistModel playlist) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Edit Playlist");
-        LinearLayout layout = new LinearLayout(this);
-        layout.setOrientation(LinearLayout.VERTICAL);
-        layout.setPadding(50, 20, 50, 20);
-        
-        final EditText nameInput = new EditText(this);
-        nameInput.setHint("Name");
+        View dialogView = getLayoutInflater().inflate(R.layout.dialog_edit_playlist, null);
+        EditText nameInput = dialogView.findViewById(R.id.et_playlist_name);
+        EditText urlInput = dialogView.findViewById(R.id.et_playlist_url);
+        Button btnUpdate = dialogView.findViewById(R.id.btn_update);
+        Button btnCancel = dialogView.findViewById(R.id.btn_cancel);
+
         nameInput.setText(playlist.getName());
-        layout.addView(nameInput);
-        
-        final EditText urlInput = new EditText(this);
-        urlInput.setHint("URL");
         urlInput.setText(playlist.getUrl());
-        layout.addView(urlInput);
-        
-        builder.setView(layout);
-        builder.setPositiveButton("Update", (dialog, which) -> {
+
+        AlertDialog dialog = new AlertDialog.Builder(this)
+                .setView(dialogView)
+                .create();
+
+        if (dialog.getWindow() != null) {
+            dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        }
+
+        btnUpdate.setOnClickListener(v -> {
             String newName = nameInput.getText().toString().trim();
             String newUrl = urlInput.getText().toString().trim();
             if (!newName.isEmpty() && !newUrl.isEmpty()) {
@@ -116,23 +153,14 @@ public class PlaylistActivity extends AppCompatActivity {
                 savePlaylists();
                 adapter.notifyItemChanged(position);
                 Toast.makeText(this, "Playlist Updated", Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
+            } else {
+                Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
             }
         });
-        builder.setNegativeButton("Cancel", null);
-        builder.show();
-    }
 
-    private void startRGBAnimation() {
-        if (toolbar == null) return;
-        int colorFrom = Color.parseColor("#050A30"); // Dark Navy
-        int colorTo = Color.parseColor("#D81B60");   // Pink Neon
-        int colorCyan = Color.parseColor("#00E5FF"); // Cyan Neon
-
-        ValueAnimator colorAnimation = ValueAnimator.ofObject(new ArgbEvaluator(), colorFrom, colorTo, colorCyan, colorFrom);
-        colorAnimation.setDuration(5000); 
-        colorAnimation.setRepeatCount(ValueAnimator.INFINITE);
-        colorAnimation.addUpdateListener(animator -> toolbar.setBackgroundColor((int) animator.getAnimatedValue()));
-        colorAnimation.start();
+        btnCancel.setOnClickListener(v -> dialog.dismiss());
+        dialog.show();
     }
 
     private void loadPlaylists() {
@@ -165,41 +193,67 @@ public class PlaylistActivity extends AppCompatActivity {
     }
 
     private void showAddOptionsDialog() {
-        String[] options = {"Add M3U URL", "Select Local File", "Xtream Codes"};
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Select Option");
-        builder.setItems(options, (dialog, which) -> {
-            if (which == 0) showAddM3uDialog();
-            else if (which == 1) openFilePicker();
-            else if (which == 2) showXtreamLoginDialog();
+        View dialogView = getLayoutInflater().inflate(R.layout.dialog_add_options, null);
+        Button btnM3u = dialogView.findViewById(R.id.btn_add_m3u);
+        Button btnLocal = dialogView.findViewById(R.id.btn_local_file);
+        Button btnXtream = dialogView.findViewById(R.id.btn_xtream);
+
+        AlertDialog dialog = new AlertDialog.Builder(this)
+                .setView(dialogView)
+                .create();
+
+        if (dialog.getWindow() != null) {
+            dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        }
+
+        btnM3u.setOnClickListener(v -> {
+            dialog.dismiss();
+            showAddM3uDialog();
         });
-        builder.show();
+
+        btnLocal.setOnClickListener(v -> {
+            dialog.dismiss();
+            openFilePicker();
+        });
+
+        btnXtream.setOnClickListener(v -> {
+            dialog.dismiss();
+            showXtreamLoginDialog();
+        });
+
+        dialog.show();
     }
 
     private void showAddM3uDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Add M3U Playlist");
-        LinearLayout layout = new LinearLayout(this);
-        layout.setOrientation(LinearLayout.VERTICAL);
-        layout.setPadding(50, 20, 50, 20);
-        final EditText nameInput = new EditText(this);
-        nameInput.setHint("Name");
-        layout.addView(nameInput);
-        final EditText urlInput = new EditText(this);
-        urlInput.setHint("URL (http://...)");
-        layout.addView(urlInput);
-        builder.setView(layout);
-        builder.setPositiveButton("Add", (dialog, which) -> {
+        View dialogView = getLayoutInflater().inflate(R.layout.dialog_add_m3u, null);
+        EditText nameInput = dialogView.findViewById(R.id.et_playlist_name);
+        EditText urlInput = dialogView.findViewById(R.id.et_playlist_url);
+        Button btnAdd = dialogView.findViewById(R.id.btn_add);
+        Button btnCancel = dialogView.findViewById(R.id.btn_cancel);
+
+        AlertDialog dialog = new AlertDialog.Builder(this)
+                .setView(dialogView)
+                .create();
+
+        if (dialog.getWindow() != null) {
+            dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        }
+
+        btnAdd.setOnClickListener(v -> {
             String name = nameInput.getText().toString().trim();
             String url = urlInput.getText().toString().trim();
             if (!name.isEmpty() && !url.isEmpty()) {
                 playlistList.add(new PlaylistModel(name, url));
                 savePlaylists();
                 adapter.notifyDataSetChanged();
+                dialog.dismiss();
+            } else {
+                Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
             }
         });
-        builder.setNegativeButton("Cancel", null);
-        builder.show();
+
+        btnCancel.setOnClickListener(v -> dialog.dismiss());
+        dialog.show();
     }
 
     private void openFilePicker() {
@@ -222,19 +276,22 @@ public class PlaylistActivity extends AppCompatActivity {
     }
 
     private void showXtreamLoginDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Xtream Codes Login");
-        LinearLayout layout = new LinearLayout(this);
-        layout.setOrientation(LinearLayout.VERTICAL);
-        layout.setPadding(50, 20, 50, 20);
-        final EditText serverInput = new EditText(this); serverInput.setHint("Server URL (http://...)");
-        layout.addView(serverInput);
-        final EditText userInput = new EditText(this); userInput.setHint("Username");
-        layout.addView(userInput);
-        final EditText passInput = new EditText(this); passInput.setHint("Password");
-        layout.addView(passInput);
-        builder.setView(layout);
-        builder.setPositiveButton("Login", (dialog, which) -> {
+        View dialogView = getLayoutInflater().inflate(R.layout.dialog_xtream_login, null);
+        EditText serverInput = dialogView.findViewById(R.id.et_server_url);
+        EditText userInput = dialogView.findViewById(R.id.et_username);
+        EditText passInput = dialogView.findViewById(R.id.et_password);
+        Button btnLogin = dialogView.findViewById(R.id.btn_login);
+        Button btnCancel = dialogView.findViewById(R.id.btn_cancel);
+
+        AlertDialog dialog = new AlertDialog.Builder(this)
+                .setView(dialogView)
+                .create();
+
+        if (dialog.getWindow() != null) {
+            dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        }
+
+        btnLogin.setOnClickListener(v -> {
             String server = serverInput.getText().toString().trim();
             String user = userInput.getText().toString().trim();
             String pass = passInput.getText().toString().trim();
@@ -243,9 +300,13 @@ public class PlaylistActivity extends AppCompatActivity {
                 playlistList.add(new PlaylistModel("Xtream: " + user, xtreamUrl));
                 savePlaylists();
                 adapter.notifyDataSetChanged();
+                dialog.dismiss();
+            } else {
+                Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
             }
         });
-        builder.setNegativeButton("Cancel", null);
-        builder.show();
+
+        btnCancel.setOnClickListener(v -> dialog.dismiss());
+        dialog.show();
     }
 }

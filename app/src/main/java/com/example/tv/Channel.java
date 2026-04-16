@@ -6,6 +6,8 @@ public class Channel implements Serializable {
     private String name;
     private String url;
     private String logoUrl;
+    private boolean isOnline = false;
+    private boolean isChecking = true;
 
     public Channel() {
     }
@@ -38,5 +40,22 @@ public class Channel implements Serializable {
 
     public void setLogoUrl(String logoUrl) {
         this.logoUrl = logoUrl;
+    }
+
+    public boolean isOnline() {
+        return isOnline;
+    }
+
+    public void setOnline(boolean online) {
+        isOnline = online;
+        this.isChecking = false;
+    }
+
+    public boolean isChecking() {
+        return isChecking;
+    }
+
+    public void setChecking(boolean checking) {
+        isChecking = checking;
     }
 }

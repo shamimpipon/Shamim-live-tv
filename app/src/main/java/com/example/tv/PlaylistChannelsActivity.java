@@ -94,28 +94,78 @@ public class PlaylistChannelsActivity extends AppCompatActivity {
                 }
 
                 BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+                StringBuilder sb = new StringBuilder();
                 String line;
-                Channel currentChannel = null;
+                while ((line = reader.readLine()) != null) {
+                    sb.append(line).append("\n");
+                }
+                String content = sb.toString().trim();
+                reader.close();
 
                 channelList.clear();
-                while ((line = reader.readLine()) != null) {
-                    if (line.startsWith("#EXTINF:")) {
-                        currentChannel = new Channel();
-                        String name = line.substring(line.lastIndexOf(",") + 1).trim();
-                        currentChannel.setName(name);
-
-                        if (line.contains("tvg-logo=\"")) {
-                            String logo = line.substring(line.indexOf("tvg-logo=\"") + 10);
-                            logo = logo.substring(0, logo.indexOf("\""));
-                            currentChannel.setLogoUrl(logo);
+                if (content.startsWith("[") || content.startsWith("{")) {
+                    // It's JSON
+                    com.google.gson.JsonArray jsonArray = com.google.gson.JsonParser.parseString(content).getAsJsonArray();
+                    for (int i = 0; i < jsonArray.size(); i++) {
+                        com.google.gson.JsonObject obj = jsonArray.get(i).getAsJsonObject();
+                        Channel channel = new Channel();
+                        channel.setName(obj.has("name") ? obj.get("name").getAsString() : "Unknown");
+                        channel.setUrl(obj.has("link") ? obj.get("link").getAsString() : "");
+                        channel.setLogoUrl(obj.has("logo") ? obj.get("logo").getAsString() : "");
+                        
+                        // যদি কুকি থাকে তবে সেটা ইউআরএল এর সাথে বা অন্যভাবে হ্যান্ডেল করা যেতে পারে
+                        // আপাতত শুধু চ্যানেল অ্যাড করছি
+                        if (!channel.getUrl().isEmpty()) {
+                            channelList.add(channel);
                         }
-                    } else if (line.startsWith("http") && currentChannel != null) {
-                        currentChannel.setUrl(line.trim());
-                        channelList.add(currentChannel);
-                        currentChannel = null;
+                    }
+                } else {
+                    // It's M3U
+                    String[] lines = content.split("\n");
+                    Channel currentChannel = null;
+                    java.util.List<String> currentHeaders = new java.util.ArrayList<>();
+                    for (String m3uLine : lines) {
+                        m3uLine = m3uLine.trim();
+                        if (m3uLine.isEmpty()) continue;
+
+                        if (m3uLine.startsWith("#EXTINF:")) {
+                            currentChannel = new Channel();
+                            currentHeaders.clear();
+                            String name = "";
+                            if (m3uLine.contains(",")) {
+                                name = m3uLine.substring(m3uLine.lastIndexOf(",") + 1).trim();
+                            } else {
+                                name = "Unknown Channel";
+                            }
+                            currentChannel.setName(name);
+
+                            if (m3uLine.contains("tvg-logo=\"")) {
+                                String logo = m3uLine.substring(m3uLine.indexOf("tvg-logo=\"") + 10);
+                                logo = logo.substring(0, logo.indexOf("\""));
+                                currentChannel.setLogoUrl(logo);
+                            }
+                        } else if (m3uLine.startsWith("#EXTVLCOPT:")) {
+                            String opt = m3uLine.substring(11).trim();
+                            if (opt.startsWith("http-user-agent=")) {
+                                currentHeaders.add("User-Agent=" + opt.substring(16));
+                            } else if (opt.startsWith("http-referrer=")) {
+                                currentHeaders.add("Referer=" + opt.substring(14));
+                            }
+                        } else if (!m3uLine.startsWith("#") && currentChannel != null) {
+                            String channelUrl = m3uLine;
+                            if (!currentHeaders.isEmpty()) {
+                                StringBuilder sbUrl = new StringBuilder(channelUrl);
+                                for (String h : currentHeaders) {
+                                    sbUrl.append("|").append(h);
+                                }
+                                channelUrl = sbUrl.toString();
+                            }
+                            currentChannel.setUrl(channelUrl);
+                            channelList.add(currentChannel);
+                            currentChannel = null;
+                        }
                     }
                 }
-                reader.close();
 
                 runOnUiThread(() -> {
                     loader.setVisibility(View.GONE);

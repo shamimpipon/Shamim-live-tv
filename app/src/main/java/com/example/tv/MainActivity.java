@@ -47,6 +47,15 @@ public class MainActivity extends AppCompatActivity {
     private RelativeLayout toolbar;
     private long downloadID;
     private android.widget.TextView tvVisitorCount;
+    private android.widget.TextView[] categoryTabs;
+    private int[] categoryColors = {
+        Color.parseColor("#FF8C00"), // Deep Orange (All)
+        Color.parseColor("#1E88E5"), // Bright Blue (Sports)
+        Color.parseColor("#E53935"), // Red (News)
+        Color.parseColor("#43A047"), // Green (Bangla)
+        Color.parseColor("#FB8C00"), // Orange (Movies)
+        Color.parseColor("#8E24AA")  // Purple (Update)
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         channelList = new ArrayList<>();
         fullChannelList = new ArrayList<>();
 
+        setupCategoryTabs();
         setupCategoryClickListeners();
         updateVisitorCount();
 
@@ -75,6 +85,75 @@ public class MainActivity extends AppCompatActivity {
         // URL LINK বাটন - কাস্টম লিঙ্ক প্লে করার জন্য
         findViewById(R.id.btnNetwork).setOnClickListener(v -> showNetworkDialog());
 
+        // Left About Button Click
+        findViewById(R.id.btnInfo).setOnClickListener(v -> {
+            // Custom Title
+            android.widget.TextView titleView = new android.widget.TextView(this);
+            titleView.setText("About App");
+            titleView.setPadding(20, 40, 20, 10);
+            titleView.setTextSize(24);
+            titleView.setTextColor(Color.parseColor("#FF8C00")); // Premium Orange
+            titleView.setGravity(android.view.Gravity.CENTER);
+            titleView.setTypeface(android.graphics.Typeface.create("sans-serif-light", android.graphics.Typeface.BOLD));
+
+            // Custom Message with Styled Name and Contact
+            android.text.SpannableString spannableMessage = new android.text.SpannableString(
+                "Shamim Live TV\nVersion: 1.0\n\nDeveloped by\nShamimul Haque (Samin)\n\nContact: 📞 01638073621\n\nEnjoy premium live TV channels for free.");
+            
+            // Stylish styling for the name
+            int nameStart = spannableMessage.toString().indexOf("Shamimul Haque (Samin)");
+            int nameEnd = nameStart + "Shamimul Haque (Samin)".length();
+            spannableMessage.setSpan(new android.text.style.ForegroundColorSpan(Color.parseColor("#FF8C00")), nameStart, nameEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            spannableMessage.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD_ITALIC), nameStart, nameEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            spannableMessage.setSpan(new android.text.style.RelativeSizeSpan(1.2f), nameStart, nameEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+            // Styling for the Phone Number
+            int phoneStart = spannableMessage.toString().indexOf("01638073621");
+            int phoneEnd = phoneStart + "01638073621".length();
+            spannableMessage.setSpan(new android.text.style.ForegroundColorSpan(Color.parseColor("#00E5FF")), phoneStart, phoneEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            spannableMessage.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), phoneStart, phoneEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+            AlertDialog dialog = new AlertDialog.Builder(this)
+                .setCustomTitle(titleView)
+                .setMessage(spannableMessage)
+                .setPositiveButton("CLOSE", null)
+                .create();
+
+            dialog.show();
+
+            // Customizing Dialog Appearance
+            if (dialog.getWindow() != null) {
+                android.graphics.drawable.GradientDrawable gd = new android.graphics.drawable.GradientDrawable();
+                gd.setColor(Color.parseColor("#121212")); // Deeper Dark Background
+                gd.setCornerRadius(50f);
+                gd.setStroke(3, Color.parseColor("#FF8C00")); // Thinner Elegant Orange Border
+                dialog.getWindow().setBackgroundDrawable(gd);
+            }
+
+            // Styling Message Text
+            android.widget.TextView messageView = dialog.findViewById(android.R.id.message);
+            if (messageView != null) {
+                messageView.setTextColor(Color.WHITE);
+                messageView.setGravity(android.view.Gravity.CENTER);
+                messageView.setLineSpacing(0, 1.2f);
+                messageView.setTextSize(15);
+                messageView.setTypeface(android.graphics.Typeface.create("sans-serif-condensed", android.graphics.Typeface.NORMAL));
+            }
+
+            // Styling Button
+            android.widget.Button positiveButton = dialog.getButton(AlertDialog.BUTTON_POSITIVE);
+            if (positiveButton != null) {
+                positiveButton.setTextColor(Color.parseColor("#FF8C00"));
+                positiveButton.setTypeface(android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.BOLD));
+            }
+        });
+
+        // New Toolbar Update Button Click
+        findViewById(R.id.btnToolbarUpdate).setOnClickListener(v -> {
+            Toast.makeText(this, "Checking for updates...", Toast.LENGTH_SHORT).show();
+            checkUpdate(true);
+        });
+
         // আপডেট চেক বাটন - ম্যানুয়ালি চেক করার জন্য
         findViewById(R.id.btnCheckUpdate).setOnClickListener(v -> {
             Toast.makeText(this, "Checking for updates...", Toast.LENGTH_SHORT).show();
@@ -86,22 +165,36 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showNetworkDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Network Stream");
-        
-        final EditText input = new EditText(this);
-        input.setHint("Enter M3U/Video URL");
-        input.setPadding(50, 20, 50, 20);
-        builder.setView(input);
+        View dialogView = getLayoutInflater().inflate(R.layout.dialog_add_m3u, null);
+        EditText nameInput = dialogView.findViewById(R.id.et_playlist_name);
+        EditText urlInput = dialogView.findViewById(R.id.et_playlist_url);
+        android.widget.Button btnPlay = dialogView.findViewById(R.id.btn_add);
+        android.widget.Button btnCancel = dialogView.findViewById(R.id.btn_cancel);
 
-        builder.setPositiveButton("PLAY", (dialog, which) -> {
-            String url = input.getText().toString().trim();
+        nameInput.setHint("Stream Name (Optional)");
+        urlInput.setHint("Enter M3U/Video URL");
+        btnPlay.setText("PLAY");
+
+        AlertDialog dialog = new AlertDialog.Builder(this)
+                .setView(dialogView)
+                .create();
+
+        if (dialog.getWindow() != null) {
+            dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        }
+
+        btnPlay.setOnClickListener(v -> {
+            String url = urlInput.getText().toString().trim();
             if (!url.isEmpty()) {
                 playCustomUrl(url);
+                dialog.dismiss();
+            } else {
+                Toast.makeText(this, "Please enter a URL", Toast.LENGTH_SHORT).show();
             }
         });
-        builder.setNegativeButton("Cancel", null);
-        builder.show();
+
+        btnCancel.setOnClickListener(v -> dialog.dismiss());
+        dialog.show();
     }
 
     @Override
@@ -111,32 +204,70 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateVisitorCount() {
-        // একটি ইউনিক কি (Key) ব্যবহার করা হচ্ছে আপনার অ্যাপের জন্য
-        String apiKey = "shamim_live_tv_visitors"; 
-        String url = "https://api.countapi.xyz/hit/" + apiKey + "/visits";
-
+        // Visitor counting safe implementation
         new Thread(() -> {
             try {
-                java.net.HttpURLConnection connection = (java.net.HttpURLConnection) new java.net.URL(url).openConnection();
-                connection.setRequestMethod("GET");
-                java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(connection.getInputStream()));
-                StringBuilder response = new StringBuilder();
-                String line;
-                while ((line = reader.readLine()) != null) {
-                    response.append(line);
-                }
-                reader.close();
-
-                // JSON থেকে ভ্যালু বের করা
-                String result = response.toString();
-                if (result.contains("\"value\":")) {
-                    String count = result.substring(result.indexOf("\"value\":") + 8, result.lastIndexOf("}"));
-                    runOnUiThread(() -> tvVisitorCount.setText("Visitors: " + count));
+                // Using a fallback mechanism if the API is down
+                String apiKey = "shamim_live_tv_v1"; 
+                java.net.URL url = new java.net.URL("https://api.countapi.xyz/hit/" + apiKey + "/visits");
+                java.net.HttpURLConnection connection = (java.net.HttpURLConnection) url.openConnection();
+                connection.setConnectTimeout(3000); // Faster timeout
+                connection.setReadTimeout(3000);
+                
+                int responseCode = connection.getResponseCode();
+                if (responseCode == 200) {
+                    java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(connection.getInputStream()));
+                    String line = reader.readLine();
+                    if (line != null && line.contains("\"value\":")) {
+                        String count = line.substring(line.indexOf("\"value\":") + 8, line.lastIndexOf("}"));
+                        runOnUiThread(() -> {
+                            if (tvVisitorCount != null) tvVisitorCount.setText("Visitors: " + count);
+                        });
+                    }
+                    reader.close();
+                } else {
+                    runOnUiThread(() -> {
+                        if (tvVisitorCount != null) tvVisitorCount.setText("Visitors: Live");
+                    });
                 }
             } catch (Exception e) {
-                runOnUiThread(() -> tvVisitorCount.setText("Visitors: Live"));
+                runOnUiThread(() -> {
+                    if (tvVisitorCount != null) tvVisitorCount.setText("Visitors: Online");
+                });
             }
         }).start();
+    }
+
+    private void setupCategoryTabs() {
+        categoryTabs = new android.widget.TextView[]{
+                findViewById(R.id.catAll),
+                findViewById(R.id.catSports),
+                findViewById(R.id.catNews),
+                findViewById(R.id.catBangla),
+                findViewById(R.id.catMovies),
+                findViewById(R.id.btnCheckUpdate)
+        };
+
+        for (int i = 0; i < categoryTabs.length; i++) {
+            android.graphics.drawable.GradientDrawable drawable = new android.graphics.drawable.GradientDrawable();
+            drawable.setShape(android.graphics.drawable.GradientDrawable.RECTANGLE);
+            drawable.setCornerRadius(10f); 
+            
+            int color = categoryColors[i];
+            drawable.setColor(color); 
+            drawable.setStroke(2, Color.parseColor("#40FFFFFF")); 
+            
+            categoryTabs[i].setBackground(drawable);
+            categoryTabs[i].setTextColor(Color.WHITE);
+            categoryTabs[i].setPadding(25, 12, 25, 12); // Reduced padding to fit better
+            categoryTabs[i].setAllCaps(false);
+            categoryTabs[i].setTextSize(12); // Slightly smaller text to ensure fit
+            categoryTabs[i].setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+            
+            // Ensure single line and handle overflow
+            categoryTabs[i].setSingleLine(true);
+            categoryTabs[i].setEllipsize(android.text.TextUtils.TruncateAt.END);
+        }
     }
 
     private void setupCategoryClickListeners() {
@@ -169,7 +300,9 @@ public class MainActivity extends AppCompatActivity {
                         nameLower.contains("independent") || nameLower.contains("dbc") || 
                         nameLower.contains("channel 24") || nameLower.contains("atn news") || 
                         nameLower.contains("news24") || nameLower.contains("71") ||
-                        nameLower.contains("ekattor tv") || nameLower.contains("ekattor.tv")) {
+                        nameLower.contains("ekattor tv") || nameLower.contains("ekattor.tv") ||
+                        nameLower.contains("desh tv") || nameLower.contains("rtv") || 
+                        nameLower.contains("ntv") || nameLower.contains("boishakhi")) {
                         filteredList.add(channel);
                     }
                 } else if (category.equalsIgnoreCase("Sports")) {

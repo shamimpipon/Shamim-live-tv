@@ -26,7 +26,26 @@
                 android:scaleType="fitCenter"
                 android:alpha="1.0"
                 android:padding="0dp"
-                android:src="@drawable/tvlogo" />
+                android:src="@drawable/logo" />
+
+            <!-- Live/Offline Indicator -->
+            <TextView
+                android:id="@+id/tvLiveStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="4dp"
+                android:background="@drawable/toolbar_title_capsule"
+                android:backgroundTint="#808080"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp"
+                android:text="WAIT"
+                android:textColor="#FFFFFF"
+                android:textSize="8sp"
+                android:textStyle="bold" />
         </RelativeLayout>
 
         <!-- 3. Name Area -->

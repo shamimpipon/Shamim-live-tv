@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_dialog_bg"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Channel Information"
+        android:textColor="#00FF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/dialog_channel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: ---"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/dialog_channel_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL: ---"
+        android:textColor="#BBBBBB"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/dialog_logo_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logo: ---"
+        android:textColor="#BBBBBB"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_copy_url"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Copy Link"
+            android:textAllCaps="false"
+            android:backgroundTint="#333333"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="5dp"/>
+
+        <Button
+            android:id="@+id/btn_copy_logo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Copy Logo"
+            android:textAllCaps="false"
+            android:backgroundTint="#333333"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="5dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF4444"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
