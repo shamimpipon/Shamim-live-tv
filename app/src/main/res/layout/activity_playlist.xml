@@ -25,6 +25,36 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/title_bar" />
+
+            <!-- Left About Button -->
+            <ImageView
+                android:id="@+id/btnInfo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="35dp"
+                android:padding="6dp"
+                android:src="@android:drawable/ic_dialog_info"
+                android:background="@drawable/toolbar_title_capsule"
+                android:backgroundTint="#30FFD700"
+                app:tint="#FFD700" />
+
+            <!-- Right Toolbar Update Button -->
+            <ImageView
+                android:id="@+id/btnToolbarUpdate"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="35dp"
+                android:padding="6dp"
+                android:src="@android:drawable/ic_popup_sync"
+                android:background="@drawable/toolbar_title_capsule"
+                android:backgroundTint="#3000FF00"
+                app:tint="#00FF00" />
         </RelativeLayout>
 
         <!-- Header Row (Directly below Toolbar with Aggressive Overlap) -->
