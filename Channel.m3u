@@ -2,7 +2,7 @@
 
 #EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS " tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/A%20Sports.png" group-title="File",A SPORT
 http://198.195.239.50:8095/Eurosport/tracks-v1a1/mono.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
-#EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS " tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/GEO%20Super.png" group-title="File",g SPORT#EXTINF:-1 tvg-id="ext" tvg-name="P TV " tvg-logo="https://www.pngkey.com/png/full/961-9618670_ptv-sports-channel.png" group-title="Sports",P TV
+#EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS " tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/PTV%20Sports.png" group-title="File",g SPORT#EXTINF:-1 tvg-id="ext" tvg-name="P TV " tvg-logo="https://www.pngkey.com/png/full/961-9618670_ptv-sports-channel.png" group-title="Sports",P TV
 http://198.195.239.50:8095/PTV-kutta/video.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
 #EXTINF:-1 tvg-id="ext" tvg-name=" G SUPER " tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/GEO%20Super.png" group-title="File",g SPORT#EXTINF:-1 tvg-id="ext" tvg-name="P TV " tvg-logo="https://www.pngkey.com/png/full/961-9618670_ptv-sports-channel.png" group-title="Sports",P TV
 http://180.94.28.28:8097/GEO-SUPER/tracks-a1/index.fmp4.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
