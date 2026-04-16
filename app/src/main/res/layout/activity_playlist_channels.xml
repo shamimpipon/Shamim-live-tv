@@ -28,12 +28,37 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="15dp"
             android:layout_toEndOf="@id/btnBack"
+            android:layout_toStartOf="@id/btnInfo"
             android:text="Playlist Channels"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold"
             android:ellipsize="end"
             android:maxLines="1" />
+
+        <!-- Info Button -->
+        <ImageView
+            android:id="@+id/btnInfo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/btnToolbarUpdate"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:src="@android:drawable/ic_dialog_info"
+            app:tint="#FFD700" />
+
+        <!-- Update Button -->
+        <ImageView
+            android:id="@+id/btnToolbarUpdate"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:padding="5dp"
+            android:src="@android:drawable/ic_popup_sync"
+            app:tint="#00FF00" />
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView

@@ -63,9 +63,107 @@ public class PlaylistChannelsActivity extends AppCompatActivity {
         rvChannels.setAdapter(adapter);
 
         findViewById(R.id.btnBack).setOnClickListener(v -> finish());
+
+        // About Button Click
+        if (findViewById(R.id.btnInfo) != null) {
+            findViewById(R.id.btnInfo).setOnClickListener(v -> showAboutDialog());
+        }
+
+        // Toolbar Update Button Click
+        if (findViewById(R.id.btnToolbarUpdate) != null) {
+            findViewById(R.id.btnToolbarUpdate).setOnClickListener(v -> {
+                Toast.makeText(this, "Checking for updates...", Toast.LENGTH_SHORT).show();
+                checkUpdate(true);
+            });
+        }
         
         startRGBAnimation();
         loadChannels();
+    }
+
+    private void showAboutDialog() {
+        android.widget.TextView titleView = new android.widget.TextView(this);
+        titleView.setText("About App");
+        titleView.setPadding(20, 40, 20, 10);
+        titleView.setTextSize(24);
+        titleView.setTextColor(Color.parseColor("#FF8C00"));
+        titleView.setGravity(android.view.Gravity.CENTER);
+        titleView.setTypeface(android.graphics.Typeface.create("sans-serif-light", android.graphics.Typeface.BOLD));
+
+        android.text.SpannableString spannableMessage = new android.text.SpannableString(
+                "Shamim Live TV\nVersion: 1.0\n\nDeveloped by\nShamimul Haque (Samin)\n\nContact: 📞 01638073621\n\nEnjoy premium live TV channels for free.");
+
+        int nameStart = spannableMessage.toString().indexOf("Shamimul Haque (Samin)");
+        int nameEnd = nameStart + "Shamimul Haque (Samin)".length();
+        spannableMessage.setSpan(new android.text.style.ForegroundColorSpan(Color.parseColor("#FF8C00")), nameStart, nameEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        spannableMessage.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD_ITALIC), nameStart, nameEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        spannableMessage.setSpan(new android.text.style.RelativeSizeSpan(1.2f), nameStart, nameEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        int phoneStart = spannableMessage.toString().indexOf("01638073621");
+        int phoneEnd = phoneStart + "01638073621".length();
+        spannableMessage.setSpan(new android.text.style.ForegroundColorSpan(Color.parseColor("#00E5FF")), phoneStart, phoneEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        spannableMessage.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), phoneStart, phoneEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        AlertDialog dialog = new androidx.appcompat.app.AlertDialog.Builder(this)
+                .setCustomTitle(titleView)
+                .setMessage(spannableMessage)
+                .setPositiveButton("CLOSE", null)
+                .create();
+        dialog.show();
+
+        if (dialog.getWindow() != null) {
+            android.graphics.drawable.GradientDrawable gd = new android.graphics.drawable.GradientDrawable();
+            gd.setColor(Color.parseColor("#121212"));
+            gd.setCornerRadius(50f);
+            gd.setStroke(3, Color.parseColor("#FF8C00"));
+            dialog.getWindow().setBackgroundDrawable(gd);
+        }
+
+        android.widget.TextView messageView = dialog.findViewById(android.R.id.message);
+        if (messageView != null) {
+            messageView.setTextColor(Color.WHITE);
+            messageView.setGravity(android.view.Gravity.CENTER);
+            messageView.setLineSpacing(0, 1.2f);
+            messageView.setTextSize(15);
+        }
+    }
+
+    private void checkUpdate(boolean isManual) {
+        retrofit2.Retrofit retrofit = new retrofit2.Retrofit.Builder()
+                .baseUrl("https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/main/")
+                .addConverterFactory(retrofit2.converter.gson.GsonConverterFactory.create())
+                .build();
+
+        UpdateService service = retrofit.create(UpdateService.class);
+        service.checkUpdate("update.json").enqueue(new retrofit2.Callback<UpdateResponse>() {
+            @Override
+            public void onResponse(retrofit2.Call<UpdateResponse> call, retrofit2.Response<UpdateResponse> response) {
+                if (response.isSuccessful() && response.body() != null) {
+                    UpdateResponse update = response.body();
+                    try {
+                        long currentVersionCode = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
+                        if (update.getVersionCode() > currentVersionCode) {
+                            showUpdateDialog(update);
+                        } else if (isManual) {
+                            Toast.makeText(PlaylistChannelsActivity.this, "App is up to date", Toast.LENGTH_SHORT).show();
+                        }
+                    } catch (Exception e) {}
+                }
+            }
+            @Override
+            public void onFailure(retrofit2.Call<UpdateResponse> call, Throwable t) {}
+        });
+    }
+
+    private void showUpdateDialog(UpdateResponse update) {
+        new androidx.appcompat.app.AlertDialog.Builder(this)
+                .setTitle("New Update Available")
+                .setMessage(update.getUpdateMessage())
+                .setPositiveButton("Update Now", (dialog, which) -> {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(update.getApkUrl())));
+                })
+                .setNegativeButton("Later", null)
+                .show();
     }
 
     private void startRGBAnimation() {
