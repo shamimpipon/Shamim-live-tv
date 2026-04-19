@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/A%20Sports.png" group-title="File",A SPORTS
 http://198.195.239.50:8095/Eurosport/tracks-v1a1/mono.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
-#EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/PTV%20Sports.png" group-title="File",P SPORTS
+#EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="File",P SPORTS
 http://198.195.239.50:8095/PTV-kutta/video.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
 #EXTINF:-1 tvg-id="ext" tvg-name="G SUPER" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/GEO%20Super.png" group-title="File",G SUPER
 http://180.94.28.28:8097/GEO-SUPER/tracks-a1/index.fmp4.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
