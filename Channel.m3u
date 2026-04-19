@@ -35,7 +35,7 @@ http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 http://172.31.235.10:8080/hls/34-tsportssd/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Nagorik TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Nagorik%20TV.png" group-title="IPTV",Nagorik TV
 http://172.31.235.10:8080/hls/32-nagorik/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/BTV%20National.png" group-title="IPTV",BTV
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/btv-hd-bd.png" group-title="IPTV",BTV
 http://172.31.235.10:8080/hls/1-btv/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV News" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/BTV_NEWS_Logo_-_Bangladesh_Television.png" group-title="IPTV",BTV News
 https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
@@ -43,13 +43,13 @@ https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/d96eb7f4
 http://172.31.235.10:8080/https/26-jamuna/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="EKTTOR tv" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/82/Ekattor_TV_HD_2012.png/revision/latest?cb=20231121094023" group-title="IPTV",EKTTOR tv
 http://172.31.235.10:8080/hls/23-ekattor/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN NEWS" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/ATN%20News.png" group-title="IPTV",ATN NEWS
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN NEWS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/atn-news-hd-bd.png" group-title="IPTV",ATN NEWS
 http://172.31.235.10:8080/hls/14-atnnews/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="DBC NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/DBC_News_logo.png" group-title="IPTV",DBC NEWS
+#EXTINF:-1 tvg-id="ext" https="DBC NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/DBC_News_logo.png" group-title="IPTV",DBC NEWS
 http://172.31.235.10:8080/hls/28-dbc/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Maasranga TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/39/Maasranga_Television_Logo.jpg" group-title="IPTV",Maasranga TV
 http://172.31.235.10:8080/hls/19-maasranga/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/ATN%20Bangla.png" group-title="IPTV",ATN Bangla
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/atn-bangla-hd-bd.png",ATN Bangla
 http://172.31.235.10:8080/hls/5-atnbangla/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MY TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/My%20TV.svg.png" group-title="IPTV",MY TV
 http://172.31.235.10:8080/hls/13-mytv/index.m3u8
