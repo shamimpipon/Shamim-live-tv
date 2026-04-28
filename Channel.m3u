@@ -146,6 +146,8 @@ http://alvetv.com/mbtv/8080/index.m3u8
 https://mytvbangla.com/0.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="Akash Go",BTV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sangsad TV " tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/sangsad-television-bd.png" group-title="Akash Go",Sangsad
+https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Somay News GPCDN.NET" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="Akash Go",Somay News GPCDN.NET
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Jamuna Tv GPCDN.NET" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Jamuna%20TV.jpeg" group-title="Akash Go",Jamuna Tv GPCDN.NET
@@ -177,9 +179,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Star News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/ba/Star_News_Bangladesh_Old_Logo_Horizontal.svg/revision/latest/scale-to-width-down/340?cb=20260202200847" group-title="Akash Go",Star News
 https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ekhon TV" tvg-logo="https://i.ibb.co/CbtWjcm/ekhontv.png" group-title="Akash Go",Ekhon TV
-https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="DBC News" tvg-logo="https://i.ibb.co/9qqVcXr/dbcnews.png" group-title="Akash Go",DBC News
+-nameNF:-1 tvg-id="(no tvg-id)" tvg-name="DBC News" tvg-logo="https://i.ibb.co/9qqVcXr/dbcnews.png" group-title="Akash Go",DBC News
 https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel 9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/500px-Channel9_bd.svg.png" group-title="Akash Go",Channel 9
 https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8
