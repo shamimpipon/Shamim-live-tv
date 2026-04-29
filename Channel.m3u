@@ -6,6 +6,8 @@ http://172.17.50.112:84/ant1005/tracks-v1a1/mono.m3u8
 http://198.195.239.50:8095/Eurosport/tracks-v1a1/mono.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="File",P SPORTS
 http://198.195.239.50:8095/PTV-kutta/video.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
+#EXTINF:-1 tvg-id="ext" tvg-name="Willow Extra" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Willow%20TV.jpeg" group-title="Willow Extra
+http://27.124.71.27/Willow_Extra/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-1-hd-in.png" group-title="Sports",STAR SPORTS 1
 http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
@@ -34,9 +36,14 @@ http://180.94.28.28:8097/GEO-SUPER/tracks-a1/index.fmp4.m3u8?token=8291e6bc6d2a2
 http://180.94.28.28:8097/SUPERSPORT-CRICKET/index.fmp4.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
 
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 1" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",BEIN SPORTS 
-http://ssserver.site/BEIN-Spor1/mono.m3u8
+http://27.124.71.27/beIN_Sports_1/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%202.jpeg" group-title="Sports",BEIN SPORTS 2
-http://ssserver.site/BEIN-Spor2/mono.m3u8
+http://27.124.71.27/beIN_Sports_3/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%203.jpeg" group-title="Sports",BEIN SPORTS 3
+http://27.124.71.27/beIN_Sports_3/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="S" tvg-logo="" group-title="Sports",SONY SPORTS 5 HD
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SKY SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Sky_Sports_logo_2020.svg/1280px-Sky_Sports_logo_2020.svg.png" group-title="Sports",SKY SPORTS
 http://172.17.50.112:84/ant1006/tracks-v1a1/mono.m3u8
