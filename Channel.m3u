@@ -75,17 +75,17 @@ http://premimum.online/live/jen12345/jen54321/23218.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/zee-bangla-hd-in.png" group-title="Indian Bangla",Zee Bangla
 http://27.124.71.27/Zee_Bangla/index.m3u8
 
+#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Zee Bangla Chinena
+http://27.124.71.27/Zee_Bangla_Cinema/tracks-v1a1/mono.ts.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Sun Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sun-bangla-hd-in.png" group-title="Indian Bangla",Sun Bangla
 http://27.124.71.27/Sun_Bangla/index.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="Colours Bangla Chinema" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colours Bangla Chinema
-http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/zee-bangla-cinema-in.png" group-title="Indian Bangla",Zee Bangla Chinena
-http://27.124.71.27/Zee_Bangla_Cinema/tracks-v1a1/mono.ts.m3u8
-
 #EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
 http://flussonic.deltainfonet.com/64_COLORS-BANGLA/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Colours Bangla Chinema" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Colors%20Bangla%20Cinema.png" group-title="Indian Bangla",Colours Bangla Chinema
+http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-aath-in.png" group-title="Indian Bangla",Sony Aath
 http://198.195.239.50:8095/SonyAath/index.m3u8
