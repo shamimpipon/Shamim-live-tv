@@ -149,24 +149,10 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Movie logoa" tvg-logo="https://moviebangla.tv/wp-content/uploads/2024/06/moviebanglatv-logo.png" group-title="IPTV",Movie logoa
 http://alvetv.com/mbtv/8080/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Channel 24" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Channel_24.png" group-title="NEWS",Channel 24
+#EXTINF:-1 tvg-id="ext" tvg-name="Channel 24" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Channel_24.png" group-title="Akash Go",Channel 24
 http://172.31.235.10:8080/hls/21-channel24/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="SOMOY TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Somoy%20TV.jpeg" group-title="NEWS",SOMOY TV
-http://10.247.249.10:8088/205/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
-#EXTINF:-1 tvg-id="ext" tvg-name="JUMUNA TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Jamuna%20TV.jpeg" group-title="NEWS",JUMUNA TV
-http://10.247.249.10:8088/209/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
-#EXTINF:-1 tvg-id="ext" tvg-name="DBC NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/DBC_News_logo.png" group-title="NEWS",DBC NEWS
-http://10.247.249.10:8088/204/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
-#EXTINF:-1 tvg-id="ext" tvg-name="EKTTOR TV" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/82/Ekattor_TV_HD_2012.png/revision/latest?cb=20231121094023" group-title="NEWS",EKTTOR TV
-http://10.247.249.10:8088/201/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
-#EXTINF:-1 tvg-id="ext" tvg-name="ATN NEWS" tvg-logo="https://dl.dropbox.com/s/4ldi1dp09s8o6bm/atn_news_bd.png" group-title="NEWS",ATN NEWS
-http://10.247.249.10:8088/203/tracks-v1a1/mono.m3u8?token=5565816926e76c2335167ed64543cffae0638b60-67450a709fd342c32e24268a99f21534-1760203300-1760199700
-#EXTINF:-1 tvg-id="avi" tvg-name="Jalsha Movie" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/f/fe/Jalsha_Movies_HD_logo_%282013-present%29.png/revision/latest?cb=20210423101024" group-title="NEWS",Jalsha Movie
-http://10.247.249.10:8088/303/index.m3u8?token=3bea3ca6d5eeda0cb6e92ca50c8be2893a795a6a-90a2d9610120cc20255b45d2c84224d0-1765229533-1765225933
-#EXTINF:-1 tvg-id="ext" tvg-name="Maasranga TV sunplex" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Maasranga_Television_Logo.jpg" group-title="NEWS",Maasranga TV sunplex
-https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Roarzone Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/90/Islamic_TV_New_Logo.png" group-title="NEWS",Roarzone Liv
-https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8
+
+
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Logo_of_Ananda_TV.svg.png" group-title="Akash Go",Ananda TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bijoy TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bijoy%20TV.png" group-title="Akash Go",Bijoy TV
