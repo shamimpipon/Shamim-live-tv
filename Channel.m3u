@@ -35,7 +35,7 @@ http://198.195.239.50:8095/StarSportsSelect2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="G SUPER" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/GEO%20Super.png" group-title="File",G SUPER
 http://premimum.online/live/jen12345/jen54321/705163.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="super sports sports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxVQtlxpsOhmf6VFH9X-v1-aRvLmeWfcqG-AIH3rYCuu7GwX9Yy3WjNNGs1SR0uqbuIDjpNd2E1nlHU9dbLCnp14kiv2EW1S9tq575z8joGvKu&s=10&ec=121630504" group-title="Sports",super sports sports
-http://premimum.online/live/jen12345/jen54321/158442.ts629852
+http://premimum.online/live/jen12345/jen54321/158442.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 1" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",BEIN SPORTS 
 http://27.124.71.27/beIN_Sports_1/tracks-v1a1/mono.ts.m3u8
