@@ -98,6 +98,7 @@
             <div class="nav-item active" id="nav-dashboard" onclick="showTab('dashboard')"><span class="nav-icon">🏠</span> Dashboard</div>
             <div class="nav-item" id="nav-clients" onclick="showTab('clients')"><span class="nav-icon">👥</span> Clients</div>
             <div class="nav-item" id="nav-license" onclick="showTab('license')"><span class="nav-icon">🔑</span> License Management</div>
+            <div class="nav-item" id="nav-requests" onclick="showTab('requests')"><span class="nav-icon">📩</span> Plan Requests</div>
             <div class="nav-item" onclick="showTab('dashboard')"><span class="nav-icon">🛍️</span> Subscriptions</div>
             <div class="nav-item" id="nav-channels" onclick="showTab('channels')"><span class="nav-icon">📺</span> Channels</div>
             <div class="nav-item" onclick="showTab('dashboard')"><span class="nav-icon">📹</span> Live Streams</div>
@@ -252,6 +253,17 @@
             </div>
         </div>
 
+        <!-- REQUESTS TAB -->
+        <div id="requests-tab" class="hidden">
+            <div class="content-card">
+                <h2>Pending Plan Requests</h2>
+                <table>
+                    <thead><tr><th>User UID</th><th>Requested Plan</th><th>Date</th><th>Action</th></tr></thead>
+                    <tbody id="requests-table"></tbody>
+                </table>
+            </div>
+        </div>
+
     </main>
 
     <script>
@@ -277,7 +289,7 @@
         }
 
         function showTab(id) {
-            ['dashboard', 'channels', 'clients', 'license'].forEach(t => {
+            ['dashboard', 'channels', 'clients', 'license', 'requests'].forEach(t => {
                 const tab = document.getElementById(t+'-tab');
                 if(tab) tab.classList.add('hidden');
             });
@@ -327,6 +339,40 @@
                 document.getElementById('license-table').innerHTML = html;
                 document.getElementById('st-keys').innerText = count;
             });
+
+            // Requests
+            db.ref('plan_requests').on('value', snap => {
+                let html = '';
+                snap.forEach(c => {
+                    const r = c.val();
+                    if(r.status === 'pending') {
+                        const date = new Date(r.timestamp).toLocaleString();
+                        html += `<tr><td>${r.uid}</td><td>${r.plan}</td><td>${date}</td><td><button class="btn-neon" onclick="approveRequest('${r.uid}', ${r.months})">APPROVE</button> <button class="btn-action" onclick="deleteRequest('${r.uid}')">🗑️</button></td></tr>`;
+                    }
+                });
+                document.getElementById('requests-table').innerHTML = html;
+            });
+        }
+
+        async function approveRequest(uid, months) {
+            if(!confirm("Approve this plan for " + months + " months?")) return;
+
+            const now = new Date();
+            now.setMonth(now.getMonth() + months);
+            const expiry = now.toISOString().split('T')[0];
+
+            await db.ref('users/' + uid).update({
+                status: 'Approved',
+                subscriptionType: 'Premium',
+                expiryDate: expiry
+            });
+
+            await db.ref('plan_requests/' + uid).remove();
+            alert("User Approved! Expiry: " + expiry);
+        }
+
+        function deleteRequest(uid) {
+            if(confirm("Delete Request?")) db.ref('plan_requests/' + uid).remove();
         }
 
         async function saveChannel() {
