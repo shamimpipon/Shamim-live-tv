@@ -69,6 +69,54 @@ http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/T%20Sports.png" group-title="IPTV",T sports
 http://172.31.235.10:8080/hls/34-tsportssd/index.m3u8
 
+#EXTINF:0 tvg-id="ext" group-title="Channels",PTV SPORTS SD
+http://119.156.228.231:9983/stream/channelid/679185749?ticket=3C8612266FE0F0F790FDAE3EF199F69EC0D66A66&profile=pass
+#EXTINF:0 tvg-id="TenSports.in" group-title="Channels",TEN Sports
+http://119.156.228.231:9983/stream/channelid/1969686851?ticket=E5393BA30A9C6F11022D983A70514D3CE6E55766&profile=pass
+#EXTINF:0 tvg-id="ext" group-title="Channels",A Sports HD
+http://119.156.228.231:9983/stream/channelid/1362911542?ticket=D071D8F88319300F2F74A348164E7AA971314C91&profile=pass
+#EXTINF:0 tvg-id="ext" group-title="Channels",FAST SPORTS HD
+http://119.156.228.231:9983/stream/channelid/631410132?ticket=8C15555597EF07AC61C9693690DBF20E69FDE693&profile=pass
+#EXTINF:0 tvg-id="ext" group-title="Channels",Geo Super
+http://119.156.228.231:9983/stream/channelid/1997093479?ticket=1DCAC1756E74A883D494F432F42C18123D891509&profile=pass
+#EXTINF:0 tvg-id="ext" group-title="Channels",Star Sports 1 Hindi HD
+http://119.156.228.231:9983/stream/channelid/997901928?ticket=CA7A853D680674963F8E172DC28B51E76A638C8C&profile=pass
+#EXTINF:0 tvg-id="StarSportsHD1.in" group-title="Channels",Star Sports 1 HD
+http://119.156.228.231:9983/stream/channelid/1954196473?ticket=184874384626BC41FE90C58A04C798A5D5228ECA&profile=pass
+#EXTINF:0 tvg-id="StarSportsHD2.in" group-title="Channels",Star Sports 2 HD
+http://119.156.228.231:9983/stream/channelid/499059519?ticket=68784F8BC8F97F7C35FC0111809259F4925B98E1&profile=pass
+#EXTINF:0 tvg-id="StarSportsSelectHD1.in" group-title="Channels",Star Sports Select 1 HD
+http://119.156.228.231:9983/stream/channelid/1134381186?ticket=4A9CE957240EE5105603C2E98444268501BB5D6F&profile=pass
+#EXTINF:0 tvg-id="StarSportsSelectHD2.in" group-title="Channels",Star Sports Select 2 HD
+http://119.156.228.231:9983/stream/channelid/926244412?ticket=DD80BC6AF573C993FFD8541B3A75F4DEF54D35AF&profile=pass
+#EXTINF:0 tvg-id="TenSports.in" group-title="Channels",SONY TEN 1
+http://119.156.228.231:9983/stream/channelid/784749914?ticket=C5044FC339C328DE01AC5DF1CAA5ED1F6CA5C3B3&profile=pass
+#EXTINF:0 tvg-id="TenAction.in" group-title="Channels",SONY TEN 2 HD
+http://119.156.228.231:9983/stream/channelid/1768523944?ticket=4B278C50CD9462E3B21B8C3F9080C001F4310623&profile=pass
+#EXTINF:0 tvg-id="TenCricket.in" group-title="Channels",SONY TEN 3
+http://119.156.228.231:9983/stream/channelid/990758354?ticket=DC211FEA0D02300D7317854F8776124DB2ACCA4D&profile=pass
+#EXTINF:0 tvg-id="ext" group-title="Channels",SONY TEN 5 HD
+http://119.156.228.231:9983/stream/channelid/1240519261?ticket=B5BB0AE7B9C11F3D757D38CA2444E4EAAE2F8D84&profile=pass
+#EXTINF:0 tvg-id="esp" group-title="Channels",EUROSPORT HD
+http://119.156.228.231:9983/stream/channelid/715726806?ticket=2F243EFA15C3449AFE61B93BF8DC902496835794&profile=pass
+#EXTINF:0 tvg-id="extreme-sports" group-title="Channels",EXTREME SPORTS
+http://119.156.228.231:9983/stream/channelid/1545107375?ticket=1EC0E682BB154AE706B08353B6899F738B1048AF&profile=pass
+#EXTINF:0 tvg-id="ext" group-title="Channels",KSA SPORT1 HD
+http://119.156.228.231:9983/stream/channelid/25845810?ticket=482559A4E3F617889505F8F1698CFE6E9349B17C&profile=pass
+#EXTINF:0 tvg-id="ext" group-title="Channels",KSA SPORT2 HD
+http://119.156.228.231:9983/stream/channelid/680782527?ticket=0124F0397BA3D380C72570849F81375885275987&profile=pass
+#EXTINF:0 tvg-id="ext" group-title="Channels",KSA SPORTS 3 HD
+http://119.156.228.231:9983/stream/channelid/214964811?ticket=392847853958696A9C38EE126EC3FDD4565C69D3&profile=pass
+#EXTINF:0 tvg-id="ext" group-title="Channels",M-Sports
+http://119.156.228.231:9983/stream/channelid/2055515316?ticket=FED279D2CBB0844D0C6905C443B67364C4E6B99B&profile=pass
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-jalsha-in.png" group-title="Indian Bangla",Star Jalsa
 http://premimum.online/live/jen12345/jen54321/23218.ts
 
