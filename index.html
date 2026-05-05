@@ -99,8 +99,10 @@
             <div class="nav-item" id="nav-clients" onclick="showTab('clients')"><span class="nav-icon">👥</span> Clients</div>
             <div class="nav-item" id="nav-license" onclick="showTab('license')"><span class="nav-icon">🔑</span> License Management</div>
             <div class="nav-item" id="nav-requests" onclick="showTab('requests')"><span class="nav-icon">📩</span> Plan Requests</div>
+            <div class="nav-item" id="nav-expired" onclick="showTab('expired')"><span class="nav-icon">⏳</span> Expired Users</div>
             <div class="nav-item" onclick="showTab('dashboard')"><span class="nav-icon">🛍️</span> Subscriptions</div>
             <div class="nav-item" id="nav-channels" onclick="showTab('channels')"><span class="nav-icon">📺</span> Channels</div>
+            <div class="nav-item" id="nav-notice" onclick="showTab('notice')"><span class="nav-icon">📢</span> Notice Board</div>
             <div class="nav-item" onclick="showTab('dashboard')"><span class="nav-icon">📹</span> Live Streams</div>
             <div class="nav-item" onclick="showTab('dashboard')"><span class="nav-icon">🔔</span> Notifications</div>
             <div class="nav-item" onclick="showTab('dashboard')"><span class="nav-icon">⚙️</span> App Settings</div>
@@ -196,7 +198,9 @@
         <div id="channels-tab" class="hidden">
             <div class="mid-row" style="grid-template-columns: 1fr 2fr;">
                 <div class="content-card">
-                    <h2 id="chan-form-title">Add New Channel</h2>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                        <h2 id="chan-form-title" style="margin:0;">Add New Channel</h2>
+                    </div>
                     <input type="hidden" id="edit-chan-id">
                     <img id="img-preview" src="">
                     <input type="file" id="chan-file" accept="image/*" style="display: none;" onchange="previewImage(this)">
@@ -253,6 +257,25 @@
             </div>
         </div>
 
+        <!-- NOTICE TAB -->
+        <div id="notice-tab" class="hidden">
+            <div class="content-card" style="max-width: 600px;">
+                <h2>📢 Notice Board Management</h2>
+                <div style="background: #080808; padding: 20px; border-radius: 15px; border: 1px solid #1A1A1A;">
+                    <label style="color: var(--text-gray); font-size: 13px;">Notice Message:</label>
+                    <textarea id="notice-text" rows="4" style="width: 100%; background: #000; border: 1px solid #222; color: white; padding: 12px; border-radius: 8px; margin-top: 10px; margin-bottom: 15px; font-family: inherit; resize: none;" placeholder="Enter notice for all users..."></textarea>
+
+                    <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 20px;">
+                        <label style="color: var(--text-gray); font-size: 13px;">Show Notice:</label>
+                        <input type="checkbox" id="notice-active" style="width: 20px; height: 20px; cursor: pointer;">
+                    </div>
+
+                    <button class="btn-neon" style="width: 100%; height: 45px; font-size: 14px;" onclick="updateNotice()">PUBLISH NOTICE</button>
+                    <p id="notice-status" style="color: var(--neon-green); font-size: 11px; margin-top: 10px; display: none;">Notice updated successfully!</p>
+                </div>
+            </div>
+        </div>
+
         <!-- REQUESTS TAB -->
         <div id="requests-tab" class="hidden">
             <div class="content-card">
@@ -260,6 +283,25 @@
                 <table>
                     <thead><tr><th>User UID</th><th>Requested Plan</th><th>Date</th><th>Action</th></tr></thead>
                     <tbody id="requests-table"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- EXPIRED TAB -->
+        <div id="expired-tab" class="hidden">
+            <div class="content-card">
+                <h2>Expired & Inactive Users</h2>
+                <div style="margin-bottom: 20px; padding: 15px; background: rgba(255, 193, 7, 0.05); border-radius: 10px; border: 1px solid rgba(255, 193, 7, 0.2);">
+                    <small style="color: #FFC107;">Select a renewal duration before clicking "RENEW":</small>
+                    <select id="renewal-months" style="margin-top: 10px; border-color: var(--neon-green);">
+                        <option value="1">1 Month Renewal</option>
+                        <option value="2">2 Months Renewal</option>
+                        <option value="6">6 Months Renewal</option>
+                    </select>
+                </div>
+                <table>
+                    <thead><tr><th>Name</th><th>Email</th><th>Last Expiry</th><th>Action</th></tr></thead>
+                    <tbody id="expired-user-table"></tbody>
                 </table>
             </div>
         </div>
@@ -289,7 +331,7 @@
         }
 
         function showTab(id) {
-            ['dashboard', 'channels', 'clients', 'license', 'requests'].forEach(t => {
+            ['dashboard', 'channels', 'clients', 'license', 'requests', 'expired', 'notice'].forEach(t => {
                 const tab = document.getElementById(t+'-tab');
                 if(tab) tab.classList.add('hidden');
             });
@@ -303,30 +345,106 @@
         }
 
         function initApp() {
+            // Load Current Notice
+            db.ref('app_settings/notice').on('value', snap => {
+                if(snap.exists()) {
+                    const n = snap.val();
+                    document.getElementById('notice-text').value = n.message || "";
+                    document.getElementById('notice-active').checked = n.active || false;
+                }
+            });
+
+            // Fetch External Channels from M3U Links
+            const externalUrls = [
+                "https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/main/Channel.m3u",
+                "https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u"
+            ];
+
+            let allExternalChannels = [];
+            const proxyUrl = "https://api.allorigins.win/raw?url="; // Fallback Proxy
+
+            async function fetchM3U(url, useProxy = false) {
+                try {
+                    const finalUrl = useProxy ? proxyUrl + encodeURIComponent(url) : url;
+                    console.log("Fetching: " + finalUrl);
+                    const response = await fetch(finalUrl);
+                    if (!response.ok) throw new Error("Network response was not ok: " + response.status);
+                    const text = await response.text();
+
+                    if (!text || text.trim().length === 0) throw new Error("Empty response from server");
+
+                    const lines = text.split('\n');
+                    let currentChan = null;
+                    let foundInThisFile = 0;
+
+                    for(let line of lines) {
+                        line = line.trim();
+                        if(line.startsWith('#EXTINF:')) {
+                            const nameMatch = line.match(/,(.*)$/);
+                            const logoMatch = line.match(/tvg-logo="([^"]*)"/) || line.match(/logo="([^"]*)"/);
+                            const catMatch = line.match(/group-title="([^"]*)"/);
+                            currentChan = {
+                                name: nameMatch ? nameMatch[1].trim() : "Unknown",
+                                logoUrl: logoMatch ? logoMatch[1] : "https://via.placeholder.com/100",
+                                category: catMatch ? catMatch[1] : "General",
+                                source: "GitHub/External"
+                            };
+                        } else if(line.startsWith('http') && currentChan) {
+                            currentChan.url = line;
+                            if(!allExternalChannels.some(e => e.url === currentChan.url)) {
+                                allExternalChannels.push(currentChan);
+                                foundInThisFile++;
+                            }
+                            currentChan = null;
+                        }
+                    }
+                    console.log(`Loaded ${foundInThisFile} channels from ${url}`);
+                } catch(e) {
+                    console.error("Failed to load: " + url, e);
+                    if (!useProxy) {
+                        console.log("Retrying with proxy...");
+                        return fetchM3U(url, true);
+                    }
+                }
+            }
+
+            // Load External first then combine with Firebase
+            Promise.all(externalUrls.map(u => fetchM3U(u))).then(() => {
+                renderCombinedChannels();
+                if (allExternalChannels.length === 0) {
+                    console.warn("No external channels loaded. Check console for CORS or Network errors.");
+                }
+            });
+
             // Users
             db.ref('users').on('value', snap => {
-                let html = '', t=0, a=0;
+                let html = '', expHtml = '', t=0, a=0;
                 snap.forEach(c => {
                     const u = c.val(); t++;
+                    const row = `<tr><td>${u.name||'User'}</td><td>${u.email}</td><td><span class="status-badge ${u.status==='Approved'?'bg-approved':'bg-pending'}">${u.status}</span></td><td>${u.expiryDate||'N/A'}</td><td><button class="btn-action" onclick="approve('${c.key}')">✅</button><button class="btn-action" onclick="delUser('${c.key}')">🗑️</button></td></tr>`;
+                    html += row;
+
                     if(u.status==='Approved') a++;
-                    html += `<tr><td>${u.name||'User'}</td><td>${u.email}</td><td><span class="status-badge ${u.status==='Approved'?'bg-approved':'bg-pending'}">${u.status}</span></td><td>${u.expiryDate||'N/A'}</td><td><button class="btn-action" onclick="approve('${c.key}')">✅</button><button class="btn-action" onclick="delUser('${c.key}')">🗑️</button></td></tr>`;
+                    else if(u.status === 'Expired' || u.status === 'Pending') {
+                        expHtml += `<tr><td>${u.name||'User'}</td><td>${u.email}</td><td>${u.expiryDate||'N/A'}</td><td><button class="btn-neon" onclick="renewUser('${c.key}')">RENEW NOW</button> <button class="btn-action" onclick="delUser('${c.key}')">🗑️</button></td></tr>`;
+                    }
                 });
                 document.getElementById('dash-user-table').innerHTML = html;
                 document.getElementById('full-user-table').innerHTML = html;
+                document.getElementById('expired-user-table').innerHTML = expHtml;
                 document.getElementById('st-total').innerText = t; document.getElementById('st-approved').innerText = a;
             });
 
-            // Channels
+            // Channels (Firebase)
             db.ref('channels').on('value', snap => {
-                let html = '', dashHtml = ''; let count = 0;
+                firebaseChannels = [];
                 snap.forEach(c => {
-                    const ch = c.val(); count++;
-                    html += `<tr><td><img src="${ch.logoUrl}" width="25"></td><td>${ch.name}</td><td>${ch.category}</td><td><button class="btn-action" onclick="editChan('${c.key}','${ch.name.replace(/'/g,"")}','${ch.category}','${ch.url}','${ch.logoUrl}')">✏️</button><button class="btn-action" onclick="delChan('${c.key}')">🗑️</button></td></tr>`;
-                    dashHtml += `<div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #111; font-size:12px;"><span>${ch.name}</span><span style="color:var(--neon-green)">${ch.category}</span></div>`;
+                    const ch = c.val();
+                    ch.key = c.key;
+                    ch.source = "Firebase";
+                    firebaseChannels.push(ch);
                 });
-                document.getElementById('full-chan-table').innerHTML = html;
-                document.getElementById('dash-chan-list').innerHTML = dashHtml;
-                document.getElementById('st-chans').innerText = count;
+                renderCombinedChannels();
             });
 
             // Licenses
@@ -375,6 +493,60 @@
             if(confirm("Delete Request?")) db.ref('plan_requests/' + uid).remove();
         }
 
+        async function renewUser(uid) {
+            const months = parseInt(document.getElementById('renewal-months').value);
+            if(!confirm("Renew this user for " + months + " months?")) return;
+
+            const now = new Date();
+            now.setMonth(now.getMonth() + months);
+            const expiry = now.toISOString().split('T')[0];
+
+            await db.ref('users/' + uid).update({
+                status: 'Approved',
+                subscriptionType: 'Premium',
+                expiryDate: expiry
+            });
+
+            alert("User Renewed Successfully! Expiry: " + expiry);
+        }
+
+        async function updateNotice() {
+            const message = document.getElementById('notice-text').value;
+            const active = document.getElementById('notice-active').checked;
+            const status = document.getElementById('notice-status');
+
+            await db.ref('app_settings/notice').set({
+                message: message,
+                active: active,
+                timestamp: Date.now()
+            });
+
+            status.style.display = 'block';
+            setTimeout(() => status.style.display = 'none', 3000);
+        }
+
+        let firebaseChannels = [];
+        let allExternalChannels = [];
+
+        function renderCombinedChannels() {
+            const fullList = [...firebaseChannels, ...allExternalChannels];
+            let html = '', dashHtml = '';
+
+            fullList.forEach(ch => {
+                const isFirebase = ch.source === "Firebase";
+                const actionBtn = isFirebase ?
+                    `<button class="btn-action" onclick="editChan('${ch.key}','${ch.name.replace(/'/g,"")}','${ch.category}','${ch.url}','${ch.logoUrl}')">✏️</button><button class="btn-action" onclick="delChan('${ch.key}')">🗑️</button>` :
+                    `<span title="GitHub channels can only be edited via GitHub" style="font-size:10px; color:#555;">External</span>`;
+
+                html += `<tr><td><img src="${ch.logoUrl}" width="25"></td><td>${ch.name}</td><td>${ch.category}</td><td>${actionBtn}</td></tr>`;
+                dashHtml += `<div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #111; font-size:12px;"><span>${ch.name} <small style="color:#444">${ch.source === 'Firebase' ? '' : '(GH)'}</small></span><span style="color:var(--neon-green)">${ch.category}</span></div>`;
+            });
+
+            document.getElementById('full-chan-table').innerHTML = html;
+            document.getElementById('dash-chan-list').innerHTML = dashHtml;
+            document.getElementById('st-chans').innerText = fullList.length;
+        }
+
         async function saveChannel() {
             const name = document.getElementById('chan-name').value;
             const url = document.getElementById('chan-url').value;
@@ -392,6 +564,38 @@
             const data = { name, category: document.getElementById('chan-cat').value, url, logoUrl: logoUrl || 'https://via.placeholder.com/100' };
             if(editId) await db.ref('channels/'+editId).update(data); else await db.ref('channels').push(data);
             alert("Success!"); resetChanForm();
+        }
+
+        async function importFromGithub() {
+            if(allExternalChannels.length === 0) {
+                alert("No channels found to sync! Please refresh the page and wait 5 seconds for GitHub links to load.");
+                return;
+            }
+
+            if(!confirm("This will copy " + allExternalChannels.length + " channels to your Database. Continue?")) return;
+            const status = document.getElementById('import-status');
+            status.style.display = 'block';
+            status.innerText = "Syncing " + allExternalChannels.length + " channels... Please wait.";
+
+            let count = 0;
+            for(let channel of allExternalChannels) {
+                // Check if already exists in Firebase to avoid duplicates (by URL)
+                const exists = firebaseChannels.some(fc => fc.url === channel.url);
+                if(!exists) {
+                    try {
+                        await db.ref('channels').push({
+                            name: channel.name,
+                            logoUrl: channel.logoUrl,
+                            category: channel.category,
+                            url: channel.url
+                        });
+                        count++;
+                    } catch (err) { console.error("Firebase push error:", err); }
+                }
+            }
+            status.innerText = "Successfully imported " + count + " new channels!";
+            setTimeout(() => status.style.display = 'none', 5000);
+            alert("Import Complete! " + count + " channels added to your database.");
         }
 
         function genKey(type) {
