@@ -21,13 +21,13 @@
             --text-gray: #888888;
         }
 
-        body { margin: 0; padding: 0; font-family: 'Inter', sans-serif; background-color: var(--bg-black); color: var(--text-white); display: flex; }
+        body { margin: 0; padding: 0; font-family: 'Inter', sans-serif; background-color: var(--bg-black); color: var(--text-white); display: flex; overflow-x: hidden; }
 
         /* Sidebar */
-        .sidebar { width: 250px; height: 100vh; background-color: var(--sidebar-bg); border-right: 1px solid #1A1A1A; position: fixed; display: flex; flex-direction: column; }
+        .sidebar { width: 250px; height: 100vh; background-color: var(--sidebar-bg); border-right: 1px solid #1A1A1A; position: fixed; display: flex; flex-direction: column; z-index: 100; }
         .brand { padding: 30px; font-size: 22px; font-weight: 800; text-transform: uppercase; }
         .brand span { color: var(--neon-green); }
-        .nav-menu { flex-grow: 1; }
+        .nav-menu { flex-grow: 1; overflow-y: auto; }
         .nav-item { padding: 12px 30px; display: flex; align-items: center; color: var(--text-gray); cursor: pointer; font-size: 14px; transition: 0.2s; }
         .nav-item:hover, .nav-item.active { color: var(--text-white); background: rgba(207, 255, 0, 0.05); }
         .nav-item.active { background-color: var(--neon-green); color: black !important; border-radius: 8px; margin: 0 15px 5px 15px; font-weight: 700; }
@@ -35,12 +35,12 @@
         .sidebar-footer { padding: 20px; margin: 15px; background: #000; border-radius: 15px; border: 1px solid #222; text-align: center; }
 
         /* Main Content */
-        .main { margin-left: 250px; padding: 25px; width: calc(100% - 250px); }
+        .main { margin-left: 250px; padding: 25px; width: calc(100% - 250px); min-height: 100vh; }
         .top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; }
         .admin-profile { display: flex; align-items: center; gap: 12px; }
         .admin-profile img { width: 38px; height: 38px; border-radius: 50%; border: 1.5px solid var(--neon-green); }
 
-        /* Dashboard Grid Layout */
+        /* Grid Layouts */
         .stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 25px; }
         .stat-card { background: var(--card-bg); padding: 20px; border-radius: 15px; border: 1px solid #1A1A1A; display: flex; align-items: center; gap: 15px; }
         .stat-icon { width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(207, 255, 0, 0.1); color: var(--neon-green); font-size: 20px; }
@@ -67,11 +67,9 @@
         .btn-neon { background: var(--neon-green); color: black; border: none; padding: 8px 15px; border-radius: 6px; font-weight: 700; cursor: pointer; font-size: 12px; }
         .btn-action { background: #1A1A1A; border: none; color: white; padding: 5px; border-radius: 4px; cursor: pointer; margin-right: 3px; }
 
-        /* Form Inputs */
         input, select { width: 100%; background: #000; border: 1px solid #222; padding: 10px; margin-bottom: 10px; color: white; border-radius: 6px; font-size: 13px; box-sizing: border-box; }
         .hidden { display: none !important; }
 
-        /* Quick Action Boxes */
         .qa-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
         .qa-btn { background: #000; border: 1px solid #1A1A1A; padding: 15px; border-radius: 10px; text-align: center; cursor: pointer; transition: 0.2s; font-size: 12px; }
         .qa-btn:hover { border-color: var(--neon-green); transform: translateY(-3px); }
@@ -79,7 +77,7 @@
 
         #login-overlay { position: fixed; top:0; left:0; width:100%; height:100%; background: var(--bg-black); display: flex; justify-content: center; align-items: center; z-index: 5000; }
         .login-box { background: var(--card-bg); padding: 40px; border-radius: 20px; width: 350px; text-align: center; border: 1px solid #1A1A1A; }
-        #img-preview { width: 100%; height: 100px; object-fit: contain; margin-bottom: 10px; background: #000; border-radius: 8px; display: none; }
+        #img-preview { width: 100%; height: 80px; object-fit: contain; margin-bottom: 10px; background: #000; border-radius: 8px; display: none; }
     </style>
 </head>
 <body>
@@ -90,6 +88,7 @@
             <input type="email" id="adm-email" placeholder="Email Address">
             <input type="password" id="adm-pass" placeholder="Password">
             <button class="btn-neon" style="width: 100%;" onclick="doLogin()">LOGIN NOW</button>
+            <p id="login-error" style="color:red; font-size:11px; margin-top:10px;"></p>
         </div>
     </div>
 
@@ -99,29 +98,29 @@
             <div class="nav-item active" id="nav-dashboard" onclick="showTab('dashboard')"><span class="nav-icon">🏠</span> Dashboard</div>
             <div class="nav-item" id="nav-clients" onclick="showTab('clients')"><span class="nav-icon">👥</span> Clients</div>
             <div class="nav-item" id="nav-license" onclick="showTab('license')"><span class="nav-icon">🔑</span> License Management</div>
-            <div class="nav-item"><span class="nav-icon">🛍️</span> Subscriptions</div>
+            <div class="nav-item" onclick="showTab('dashboard')"><span class="nav-icon">🛍️</span> Subscriptions</div>
             <div class="nav-item" id="nav-channels" onclick="showTab('channels')"><span class="nav-icon">📺</span> Channels</div>
-            <div class="nav-item"><span class="nav-icon">📹</span> Live Streams</div>
-            <div class="nav-item"><span class="nav-icon">🔔</span> Notifications</div>
-            <div class="nav-item"><span class="nav-icon">⚙️</span> App Settings</div>
+            <div class="nav-item" onclick="showTab('dashboard')"><span class="nav-icon">📹</span> Live Streams</div>
+            <div class="nav-item" onclick="showTab('dashboard')"><span class="nav-icon">🔔</span> Notifications</div>
+            <div class="nav-item" onclick="showTab('dashboard')"><span class="nav-icon">⚙️</span> App Settings</div>
         </nav>
         <div class="nav-item" style="color: #ff3d00; margin-bottom: 10px;" onclick="doLogout()"><span class="nav-icon">🚪</span> Logout</div>
         <div class="sidebar-footer">
-            <div style="color: var(--neon-green); font-size: 25px; margin-bottom: 5px;">📺</div>
             <div style="font-weight: 700; color: white; font-size: 13px;">Shamim Live TV Admin</div>
-            <div style="color: var(--neon-green); font-size: 11px;">Version 1.0.0</div>
+            <div style="color: var(--neon-green); font-size: 11px;">Version 1.2.0</div>
         </div>
     </aside>
 
     <main class="main">
         <header class="top-bar">
-            <div><h2 id="page-title" style="margin: 0; font-size: 20px;">Shamim Live TV Admin Panel</h2></div>
-            <div class="admin-profile">
+            <div><h2 id="page-title" style="margin: 0; font-size: 20px;">DASHBOARD</h2></div>
+            <div class="admin-profile" onclick="document.getElementById('admin-profile-upload').click()" style="cursor: pointer;">
                 <div style="text-align: right;">
                     <div style="font-size: 14px; font-weight: 700;">Shamimul Haque Samin</div>
-                    <small style="color: var(--neon-green);">Super Admin</small>
+                    <small style="color: var(--neon-green);">Super Admin (Live)</small>
                 </div>
-                <img src="https://via.placeholder.com/40" alt="Admin">
+                <img id="admin-profile-img" src="https://via.placeholder.com/38" style="width: 38px; height: 38px; border-radius: 50%; border: 1.5px solid var(--neon-green); object-fit: cover;">
+                <input type="file" id="admin-profile-upload" style="display: none;" accept="image/*" onchange="updateAdminProfile(this)">
             </div>
         </header>
 
@@ -134,35 +133,35 @@
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon">✅</div>
-                    <div class="stat-info"><h3>Approved Clients</h3><p id="st-approved">0</p></div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">🕒</div>
-                    <div class="stat-info"><h3>Expired Clients</h3><p id="st-expired">0</p></div>
+                    <div class="stat-info"><h3>Approved</h3><p id="st-approved">0</p></div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon">🔑</div>
-                    <div class="stat-info"><h3>Total Licenses</h3><p id="st-keys">0</p></div>
+                    <div class="stat-info"><h3>Licenses</h3><p id="st-keys">0</p></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📺</div>
+                    <div class="stat-info"><h3>Live Channels</h3><p id="st-chans">0</p></div>
                 </div>
             </section>
 
             <div class="mid-row">
                 <div class="content-card">
-                    <div class="card-header"><h2>Clients Management</h2><button class="btn-neon" onclick="showTab('clients')">View All</button></div>
+                    <div class="card-header"><h2>Registered Clients Management</h2><button class="btn-neon" onclick="showTab('clients')">View All</button></div>
                     <table>
-                        <thead><tr><th>Client Name</th><th>Email</th><th>Status</th><th>Action</th></tr></thead>
+                        <thead><tr><th>Name</th><th>Email</th><th>Status</th><th>Action</th></tr></thead>
                         <tbody id="dash-user-table"></tbody>
                     </table>
                 </div>
                 <div class="content-card">
-                    <div class="card-header"><h2>Generate New License</h2></div>
+                    <div class="card-header"><h2>Quick License</h2></div>
                     <div style="background: #080808; padding: 15px; border-radius: 10px;">
-                        <small style="color: var(--text-gray);">Select Duration:</small>
+                        <small>Duration:</small>
                         <div style="display:flex; gap:15px; margin: 10px 0;">
-                            <label><input type="radio" name="dur_dash" value="1" checked style="width:auto;"> 1 Month</label>
-                            <label><input type="radio" name="dur_dash" value="2" style="width:auto;"> 2 Months</label>
+                            <label><input type="radio" name="dur_dash" value="1" checked style="width:auto;"> 1 Mo</label>
+                            <label><input type="radio" name="dur_dash" value="2" style="width:auto;"> 2 Mo</label>
                         </div>
-                        <input type="text" id="gen-key-display-dash" readonly style="color: var(--neon-green); font-family: monospace; text-align: center;" placeholder="LIC-XXXX-XXXX">
+                        <input type="text" id="gen-key-display-dash" readonly style="color: var(--neon-green); text-align:center; font-family: monospace;" placeholder="SHAMIM-XXXXXX">
                         <button class="btn-neon" style="width: 100%; margin-top: 10px;" onclick="genKey('dash')">GENERATE KEY</button>
                     </div>
                 </div>
@@ -171,21 +170,21 @@
             <div class="bottom-row">
                 <div class="content-card">
                     <div class="card-header"><h2>Channel Overview</h2></div>
-                    <div id="dash-chan-list" style="max-height: 200px; overflow-y: auto;"></div>
+                    <div id="dash-chan-list" style="max-height: 150px; overflow-y: auto;"></div>
                 </div>
                 <div class="content-card">
                     <div class="card-header"><h2>Recent Activity</h2></div>
                     <div id="activity-list" style="font-size: 12px; color: var(--text-gray);">
-                        <p>✅ App initialized</p>
-                        <p>🔑 Ready to generate keys</p>
+                        <p>✅ Database Connected</p>
+                        <p>🚀 Systems Online</p>
                     </div>
                 </div>
                 <div class="content-card">
                     <div class="card-header"><h2>Quick Actions</h2></div>
                     <div class="qa-grid">
-                        <div class="qa-btn" onclick="showTab('clients')"><i>👤</i>Add Client</div>
-                        <div class="qa-btn" onclick="showTab('license')"><i>🔑</i>Gen License</div>
-                        <div class="qa-btn" onclick="showTab('channels')"><i>📺</i>Add Channel</div>
+                        <div class="qa-btn" onclick="showTab('clients')"><i>👤</i>Users</div>
+                        <div class="qa-btn" onclick="showTab('license')"><i>🔑</i>License</div>
+                        <div class="qa-btn" onclick="showTab('channels')"><i>📺</i>Channels</div>
                         <div class="qa-btn"><i>🔔</i>Notify</div>
                     </div>
                 </div>
@@ -209,7 +208,7 @@
                 </div>
                 <div class="content-card">
                     <h2>Live Channel List</h2>
-                    <table>
+                    <table style="display: block; max-height: 500px; overflow-y: auto;">
                         <thead><tr><th>Logo</th><th>Name</th><th>Category</th><th>Action</th></tr></thead>
                         <tbody id="full-chan-table"></tbody>
                     </table>
@@ -239,14 +238,14 @@
                             <label><input type="radio" name="dur" value="1" checked style="width:auto;"> 1 Month</label><br>
                             <label><input type="radio" name="dur" value="2" style="width:auto; margin-top:10px;"> 2 Months</label>
                         </div>
-                        <input type="text" id="gen-key-display" readonly style="text-align:center; font-weight:700; color:var(--neon-green);" placeholder="LIC-XXXX-XXXX">
+                        <input type="text" id="gen-key-display" readonly style="text-align:center; font-weight:700; color:var(--neon-green);" placeholder="SHAMIM-XXXXXX">
                         <button class="btn-neon" style="width:100%; margin-top: 15px;" onclick="genKey('full')">GENERATE LICENSE KEY</button>
                     </div>
                 </div>
                 <div class="content-card">
-                    <h2>Generated License Keys</h2>
+                    <h2>Generated License Keys List</h2>
                     <table style="display: block; max-height: 500px; overflow-y: auto;">
-                        <thead><tr><th>License Key</th><th>Duration</th><th>Status</th><th>Used By</th><th>Action</th></tr></thead>
+                        <thead><tr><th>Key</th><th>Duration</th><th>Status</th><th>Used By</th><th>Action</th></tr></thead>
                         <tbody id="license-table"></tbody>
                     </table>
                 </div>
@@ -272,54 +271,58 @@
         const storage = firebase.storage();
 
         function doLogin() {
-            const email = document.getElementById('adm-email').value;
-            const pass = document.getElementById('adm-pass').value;
-            auth.signInWithEmailAndPassword(email, pass)
+            auth.signInWithEmailAndPassword(document.getElementById('adm-email').value, document.getElementById('adm-pass').value)
                 .then(() => document.getElementById('login-overlay').classList.add('hidden'))
-                .catch(err => alert(err.message));
+                .catch(err => document.getElementById('login-error').innerText = err.message);
         }
 
         function showTab(id) {
-            ['dashboard', 'channels', 'clients', 'license'].forEach(t => document.getElementById(t+'-tab').classList.add('hidden'));
-            document.getElementById(id+'-tab').classList.remove('hidden');
+            ['dashboard', 'channels', 'clients', 'license'].forEach(t => {
+                const tab = document.getElementById(t+'-tab');
+                if(tab) tab.classList.add('hidden');
+            });
+            const activeTab = document.getElementById(id+'-tab');
+            if(activeTab) activeTab.classList.remove('hidden');
+
             document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-            document.getElementById('nav-'+id).classList.add('active');
-            document.getElementById('page-title').innerText = id.toUpperCase() + " MANAGEMENT";
+            const nav = document.getElementById('nav-'+id);
+            if(nav) nav.classList.add('active');
+            document.getElementById('page-title').innerText = id.toUpperCase();
         }
 
         function initApp() {
             // Users
             db.ref('users').on('value', snap => {
-                let html = '', t=0, a=0, e=0;
+                let html = '', t=0, a=0;
                 snap.forEach(c => {
                     const u = c.val(); t++;
-                    if(u.status==='Approved') a++; else if(u.status==='Expired') e++;
+                    if(u.status==='Approved') a++;
                     html += `<tr><td>${u.name||'User'}</td><td>${u.email}</td><td><span class="status-badge ${u.status==='Approved'?'bg-approved':'bg-pending'}">${u.status}</span></td><td>${u.expiryDate||'N/A'}</td><td><button class="btn-action" onclick="approve('${c.key}')">✅</button><button class="btn-action" onclick="delUser('${c.key}')">🗑️</button></td></tr>`;
                 });
                 document.getElementById('dash-user-table').innerHTML = html;
                 document.getElementById('full-user-table').innerHTML = html;
-                document.getElementById('st-total').innerText = t; document.getElementById('st-approved').innerText = a; document.getElementById('st-expired').innerText = e;
+                document.getElementById('st-total').innerText = t; document.getElementById('st-approved').innerText = a;
             });
 
             // Channels
             db.ref('channels').on('value', snap => {
-                let html = '', dashHtml = '';
+                let html = '', dashHtml = ''; let count = 0;
                 snap.forEach(c => {
-                    const ch = c.val();
-                    const row = `<tr><td><img src="${ch.logoUrl}" width="25"></td><td>${ch.name}</td><td>${ch.category}</td><td><button class="btn-action" onclick="editChan('${c.key}','${ch.name}','${ch.category}','${ch.url}','${ch.logoUrl}')">✏️</button><button class="btn-action" onclick="delChan('${c.key}')">🗑️</button></td></tr>`;
-                    html += row;
+                    const ch = c.val(); count++;
+                    html += `<tr><td><img src="${ch.logoUrl}" width="25"></td><td>${ch.name}</td><td>${ch.category}</td><td><button class="btn-action" onclick="editChan('${c.key}','${ch.name.replace(/'/g,"")}','${ch.category}','${ch.url}','${ch.logoUrl}')">✏️</button><button class="btn-action" onclick="delChan('${c.key}')">🗑️</button></td></tr>`;
                     dashHtml += `<div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #111; font-size:12px;"><span>${ch.name}</span><span style="color:var(--neon-green)">${ch.category}</span></div>`;
                 });
                 document.getElementById('full-chan-table').innerHTML = html;
                 document.getElementById('dash-chan-list').innerHTML = dashHtml;
+                document.getElementById('st-chans').innerText = count;
             });
 
             // Licenses
             db.ref('license_keys').on('value', snap => {
-                let html = '', count = 0;
+                let html = ''; let count = 0;
                 snap.forEach(c => {
                     const k = c.val(); count++;
-                    html += `<tr><td>${c.key}</td><td>${k.durationMonths} Mo</td><td><span class="status-badge ${k.status==='active'?'bg-approved':'bg-used'}">${k.status}</span></td><td>${k.usedBy||'Not Used'}</td><td><button class="btn-action" onclick="delKey('${c.key}')">🗑️</button></td></tr>`;
+                    html += `<tr><td>${c.key}</td><td>${k.durationMonths} Mo</td><td><span class="status-badge ${k.status==='active'?'bg-approved':'bg-used'}">${k.status}</span></td><td>${k.usedBy||'No'}</td><td><button class="btn-action" onclick="delKey('${c.key}')">🗑️</button></td></tr>`;
                 });
                 document.getElementById('license-table').innerHTML = html;
                 document.getElementById('st-keys').innerText = count;
@@ -358,7 +361,7 @@
             document.getElementById('chan-cat').value = c;
             document.getElementById('chan-url').value = u;
             document.getElementById('chan-logo-url').value = l;
-            document.getElementById('chan-form-title').innerText = "Edit Channel";
+            document.getElementById('chan-form-title').innerText = "Edit Mode";
             showTab('channels');
         }
 
@@ -377,6 +380,27 @@
         function delKey(id) { if(confirm("Delete?")) db.ref('license_keys/'+id).remove(); }
         function doLogout() { auth.signOut().then(()=>location.reload()); }
         function previewImage(i) { if(i.files[0]) { let r = new FileReader(); r.onload=e=> {document.getElementById('img-preview').src=e.target.result; document.getElementById('img-preview').style.display='block';}; r.readAsDataURL(i.files[0]); } }
+
+        // Admin Profile Memory System
+        function loadAdminProfile() {
+            const savedImg = localStorage.getItem('admin_profile_img');
+            if (savedImg) {
+                document.getElementById('admin-profile-img').src = savedImg;
+            }
+        }
+        function updateAdminProfile(input) {
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const base64 = e.target.result;
+                    document.getElementById('admin-profile-img').src = base64;
+                    localStorage.setItem('admin_profile_img', base64);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        loadAdminProfile(); // Initialize on load
+
         auth.onAuthStateChanged(u => { if(u) { document.getElementById('login-overlay').classList.add('hidden'); initApp(); } });
     </script>
 </body>
