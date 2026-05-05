@@ -38,7 +38,7 @@ http://premimum.online/live/jen12345/jen54321/705163.ts
 http://premimum.online/live/jen12345/jen54321/158442.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 1" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",BEIN SPORTS 
-http://27.124.71.27/beIN_Sports_1/tracks-v1a1/mono.ts.m3u8
+http://185.94.79.41/1768/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%202.jpeg" group-title="Sports",BEIN SPORTS 2
 http://27.124.71.27/beIN_Sports_2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%203.jpeg" group-title="Sports",BEIN SPORTS 3
