@@ -19,13 +19,13 @@ http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8
 http://starshare.net/live/Suryaaa/SURYAAAA/1080.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
-http://maxotts.maxdigitaltv.com/x-media/C65/master.m3u8
+http://premimum.online/live/jen12345/jen54321/154.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
-http://198.195.239.50:8095/SonyTenSports2/tracks-v1a1/mono.m3u8
+http://premimum.online/live/jen12345/jen54321/31314.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
-http://maxotts.maxdigitaltv.com/x-media/C73/master.m3u8
+http://premimum.online/live/jen12345/jen54321/146.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 5 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png" group-title="Sports",SONY SPORTS 5 HD
-http://maxotts.maxdigitaltv.com/x-media/C61/master.m3u8
+http://premimum.online/live/jen12345/jen54321/176.ts
 
 #EXTINF:-1 tvg-id="StarSportsSelectHD1.in" tvg-name="STAR SPORTS SELECT 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-1-hd-in.png" group-title="Sports",STAR SPORTS SELECT 1 HD
 http://198.195.239.50:8095/StarSportsSelect1/tracks-v1a1/mono.m3u8
@@ -130,7 +130,7 @@ http://27.124.71.27/Zee_Bangla_Cinema/tracks-v1a1/mono.ts.m3u8
 http://27.124.71.27/Sun_Bangla/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
-http://flussonic.deltainfonet.com/64_COLORS-BANGLA/index.m3u8
+http://starshare.net/live/Suryaaa/SURYAAAA/183.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Colours Bangla Chinema" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Colors%20Bangla%20Cinema.png" group-title="Indian Bangla",Colours Bangla Chinema
 http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
