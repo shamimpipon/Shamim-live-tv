@@ -7,7 +7,9 @@ http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/A%20Sports.png" group-title="Sports",A SPORTS
 http://198.195.239.50:8095/Eurosport/tracks-v1a1/mono.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
-http://198.195.239.50:8095/PTV-kutta/video.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
+http://premimum.online/live/jen12345/jen54321/89.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="Ten  Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Ten%20Sports%20PK.png" group-title="Sports",Ten  Sports
+http://premimum.online/live/jen12345/jen54321/89.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="Willow" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Willow%20TV.jpeg" group-title="Sports",Willow 
 http://premimum.online/live/jen12345/jen54321/215.ts
 
@@ -33,9 +35,9 @@ http://198.195.239.50:8095/StarSportsSelect1/tracks-v1a1/mono.m3u8
 http://198.195.239.50:8095/StarSportsSelect2/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="G SUPER" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/GEO%20Super.png" group-title="File",G SUPER
-http://premimum.online/live/jen12345/jen54321/705163.ts
+http://premimum.online/live/jen12345/jen54321/101.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="super sports sports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxVQtlxpsOhmf6VFH9X-v1-aRvLmeWfcqG-AIH3rYCuu7GwX9Yy3WjNNGs1SR0uqbuIDjpNd2E1nlHU9dbLCnp14kiv2EW1S9tq575z8joGvKu&s=10&ec=121630504" group-title="Sports",super sports sports
-http://premimum.online/live/jen12345/jen54321/158442.ts
+http://premimum.online/live/jen12345/jen54321/158441.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 1" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",BEIN SPORTS 
 http://premimum.online/live/jen12345/jen54321/652310.ts
@@ -56,7 +58,7 @@ http://27.124.71.27/TNT_Sports_4/tracks-v1a1/mono.ts.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SKY SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Sky_Sports_logo_2020.svg/1280px-Sky_Sports_logo_2020.svg.png" group-title="Sports",SKY SPORTS
-http://starshare.net/live/Suryaaa/SURYAAAA/158441.ts
+http://premimum.online/live/jen12345/jen54321/523.ts
 ##EXTINF:-1 tvg-id="ext" tvg-name="Astro  football" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Astro_Football_%282024%29.png" group-title="Sports",Astro  football
 http://172.17.50.112:84/ant1008/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1
