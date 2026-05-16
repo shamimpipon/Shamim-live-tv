@@ -43,7 +43,7 @@ http://premimum.online/live/jen12345/jen54321/158441.ts
 http://premimum.online/live/jen12345/jen54321/652310.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%202.jpeg" group-title="Sports",BEIN SPORTS 2
 http://premimum.online/live/jen12345/jen54321/652311.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%203.jpeg" group-title="Sports",BEIN SPORTS 3
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 3" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%203.jpeg" group-title="Sports",BEIN SPORTS 3
 http://premimum.online/live/jen12345/jen54321/652312.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 1" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports_1.png" group-title="Sports",TNT SPORTS 1
@@ -52,9 +52,6 @@ http://premimum.online/live/jen12345/jen54321/186627.ts
 http://premimum.online/live/jen12345/jen54321/285.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 3" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports%20_3.png" group-title="Sports",TNT SPORTS 3
 http://premimum.online/live/jen12345/jen54321/148090.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 4" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports%20_4.png" group-title="Sports",TNT SPORTS 4
-http://27.124.71.27/TNT_Sports_4/tracks-v1a1/mono.ts.m3u8
-
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SKY SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Sky_Sports_logo_2020.svg/1280px-Sky_Sports_logo_2020.svg.png" group-title="Sports",SKY SPORTS
