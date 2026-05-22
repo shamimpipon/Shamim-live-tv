@@ -252,62 +252,63 @@ http://alvetv.com/mbtv/8080/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MY TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/My%20TV.svg.png" group-title="IPTV",MY TV
 https://mytvbangla.com/0.m3u8
 
-##EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="[https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png](https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png)" group-title="BD NEWS",BTV
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",BTV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sangsad TV " tvg-logo="[https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/sangsad-television-bd.png](https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/sangsad-television-bd.png)" group-title="BD NEWS",Sangsad
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sangsad TV" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/sangsad-television-bd.png" group-title="BD NEWS",Sangsad
+https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="Somay News" tvg-logo="[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s)" group-title="BD NEWS",Somay
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8)
+#EXTINF:-1 tvg-id="ext" tvg-name="Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",Somay
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="Jamuna Tv" tvg-logo="[https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Jamuna%20TV.jpeg](https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Jamuna%20TV.jpeg)" group-title="BD NEWS",Jamuna Tv
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/1701-audio_113312_eng=113200-video=1692000.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/1701-audio_113312_eng=113200-video=1692000.m3u8)
+#EXTINF:-1 tvg-id="ext" tvg-name="Jamuna Tv" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Jamuna%20TV.jpeg" group-title="BD NEWS",Jamuna Tv
+https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/1701-audio_113312_eng=113200-video=1692000.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="Channel 24 " tvg-logo="[https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/channel-24-bd.png](https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/channel-24-bd.png)" group-title="BD NEWS", Channel 24
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8)
+#EXTINF:-1 tvg-id="ext" tvg-name="Channel 24" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/channel-24-bd.png" group-title="BD NEWS",Channel 24
+https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="EKTTOR tv" tvg-logo="[https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/82/Ekattor_TV_HD_2012.png/revision/latest?cb=20231121094023](https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/82/Ekattor_TV_HD_2012.png/revision/latest?cb=20231121094023)" group-title="BD NEWS",EKTTOR tv
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8)
+#EXTINF:-1 tvg-id="ext" tvg-name="EKTTOR tv" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/82/Ekattor_TV_HD_2012.png/revision/latest?cb=20231121094023" group-title="BD NEWS",EKTTOR tv
+https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="INDEPENDENT TV" tvg-logo="[https://cdn.itvbd.net/contents/themes/public/style/images/logo.png](https://cdn.itvbd.net/contents/themes/public/style/images/logo.png)" group-title="BD NEWS",INDEPENDENT TV
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="INDEPENDENT TV" tvg-logo="https://cdn.itvbd.net/contents/themes/public/style/images/logo.png" group-title="BD NEWS",INDEPENDENT TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN NEWS" tvg-logo="[https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/4d/ATN_News_HD.png/revision/latest/scale-to-width-down/1000?cb=202408062256](https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/4d/ATN_News_HD.png/revision/latest/scale-to-width-down/1000?cb=202408062256)" group-title="BD NEWS",ATN NEWS
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN NEWS" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/4d/ATN_News_HD.png/revision/latest/scale-to-width-down/1000?cb=202408062256" group-title="BD NEWS",ATN NEWS
+https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Banglavison" tvg-logo="[https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Banglavision.png](https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Banglavision.png)" group-title="BD NEWS",Banglavison
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Banglavison" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Banglavision.png" group-title="BD NEWS",Banglavison
+https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Maasranga TV " tvg-logo="[https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/maasranga-hd-bd.png](https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/maasranga-hd-bd.png)" group-title="BD NEWS",Maasranga
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Maasranga TV" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/maasranga-hd-bd.png" group-title="BD NEWS",Maasranga
+https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Deepto Tv" tvg-logo="[https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Deepto%20TV.jpeg](https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Deepto%20TV.jpeg)" group-title="BD NEWS",Deepto Tv
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Deepto Tv" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Deepto%20TV.jpeg" group-title="BD NEWS",Deepto Tv
+https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN Bangla" tvg-logo="[https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/ATN%20Bangla.png](https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/ATN%20Bangla.png)" group-title="BD NEWS",ATN Bangla
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/ATN%20Bangla.png" group-title="BD NEWS",ATN Bangla
+https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel i" tvg-logo="[https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Channel%20I.png](https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Channel%20I.png)" group-title="BD NEWS",Channel i
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel i" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Channel%20I.png" group-title="BD NEWS",Channel i
+https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NTV" tvg-logo="[https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/NTV.png](https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/NTV.png)" group-title="BD NEWS",NTV
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/NTV.png" group-title="BD NEWS",NTV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="News 24" tvg-logo="[https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/News%2024.png](https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/News%2024.png)" group-title="BD NEWS",News 24
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="News 24" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/News%2024.png" group-title="BD NEWS",News 24
+https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="SA TV" tvg-logo="[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHuUgo3GDDj8V6ikZ40K1oT5tzf859xNJBtfszJGoqj-Daadk0vExt_TY&s=10](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHuUgo3GDDj8V6ikZ40K1oT5tzf859xNJBtfszJGoqj-Daadk0vExt_TY&s=10)" group-title="BD NEWS",SA TV
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="SA TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHuUgo3GDDj8V6ikZ40K1oT5tzf859xNJBtfszJGoqj-Daadk0vExt_TY&s=10" group-title="BD NEWS",SA TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Star News" tvg-logo="[https://static.wikia.nocookie.net/logopedia/images/b/ba/Star_News_Bangladesh_Old_Logo_Horizontal.svg/revision/latest/scale-to-width-down/340?cb=20260202200847](https://static.wikia.nocookie.net/logopedia/images/b/ba/Star_News_Bangladesh_Old_Logo_Horizontal.svg/revision/latest/scale-to-width-down/340?cb=20260202200847)" group-title="BD NEWS",Star News
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Star News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/ba/Star_News_Bangladesh_Old_Logo_Horizontal.svg/revision/latest/scale-to-width-down/340?cb=20260202200847" group-title="BD NEWS",Star News
+https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="DBC News" tvg-logo="[https://tvassets.roarzone.net/images/7.png](https://tvassets.roarzone.net/images/7.png)" group-title="BD NEWS",DBC News
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="DBC News" tvg-logo="https://tvassets.roarzone.net/images/7.png" group-title="BD NEWS",DBC News
+https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel 9" tvg-logo="[https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/500px-Channel9_bd.svg.png](https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/500px-Channel9_bd.svg.png)" group-title="BD NEWS",Channel 9
-[https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8](https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel 9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/500px-Channel9_bd.svg.png" group-title="BD NEWS",Channel 9
+https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="SRKTV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1746005940155.png" group-title="BD NEWS",SRKTV
 https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 
