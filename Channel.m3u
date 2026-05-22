@@ -190,7 +190,6 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/1701-audio_113312_eng=113200-video=1692000.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Channel 24 " tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/channel-24-bd.png" group-title="BD NEWS", Channel 24
 https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8
-
 #EXTINF:-1 tvg-id="ext" tvg-name="EKTTOR tv" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/82/Ekattor_TV_HD_2012.png/revision/latest?cb=20231121094023" group-title="BD NEWS",EKTTOR tv
 https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="INDEPENDENT TV" tvg-logo="https://cdn.itvbd.net/contents/themes/public/style/images/logo.png" group-title="BD NEWS",INDEPENDENT TV
@@ -223,5 +222,13 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Sangeet Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sangeet-bangla-in.png" group-title="Music",Sangeet Bangla
 http://172.31.235.10:8080/hls/60-sangeetbangla/index.m3u8
 
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Axn" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/AXN.png" group-title="Hindi Movie",Axn
 http://172.31.235.10:8080/hls/54-axn/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="ZEE CINEMA" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Cinema.png" group-title="Hindi Movie",ZEE CINEMA
+http://103.99.249.139/zeecinema/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Zee Action" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Action.png" group-title="Hindi Movie",Zee Action
+http://103.175.73.12:8080/live/270/270_0.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Gold" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Gold.png" group-title="Hindi Movie",Star Gold
+http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8
+
