@@ -159,7 +159,7 @@ http://172.31.235.10:8080/hls/31-duronto/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SRKTV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1746005940155.png" group-title="BD NEWS",SRKTV
 https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 
-EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Logo_of_Ananda_TV.svg.png" group-title="IPTV",Ananda TV
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Logo_of_Ananda_TV.svg.png" group-title="IPTV",Ananda TV
 https://tvsen6.aynaott.com/anandatv/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MY TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/My%20TV.svg.png" group-title="BD NEWS",MY TV
 http://172.31.235.10:8080/hls/13-mytv/index.m3u8
