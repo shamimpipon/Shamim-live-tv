@@ -199,8 +199,85 @@ http://alvetv.com/moviebanglatv/8080/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Sangeet Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sangeet-bangla-in.png" group-title="Music",Sangeet Bangla
 http://172.31.235.10:8080/hls/60-sangeetbangla/index.m3u8
+#EXTM3U
 
+#EXTINF:-1 tvg-id="ext" tvg-name="Asian TV" tvg-logo="https://s3.aynaott.com/storage/5282cec3a2e9349b750540d658cf1b6c" group-title="Bangla",Asian TV
+https://tvsen6.aynaott.com/asiantv/index.m3u8
 
+#EXTINF:-1 tvg-id="ext" tvg-name="Bangla TV" tvg-logo="https://s3.aynaott.com/storage/e42ecfa90e3d6b15bdb7fea5ef673864" group-title="Bangla",Bangla TV
+https://tvsen6.aynaott.com/banglatv/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Mohona TV" tvg-logo="https://s3.aynaott.com/storage/73082846fdc15d9f0e7268b104c55d92" group-title="Bangla",Mohona TV
+https://tvsen6.aynaott.com/mohonatv/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4" group-title="Sports",T Sports HD
+https://tvsen7.aynaott.com/tsports-hd/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="PTV Sports" tvg-logo="https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014" group-title="Sports",PTV Sports
+https://tvsen5.aynaott.com/PtvSports/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Khushboo" tvg-logo="https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44" group-title="Music",Khushboo
+https://cdn-4.pishow.tv/live/1473/master.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="9X Tashan" tvg-logo="https://s3.aynaott.com/storage/5d052254516639955d06182690d3fda2" group-title="Music",9X Tashan
+https://tvsen6.aynaott.com/9X_Tashan/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Music India" tvg-logo="https://s3.aynaott.com/storage/20c3a2638df99ece9eb12aabfc03a8c3" group-title="Music",Music India
+https://cdn-2.pishow.tv/live/226/master.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Shemaroo TV" tvg-logo="https://s3.aynaott.com/storage/c63628e7301ba1eded68c0f75ab8d903" group-title="Entertainment",Shemaroo TV
+https://cdn-3.pishow.tv/live/230/master.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Goldmines Bollywood" tvg-logo="https://s3.aynaott.com/storage/e92e9e2fb70909f3dd30a8d89e644119" group-title="Movies",Goldmines Bollywood
+https://tvsen6.aynaott.com/GoldminesBollywood/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Nat Geo TV" tvg-logo="https://s3.aynaott.com/storage/2dce8297266bbc9c235c27119f914e1b" group-title="Documentary",Nat Geo TV
+https://tvsen6.aynaott.com/natgeo/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Disney JR" tvg-logo="https://s3.aynaott.com/storage/31a070024b6516e3738baec70168f0b6" group-title="Kids",Disney JR
+https://tvsen7.aynaott.com/disneyjr/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Nicktoons" tvg-logo="https://s3.aynaott.com/storage/a130687320f6b07db4bc3729b9d5e96e" group-title="Kids",Nicktoons
+https://tvsen5.aynaott.com/nicktoons/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Nickjr" tvg-logo="https://s3.aynaott.com/storage/921409bfe77e2e3d32492116bc22fa3e" group-title="Kids",Nickjr
+https://tvsen5.aynaott.com/nickjr/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Thikana" tvg-logo="https://s3.aynaott.com/storage/6d1aaa03b84a69992940873fc11af8fc" group-title="Bangla",Thikana
+https://5dd3981940faa.streamlock.net/thikanatv/thikanatv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="EUROSPORT HD" tvg-logo="https://tvassets.roarzone.net/images/euro_sports_hd.png" group-title="Sports",EUROSPORT HD
+https://edge2.roarzone.net:8447/roarzone/edge3/euro_sports_hd/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY MAX" tvg-logo="https://tvassets.roarzone.net/images/sonymax.png" group-title="Movies",SONY MAX
+https://edge2.roarzone.net:8447/roarzone/edge3/sony_max/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY MAX HD" tvg-logo="https://tvassets.roarzone.net/images/sonymaxhd.png" group-title="Movies",SONY MAX HD
+https://edge2.roarzone.net:8447/roarzone/edge3/sony_max_hd/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY MAX 2" tvg-logo="https://tvassets.roarzone.net/images/sonymax2.png" group-title="Movies",SONY MAX 2
+https://edge2.roarzone.net:8447/roarzone/edge3/sonymax_2/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY PIX HD" tvg-logo="https://tvassets.roarzone.net/images/sonypix_hd.png" group-title="Movies",SONY PIX HD
+https://edge2.roarzone.net:8447/roarzone/edge3/sonypix_hd/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="B4U MOVIES APAC" tvg-logo="https://tvassets.roarzone.net/images/b4u_movies.png" group-title="Movies",B4U MOVIES APAC
+https://edge2.roarzone.net:8447/roarzone/edge3/b4u_movies/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="ZEE CINEMA HD" tvg-logo="https://tvassets.roarzone.net/images/zee_cinema_hd.png" group-title="Movies",ZEE CINEMA HD
+https://edge2.roarzone.net:8447/roarzone/edge3/zee_cinema_hd/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="& PICTURES HD" tvg-logo="https://tvassets.roarzone.net/images/andpicture_hd.png" group-title="Movies",& PICTURES HD
+https://edge2.roarzone.net:8447/roarzone/edge3/andpicture_hd/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE MOVIES" tvg-logo="https://tvassets.roarzone.net/images/toffee_movie.png" group-title="Movies",TOFFEE MOVIES
+https://edge2.roarzone.net:8447/roarzone/edge3/toffee_movie/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="GOLDMINES BOLLYWOOD" tvg-logo="https://tvassets.roarzone.net/images/goldmines-bollywood.png" group-title="Movies",GOLDMINES BOLLYWOOD
+https://edge2.roarzone.net:8447/roarzone/edge5/goldmines-bollywood/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="9X TASHAN" tvg-logo="https://tvassets.roarzone.net/images/9x-tashan.png" group-title="Music",9X TASHAN
+https://edge2.roarzone.net:8447/roarzone/edge5/9x-tashan/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Axn" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/AXN.png" group-title="Hindi Movie",Axn
 http://172.31.235.10:8080/hls/54-axn/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="ZEE CINEMA" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Cinema.png" group-title="Hindi Movie",ZEE CINEMA
