@@ -13,7 +13,7 @@ http://119.156.228.231:9983/stream/channelid/679185749?ticket=DED82FB8AE85893524
 #EXTINF:-1 tvg-id="ext" tvg-name="Ten SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Ten%20Sports.jpeg" group-title="Sports",Ten SPORTS
 https://edge2.roarzone.net:8447/roarzone/edge3/ten_cricket/index.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="EUROSPORT HD" tvg-logo="https://tvassets.roarzone.net/images/euro_sports_hd.png" group-title="",EUROSPORT HD
+#EXTINF:-1 tvg-id="ext" tvg-name="EUROSPORT HD" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="",EUROSPORT HD
 https://edge2.roarzone.net:8447/roarzone/edge3/euro_sports_hd/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Willow Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Willow.jpg" group-title="Sports",Willow Sports
@@ -253,7 +253,7 @@ https://5dd3981940faa.streamlock.net/thikanatv/thikanatv/playlist.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="EUROSPORT HD" tvg-logo="https://tvassets.roarzone.net/images/euro_sports_hd.png" group-title="Sports",EUROSPORT HD
 https://edge2.roarzone.net:8447/roarzone/edge3/euro_sports_hd/index.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY MAX" tvg-logo="https://tvassets.roarzone.net/images/sonymax.png" group-title="Movies",SONY MAX
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY MAX" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="Movies",SONY MAX
 https://edge2.roarzone.net:8447/roarzone/edge3/sony_max/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY MAX HD" tvg-logo="https://tvassets.roarzone.net/images/sonymaxhd.png" group-title="Movies",SONY MAX HD
