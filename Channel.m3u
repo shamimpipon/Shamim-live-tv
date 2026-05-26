@@ -12,7 +12,7 @@ http://198.195.239.50:8095/Eurosport/tracks-v1a1/mono.m3u8?token=8291e6bc6d2a293
 http://119.156.228.231:9983/stream/channelid/679185749?ticket=DED82FB8AE85893524A1035AAE7CD187020FFA04&profile=pass
 #EXTINF:-1 tvg-id="ext" tvg-name="Ten SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Ten%20Sports.jpeg" group-title="Sports",Ten SPORTS
 https://edge2.roarzone.net:8447/roarzone/edge3/ten_sports/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Ten Cricket" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Ten-Cricket.png" group-title="Sports",Ten Cricket
+#EXTINF:-1 tvg-id="ext" tvg-name="Ten Cricket" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Ten%20Cricket.png" group-title="Sports",Ten Cricket
 https://edge2.roarzone.net:8447/roarzone/edge3/ten_cricket/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="EUROSPORT HD" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="",EUROSPORT HD
