@@ -6,13 +6,15 @@ http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T SPORTS
 http://27.124.71.27/T-Sports/index.m3u8
 
-
 #EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/A%20Sports.png" group-title="Sports",A SPORTS
 http://198.195.239.50:8095/Eurosport/tracks-v1a1/mono.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
 http://119.156.228.231:9983/stream/channelid/679185749?ticket=DED82FB8AE85893524A1035AAE7CD187020FFA04&profile=pass
 #EXTINF:-1 tvg-id="ext" tvg-name="Ten SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Ten%20Sports.jpeg" group-title="Sports",Ten SPORTS
-http://151.80.18.177:86/Eurosport_HD/index.m3u8
+https://edge2.roarzone.net:8447/roarzone/edge3/ten_cricket/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="EUROSPORT HD" tvg-logo="https://tvassets.roarzone.net/images/euro_sports_hd.png" group-title="",EUROSPORT HD
+https://edge2.roarzone.net:8447/roarzone/edge3/euro_sports_hd/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Willow Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Willow.jpg" group-title="Sports",Willow Sports
 http://27.124.71.27/Willow_Extra/index.m3u8
