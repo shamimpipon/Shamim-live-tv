@@ -93,7 +93,7 @@ https://tvsen6.aynaott.com/ZeeBangla/index.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="জলসা Movie HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/jalsha-movies-hd-in.png" group-title="Indian Bangla",জলসা Movie HD
-http://premiumtvs.space:8080/live/6388578743/4853784376/23304.ts
+http://198.195.239.50:8095/JalshaMovies/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
 http://27.124.71.27/Zee_Bangla_Cinema/tracks-v1a1/mono.ts.m3u8
