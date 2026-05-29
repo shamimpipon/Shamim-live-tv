@@ -34,7 +34,7 @@ http://212.102.34.8:9080/AndFlixHD/video.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
 https://edge2.roarzone.net:8447/roarzone/edge3/sony_sports_1_hd/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
-http://198.195.239.50:8095/SonyTenSports2/tracks-v1a1/mono.m3u8
+https://edge2.roarzone.net:8447/roarzone/edge3/sony_sports_2_hd/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
 http://premimum.online/live/jen12345/jen54321/146.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 5 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png" group-title="Sports",SONY SPORTS 5 HD
@@ -93,10 +93,10 @@ https://tvsen6.aynaott.com/ZeeBangla/index.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="জলসা Movie HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/jalsha-movies-hd-in.png" group-title="Indian Bangla",জলসা Movie HD
-http://198.195.239.50:8095/JalshaMovies/index.m3u8
+http://premiumtvs.space:8080/live/6388578743/4853784376/23304.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
-http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
+http://27.124.71.27/Zee_Bangla_Cinema/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Sun Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sun-bangla-hd-in.png" group-title="Indian Bangla",Sun Bangla
 http://27.124.71.27/Sun_Bangla/index.m3u8
@@ -105,10 +105,10 @@ http://27.124.71.27/Sun_Bangla/index.m3u8
 https://tvsen6.aynaott.com/ColorsBangla/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Colours Bangla Chinema" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png" group-title="Indian Bangla",Colours Bangla Chinema
-http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
+http://premiumtvs.space:8080/live/6388578743/4853784376/271038.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-aath-in.png" group-title="Indian Bangla",Sony Aath
-http://198.195.239.50:8095/SonyAath/index.m3u8
+https://edge2.roarzone.net:8447/roarzone/edge3/sonyaath/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="আকাশ ৮" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Akash%20Aath.png" group-title="Indian Bangla",আকাশ ৮
 https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/chunks.m3u8
