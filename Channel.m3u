@@ -1,4 +1,4 @@
-#EXTM3U
+p#EXTM3U
 #EXTINF:-1 tvg-id="ext" tvg-name="116. Cricbuzz" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/600_144.png" group-title="",116. Cricbuzz
 http://4kgood.org:80/live/4o48up5evz/r4fiast66u/1163988.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T SPORTS
@@ -61,7 +61,7 @@ http://27.124.71.27/TNT_Sports_1/index.m3u8
 http://27.124.71.27/TNT_Sports_2/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 3" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports%20_3.png" group-title="Sports",TNT SPORTS 3
 http://27.124.71.27/TNT_Sports_3/index.m3u8
-
+https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
 
 
 
