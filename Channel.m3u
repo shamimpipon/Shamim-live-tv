@@ -1,11 +1,27 @@
 p#EXTM3U
-#EXTINF:-1 tvg-id="ext" tvg-name="116. Cricbuzz" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/600_144.png" group-title="",116. Cricbuzz
-http://4kgood.org:80/live/4o48up5evz/r4fiast66u/1163988.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T SPORTS
-http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8
+EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://i.ibb.co.com/mrvT7b6G/T-Sports-HD.png" group-title="",T Sports HD
+http://27.124.71.27/T-Sports/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T SPORTS
 http://27.124.71.27/T-Sports/index.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/T%20Sports.png" group-title="IPTV",T sports
+http://172.31.235.10:8080/hls/34-tsportssd/index.m3u8
 
+#EXTINF:-1 tvg-id="ext" tvg-name="FIFA Plus English" tvg-logo="https://i.ibb.co.com/vnbkF0r/fifa-world-cup-2026-logo-png-seeklogo-665644.png" group-title="",FIFA Plus English
+https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="FIFA Plus B" tvg-logo="https://i.ibb.co.com/vnbkF0r/fifa-world-cup-2026-logo-png-seeklogo-665644.png" group-title="",FIFA Plus B
+https://37b4c228.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/6f5437c5-e015-4754-8476-c8c6d27d3a55/1.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Bein Sports 3 - France (FIFA)" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Bein%20Sports%203.jpeg" group-title="",Bein Sports 3 - France (FIFA)
+http://145.239.5.177/559/mpegts
+#EXTINF:-1 tvg-id="ext" tvg-name="Bein Sports 3 B- France (FIFA)" tvg-logo="https://imglink.cc/cdn/kIiut6WBq0.jpg" group-title="",Bein Sports 3 B- France (FIFA)
+http://145.239.5.177:80/559/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Tyc Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Bein%20Sports%203.jpeg" group-title="",Tyc Sports
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Bein Sports 2" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Bein%20Sports%202.jpeg" group-title="",Bein Sports 2
+https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="116. Cricbuzz" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/600_144.png" group-title="",116. Cricbuzz
+http://4kgood.org:80/live/4o48up5evz/r4fiast66u/1163988.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/A%20Sports.png" group-title="Sports",A SPORTS
 http://198.195.239.50:8095/Eurosport/tracks-v1a1/mono.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
@@ -15,21 +31,25 @@ http://maxotts.maxdigitaltv.com/x-media/C61/master.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Ten Cricket" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Ten%20Cricket.png" group-title="Sports",Ten Cricket
 https://edge2.roarzone.net:8447/roarzone/edge3/ten_cricket/index.m3u8
 
+#EXTINF:-1 tvg-id="ext" tvg-name="Euro TV" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="",Euro TV
+https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="EUROSPORT HD" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="",EUROSPORT HD
 https://edge2.roarzone.net:8447/roarzone/edge3/euro_sports_hd/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Willow Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Willow.jpg" group-title="Sports",Willow Sports
 http://27.124.71.27/Willow_Extra/index.m3u8
-
 #EXTINF:-1 tvg-id="ext" tvg-name="Willow" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Willow%20TV.jpeg" group-title="Sports",Willow 
 https://tvsen5.aynaott.com/willowhd/index.m3u8
 
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 JADOO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 JADOO
+http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-1-hd-in.png" group-title="Sports",STAR SPORTS 1
 http://198.195.239.50:8095/SonyTenSports5/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-2-hd-in.png" group-title="Sports",STAR SPORTS 2
 http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 3" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-3-hd-in.png" group-title="Sports",STAR SPORTS 3
 http://212.102.34.8:9080/AndFlixHD/video.m3u8
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
 https://edge2.roarzone.net:8447/roarzone/edge3/sony_sports_1_hd/index.m3u8
@@ -60,19 +80,15 @@ http://27.124.71.27/TNT_Sports_1/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 2" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports%20_2.png" group-title="Sports",TNT SPORTS 2
 http://27.124.71.27/TNT_Sports_2/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 3" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports%20_3.png" group-title="Sports",TNT SPORTS 3
-http://27.124.71.27/TNT_Sports_3/index.m3u8
-@ https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
+https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
 
 
+#EXTINF:-1 tvg-id="ext" tvg-name="SS Cricket" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Sky%20Sports%20Cricket.png" group-title="",SS Cricket
+https://atc.hopto.org/sly-sprts-cricket-hd-sport/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="SKY SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Sky_Sports_logo_2020.svg/1280px-Sky_Sports_logo_2020.svg.png" group-title="Sports",SKY SPORTS
-http://premimum.online/live/jen12345/jen54321/523.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="Astro football" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Astro_Football_%282024%29.png" group-title="Sports",Astro  football
 http://172.17.50.112:84/ant1008/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 JADOO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 JADOO
-http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/T%20Sports.png" group-title="IPTV",T sports
-http://172.31.235.10:8080/hls/34-tsportssd/index.m3u8
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
 https://tvsen5.aynaott.com/gUX8BJmNc2yF/index.m3u8
@@ -293,5 +309,28 @@ http://23.88.66.93/HBO_2/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="064. STAR GOLD HD" tvg-logo="http://LOGO-iptvpro.com/LOGO/SKYUK/stargold_uk.png" group-title="",064. STAR GOLD HD
 http://198.195.239.50:8095/StarGold/index.m3u8
+
+
+#EXTM3U
+#EXTINF:-1 tvg-id="ext" tvg-name="Sony ATTH" tvg-logo="https://s3.aynaott.com/storage/f7bfca4f0a3860067bf2eac37f41214c" group-title="",Sony ATTH
+https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Enter 10 Bangla" tvg-logo="https://s3.aynaott.com/storage/2b00567c538d392c8050124f0064c4a1" group-title="",Enter 10 Bangla
+https://live-bangla.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Music Mastii" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRD92lTNDFEe1iA-zJLoFb-mu28rBgjGIqs3qFS_w=s900-c-k-c0x00ffffff-no-rj" group-title="",Music Mastii
+https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Sci-fi" tvg-logo="https://i.ibb.co/Ns62bY2/2021-04-22-10-24-01.png" group-title="",Sci-fi
+https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="MNX-HD" tvg-logo="https://s4.gifyu.com/images/image8c255c8f4e981429.png" group-title="",MNX-HD
+https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsha" tvg-logo="https://imglink.cc/cdn/3TXPVSGzx5.png" group-title="",Star Jalsha
+https://tyr.zibobdixserver.top/hls/StarJalshaHD.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="SRK Tv" tvg-logo="https://imglink.cc/cdn/uZtiXpPz29.png" group-title="",SRK Tv
+https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Motu Patlu" tvg-logo="https://imglink.cc/cdn/TxPUulKGQh.jpg" group-title="",Motu Patlu
+https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Channel 1 TV" tvg-logo="https://i.ibb.co.com/N6HbH5rH/Channel-One-TV.png" group-title="",Channel 1 TV
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Deepto TV" tvg-logo="https://imglink.cc/cdn/2ODX-FAGY4.png" group-title="",Deepto TV
+https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 
 
