@@ -42,7 +42,7 @@ http://212.102.34.8:9080/AndFlixHD/video.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
 http://103.253.18.58:8000/play/a00m
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
-https://edge2.roarzone.net:8447/roarzone/edge3/sony_sports_2_hd/index.m3u8
+http://198.195.239.50:8095/SonyTenSports2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
 http://maxotts.maxdigitaltv.com/x-media/C73/master.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 5 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png" group-title="Sports",SONY SPORTS 5 HD
