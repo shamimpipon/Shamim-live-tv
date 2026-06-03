@@ -7,19 +7,6 @@ http://27.124.71.27/T-Sports/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/T%20Sports.png" group-title="IPTV",T sports
 http://172.31.235.10:8080/hls/34-tsportssd/index.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="FIFA Plus English" tvg-logo="https://i.ibb.co.com/vnbkF0r/fifa-world-cup-2026-logo-png-seeklogo-665644.png" group-title="",FIFA Plus English
-https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="FIFA Plus B" tvg-logo="https://i.ibb.co.com/vnbkF0r/fifa-world-cup-2026-logo-png-seeklogo-665644.png" group-title="",FIFA Plus B
-https://37b4c228.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/6f5437c5-e015-4754-8476-c8c6d27d3a55/1.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Bein Sports 3 - France (FIFA)" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Bein%20Sports%203.jpeg" group-title="",Bein Sports 3 - France (FIFA)
-http://145.239.5.177/559/mpegts
-#EXTINF:-1 tvg-id="ext" tvg-name="Bein Sports 3 B- France (FIFA)" tvg-logo="https://imglink.cc/cdn/kIiut6WBq0.jpg" group-title="",Bein Sports 3 B- France (FIFA)
-http://145.239.5.177:80/559/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Tyc Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Bein%20Sports%203.jpeg" group-title="",Tyc Sports
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Bein Sports 2" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Bein%20Sports%202.jpeg" group-title="",Bein Sports 2
-https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
-
 
 #EXTINF:-1 tvg-id="ext" tvg-name="116. Cricbuzz" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/600_144.png" group-title="",116. Cricbuzz
 http://4kgood.org:80/live/4o48up5evz/r4fiast66u/1163988.ts
@@ -53,7 +40,7 @@ http://212.102.34.8:9080/AndFlixHD/video.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
-https://edge2.roarzone.net:8447/roarzone/edge3/sony_sports_1_hd/index.m3u8
+http://103.253.18.58:8000/play/a00m
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
 https://edge2.roarzone.net:8447/roarzone/edge3/sony_sports_2_hd/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
