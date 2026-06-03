@@ -14,15 +14,12 @@ http://4kgood.org:80/live/4o48up5evz/r4fiast66u/1163988.ts
 http://198.195.239.50:8095/Eurosport/tracks-v1a1/mono.m3u8?token=8291e6bc6d2a2935e204c1838f5730291810b4de-58cc706032206f29cde79dadc472229d-1775633452-1775629852
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
 https://tvsen5.aynaott.com/PtvSports/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Ten SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Ten%20Sports.jpeg" group-title="Sports",Ten SPORTS
-http://maxotts.maxdigitaltv.com/x-media/C61/master.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Ten Cricket" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Ten%20Cricket.png" group-title="Sports",Ten Cricket
 https://edge2.roarzone.net:8447/roarzone/edge3/ten_cricket/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Euro TV" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="",Euro TV
 https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="EUROSPORT HD" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="",EUROSPORT HD
-https://edge2.roarzone.net:8447/roarzone/edge3/euro_sports_hd/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Willow Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Willow.jpg" group-title="Sports",Willow Sports
 http://27.124.71.27/Willow_Extra/index.m3u8
@@ -32,11 +29,11 @@ https://tvsen5.aynaott.com/willowhd/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 JADOO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",STAR SPORTS 1 JADOO
 http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-1-hd-in.png" group-title="Sports",STAR SPORTS 1
-http://198.195.239.50:8095/SonyTenSports5/tracks-v1a1/mono.m3u8
+https://flussonic.deltainfonet.com/07_STAR-SPORTS_1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-2-hd-in.png" group-title="Sports",STAR SPORTS 2
-http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8
+https://flussonic.deltainfonet.com/08_STAR-SPORTS_2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 3" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-3-hd-in.png" group-title="Sports",STAR SPORTS 3
-http://212.102.34.8:9080/AndFlixHD/video.m3u8
+https://flussonic.deltainfonet.com/09_STAR-SPORTS_3/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
