@@ -100,7 +100,7 @@ https://tvsen6.aynaott.com/ColorsBangla/index.m3u8
 http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-aath-in.png" group-title="Indian Bangla",Sony Aath
-https://edge2.roarzone.net:8447/roarzone/edge3/sonyaath/index.m3u8
+http://198.195.239.50:8095/SonyAath/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="আকাশ ৮" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Akash%20Aath.png" group-title="Indian Bangla",আকাশ ৮
 https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/chunks.m3u8
@@ -243,42 +243,8 @@ https://tvsen5.aynaott.com/nickjr/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Thikana" tvg-logo="https://s3.aynaott.com/storage/6d1aaa03b84a69992940873fc11af8fc" group-title="Bangla",Thikana
 https://5dd3981940faa.streamlock.net/thikanatv/thikanatv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="EUROSPORT HD" tvg-logo="https://tvassets.roarzone.net/images/euro_sports_hd.png" group-title="Sports",EUROSPORT HD
-https://edge2.roarzone.net:8447/roarzone/edge3/euro_sports_hd/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY MAX" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="Movies",SONY MAX
-https://edge2.roarzone.net:8447/roarzone/edge3/sony_max/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY MAX HD" tvg-logo="https://tvassets.roarzone.net/images/sonymaxhd.png" group-title="Movies",SONY MAX HD
-https://edge2.roarzone.net:8447/roarzone/edge3/sony_max_hd/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY MAX 2" tvg-logo="https://tvassets.roarzone.net/images/sonymax2.png" group-title="Movies",SONY MAX 2
-https://edge2.roarzone.net:8447/roarzone/edge3/sonymax_2/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY PIX HD" tvg-logo="https://tvassets.roarzone.net/images/sonypix_hd.png" group-title="Movies",SONY PIX HD
-https://edge2.roarzone.net:8447/roarzone/edge3/sonypix_hd/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="B4U MOVIES APAC" tvg-logo="https://tvassets.roarzone.net/images/b4u_movies.png" group-title="Movies",B4U MOVIES APAC
-https://edge2.roarzone.net:8447/roarzone/edge3/b4u_movies/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="ZEE CINEMA HD" tvg-logo="https://tvassets.roarzone.net/images/zee_cinema_hd.png" group-title="Movies",ZEE CINEMA HD
-https://edge2.roarzone.net:8447/roarzone/edge3/zee_cinema_hd/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="& PICTURES HD" tvg-logo="https://tvassets.roarzone.net/images/andpicture_hd.png" group-title="Movies",& PICTURES HD
-https://edge2.roarzone.net:8447/roarzone/edge3/andpicture_hd/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE MOVIES" tvg-logo="https://tvassets.roarzone.net/images/toffee_movie.png" group-title="Movies",TOFFEE MOVIES
-https://edge2.roarzone.net:8447/roarzone/edge3/toffee_movie/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="GOLDMINES BOLLYWOOD" tvg-logo="https://tvassets.roarzone.net/images/goldmines-bollywood.png" group-title="Movies",GOLDMINES BOLLYWOOD
-https://edge2.roarzone.net:8447/roarzone/edge5/goldmines-bollywood/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="9X TASHAN" tvg-logo="https://tvassets.roarzone.net/images/9x-tashan.png" group-title="Music",9X TASHAN
-https://edge2.roarzone.net:8447/roarzone/edge5/9x-tashan/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Axn" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/AXN.png" group-title="Hindi Movie",Axn
 http://172.31.235.10:8080/hls/54-axn/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="ZEE CINEMA" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Cinema.png" group-title="Hindi Movie",ZEE CINEMA
-http://103.99.249.139/zeecinema/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Action" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Action.png" group-title="Hindi Movie",Zee Action
 http://103.175.73.12:8080/live/270/270_0.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Gold" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Gold.png" group-title="Hindi Movie",Star Gold
@@ -295,8 +261,6 @@ http://23.88.66.93/HBO_2/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="064. STAR GOLD HD" tvg-logo="http://LOGO-iptvpro.com/LOGO/SKYUK/stargold_uk.png" group-title="",064. STAR GOLD HD
 http://198.195.239.50:8095/StarGold/index.m3u8
 
-
-#EXTM3U
 #EXTINF:-1 tvg-id="ext" tvg-name="Sony ATTH" tvg-logo="https://s3.aynaott.com/storage/f7bfca4f0a3860067bf2eac37f41214c" group-title="",Sony ATTH
 https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Enter 10 Bangla" tvg-logo="https://s3.aynaott.com/storage/2b00567c538d392c8050124f0064c4a1" group-title="",Enter 10 Bangla
@@ -307,10 +271,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8
 https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="MNX-HD" tvg-logo="https://s4.gifyu.com/images/image8c255c8f4e981429.png" group-title="",MNX-HD
 https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsha" tvg-logo="https://imglink.cc/cdn/3TXPVSGzx5.png" group-title="",Star Jalsha
-https://tyr.zibobdixserver.top/hls/StarJalshaHD.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="SRK Tv" tvg-logo="https://imglink.cc/cdn/uZtiXpPz29.png" group-title="",SRK Tv
-https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Motu Patlu" tvg-logo="https://imglink.cc/cdn/TxPUulKGQh.jpg" group-title="",Motu Patlu
 https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Channel 1 TV" tvg-logo="https://i.ibb.co.com/N6HbH5rH/Channel-One-TV.png" group-title="",Channel 1 TV
