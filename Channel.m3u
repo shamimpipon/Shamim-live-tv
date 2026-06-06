@@ -1,4 +1,4 @@
-l#EXTM3U
+#EXTM3U
 
 #EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="",T Sports HD
 http://27.124.71.27/T-Sports/index.m3u8
@@ -91,19 +91,9 @@ http://27.124.71.27/beIN_Sports_3/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 4" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%204.jpeg" group-title="Sports",BEIN SPORTS 4
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 1" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports_1.png" group-title="Sports",TNT SPORTS 1
-http://27.124.71.27/TNT_Sports_1/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 2" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports%20_2.png" group-title="Sports",TNT SPORTS 2
-http://27.124.71.27/TNT_Sports_2/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 3" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports%20_3.png" group-title="Sports",TNT SPORTS 3
-https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
-
-
 #EXTINF:-1 tvg-id="ext" tvg-name="SS Cricket" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Sky%20Sports%20Cricket.png" group-title="",SS Cricket
 https://atc.hopto.org/sly-sprts-cricket-hd-sport/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="Astro football" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Astro_Football_%282024%29.png" group-title="Sports",Astro  football
-http://172.17.50.112:84/ant1008/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
