@@ -7,9 +7,29 @@ http://103.158.133.62:8080/live/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/T%20Sports.png" group-title="IPTV",T sports
 http://172.31.235.10:8080/hls/34-tsportssd/index.m3u8
 
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
+https://tvsen5.aynaott.com/gUX8BJmNc2yF/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Zee%20Bangla%20hd.jpg" group-title="Indian Bangla",Zee Bangla
+https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Zee%20Bangla%20hd.jpg" group-title="Indian Bangla",Zee Bangla
+https://tvsen6.aynaott.com/ZeeBangla/index.m3u8
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="জলসা Movie HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/jalsha-movies-hd-in.png" group-title="Indian Bangla",জলসা Movie HD
+http://198.195.239.50:8095/JalshaMovies/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
+http://27.124.71.27/Zee_Bangla_Cinema/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Sun Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sun-bangla-hd-in.png" group-title="Indian Bangla",Sun Bangla
+http://27.124.71.27/Sun_Bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
+https://tvsen6.aynaott.com/ColorsBangla/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Toffee {premium}" tvg-logo="https://i.postimg.cc/141tq9B1/dc092590a65fc2ac5bd58ccf59cecb51-fgraphic.png" group-title="",Toffee {premium}
 http://main.epgmaker.com/live/y49sz6KMQs/6115263489/522.ts
-
 #EXTINF:-1 tvg-id="ext" tvg-name="Prince [2026]" tvg-logo="https://i.ibb.co.com/9m9SqPMy/images-2.jpg" group-title="",Prince [2026]
 https://yellow-flower-41fc.cinepixserver00.workers.dev/1:/22-5-26/ottboxbd.COM%20-%20Prince%20Once%20Upon%20a%20Time%20in%20Dhaka%202026%20Bengali%20ORG%201080p%20WEB-DL%20x264.mkv
 #EXTINF:-1 tvg-id="ext" tvg-name="Domm [2026]" tvg-logo="https://i.postimg.cc/DfqzmXQ6/Domm-stablesportstv.jpg" group-title="",Domm [2026]
@@ -48,13 +68,13 @@ https://flussonic.deltainfonet.com/09_STAR-SPORTS_3/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
-http://103.157.248.140:8000/play/a01q/index.m3u8
+https://flussonic.deltainfonet.com/10_SONY-SPORTS_1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
-http://198.195.239.50:8095/SonyTenSports2/tracks-v1a1/mono.m3u8
+https://flussonic.deltainfonet.com/11_SONY-SPORTS_2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
 http://maxotts.maxdigitaltv.com/x-media/C73/master.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 5 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png" group-title="Sports",SONY SPORTS 5 HD
-http://103.157.248.140:8000/play/a05x/index.m3u8
+https://flussonic.deltainfonet.com/14_SONY-SPORTS_5/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="StarSportsSelectHD1.in" tvg-name="STAR SPORTS SELECT 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-1-hd-in.png" group-title="Sports",STAR SPORTS SELECT 1 HD
 http://198.195.239.50:8095/StarSportsSelect1/tracks-v1a1/mono.m3u8
