@@ -61,3 +61,12 @@ https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
 http://172.17.50.112:84/ant1008/tracks-v1a1/mono.m3u8
 http://103.157.248.140:8000/play/a05x/index.m3u8
 http://103.157.248.140:8000/play/a01q/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
+https://flussonic.deltainfonet.com/10_SONY-SPORTS_1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
+https://flussonic.deltainfonet.com/11_SONY-SPORTS_2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
+http://maxotts.maxdigitaltv.com/x-media/C73/master.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 5 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png" group-title="Sports",SONY SPORTS 5 HD
+https://flussonic.deltainfonet.com/14_SONY-SPORTS_5/tracks-v1a1/mono.m3u8
