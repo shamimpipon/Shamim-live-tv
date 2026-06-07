@@ -1,0 +1,63 @@
+
+#EXTM3U
+#EXTINF:-1 tvg-id="ext" tvg-name="Euro Sports" tvg-logo="" group-title="",Euro Sports
+https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2" tvg-logo="" group-title="",STAR SPORTS 2
+https://flussonic.deltainfonet.com/08_STAR-SPORTS_2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 3" tvg-logo="" group-title="",STAR SPORTS 3
+https://flussonic.deltainfonet.com/09_STAR-SPORTS_3/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="" tvg-logo="" group-title="",
+http://luckonline.eu/live/y49sz6KMQs/6115263489/1142.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="" tvg-logo="" group-title="",
+https://tvsen6.aynaott.com/ColorsBangla/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="" tvg-logo="" group-title="",
+http://live.balajibroadband.com:3500/live/756.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Sports 1 Hindi" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png" group-title="",Star Sports 1 Hindi
+http://41.205.93.154/STARSPORTS1/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Sports 2 Hindi HD" tvg-logo="https://live.dinesh29.com.np/logos/tataplay/starsports2hindihd.png" group-title="",Star Sports 2 Hindi HD
+http://103.157.248.140:8000/play/a01m/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Sports 2 hd" tvg-logo="https://icon2.cleanpng.com/20180611/pks/aa8l5aros.webp" group-title="",Star Sports 2 hd
+https://tvsen7.aynaott.com/ssport2hd/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Sports 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP8j8Vc_lguK13yQO9X3u_hvSXI2kmnJAywg&s" group-title="",Star Sports 3
+http://103.157.248.140:8000/play/a00i/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Sports Select 1 HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735043602147.png" group-title="",Star Sports Select 1 HD
+http://103.157.248.140:8000/play/a00o/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Sports Select 2 HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735045174734.png" group-title="",Star Sports Select 2 HD
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/148801.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Movies Select HD" tvg-logo="https://raw.githubusercontent.com/vijay-iptv/logos/refs/heads/main/Star_Movies_Select_HD.png" group-title="",Star Movies Select HD
+http://103.204.43.87:8080/live/1/1/253.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Movies HD" tvg-logo="https://raw.githubusercontent.com/Shakil1294/pcv/main/logo/star_movies_hd.png" group-title="",Star Movies HD
+http://103.204.43.87:8080/live/1/1/267.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="COLORS CINEPLEX HD" tvg-logo="https://i.ibb.co/h7T6MCW/20240803-110652.png" group-title="",COLORS CINEPLEX HD
+http://103.204.43.87:8080/live/1/1/237.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="&pictures HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540" group-title="",&pictures HD
+http://103.204.43.87:8080/live/1/1/232.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="MOV | Star Gold HD" tvg-logo="" group-title="",MOV | Star Gold HD
+http://198.195.239.50:8095/StarGold/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Euro Sport 1 HD" tvg-logo="" group-title="",Euro Sport 1 HD
+http://169.150.223.25/Eurosport1HD/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Euro Sport 2 HD" tvg-logo="" group-title="",Euro Sport 2 HD
+http://169.150.223.25/Eurosport2HD/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Prince [2026]" tvg-logo="https://i.ibb.co.com/9m9SqPMy/images-2.jpg" group-title="",Prince [2026]
+https://yellow-flower-41fc.cinepixserver00.workers.dev/1:/22-5-26/ottboxbd.COM%20-%20Prince%20Once%20Upon%20a%20Time%20in%20Dhaka%202026%20Bengali%20ORG%201080p%20WEB-DL%20x264.mkv
+#EXTINF:-1 tvg-id="ext" tvg-name="Domm [2026]" tvg-logo="https://i.postimg.cc/DfqzmXQ6/Domm-stablesportstv.jpg" group-title="",Domm [2026]
+https://yellow-flower-41fc.cinepixserver00.workers.dev/1:/21-5-26/Domm%202026%20Bengali%20(ORG)%201080p%20WEB-DL%20x264%20ESubs.mkv
+#EXTINF:-1 tvg-id="ext" tvg-name="Rakkhosh [2026]" tvg-logo="https://i.postimg.cc/ryBMGFjw/Rakkhosh-stablesportstv.jpg" group-title="",Rakkhosh [2026]
+http://103.203.93.4/Dhallywood%20(Bangladeshi)/2026/RAKKHOSH%20Bangla%20Movie%20SIAM/Rakkhosh%20(2026)%20Bengali%20720p%20HD-Camrip.mp4
+#EXTINF:-1 tvg-id="ext" tvg-name="Bonolota Express [2026]" tvg-logo="http://103.203.93.4/Dhallywood%20(Bangladeshi)/2026/Bonolota%20Express%20(2026)/MV5BZmY0M2I1NjYtODU4Zi00MmIyLTk0OWUtMDlhN2JmNzFmOWI1XkEyXkFqcGc@._V1_SX300.jpg" group-title="",Bonolota Express [2026]
+http://103.203.93.4/Dhallywood%20(Bangladeshi)/2026/Bonolota%20Express%20(2026)/Bonolota%20Express%20(2026)%20Bengali%20Amazon%20WEB-DL%20H264%20AAC%20720p.mkv
+#EXTINF:-1 tvg-id="ext" tvg-name="Toffee {premium}" tvg-logo="https://i.postimg.cc/141tq9B1/dc092590a65fc2ac5bd58ccf59cecb51-fgraphic.png" group-title="",Toffee {premium}
+http://main.epgmaker.com/live/y49sz6KMQs/6115263489/522.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="" group-title="",T SPORTS
+https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 1" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports_1.png" group-title="Sports",TNT SPORTS 1
+http://27.124.71.27/TNT_Sports_1/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 2" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports%20_2.png" group-title="Sports",TNT SPORTS 2
+http://27.124.71.27/TNT_Sports_2/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 3" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/TNT_Sports%20_3.png" group-title="Sports",TNT SPORTS 3
+https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Astro football" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Astro_Football_%282024%29.png" group-title="Sports",Astro  football
+http://172.17.50.112:84/ant1008/tracks-v1a1/mono.m3u8
+http://103.157.248.140:8000/play/a05x/index.m3u8
+http://103.157.248.140:8000/play/a01q/index.m3u8
