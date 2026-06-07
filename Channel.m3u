@@ -3,8 +3,10 @@
 https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026" tvg-logo="https://i.postimg.cc/prg8sRhM/20260604-101842.jpg" group-title="",FIFA World Cup 2026
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026" tvg-logo="https://i.postimg.cc/wBqS8gCh/20260605-180409.jpg" group-title="",FIFA World Cup 2026
-https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702-audio_113322_eng=113200-video=2202800.m3u8
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026 🇮🇳[coming]" tvg-logo="https://i.postimg.cc/MTvHtJdm/20260604-155212.jpg" group-title="",FIFA World Cup 2026 🇮🇳[coming]
 http://103.204.43.87:8080/live/1/1/264.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026 🇵🇰[coming]" tvg-logo="https://i.postimg.cc/cLzP2BbN/20260604-213137.jpg" group-title="",FIFA World Cup 2026 🇵🇰[coming]
