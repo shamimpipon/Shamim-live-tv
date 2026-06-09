@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="ext" tvg-name="Tyc Sports D 🇦🇷 Argentina" tvg-logo="https://imglink.cc/cdn/1oSRQnyUqK.jpg" group-title="",Tyc Sports D 🇦🇷 Argentina
+http://tv.zeuspro.xyz:8080/peterordonez/OKEtJocXkL/157580
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T SPORTS
 http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 
