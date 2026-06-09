@@ -1,18 +1,21 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T SPORTS
+http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026" tvg-logo="https://i.postimg.cc/prg8sRhM/20260604-101842.jpg" group-title="",FIFA World Cup 2026
+#EXTINF:-1 tvg-id="ext" tvg-name="Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",Somay
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",Somay
+http://172.17.50.112:84/ant1004/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026🅱️" tvg-logo="https://i.postimg.cc/Kjf01KRG/20260604-090015.jpg" group-title="",FIFA World Cup 2026🅱️
 https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026" tvg-logo="" group-title="",FIFA World Cup 2026
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",BTV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
-
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",BTV
+http://172.17.50.112:84/ant1004/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026 🇮🇳[coming]" tvg-logo="https://i.postimg.cc/MTvHtJdm/20260604-155212.jpg" group-title="",FIFA World Cup 2026 🇮🇳[coming]
 http://103.204.43.87:8080/live/1/1/264.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026 🇵🇰[coming]" tvg-logo="https://i.postimg.cc/cLzP2BbN/20260604-213137.jpg" group-title="",FIFA World Cup 2026 🇵🇰[coming]
 http://103.204.43.87:8080/live/1/1/313.m3u8
-
-
 
 #EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="",T Sports HD
 http://27.124.71.27/T-Sports/index.m3u8
@@ -20,6 +23,8 @@ http://27.124.71.27/T-Sports/index.m3u8
 http://103.158.133.62:8080/live/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="T sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/T%20Sports.png" group-title="IPTV",T sports
 http://172.31.235.10:8080/hls/34-tsportssd/index.m3u8
+
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
 https://tvsen5.aynaott.com/gUX8BJmNc2yF/index.m3u8
@@ -82,13 +87,13 @@ https://flussonic.deltainfonet.com/09_STAR-SPORTS_3/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
-http://stalker.hakunamata.workers.dev/play/1101/index.m3u8
+https://server.itcnbd.live/stream/sony_sports_1_hd.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/513.ts
+https://server.itcnbd.live/stream/sony_sports_2_hd.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
 http://maxotts.maxdigitaltv.com/x-media/C73/master.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 5 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png" group-title="Sports",SONY SPORTS 5 HD
-http://66.102.126.10:8000/play/a010/index.m3u8
+https://server.itcnbd.live/stream/sony_sports_5_hd.m3u8
 
 #EXTINF:-1 tvg-id="StarSportsSelectHD1.in" tvg-name="STAR SPORTS SELECT 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-1-hd-in.png" group-title="Sports",STAR SPORTS SELECT 1 HD
 http://198.195.239.50:8095/StarSportsSelect1/tracks-v1a1/mono.m3u8
