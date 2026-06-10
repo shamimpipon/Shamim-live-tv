@@ -26,10 +26,6 @@ http://172.17.50.112:84/ant1004/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",10 BTV
 http://172.31.235.10:8080/hls/1-btv/0_1/index.m3u8
 
-
-
-
-
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
 https://tvsen5.aynaott.com/gUX8BJmNc2yF/index.m3u8
 
