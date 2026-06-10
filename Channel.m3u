@@ -1,12 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ext" tvg-name="Tyc Sports D 🇦🇷 Argentina" tvg-logo="https://imglink.cc/cdn/1oSRQnyUqK.jpg" group-title="",Tyc Sports D 🇦🇷 Argentina
-http://tv.zeuspro.xyz:8080/peterordonez/OKEtJocXkL/157580
-#EXTINF:-1 tvg-id="ext" tvg-name="Tyc Sports 🇦🇷 Argentina" tvg-logo="https://imglink.cc/cdn/1oSRQnyUqK.jpg" group-title="",Tyc Sports 🇦🇷 Argentina
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Tyc Sports C 🇦🇷 Argentina" tvg-logo="https://imglink.cc/cdn/1oSRQnyUqK.jpg" group-title="",Tyc Sports C 🇦🇷 Argentina
-http://daleplaytv.vip:80//live/4nd9wbtu/c5hrn9eFhfsa/81252.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="Tyc Sports D 🇦🇷 Argentina" tvg-logo="https://imglink.cc/cdn/1oSRQnyUqK.jpg" group-title="",Tyc Sports D 🇦🇷 Argentina
-http://tv.zeuspro.xyz:8080/peterordonez/OKEtJocXkL/157580
+
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T SPORTS
 http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 
