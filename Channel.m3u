@@ -13,10 +13,6 @@ https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",BTV
 http://172.17.50.112:84/ant1004/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026 🇮🇳[coming]" tvg-logo="https://i.postimg.cc/MTvHtJdm/20260604-155212.jpg" group-title="",FIFA World Cup 2026 🇮🇳[coming]
-http://103.204.43.87:8080/live/1/1/264.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026 🇵🇰[coming]" tvg-logo="https://i.postimg.cc/cLzP2BbN/20260604-213137.jpg" group-title="",FIFA World Cup 2026 🇵🇰[coming]
-http://103.204.43.87:8080/live/1/1/313.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="",T Sports HD
 http://27.124.71.27/T-Sports/index.m3u8
