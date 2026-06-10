@@ -8,20 +8,24 @@ http://172.31.235.10:8080/hls/34-tsportssd/index.m3u8
 https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="27 T Sports HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="",27 T Sports HD
 http://27.124.71.27/T-Sports/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",103 T SPORTS
+http://103.158.133.62:8080/live/index.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="1702 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",o2 Somay
+
+#EXTINF:-1 tvg-id="ext" tvg-name="1702 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",02 Somay
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",112 Somay
 http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",10 Somay
+http://172.31.235.10:8080/hls/17-somoy/1_0/index.
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="09BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",09 BTV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",112 BTV
 http://172.17.50.112:84/ant1004/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",10 BTV
+http://172.31.235.10:8080/hls/1-btv/0_1/index.m3u8
 
-
-#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T SPORTS
-http://103.158.133.62:8080/live/index.m3u8
 
 
 
@@ -46,17 +50,6 @@ http://27.124.71.27/Sun_Bangla/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
 https://tvsen6.aynaott.com/ColorsBangla/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Toffee {premium}" tvg-logo="https://i.postimg.cc/141tq9B1/dc092590a65fc2ac5bd58ccf59cecb51-fgraphic.png" group-title="",Toffee {premium}
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/522.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="Prince [2026]" tvg-logo="https://i.ibb.co.com/9m9SqPMy/images-2.jpg" group-title="",Prince [2026]
-https://yellow-flower-41fc.cinepixserver00.workers.dev/1:/22-5-26/ottboxbd.COM%20-%20Prince%20Once%20Upon%20a%20Time%20in%20Dhaka%202026%20Bengali%20ORG%201080p%20WEB-DL%20x264.mkv
-#EXTINF:-1 tvg-id="ext" tvg-name="Domm [2026]" tvg-logo="https://i.postimg.cc/DfqzmXQ6/Domm-stablesportstv.jpg" group-title="",Domm [2026]
-https://yellow-flower-41fc.cinepixserver00.workers.dev/1:/21-5-26/Domm%202026%20Bengali%20(ORG)%201080p%20WEB-DL%20x264%20ESubs.mkv
-#EXTINF:-1 tvg-id="ext" tvg-name="Rakkhosh [2026]" tvg-logo="https://i.postimg.cc/ryBMGFjw/Rakkhosh-stablesportstv.jpg" group-title="",Rakkhosh [2026]
-http://103.203.93.4/Dhallywood%20(Bangladeshi)/2026/RAKKHOSH%20Bangla%20Movie%20SIAM/Rakkhosh%20(2026)%20Bengali%20720p%20HD-Camrip.mp4
-#EXTINF:-1 tvg-id="ext" tvg-name="Bonolota Express [2026]" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/bonlota.jpg" group-title="",Bonolota Express [2026]
-http://103.203.93.4/Dhallywood%20(Bangladeshi)/2026/Bonolota%20Express%20(2026)/Bonolota%20Express%20(2026)%20Bengali%20Amazon%20WEB-DL%20H264%20AAC%20720p.mkv
 
 
 
@@ -318,4 +311,13 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 #EXTINF:-1 tvg-id="ext" tvg-name="Deepto TV" tvg-logo="https://imglink.cc/cdn/2ODX-FAGY4.png" group-title="",Deepto TV
 https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 
-
+#EXTINF:-1 tvg-id="ext" tvg-name="Toffee {premium}" tvg-logo="https://i.postimg.cc/141tq9B1/dc092590a65fc2ac5bd58ccf59cecb51-fgraphic.png" group-title="",Toffee {premium}
+http://main.epgmaker.com/live/y49sz6KMQs/6115263489/522.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="Prince [2026]" tvg-logo="https://i.ibb.co.com/9m9SqPMy/images-2.jpg" group-title="",Prince [2026]
+https://yellow-flower-41fc.cinepixserver00.workers.dev/1:/22-5-26/ottboxbd.COM%20-%20Prince%20Once%20Upon%20a%20Time%20in%20Dhaka%202026%20Bengali%20ORG%201080p%20WEB-DL%20x264.mkv
+#EXTINF:-1 tvg-id="ext" tvg-name="Domm [2026]" tvg-logo="https://i.postimg.cc/DfqzmXQ6/Domm-stablesportstv.jpg" group-title="",Domm [2026]
+https://yellow-flower-41fc.cinepixserver00.workers.dev/1:/21-5-26/Domm%202026%20Bengali%20(ORG)%201080p%20WEB-DL%20x264%20ESubs.mkv
+#EXTINF:-1 tvg-id="ext" tvg-name="Rakkhosh [2026]" tvg-logo="https://i.postimg.cc/ryBMGFjw/Rakkhosh-stablesportstv.jpg" group-title="",Rakkhosh [2026]
+http://103.203.93.4/Dhallywood%20(Bangladeshi)/2026/RAKKHOSH%20Bangla%20Movie%20SIAM/Rakkhosh%20(2026)%20Bengali%20720p%20HD-Camrip.mp4
+#EXTINF:-1 tvg-id="ext" tvg-name="Bonolota Express [2026]" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/bonlota.jpg" group-title="",Bonolota Express [2026]
+http://103.203.93.4/Dhallywood%20(Bangladeshi)/2026/Bonolota%20Express%20(2026)/Bonolota%20Express%20(2026)%20Bengali%20Amazon%20WEB-DL%20H264%20AAC%20720p.mkv
