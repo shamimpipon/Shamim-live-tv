@@ -6,7 +6,6 @@ https://tvsen5.aynaott.com/PtvSports/index.m3u8
 http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Tsports" tvg-logo="https://i.ibb.co.com/h1Wvy09C/1000283988.png" group-title="Sports",Tsports
 http://198.195.239.50:8095/T-spo_rts-hoichoi24/video.m3u8
-
 #EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports
 http://starhub.pro/live/farhat-3379/67897-913379/744523.ts
 
