@@ -22,8 +22,7 @@ http://27.124.71.27/T-Sports/index.m3u8
 http://103.158.133.62:8080/live/index.m3u8
 
 
-#EXTINF:-1 tvg-id="ext" tvg-name="1702 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",02 Somay
-https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",112 Somay
 http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",10 Somay
