@@ -1,12 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ext" tvg-name="Caze Tv" tvg-logo="https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png" group-title="Sports",Caze Tv
-https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
 http://27.124.71.27/Zee_Bangla_Cinema/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports
 http://starhub.pro/live/farhat-3379/67897-913379/744523.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="Ptv" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",Ptv
-https://tvsen5.aynaott.com/PtvSports/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",112 BTV
 http://172.17.50.112:84/ant1004/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",Uneit8 Sports
