@@ -18,14 +18,6 @@ http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",112 Somay
 http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 
-
-#EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",10 Somay
-http://172.31.235.10:8080/hls/17-somoy/0_1/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",10 BTV
-http://172.31.235.10:8080/hls/1-btv/0_1/index.m3u8
-
-
-
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
 https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Zee%20Bangla%20hd.jpg" group-title="Indian Bangla",Zee Bangla
@@ -37,15 +29,23 @@ https://server.itcnbd.live/stream/zee_bangla_cinema.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="জলসা Movie HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/jalsha-movies-hd-in.png" group-title="Indian Bangla",জলসা Movie HD
 http://premiumtvs.space/live/jen12345/Jen54321/425.ts
 
-
-
 #EXTINF:-1 tvg-id="ext" tvg-name="Sun Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sun-bangla-hd-in.png" group-title="Indian Bangla",Sun Bangla
 http://27.124.71.27/Sun_Bangla/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
 http://premiumtvs.space/live/jen12345/Jen54321/23306.ts
 
+#EXTINF:-1 tvg-id="ext" tvg-name="Colours Bangla Chinema" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png" group-title="Indian Bangla",Colours Bangla Chinema
+http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
 
+#EXTINF:-1 tvg-id="ext" tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-aath-in.png" group-title="Indian Bangla",Sony Aath
+http://198.195.239.50:8095/sonyAath/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="আকাশ ৮" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Akash%20Aath.png" group-title="Indian Bangla",আকাশ ৮
+https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/chunks.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Ente10 Bangla" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Enter%2010%20Bangla.jpeg" group-title="Indian Bangla",Ente10 Bangla
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="116. Cricbuzz" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/600_144.png" group-title="",116. Cricbuzz
@@ -72,7 +72,6 @@ https://s2.itcnbd.live/star-sports-2-hd/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 3" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-3-hd-in.png" group-title="Sports",STAR SPORTS 3
 https://s2.itcnbd.live/star-sports-3/index.m3u8
 
-
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
 https://server.itcnbd.live/stream/sony_sports_1_hd.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
@@ -87,7 +86,6 @@ http://198.195.239.50:8095/starSportsSelect1/index.m3u8
 #EXTINF:-1 tvg-id="StarSportsSelectHD2.in" tvg-name="STAR SPORTS SELECT 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-2-hd-in.png" group-title="Sports",STAR SPORTS SELECT 2 HD
 http://198.195.239.50:8095/starSportsSelect2/index.m3u8
 
-
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 1" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",BEIN SPORTS 
 http://27.124.71.27/beIN_Sports_1/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%202.jpeg" group-title="Sports",BEIN SPORTS 2
@@ -96,46 +94,8 @@ http://27.124.71.27/beIN_Sports_2/index.m3u8
 http://27.124.71.27/beIN_Sports_3/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 4" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%204.jpeg" group-title="Sports",BEIN SPORTS 4
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
-
 #EXTINF:-1 tvg-id="ext" tvg-name="SS Cricket" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Sky%20Sports%20Cricket.png" group-title="",SS Cricket
 https://atc.hopto.org/sly-sprts-cricket-hd-sport/playlist.m3u8
-
-
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
-https://tvsen5.aynaott.com/gUX8BJmNc2yF/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Zee%20Bangla%20hd.jpg" group-title="Indian Bangla",Zee Bangla
-https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Zee%20Bangla%20hd.jpg" group-title="Indian Bangla",Zee Bangla
-https://tvsen6.aynaott.com/ZeeBangla/index.m3u8
-
-
-#EXTINF:-1 tvg-id="ext" tvg-name="জলসা Movie HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/jalsha-movies-hd-in.png" group-title="Indian Bangla",জলসা Movie HD
-http://198.195.239.50:8095/jalshaMovies/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
-http://27.124.71.27/Zee_Bangla_Cinema/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Sun Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sun-bangla-hd-in.png" group-title="Indian Bangla",Sun Bangla
-http://27.124.71.27/Sun_Bangla/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
-https://tvsen6.aynaott.com/ColorsBangla/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Colours Bangla Chinema" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png" group-title="Indian Bangla",Colours Bangla Chinema
-http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-aath-in.png" group-title="Indian Bangla",Sony Aath
-http://198.195.239.50:8095/sonyAath/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="আকাশ ৮" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Akash%20Aath.png" group-title="Indian Bangla",আকাশ ৮
-https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/chunks.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Ente10 Bangla" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Enter%2010%20Bangla.jpeg" group-title="Indian Bangla",Ente10 Bangla
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
-
-
 
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="G TV" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/gtv-hd-bd.png" group-title="IPTV",G TV
