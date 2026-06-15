@@ -1,4 +1,9 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="10 T sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/T%20Sports.png" group-title="IPTV", 10 T sports
+http://premiumtvs.space/live/jen12345/Jen54321/130714.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
+http://premiumtvs.space/live/jen12345/Jen54321/89.ts
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
 http://premiumtvs.space/live/jen12345/Jen54321/410.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports1
@@ -13,15 +18,12 @@ http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",112 Somay
 http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="10 T sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/T%20Sports.png" group-title="IPTV", 10 T sports
-http://172.31.235.10:8080/hls/34-tsportssd/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",10 Somay
 http://172.31.235.10:8080/hls/17-somoy/0_1/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",10 BTV
 http://172.31.235.10:8080/hls/1-btv/0_1/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="09BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",09 BTV
-https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
