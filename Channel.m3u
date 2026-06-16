@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="",Fox
+https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 HD" tvg-logo="https://i.ibb.co/h1Wvy09C/1000283988.png" group-title="",FIFA WORLD CUP 2026 HD
 http://198.195.239.50:8095/tsports/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="", super 
