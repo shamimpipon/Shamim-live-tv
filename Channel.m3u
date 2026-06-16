@@ -11,9 +11,15 @@ http://starhub.pro/live/farhat-3379/67897-913379/745269.ts
 http://premiumtvs.space/live/jen12345/Jen54321/130714.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
 http://premiumtvs.space/live/jen12345/Jen54321/89.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="Live 1" tvg-logo="" group-title="",Live 1
+http://premiumtvs.space/live/1Aoen7elp5/IgMJ60tmAa/745202.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="Live 4" tvg-logo="" group-title="",Live 4
+http://premiumtvs.space/live/1Aoen7elp5/IgMJ60tmAa/742611.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="Somoy TV 🇧🇩 Bangladesh" tvg-logo="https://i.ibb.co.com/vnbkF0r/fifa-world-cup-2026-logo-png-seeklogo-665644.png" group-title="",Somoy TV 🇧🇩 Bangladesh
+http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/422.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
-http://starhub.pro/live/farhat-3379/67897-913379/741567.ts
+http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/277428.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports1
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 
@@ -32,7 +38,7 @@ https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
-https://server.itcnbd.live/stream/zee_bangla_cinema.m3u8
+http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/277428.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="জলসা Movie HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/jalsha-movies-hd-in.png" group-title="Indian Bangla",জলসা Movie HD
 http://premiumtvs.space/live/jen12345/Jen54321/23304.ts
