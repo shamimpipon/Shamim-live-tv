@@ -1,6 +1,12 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Go%20live.jpg" group-title="",Fox
+#EXTINF:-1 tvg-id="ext" tvg-name="F0x" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Go%20live.jpg" group-title="",Go live
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/IMG_20260617_204637.png" group-title="",Fox
+https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
+
+
+
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 HD" tvg-logo="https://i.ibb.co/h1Wvy09C/1000283988.png" group-title="",FIFA WORLD CUP 2026 HD
 http://198.195.239.50:8095/tsports/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="", super 
@@ -9,8 +15,6 @@ http://premiumtvs.space/live/jen12345/Jen54321/745149.ts
 https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 4K" tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="",FIFA WORLD CUP 2026 4K
 https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="10 T sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/T%20Sports.png" group-title="IPTV", 10 T sports
-http://premiumtvs.space/live/jen12345/Jen54321/130714.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
 http://premiumtvs.space/live/jen12345/Jen54321/89.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="Live 1" tvg-logo="" group-title="",Live 1
