@@ -5,29 +5,32 @@ https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/IMG_20260617_204637.png" group-title="",Fox
 https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
 
+#EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports1
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 HD" tvg-logo="https://i.ibb.co/h1Wvy09C/1000283988.png" group-title="",FIFA WORLD CUP 2026 HD
 http://198.195.239.50:8095/tsports/index.m3u8
+
+
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="", super 
 http://premiumtvs.space/live/jen12345/Jen54321/745149.ts
+
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://i.ibb.co/TD6fkDPj/1000284537.png" group-title="",FIFA WORLD CUP 2026 FHD
 https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 4K" tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="",FIFA WORLD CUP 2026 4K
 https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
 http://premiumtvs.space/live/jen12345/Jen54321/89.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="Live 1" tvg-logo="" group-title="",Live 1
-http://premiumtvs.space/live/1Aoen7elp5/IgMJ60tmAa/745202.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="Live 4" tvg-logo="" group-title="",Live 4
-http://premiumtvs.space/live/1Aoen7elp5/IgMJ60tmAa/742611.ts
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Somoy TV 🇧🇩 Bangladesh" tvg-logo="https://i.ibb.co.com/vnbkF0r/fifa-world-cup-2026-logo-png-seeklogo-665644.png" group-title="",Somoy TV 🇧🇩 Bangladesh
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/422.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
 http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/277428.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports1
-https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",1003
 http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
