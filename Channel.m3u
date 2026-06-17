@@ -2,6 +2,10 @@
 #EXTINF:-1 tvg-id="ext" tvg-name="F0x" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Go%20live.jpg" group-title="",Go live
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8
 
+#EXTINF:-1 tvg-id="ext" tvg-name="F0x" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Go%20live.jpg" group-title="",Go live 2
+https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8
+
+
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/IMG_20260617_204637.png" group-title="",Fox
 https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
 
