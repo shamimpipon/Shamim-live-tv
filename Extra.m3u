@@ -1,5 +1,14 @@
-
 #EXTM3U
+
+#EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="", super 
+http://premiumtvs.space/live/jen12345/Jen54321/745149.ts
+
+#EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://i.ibb.co/TD6fkDPj/1000284537.png" group-title="",FIFA WORLD CUP 2026 FHD
+https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 4K" tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="",FIFA WORLD CUP 2026 4K
+https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Euro Sports" tvg-logo="" group-title="",Euro Sports
 https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2" tvg-logo="" group-title="",STAR SPORTS 2
