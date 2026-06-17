@@ -17,18 +17,11 @@ https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports1
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 
-
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 HD" tvg-logo="https://i.ibb.co/h1Wvy09C/1000283988.png" group-title="",FIFA WORLD CUP 2026 HD
 http://198.195.239.50:8095/tsports/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
 http://premiumtvs.space/live/jen12345/Jen54321/89.ts
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Somoy TV 🇧🇩 Bangladesh" tvg-logo="https://i.ibb.co.com/vnbkF0r/fifa-world-cup-2026-logo-png-seeklogo-665644.png" group-title="",Somoy TV 🇧🇩 Bangladesh
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/422.ts
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
-http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/277428.ts
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",1003
 http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
