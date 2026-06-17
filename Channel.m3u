@@ -6,9 +6,9 @@ http://198.195.239.50:8095/tsports/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="", super 
 http://premiumtvs.space/live/jen12345/Jen54321/745149.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://i.ibb.co/TD6fkDPj/1000284537.png" group-title="",FIFA WORLD CUP 2026 FHD
-http://starhub.pro/live/farhat-3379/67897-913379/742611.ts
+https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 4K" tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="",FIFA WORLD CUP 2026 4K
-http://starhub.pro/live/farhat-3379/67897-913379/745269.ts
+https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="10 T sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/T%20Sports.png" group-title="IPTV", 10 T sports
 http://premiumtvs.space/live/jen12345/Jen54321/130714.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
@@ -25,13 +25,13 @@ http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/277428.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports1
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",112 BTV
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",1003
 http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",Uneit8 Sports
+#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",1005
 http://172.17.50.112:84/ant1005/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="112 T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",112 T SPORTS
+#EXTINF:-1 tvg-id="ext" tvg-name="112 T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",1001
 http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",112 Somay
+#EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",1002
 http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
