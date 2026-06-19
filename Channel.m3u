@@ -4,6 +4,8 @@
 http://114.130.57.233:8080/TsportHD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE-🇧🇩-1ᶠᴴᴰ
 https://cdn-tt.pages.dev/ch1.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE-🇧🇩-1ᶠᴴᴰ
+https://cdn-tt.pages.dev/ch2.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="F0x" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Go%20live.jpg" group-title="",Go live
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8
 
