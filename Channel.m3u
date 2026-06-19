@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ext" tvg-name="Toffee Live" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Toffee.jpg" group-title="",Football World Cup 2026
-https://cdn-tt.pages.dev/ch1.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="F0x" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Go%20live.jpg" group-title="",Go live
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8
