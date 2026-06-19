@@ -2,8 +2,7 @@
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Toffee Live" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",Football World Cup 2026
 https://kazimmt.ami.bd/playlist/TF/TF-3.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Toffee Live" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Toffee.jpg" group-title="",Football World Cup 2026
-https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-4/1/master_1800.m3u8?hdntl=Expires=1781860204~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AduQTZ9Sj9zvSufjg0JASf_vDycyqdS8TPBOu-JKexBNXNW9DscK2nxR0lg5t16ryjLACgEgXZ7OiLvl6k-jUTI_KmcD
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="112 T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",tsports
 http://cdn.moviemazic.xyz:8083/TSportsHD/index.m3u8
