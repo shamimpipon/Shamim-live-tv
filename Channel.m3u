@@ -7,20 +7,11 @@ https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-4/1/master_1800.m3u8?hdntl
 #EXTINF:-1 tvg-id="ext" tvg-name="F0x" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Go%20live.jpg" group-title="",Go live
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="",FIFA World Cup 2026
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 
-
-#EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 FHD" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/IMG_20260617_204637.png" group-title="",Fox
-https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
-
 #EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports1
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="FIFA WORLD CUP 2026 HD" tvg-logo="https://i.ibb.co/h1Wvy09C/1000283988.png" group-title="",FIFA WORLD CUP 2026 HD
-http://198.195.239.50:8095/tsports/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
 http://premiumtvs.space/live/jen12345/Jen54321/89.ts
