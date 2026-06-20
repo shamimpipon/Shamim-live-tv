@@ -154,8 +154,6 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="R tv" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/RTV.png" group-title="BD NEWS",R tv
 http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/108833
 
-#EXTINF:-1 tvg-id="ext" tvg-name="Channel 1 TV" tvg-logo="https://i.ibb.co.com/N6HbH5rH/Channel-One-TV.png" group-title="",Channel 1 TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Deepto TV" tvg-logo="https://imglink.cc/cdn/2ODX-FAGY4.png" group-title="",Deepto TV
 https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 
@@ -164,8 +162,7 @@ http://172.31.235.10:8080/hls/38-channel-s/index.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="global TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Global%20Television%20Bangladesh.png" group-title="IPTV",global TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ekhon TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Ekhon%20TV.png" group-title="IPTV",Ekhon TV
-http://172.31.235.10:8080/hls/37-ekhon/index.m3u8
+
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bijoy TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bijoy%20TV.png" group-title="IPTV",Bijoy TV
 https://sm-monirul.top/toffee/play/bijoytv.m3u8
 
@@ -196,6 +193,20 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 #EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4" group-title="Sports",T Sports HD
 http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/756462
 
+#EXTINF:-1 tvg-id="ext" tvg-name="B4U music" tvg-logo="" group-title="",B4U music
+https://sm-monirultop/toffee/play/b4u_music.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Zee Cinema HD" tvg-logo="" group-title="",Zee Cinema HD
+https://sm-monirul.top/toffee/play/zee_cinema_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="MAX" tvg-logo="" group-title="",MAX
+https://sm-monirul.top/toffee/play/sony_max_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="MAX 2" tvg-logo="" group-title="",MAX 2
+https://sm-monirul.top/toffee/play/sonymax_2.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="18.& Picture" tvg-logo="" group-title="",18.& Picture
+https://sm-monirul.top/toffee/play/andpicture_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Discovery%20.png" group-title="",Discovery
+https://sm-monirul.top/toffee/play/discovery_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Zoom" tvg-logo="" group-title="",Zoom
+https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Khushboo" tvg-logo="https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44" group-title="Music",Khushboo
 https://cdn-4.pishow.tv/live/1473/master.m3u8
@@ -214,8 +225,6 @@ https://5dd3981940faa.streamlock.net/thikanatv/thikanatv/playlist.m3u8
 http://172.31.235.10:8080/hls/54-axn/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Action" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Action.png" group-title="Hindi Movie",Zee Action
 http://103.175.73.12:8080/live/270/270_0.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Star Gold" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Gold.png" group-title="Hindi Movie",Star Gold
-http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="095. GOLDMINES" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="",095. GOLDMINES
