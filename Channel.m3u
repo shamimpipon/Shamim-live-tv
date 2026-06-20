@@ -104,10 +104,10 @@ https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SS Cricket" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Sky%20Sports%20Cricket.png" group-title="",SS Cricket
 https://atc.hopto.org/sly-sprts-cricket-hd-sport/playlist.m3u8
 
-
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="G TV" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/gtv-hd-bd.png" group-title="IPTV",G TV
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Nagorik TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Nagorik%20TV.png" group-title="IPTV",Nagorik TV
-http://172.31.235.10:8080/hls/32-nagorik/index.m3u8
+>EXTINF:-1 tvg-id="ext" tvg-name="Channel 1" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png" group-title="",Channel 1
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Me TV" tvg-logo="http://103.175.242.10/assets/images/Me%20TV1731468257png" group-title="",Me TV
+http://103.175.242.10:8080/metv/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",BTV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sangsad TV" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/sangsad-television-bd.png" group-title="BD NEWS",Sangsad
@@ -147,28 +147,17 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel 9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/500px-Channel9_bd.svg.png" group-title="BD NEWS",Channel 9
 https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Duronto TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png" group-title="IPTV",Duronto TV
-http://172.31.235.10:8080/hls/31-duronto/index.m3u8
-
-
-
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Logo_of_Ananda_TV.svg.png" group-title="IPTV",Ananda TV
 https://sm-monirul.top/toffee/play/anandatv.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MY TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/My%20TV.svg.png" group-title="BD NEWS",MY TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="R tv" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/RTV.png" group-title="BD NEWS",R tv
 http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/108833
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ekushey ETV" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Ekushey-Television-Logo-svg.png" group-title="IPTV",Ekushey ETV
-http://172.31.235.10:8080/hls/7-ekushy/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Channel 1 TV" tvg-logo="https://i.ibb.co.com/N6HbH5rH/Channel-One-TV.png" group-title="",Channel 1 TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Deepto TV" tvg-logo="https://imglink.cc/cdn/2ODX-FAGY4.png" group-title="",Deepto TV
 https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Boishakhi TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0uWrO_3qX3hj7I2kpPiVhKpuASKJ_u5PxDTq5VoRAuQ&s" group-title="IPTV",Boishakhi TV
-https://tvsen6.aynaott.com/boishakhitv/index.m3u8
-
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Nexus TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d3/Nexus_Television_Logo.png" group-title="IPTV",Nexus TV
-https://tvsen6.aynaott.com/nexustv/index.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Channel_S_Official_LOGO.png" group-title="IPTV",Channel S
 http://172.31.235.10:8080/hls/38-channel-s/index.m3u8
@@ -233,8 +222,7 @@ http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8
 http://103.175.73.12:8080/live/53/master.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="096. Goldmines Movies" tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" group-title="",096. Goldmines Movies
 http://103.175.73.12:8080/live/51/master.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="103. HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/HBO_2_Logo_Poland.png" group-title="",103. HBO 2
-http://23.88.66.93/HBO_2/index.m3u8
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="064. STAR GOLD HD" tvg-logo="http://LOGO-iptvpro.com/LOGO/SKYUK/stargold_uk.png" group-title="",064. STAR GOLD HD
 http://198.195.239.50:8095/StarGold/index.m3u8
