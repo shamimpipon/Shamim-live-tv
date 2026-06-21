@@ -2,7 +2,7 @@
 
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Toffee.jpg" group-title="",TOFFEE
 http://lifetvbd.xyz:8080/live/shamim3621/12345987/2233.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="rts" tvg-logo="https://github.com/shamimpipon/Shamim-Live-TV-Update/heads/main/Rte2hdlogo.png" group-title="Sports",RTE2
+#EXTINF:-1 tvg-id="ext" tvg-name="rts" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Rte2hdlogo.png" group-title="Sports",RTE2
 http://lifetvbd.xyz:8080/live/shamim3621/12345987/9348.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="tns" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/refs/heads/main/TSN.jpg" group-title="Sports",TNP
 http://lifetvbd.xyz:8080/live/shamim3621/12345987/9477.ts
