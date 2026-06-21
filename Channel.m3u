@@ -1,4 +1,14 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
+https://cdn-tt.pages.dev/ch1.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 2
+https://cdn-tt.pages.dev/ch2.m3u8
+#EXTINF:-1 tvg-id="exthttps://cdn-tt.pages.dev/ch1.m3u8 tvg-name="TOFFEE-🇧🇩-2ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="", TOFFEE 3
+https://cdn-tt.pages.dev/ch3.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-4ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 4
+https://cdn-tt.pages.dev/ch4.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-5ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 5
+https://cdn-tt.pages.dev/ch5.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Toffee.jpg" group-title="",TOFFEE
 http://lifetvbd.xyz:8080/live/shamim3621/12345987/2233.ts
