@@ -1,6 +1,15 @@
 #EXTM3U
+
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Toffee.jpg" group-title="",TOFFEE
 http://lifetvbd.xyz:8080/live/shamim3621/12345987/2233.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="rts" tvg-logo="https://github.com/shamimpipon/Shamim-Live-TV-Update/blob/main/Rte2hdlogo.png" group-title="Sports",RTE2
+http://lifetvbd.xyz:8080/live/shamim3621/12345987/9348.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="tns" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/refs/heads/main/TSN.jpg" group-title="Sports",TNP
+http://lifetvbd.xyz:8080/live/shamim3621/12345987/9477.ts
+
+
+
+
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
 https://cdn-tt.pages.dev/ch1.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 2
@@ -292,14 +301,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Toffee {premium}" tvg-logo="https://i.postimg.cc/141tq9B1/dc092590a65fc2ac5bd58ccf59cecb51-fgraphic.png" group-title="",Toffee {premium}
 http://main.epgmaker.com/live/y49sz6KMQs/6115263489/522.ts
-
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Toffee.jpg" group-title="",TOFFEE
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/2233.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="rts" tvg-logo="https://github.com/shamimpipon/Shamim-Live-TV-Update/blob/main/Rte2hdlogo.png" group-title="Sports",RTE2
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/9348.ts
-
-#EXTINF:-1 tvg-id="ext" tvg-name="tns" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/refs/heads/main/TSN.jpg" group-title="Sports",TNP
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/9477.ts
 
 
 
