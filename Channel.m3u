@@ -1,4 +1,4 @@
-#EXTM3U
+l#EXTM3U
 
 #EXTINF:-1 tvg-id="ext" tvg-name="112 T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",tsports
 http://114.130.57.233:8080/TsportHD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
@@ -255,3 +255,7 @@ https://yellow-flower-41fc.cinepixserver00.workers.dev/1:/21-5-26/Domm%202026%20
 http://103.203.93.4/Dhallywood%20(Bangladeshi)/2026/RAKKHOSH%20Bangla%20Movie%20SIAM/Rakkhosh%20(2026)%20Bengali%20720p%20HD-Camrip.mp4
 #EXTINF:-1 tvg-id="ext" tvg-name="Bonolota Express [2026]" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/bonlota.jpg" group-title="",Bonolota Express [2026]
 http://103.203.93.4/Dhallywood%20(Bangladeshi)/2026/Bonolota%20Express%20(2026)/Bonolota%20Express%20(2026)%20Bengali%20Amazon%20WEB-DL%20H264%20AAC%20720p.mkv
+#EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
+https://slive.mana2.my/SukanRtm/index.m3u8
+
+
