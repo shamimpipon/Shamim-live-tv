@@ -70,6 +70,62 @@ https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
 http://172.17.50.112:84/ant1008/tracks-v1a1/mono.m3u8
 http://103.157.248.140:8000/play/a05x/index.m3u8
 http://103.157.248.140:8000/play/a01q/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="B4U music" tvg-logo="" group-title="",B4U music
+http://lifetvbd.xyz:8080/live/shamim3621/12345987/1508.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="Zee Cinema HD" tvg-logo="" group-title="",Zee Cinema HD
+https://sm-monirul.top/toffee/play/zee_cinema_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="MAX" tvg-logo="" group-title="",MAX
+https://sm-monirul.top/toffee/play/sony_max_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="MAX 2" tvg-logo="" group-title="",MAX 2
+https://sm-monirul.top/toffee/play/sonymax_2.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="18.& Picture" tvg-logo="" group-title="",18.& Picture
+https://sm-monirul.top/toffee/play/andpicture_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Discovery%20.png" group-title="",Discovery
+https://sm-monirul.top/toffee/play/discovery_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Zoom" tvg-logo="" group-title="",Zoom
+https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Khushboo" tvg-logo="https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44" group-title="Music",Khushboo
+https://cdn-4.pishow.tv/live/1473/master.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Music India" tvg-logo="https://s3.aynaott.com/storage/20c3a2638df99ece9eb12aabfc03a8c3" group-title="Music",Music India
+https://cdn-2.pishow.tv/live/226/master.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Shemaroo TV" tvg-logo="https://s3.aynaott.com/storage/c63628e7301ba1eded68c0f75ab8d903" group-title="Entertainment",Shemaroo TV
+https://cdn-3.pishow.tv/live/230/master.m3u8
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Thikana" tvg-logo="https://s3.aynaott.com/storage/6d1aaa03b84a69992940873fc11af8fc" group-title="Bangla",Thikana
+https://5dd3981940faa.streamlock.net/thikanatv/thikanatv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Axn" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/AXN.png" group-title="Hindi Movie",Axn
+http://172.31.235.10:8080/hls/54-axn/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Zee Action" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Action.png" group-title="Hindi Movie",Zee Action
+http://103.175.73.12:8080/live/270/270_0.m3u8
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="095. GOLDMINES" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="",095. GOLDMINES
+http://103.175.73.12:8080/live/53/master.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="096. Goldmines Movies" tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" group-title="",096. Goldmines Movies
+http://103.175.73.12:8080/live/51/master.m3u8
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="064. STAR GOLD HD" tvg-logo="http://LOGO-iptvpro.com/LOGO/SKYUK/stargold_uk.png" group-title="",064. STAR GOLD HD
+http://198.195.239.50:8095/StarGold/index.m3u8
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Music Mastii" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRD92lTNDFEe1iA-zJLoFb-mu28rBgjGIqs3qFS_w=s900-c-k-c0x00ffffff-no-rj" group-title="",Music Mastii
+https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Sci-fi" tvg-logo="https://i.ibb.co/Ns62bY2/2021-04-22-10-24-01.png" group-title="",Sci-fi
+https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="MNX-HD" tvg-logo="https://s4.gifyu.com/images/image8c255c8f4e981429.png" group-title="",MNX-HD
+https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Motu Patlu" tvg-logo="https://imglink.cc/cdn/TxPUulKGQh.jpg" group-title="",Motu Patlu
+https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Toffee {premium}" tvg-logo="https://i.postimg.cc/141tq9B1/dc092590a65fc2ac5bd58ccf59cecb51-fgraphic.png" group-title="",Toffee {premium}
+http://main.epgmaker.com/live/y49sz6KMQs/6115263489/522.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
 https://flussonic.deltainfonet.com/10_SONY-SPORTS_1/tracks-v1a1/mono.m3u8
