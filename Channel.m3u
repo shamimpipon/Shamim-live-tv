@@ -195,23 +195,19 @@ http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/756462
 
 #EXTINF:-1 tvg-id="ext" tvg-name="B4U music" tvg-logo="" group-title="",B4U music
 http://lifetvbd.xyz:8080/live/shamim3621/12345987/1508.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="Zee Cinema HD" tvg-logo="" group-title="",Zee Cinema HD
-https://sm-monirul.top/toffee/play/zee_cinema_hd.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="MAX" tvg-logo="" group-title="",MAX
-https://sm-monirul.top/toffee/play/sony_max_hd.m3u8
+http://lifetvbd.xyz:8080/live/shamim3621/12345987/9440.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="MAX Hd" tvg-logo="" group-title="",MAX
+http://lifetvbd.xyz:8080/live/shamim3621/12345987/9474.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="MAX 2" tvg-logo="" group-title="",MAX 2
 https://sm-monirul.top/toffee/play/sonymax_2.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="18.& Picture" tvg-logo="" group-title="",18.& Picture
 #EXTINF:-1 tvg-id="ext" tvg-name="B4U music" tvg-logo="" group-title="",B4U music
 http://lifetvbd.xyz:8080/live/shamim3621/12345987/1508.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Cinema HD" tvg-logo="" group-title="",Zee Cinema HD
-https://sm-monirul.top/toffee/play/zee_cinema_hd.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="MAX" tvg-logo="" group-title="",MAX
-https://sm-monirul.top/toffee/play/sony_max_hd.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="MAX 2" tvg-logo="" group-title="",MAX 2
-https://sm-monirul.top/toffee/play/sonymax_2.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="18.& Picture" tvg-logo="" group-title="",18.& Picture
-https://sm-monirul.top/toffee/play/andpicture_hd.m3u8
+http://lifetvbd.xyz:8080/live/shamim3621/12345987/106.ts
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Discovery%20.png" group-title="",Discovery
 https://sm-monirul.top/toffee/play/discovery_hd.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zoom" tvg-logo="" group-title="",Zoom
@@ -243,8 +239,7 @@ http://103.175.73.12:8080/live/51/master.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="064. STAR GOLD HD" tvg-logo="http://LOGO-iptvpro.com/LOGO/SKYUK/stargold_uk.png" group-title="",064. STAR GOLD HD
-http://198.195.239.50:8095/StarGold/index.m3u8
-
+http://lifetvbd.xyz:8080/live/shamim3621/12345987/2586.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Music Mastii" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRD92lTNDFEe1iA-zJLoFb-mu28rBgjGIqs3qFS_w=s900-c-k-c0x00ffffff-no-rj" group-title="",Music Mastii
 https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8
@@ -279,7 +274,7 @@ https://5dd3981940faa.streamlock.net/thikanatv/thikanatv/playlist.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Axn" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/AXN.png" group-title="Hindi Movie",Axn
 http://172.31.235.10:8080/hls/54-axn/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Action" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Action.png" group-title="Hindi Movie",Zee Action
-http://103.175.73.12:8080/live/270/270_0.m3u8
+http://lifetvbd.xyz:8080/live/shamim3621/12345987/2.ts
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="095. GOLDMINES" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="",095. GOLDMINES
