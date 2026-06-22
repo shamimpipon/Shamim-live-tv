@@ -1,6 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4" group-title="Sports",T Sports HD
-http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/756462
+
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
 https://cdn-tt.pages.dev/ch1.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 2
