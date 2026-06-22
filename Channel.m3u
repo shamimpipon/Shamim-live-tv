@@ -10,16 +10,6 @@ https://cdn-tt.pages.dev/ch4.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-5ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 5
 https://cdn-tt.pages.dev/ch5.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/Toffee.jpg" group-title="",TOFFEE
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/2233.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="rts" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Rte2hdlogo.png" group-title="Sports",RTE2
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/9348.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="tns" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/refs/heads/main/TSN.jpg" group-title="Sports",TNP
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/9477.ts
-
-
-#EXTINF:-1 tvg-id="ext" tvg-name="112 T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",tsports
-http://cdn.moviemazic.xyz:8083/Feedget/beinspots_2/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="",FIFA World Cup 2026
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 
