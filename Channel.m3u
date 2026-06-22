@@ -15,7 +15,7 @@ https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/459.ts
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",1003
 http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
@@ -32,13 +32,13 @@ https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Chinena" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Zee%20Bangla%20Cinema%20.png" group-title="Indian Bangla",Zee Bangla Chinena
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/7.ts
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="জলসা Movie HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/jalsha-movies-hd-in.png" group-title="Indian Bangla",জলসা Movie HD
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/9560.ts
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Sun Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sun-bangla-hd-in.png" group-title="Indian Bangla",Sun Bangla
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/9559.ts
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
 http://main.epgmaker.com/live/y49sz6KMQs/6115263489/532.ts
@@ -47,19 +47,19 @@ http://main.epgmaker.com/live/y49sz6KMQs/6115263489/532.ts
 http://premiumtvs.space/live/jen12345/Jen54321/271038.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-aath-in.png" group-title="Indian Bangla",Sony Aath
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/3157.ts
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Sangeet Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sangeet-bangla-in.png" group-title="Music",Sangeet Bangla
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/3169.ts
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="আকাশ ৮" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Akash%20Aath.png" group-title="Indian Bangla",আকাশ ৮
 https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/chunks.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Ente10 Bangla" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Enter%2010%20Bangla.jpeg" group-title="Indian Bangla",Ente10 Bangla
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/2582.ts
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",A SPORTS
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/3158.ts
+
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
 http://premiumtvs.space/live/jen12345/Jen54321/89.ts
 
@@ -71,9 +71,9 @@ https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u
 http://premiumtvs.space/live/jen12345/Jen54321/5040.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 JADOO" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-1-hd-in.png" group-title="Sports",STAR SPORTS 1 JADOO
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/2579.ts
+
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-2-hd-in.png" group-title="Sports",STAR SPORTS 2
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/2583.ts
+
 #EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 3" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-3-hd-in.png" group-title="Sports",STAR SPORTS 3
 http://premiumtvs.space/live/jen12345/Jen54321/158442.ts
 
@@ -91,7 +91,7 @@ http://lifetvbd.xyz:8080/live/shamim3621/12345987/2580.ts
 #EXTINF:-1 tvg-id="StarSportsSelectHD2.in" tvg-name="STAR SPORTS SELECT 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-2-hd-in.png" group-title="Sports",STAR SPORTS SELECT 2 HD
 http://lifetvbd.xyz:8080/live/shamim3621/12345987/2584.ts
 
->EXTINF:-1 tvg-id="ext" tvg-name="Channel 1" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png" group-title="",Channel 1
+EXTINF:-1 tvg-id="ext" tvg-name="Channel 1" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png" group-title="",Channel 1
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Me TV" tvg-logo="http://103.175.242.10/assets/images/Me%20TV1731468257png" group-title="",Me TV
 http://103.175.242.10:8080/metv/index.m3u8
@@ -149,7 +149,7 @@ https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 http://172.31.235.10:8080/hls/38-channel-s/index.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="global TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Global%20Television%20Bangladesh.png" group-title="IPTV",global TV
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/2587.ts
+
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bijoy TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bijoy%20TV.png" group-title="IPTV",Bijoy TV
 https://sm-monirul.top/toffee/play/bijoytv.m3u8
@@ -182,7 +182,7 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/756462
 
 #EXTINF:-1 tvg-id="ext" tvg-name="B4U music" tvg-logo="" group-title="",B4U music
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/1508.ts
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Channel S" tvg-logo="https://assets-prod.services.toffeelive.com//WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png" group-title="Uncategorized",Channel S
 https://sm-monirul.top/toffee/play/channel_s.m3u8
@@ -273,7 +273,7 @@ http://103.175.73.12:8080/live/51/master.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="064. STAR GOLD HD" tvg-logo="http://LOGO-iptvpro.com/LOGO/SKYUK/stargold_uk.png" group-title="",064. STAR GOLD HD
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/2586.ts
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Music Mastii" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRD92lTNDFEe1iA-zJLoFb-mu28rBgjGIqs3qFS_w=s900-c-k-c0x00ffffff-no-rj" group-title="",Music Mastii
 https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8
@@ -308,7 +308,7 @@ https://5dd3981940faa.streamlock.net/thikanatv/thikanatv/playlist.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Axn" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/AXN.png" group-title="Hindi Movie",Axn
 http://172.31.235.10:8080/hls/54-axn/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Action" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Action.png" group-title="Hindi Movie",Zee Action
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/2.ts
+
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="095. GOLDMINES" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="",095. GOLDMINES
