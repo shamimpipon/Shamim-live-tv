@@ -91,7 +91,7 @@ http://lifetvbd.xyz:8080/live/shamim3621/12345987/2580.ts
 #EXTINF:-1 tvg-id="StarSportsSelectHD2.in" tvg-name="STAR SPORTS SELECT 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-2-hd-in.png" group-title="Sports",STAR SPORTS SELECT 2 HD
 http://lifetvbd.xyz:8080/live/shamim3621/12345987/2584.ts
 
-EXTINF:-1 tvg-id="ext" tvg-name="Channel 1" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png" group-title="",Channel 1
+#EXTINF:-1 tvg-id="ext" tvg-name="Channel 1" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png" group-title="",Channel 1
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Me TV" tvg-logo="http://103.175.242.10/assets/images/Me%20TV1731468257png" group-title="",Me TV
 http://103.175.242.10:8080/metv/index.m3u8
