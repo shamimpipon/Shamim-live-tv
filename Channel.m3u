@@ -13,7 +13,8 @@ https://cdn-tt.pages.dev/ch5.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="S Live Central B" tvg-logo="https://imglink.cc/cdn/RY7jBwPKArjpg" group-title="",S Live Central B
 http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/745149.ts
 
-
+#EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4" group-title="Sports",T Sports 1 
+http://www.clubbd.com/webplayer/webplayer/70.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",uneit8
 http://212.102.34.8:9080/AndFlixHD/video.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="",FIFA World Cup 2026
