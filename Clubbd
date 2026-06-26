@@ -1,0 +1,329 @@
+#EXTM3U
+
+# ==================== Bangla ====================
+#EXTINF:-1 tvg-id="ext" tvg-name="BTV NATIONAL HD" tvg-logo="" group-title="Bangla",BTV NATIONAL HD
+http://10.189.188.190:8080/7654321/1234567/156
+#EXTINF:-1 tvg-id="ext" tvg-name="BTV NEWS HD" tvg-logo="" group-title="Bangla",BTV NEWS HD
+http://10.189.188.190:8080/7654321/1234567/157
+#EXTINF:-1 tvg-id="ext" tvg-name="BTV CHATTAGRAM" tvg-logo="" group-title="Bangla",BTV CHATTAGRAM
+http://10.189.188.190:8080/7654321/1234567/158
+#EXTINF:-1 tvg-id="ext" tvg-name="ATN BANGLA HD" tvg-logo="" group-title="Bangla",ATN BANGLA HD
+http://10.189.188.190:8080/7654321/1234567/159
+#EXTINF:-1 tvg-id="ext" tvg-name="CHANNEL I HD" tvg-logo="" group-title="Bangla",CHANNEL I HD
+http://10.189.188.190:8080/7654321/1234567/160
+#EXTINF:-1 tvg-id="ext" tvg-name="EKUSHEY TV HD" tvg-logo="" group-title="Bangla",EKUSHEY TV HD
+http://10.189.188.190:8080/7654321/1234567/161
+#EXTINF:-1 tvg-id="ext" tvg-name="NTV" tvg-logo="" group-title="Bangla",NTV
+http://10.189.188.190:8080/7654321/1234567/162
+#EXTINF:-1 tvg-id="ext" tvg-name="RTV HD" tvg-logo="" group-title="Bangla",RTV HD
+http://10.189.188.190:8080/7654321/1234567/163
+#EXTINF:-1 tvg-id="ext" tvg-name="SATV HD" tvg-logo="" group-title="Bangla",SATV HD
+http://10.189.188.190:8080/7654321/1234567/173
+#EXTINF:-1 tvg-id="ext" tvg-name="BANGLA VISION" tvg-logo="" group-title="Bangla",BANGLA VISION
+http://10.189.188.190:8080/7654321/1234567/174
+#EXTINF:-1 tvg-id="ext" tvg-name="DESH TV" tvg-logo="" group-title="Bangla",DESH TV
+http://10.189.188.190:8080/7654321/1234567/175
+#EXTINF:-1 tvg-id="ext" tvg-name="MYTV HD" tvg-logo="" group-title="Bangla",MYTV HD
+http://10.189.188.190:8080/7654321/1234567/176
+#EXTINF:-1 tvg-id="ext" tvg-name="BOISHAKHI TV HD" tvg-logo="" group-title="Bangla",BOISHAKHI TV HD
+http://10.189.188.190:8080/7654321/1234567/177
+#EXTINF:-1 tvg-id="ext" tvg-name="GAZI TV HD" tvg-logo="" group-title="Bangla",GAZI TV HD
+http://10.189.188.190:8080/7654321/1234567/178
+#EXTINF:-1 tvg-id="ext" tvg-name="ASIAN TV HD" tvg-logo="" group-title="Bangla",ASIAN TV HD
+http://10.189.188.190:8080/7654321/1234567/179
+#EXTINF:-1 tvg-id="ext" tvg-name="DEEPTO TV HD" tvg-logo="" group-title="Bangla",DEEPTO TV HD
+http://10.189.188.190:8080/7654321/1234567/180
+#EXTINF:-1 tvg-id="ext" tvg-name="MAASRANGA TV HD" tvg-logo="" group-title="Bangla",MAASRANGA TV HD
+http://10.189.188.190:8080/7654321/1234567/181
+#EXTINF:-1 tvg-id="ext" tvg-name="MOHONA TV HD" tvg-logo="" group-title="Bangla",MOHONA TV HD
+http://10.189.188.190:8080/7654321/1234567/182
+#EXTINF:-1 tvg-id="ext" tvg-name="BANGLA TV HD" tvg-logo="" group-title="Bangla",BANGLA TV HD
+http://10.189.188.190:8080/7654321/1234567/183
+#EXTINF:-1 tvg-id="ext" tvg-name="NAGORIK TV HD" tvg-logo="" group-title="Bangla",NAGORIK TV HD
+http://10.189.188.190:8080/7654321/1234567/184
+#EXTINF:-1 tvg-id="ext" tvg-name="ANANDA TV" tvg-logo="" group-title="Bangla",ANANDA TV
+http://10.189.188.190:8080/7654321/1234567/186
+#EXTINF:-1 tvg-id="ext" tvg-name="CHANNEL 9 HD" tvg-logo="" group-title="Bangla",CHANNEL 9 HD
+http://10.189.188.190:8080/7654321/1234567/187
+
+# ==================== NEWS ====================
+#EXTINF:-1 tvg-id="ext" tvg-name="ATN NEWS" tvg-logo="" group-title="NEWS",ATN NEWS
+http://10.189.188.190:8080/7654321/1234567/164
+#EXTINF:-1 tvg-id="ext" tvg-name="SOMOY TV HD" tvg-logo="" group-title="NEWS",SOMOY TV HD
+http://10.189.188.190:8080/7654321/1234567/165
+#EXTINF:-1 tvg-id="ext" tvg-name="JAMUNA TV" tvg-logo="" group-title="NEWS",JAMUNA TV
+http://10.189.188.190:8080/7654321/1234567/166
+#EXTINF:-1 tvg-id="ext" tvg-name="INDEPENDENT TV" tvg-logo="" group-title="NEWS",INDEPENDENT TV
+http://10.189.188.190:8080/7654321/1234567/167
+#EXTINF:-1 tvg-id="ext" tvg-name="CHANNEL 24 HD" tvg-logo="" group-title="NEWS",CHANNEL 24 HD
+http://10.189.188.190:8080/7654321/1234567/168
+#EXTINF:-1 tvg-id="ext" tvg-name="DBC NEWS HD" tvg-logo="" group-title="NEWS",DBC NEWS HD
+http://10.189.188.190:8080/7654321/1234567/169
+#EXTINF:-1 tvg-id="ext" tvg-name="NEWS24 HD" tvg-logo="" group-title="NEWS",NEWS24 HD
+http://10.189.188.190:8080/7654321/1234567/170
+#EXTINF:-1 tvg-id="ext" tvg-name="EKATTOR TV HD" tvg-logo="" group-title="NEWS",EKATTOR TV HD
+http://10.189.188.190:8080/7654321/1234567/171
+#EXTINF:-1 tvg-id="ext" tvg-name="EKHON TV HD" tvg-logo="" group-title="NEWS",EKHON TV HD
+http://10.189.188.190:8080/7654321/1234567/172
+#EXTINF:-1 tvg-id="ext" tvg-name="24 GANTHA NEWS" tvg-logo="" group-title="NEWS",24 GANTHA NEWS
+http://10.189.188.190:8080/7654321/1234567/252
+#EXTINF:-1 tvg-id="ext" tvg-name="R.BANGLA NEWS" tvg-logo="" group-title="NEWS",R.BANGLA NEWS
+http://10.189.188.190:8080/7654321/1234567/253
+#EXTINF:-1 tvg-id="ext" tvg-name="ZEE NEWS" tvg-logo="" group-title="NEWS",ZEE NEWS
+http://10.189.188.190:8080/7654321/1234567/254
+#EXTINF:-1 tvg-id="ext" tvg-name="ABP NEWS" tvg-logo="" group-title="NEWS",ABP NEWS
+http://10.189.188.190:8080/7654321/1234567/255
+#EXTINF:-1 tvg-id="ext" tvg-name="Aaj thak" tvg-logo="" group-title="NEWS",Aaj thak
+http://10.189.188.190:8080/7654321/1234567/256
+#EXTINF:-1 tvg-id="ext" tvg-name="GEO NEWS" tvg-logo="" group-title="NEWS",GEO NEWS
+http://10.189.188.190:8080/7654321/1234567/257
+#EXTINF:-1 tvg-id="ext" tvg-name="ARY NEWS ASIA" tvg-logo="" group-title="NEWS",ARY NEWS ASIA
+http://10.189.188.190:8080/7654321/1234567/258
+#EXTINF:-1 tvg-id="ext" tvg-name="AL JAZEERA NEWS" tvg-logo="" group-title="NEWS",AL JAZEERA NEWS
+http://10.189.188.190:8080/7654321/1234567/259
+#EXTINF:-1 tvg-id="ext" tvg-name="BBC WORLD" tvg-logo="" group-title="NEWS",BBC WORLD
+http://10.189.188.190:8080/7654321/1234567/260
+#EXTINF:-1 tvg-id="ext" tvg-name="CNN INTERNATIONAL" tvg-logo="" group-title="NEWS",CNN INTERNATIONAL
+http://10.189.188.190:8080/7654321/1234567/261
+#EXTINF:-1 tvg-id="ext" tvg-name="CGTN NEWS" tvg-logo="" group-title="NEWS",CGTN NEWS
+http://10.189.188.190:8080/7654321/1234567/262
+#EXTINF:-1 tvg-id="ext" tvg-name="DW NEWS ENG" tvg-logo="" group-title="NEWS",DW NEWS ENG
+http://10.189.188.190:8080/7654321/1234567/263
+#EXTINF:-1 tvg-id="ext" tvg-name="NDTV 24/7" tvg-logo="" group-title="NEWS",NDTV 24/7
+http://10.189.188.190:8080/7654321/1234567/264
+#EXTINF:-1 tvg-id="ext" tvg-name="NDTV INDIA" tvg-logo="" group-title="NEWS",NDTV INDIA
+http://10.189.188.190:8080/7654321/1234567/265
+
+# ==================== Indian Bangla ====================
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR JOLSHA HD" tvg-logo="" group-title="Indian Bangla",STAR JOLSHA HD
+http://10.189.188.190:8080/7654321/1234567/188
+#EXTINF:-1 tvg-id="ext" tvg-name="ZEE BANGLA HD" tvg-logo="" group-title="Indian Bangla",ZEE BANGLA HD
+http://10.189.188.190:8080/7654321/1234567/189
+#EXTINF:-1 tvg-id="ext" tvg-name="COLORS BANGLA HD" tvg-logo="" group-title="Indian Bangla",COLORS BANGLA HD
+http://10.189.188.190:8080/7654321/1234567/190
+#EXTINF:-1 tvg-id="ext" tvg-name="SUN BANGLA HD" tvg-logo="" group-title="Indian Bangla",SUN BANGLA HD
+http://10.189.188.190:8080/7654321/1234567/191
+#EXTINF:-1 tvg-id="ext" tvg-name="JALSHA MOVIES HD" tvg-logo="" group-title="Indian Bangla",JALSHA MOVIES HD
+http://10.189.188.190:8080/7654321/1234567/192
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY ATTH" tvg-logo="" group-title="Indian Bangla",SONY ATTH
+http://10.189.188.190:8080/7654321/1234567/193
+#EXTINF:-1 tvg-id="ext" tvg-name="ZEE BANGLA CINEMA" tvg-logo="" group-title="Indian Bangla",ZEE BANGLA CINEMA
+http://10.189.188.190:8080/7654321/1234567/194
+#EXTINF:-1 tvg-id="ext" tvg-name="ENTER 10 BANGLA" tvg-logo="" group-title="Indian Bangla",ENTER 10 BANGLA
+http://10.189.188.190:8080/7654321/1234567/195
+#EXTINF:-1 tvg-id="ext" tvg-name="AKASH BANGLA" tvg-logo="" group-title="Indian Bangla",AKASH BANGLA
+http://10.189.188.190:8080/7654321/1234567/196
+
+# ==================== Hindi Movie & Entertainment ====================
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR PLUS HD" tvg-logo="" group-title="Hindi Movie",STAR PLUS HD
+http://10.189.188.190:8080/7654321/1234567/197
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY HD" tvg-logo="" group-title="Hindi Movie",SONY HD
+http://10.189.188.190:8080/7654321/1234567/198
+#EXTINF:-1 tvg-id="ext" tvg-name="ZEE TV HD" tvg-logo="" group-title="Hindi Movie",ZEE TV HD
+http://10.189.188.190:8080/7654321/1234567/199
+#EXTINF:-1 tvg-id="ext" tvg-name="COLORS HD" tvg-logo="" group-title="Hindi Movie",COLORS HD
+http://10.189.188.190:8080/7654321/1234567/200
+#EXTINF:-1 tvg-id="ext" tvg-name="SUB TV HD" tvg-logo="" group-title="Hindi Movie",SUB TV HD
+http://10.189.188.190:8080/7654321/1234567/201
+#EXTINF:-1 tvg-id="ext" tvg-name="UTSAV PLUS HD" tvg-logo="" group-title="Hindi Movie",UTSAV PLUS HD
+http://10.189.188.190:8080/7654321/1234567/202
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR BHARAT HD" tvg-logo="" group-title="Hindi Movie",STAR BHARAT HD
+http://10.189.188.190:8080/7654321/1234567/203
+#EXTINF:-1 tvg-id="ext" tvg-name="&TV HD" tvg-logo="" group-title="Hindi Movie",&TV HD
+http://10.189.188.190:8080/7654321/1234567/204
+#EXTINF:-1 tvg-id="ext" tvg-name="ARY DIGITAL HD" tvg-logo="" group-title="Hindi Movie",ARY DIGITAL HD
+http://10.189.188.190:8080/7654321/1234567/205
+#EXTINF:-1 tvg-id="ext" tvg-name="HUM TV HD" tvg-logo="" group-title="Hindi Movie",HUM TV HD
+http://10.189.188.190:8080/7654321/1234567/206
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR GOLD HD" tvg-logo="" group-title="Hindi Movie",STAR GOLD HD
+http://10.189.188.190:8080/7654321/1234567/207
+#EXTINF:-1 tvg-id="ext" tvg-name="UTSAV GOLD HD" tvg-logo="" group-title="Hindi Movie",UTSAV GOLD HD
+http://10.189.188.190:8080/7654321/1234567/208
+#EXTINF:-1 tvg-id="ext" tvg-name="ZEE CINEMA HD" tvg-logo="" group-title="Hindi Movie",ZEE CINEMA HD
+http://10.189.188.190:8080/7654321/1234567/209
+#EXTINF:-1 tvg-id="ext" tvg-name="& PICTURE HD" tvg-logo="" group-title="Hindi Movie",& PICTURE HD
+http://10.189.188.190:8080/7654321/1234567/210
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY MAX HD" tvg-logo="" group-title="Hindi Movie",SONY MAX HD
+http://10.189.188.190:8080/7654321/1234567/211
+#EXTINF:-1 tvg-id="ext" tvg-name="COLORS CINEPLEX HD" tvg-logo="" group-title="Hindi Movie",COLORS CINEPLEX HD
+http://10.189.188.190:8080/7654321/1234567/212
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR GOLD 2 HD" tvg-logo="" group-title="Hindi Movie",STAR GOLD 2 HD
+http://10.189.188.190:8080/7654321/1234567/213
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR GOLD SEL HD" tvg-logo="" group-title="Hindi Movie",STAR GOLD SEL HD
+http://10.189.188.190:8080/7654321/1234567/214
+
+# ==================== Sports ====================
+#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS HD" tvg-logo="" group-title="Sports",T SPORTS HD
+http://10.189.188.190:8080/7654321/1234567/215
+#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS FUL HD" tvg-logo="" group-title="Sports",T SPORTS FUL HD
+http://10.189.188.190:8080/7654321/1234567/216
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY TEN 1 HD" tvg-logo="" group-title="Sports",SONY TEN 1 HD
+http://10.189.188.190:8080/7654321/1234567/217
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY TEN 2 HD" tvg-logo="" group-title="Sports",SONY TEN 2 HD
+http://10.189.188.190:8080/7654321/1234567/218
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY TEN 3 HD" tvg-logo="" group-title="Sports",SONY TEN 3 HD
+http://10.189.188.190:8080/7654321/1234567/219
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY TEN 5 HD" tvg-logo="" group-title="Sports",SONY TEN 5 HD
+http://10.189.188.190:8080/7654321/1234567/220
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 HD" tvg-logo="" group-title="Sports",STAR SPORTS 1 HD
+http://10.189.188.190:8080/7654321/1234567/221
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2 HD" tvg-logo="" group-title="Sports",STAR SPORTS 2 HD
+http://10.189.188.190:8080/7654321/1234567/222
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS HINDI 2 HD" tvg-logo="" group-title="Sports",STAR SPORTS HINDI 2 HD
+http://10.189.188.190:8080/7654321/1234567/223
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS SLI HD" tvg-logo="" group-title="Sports",STAR SPORTS SLI HD
+http://10.189.188.190:8080/7654321/1234567/224
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS SL2 HD" tvg-logo="" group-title="Sports",STAR SPORTS SL2 HD
+http://10.189.188.190:8080/7654321/1234567/225
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 3" tvg-logo="" group-title="Sports",STAR SPORTS 3
+http://10.189.188.190:8080/7654321/1234567/226
+#EXTINF:-1 tvg-id="ext" tvg-name="EUROSPORTS HD" tvg-logo="" group-title="Sports",EUROSPORTS HD
+http://10.189.188.190:8080/7654321/1234567/227
+#EXTINF:-1 tvg-id="ext" tvg-name="PTV SPORTS HD" tvg-logo="" group-title="Sports",PTV SPORTS HD
+http://10.189.188.190:8080/7654321/1234567/228
+#EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS HD" tvg-logo="" group-title="Sports",A SPORTS HD
+http://10.189.188.190:8080/7654321/1234567/229
+#EXTINF:-1 tvg-id="ext" tvg-name="GEO SUPER SPORTS" tvg-logo="" group-title="Sports",GEO SUPER SPORTS
+http://10.189.188.190:8080/7654321/1234567/230
+#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 1 HD" tvg-logo="" group-title="Sports",TNT SPORTS 1 HD
+http://10.189.188.190:8080/7654321/1234567/231
+#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 2 HD" tvg-logo="" group-title="Sports",TNT SPORTS 2 HD
+http://10.189.188.190:8080/7654321/1234567/232
+#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 3 HD" tvg-logo="" group-title="Sports",TNT SPORTS 3 HD
+http://10.189.188.190:8080/7654321/1234567/233
+#EXTINF:-1 tvg-id="ext" tvg-name="TNT SPORTS 4 HD" tvg-logo="" group-title="Sports",TNT SPORTS 4 HD
+http://10.189.188.190:8080/7654321/1234567/234
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 1 HD ARB" tvg-logo="" group-title="Sports",BEIN SPORTS 1 HD ARB
+http://10.189.188.190:8080/7654321/1234567/235
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2 HD ARB" tvg-logo="" group-title="Sports",BEIN SPORTS 2 HD ARB
+http://10.189.188.190:8080/7654321/1234567/236
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 3 HD ARB" tvg-logo="" group-title="Sports",BEIN SPORTS 3 HD ARB
+http://10.189.188.190:8080/7654321/1234567/237
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 4 HD ARB" tvg-logo="" group-title="Sports",BEIN SPORTS 4 HD ARB
+http://10.189.188.190:8080/7654321/1234567/238
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 1 HD ENG" tvg-logo="" group-title="Sports",BEIN SPORTS 1 HD ENG
+http://10.189.188.190:8080/7654321/1234567/239
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 2 HD ENG" tvg-logo="" group-title="Sports",BEIN SPORTS 2 HD ENG
+http://10.189.188.190:8080/7654321/1234567/240
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 3 HD ENG" tvg-logo="" group-title="Sports",BEIN SPORTS 3 HD ENG
+http://10.189.188.190:8080/7654321/1234567/241
+#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS HD USA" tvg-logo="" group-title="Sports",BEIN SPORTS HD USA
+http://10.189.188.190:8080/7654321/1234567/242
+#EXTINF:-1 tvg-id="ext" tvg-name="WILLOW CRICKET HD" tvg-logo="" group-title="Sports",WILLOW CRICKET HD
+http://10.189.188.190:8080/7654321/1234567/243
+#EXTINF:-1 tvg-id="ext" tvg-name="WILLOW CRICKET XTRA HD" tvg-logo="" group-title="Sports",WILLOW CRICKET XTRA HD
+http://10.189.188.190:8080/7654321/1234567/244
+#EXTINF:-1 tvg-id="ext" tvg-name="SKY SPORTS CRICKET HD" tvg-logo="" group-title="Sports",SKY SPORTS CRICKET HD
+http://10.189.188.190:8080/7654321/1234567/245
+#EXTINF:-1 tvg-id="ext" tvg-name="SUPER CEICKET HD" tvg-logo="" group-title="Sports",SUPER CEICKET HD
+http://10.189.188.190:8080/7654321/1234567/246
+#EXTINF:-1 tvg-id="ext" tvg-name="SKY PREMIER LEAGUE HD" tvg-logo="" group-title="Sports",SKY PREMIER LEAGUE HD
+http://10.189.188.190:8080/7654321/1234567/247
+#EXTINF:-1 tvg-id="ext" tvg-name="SSC SPORTS 1 HD" tvg-logo="" group-title="Sports",SSC SPORTS 1 HD
+http://10.189.188.190:8080/7654321/1234567/248
+#EXTINF:-1 tvg-id="ext" tvg-name="SKY SPORTS GOLF HD" tvg-logo="" group-title="Sports",SKY SPORTS GOLF HD
+http://10.189.188.190:8080/7654321/1234567/249
+#EXTINF:-1 tvg-id="ext" tvg-name="NBC GOLF HD" tvg-logo="" group-title="Sports",NBC GOLF HD
+http://10.189.188.190:8080/7654321/1234567/250
+#EXTINF:-1 tvg-id="ext" tvg-name="TEN SPORTS HD" tvg-logo="" group-title="Sports",TEN SPORTS HD
+http://10.189.188.190:8080/7654321/1234567/251
+#EXTINF:-1 tvg-id="ext" tvg-name="SPORTS 2 HD" tvg-logo="" group-title="Sports",SPORTS 2 HD
+http://10.189.188.190:8080/7654321/1234567/290
+
+# ==================== Infotainment & Documentaries ====================
+#EXTINF:-1 tvg-id="ext" tvg-name="DISCOVERY HD" tvg-logo="" group-title="Bangla",DISCOVERY HD
+http://10.189.188.190:8080/7654321/1234567/266
+#EXTINF:-1 tvg-id="ext" tvg-name="NAT GEO HD" tvg-logo="" group-title="Bangla",NAT GEO HD
+http://10.189.188.190:8080/7654321/1234567/267
+#EXTINF:-1 tvg-id="ext" tvg-name="NAT GEO WILD HD" tvg-logo="" group-title="Bangla",NAT GEO WILD HD
+http://10.189.188.190:8080/7654321/1234567/268
+#EXTINF:-1 tvg-id="ext" tvg-name="ANIMAL PLANET HD" tvg-logo="" group-title="Bangla",ANIMAL PLANET HD
+http://10.189.188.190:8080/7654321/1234567/269
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY BBC EARTH HD" tvg-logo="" group-title="Bangla",SONY BBC EARTH HD
+http://10.189.188.190:8080/7654321/1234567/270
+#EXTINF:-1 tvg-id="ext" tvg-name="TRAVEL XP HD" tvg-logo="" group-title="Bangla",TRAVEL XP HD
+http://10.189.188.190:8080/7654321/1234567/271
+#EXTINF:-1 tvg-id="ext" tvg-name="HISTORY TV18 HD" tvg-logo="" group-title="Bangla",HISTORY TV18 HD
+http://10.189.188.190:8080/7654321/1234567/272
+#EXTINF:-1 tvg-id="ext" tvg-name="TLC HD" tvg-logo="" group-title="Bangla",TLC HD
+http://10.189.188.190:8080/7654321/1234567/273
+#EXTINF:-1 tvg-id="ext" tvg-name="DISCOVERY TURBO" tvg-logo="" group-title="Bangla",DISCOVERY TURBO
+http://10.189.188.190:8080/7654321/1234567/274
+#EXTINF:-1 tvg-id="ext" tvg-name="DISCOVARY SCIENCE" tvg-logo="" group-title="Bangla",DISCOVARY SCIENCE
+http://10.189.188.190:8080/7654321/1234567/286
+
+# ==================== Kids ====================
+#EXTINF:-1 tvg-id="ext" tvg-name="DURONTO TV HD" tvg-logo="" group-title="Kids",DURONTO TV HD
+http://10.189.188.190:8080/7654321/1234567/185
+#EXTINF:-1 tvg-id="ext" tvg-name="CARTOON NETWORK HD" tvg-logo="" group-title="Kids",CARTOON NETWORK HD
+http://10.189.188.190:8080/7654321/1234567/275
+#EXTINF:-1 tvg-id="ext" tvg-name="NICK TV HD+" tvg-logo="" group-title="Kids",NICK TV HD+
+http://10.189.188.190:8080/7654321/1234567/276
+#EXTINF:-1 tvg-id="ext" tvg-name="DISNEY INT. HD" tvg-logo="" group-title="Kids",DISNEY INT. HD
+http://10.189.188.190:8080/7654321/1234567/277
+#EXTINF:-1 tvg-id="ext" tvg-name="CARTOON NETWORK SD" tvg-logo="" group-title="Kids",CARTOON NETWORK SD
+http://10.189.188.190:8080/7654321/1234567/278
+#EXTINF:-1 tvg-id="ext" tvg-name="NICK SD" tvg-logo="" group-title="Kids",NICK SD
+http://10.189.188.190:8080/7654321/1234567/279
+#EXTINF:-1 tvg-id="ext" tvg-name="SONIC" tvg-logo="" group-title="Kids",SONIC
+http://10.189.188.190:8080/7654321/1234567/280
+#EXTINF:-1 tvg-id="ext" tvg-name="POGO" tvg-logo="" group-title="Kids",POGO
+http://10.189.188.190:8080/7654321/1234567/281
+#EXTINF:-1 tvg-id="ext" tvg-name="NICKJUNIOR" tvg-logo="" group-title="Kids",NICKJUNIOR
+http://10.189.188.190:8080/7654321/1234567/282
+#EXTINF:-1 tvg-id="ext" tvg-name="HUNGAMA SUPER SD" tvg-logo="" group-title="Kids",HUNGAMA SUPER SD
+http://10.189.188.190:8080/7654321/1234567/283
+#EXTINF:-1 tvg-id="ext" tvg-name="HANGAMA SD" tvg-logo="" group-title="Kids",HANGAMA SD
+http://10.189.188.190:8080/7654321/1234567/284
+#EXTINF:-1 tvg-id="ext" tvg-name="DISCOVERY KIDS" tvg-logo="" group-title="Kids",DISCOVERY KIDS
+http://10.189.188.190:8080/7654321/1234567/285
+#EXTINF:-1 tvg-id="ext" tvg-name="DUSENY JUNIOR" tvg-logo="" group-title="Kids",DUSENY JUNIOR
+http://10.189.188.190:8080/7654321/1234567/287
+
+# ==================== English Movies & Shows ====================
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY PIX HD" tvg-logo="" group-title="Hindi Movie",SONY PIX HD
+http://10.189.188.190:8080/7654321/1234567/288
+#EXTINF:-1 tvg-id="ext" tvg-name="UNITE 8" tvg-logo="" group-title="Hindi Movie",UNITE 8
+http://10.189.188.190:8080/7654321/1234567/289
+#EXTINF:-1 tvg-id="ext" tvg-name="AXN HD" tvg-logo="" group-title="Hindi Movie",AXN HD
+http://10.189.188.190:8080/7654321/1234567/291
+#EXTINF:-1 tvg-id="ext" tvg-name="COLORS INFINITY HD" tvg-logo="" group-title="Hindi Movie",COLORS INFINITY HD
+http://10.189.188.190:8080/7654321/1234567/292
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR MOVIES HD" tvg-logo="" group-title="Hindi Movie",STAR MOVIES HD
+http://10.189.188.190:8080/7654321/1234567/293
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR MOVIES SEL HD" tvg-logo="" group-title="Hindi Movie",STAR MOVIES SEL HD
+http://10.189.188.190:8080/7654321/1234567/294
+#EXTINF:-1 tvg-id="ext" tvg-name="MN+ HD" tvg-logo="" group-title="Hindi Movie",MN+ HD
+http://10.189.188.190:8080/7654321/1234567/295
+#EXTINF:-1 tvg-id="ext" tvg-name="MOVIES NOW HD" tvg-logo="" group-title="Hindi Movie",MOVIES NOW HD
+http://10.189.188.190:8080/7654321/1234567/296
+#EXTINF:-1 tvg-id="ext" tvg-name="ZEE CAFE HD" tvg-logo="" group-title="Hindi Movie",ZEE CAFE HD
+http://10.189.188.190:8080/7654321/1234567/297
+#EXTINF:-1 tvg-id="ext" tvg-name="& PRIVE HD" tvg-logo="" group-title="Hindi Movie",& PRIVE HD
+http://10.189.188.190:8080/7654321/1234567/298
+#EXTINF:-1 tvg-id="ext" tvg-name="BET HD*" tvg-logo="" group-title="Hindi Movie",BET HD*
+http://10.189.188.190:8080/7654321/1234567/299
+#EXTINF:-1 tvg-id="ext" tvg-name="ROMEDY NOW" tvg-logo="" group-title="Hindi Movie",ROMEDY NOW
+http://10.189.188.190:8080/7654321/1234567/300
+#EXTINF:-1 tvg-id="ext" tvg-name="MNX" tvg-logo="" group-title="Hindi Movie",MNX
+http://10.189.188.190:8080/7654321/1234567/301
+
+# ==================== Music ====================
+#EXTINF:-1 tvg-id="ext" tvg-name="SANGEET BANGLA" tvg-logo="" group-title="Music",SANGEET BANGLA
+http://10.189.188.190:8080/7654321/1234567/302
+#EXTINF:-1 tvg-id="ext" tvg-name="9XM" tvg-logo="" group-title="Music",9XM
+http://10.189.188.190:8080/7654321/1234567/303
+#EXTINF:-1 tvg-id="ext" tvg-name="MASTIII" tvg-logo="" group-title="Music",MASTIII
+http://10.189.188.190:8080/7654321/1234567/304
+#EXTINF:-1 tvg-id="ext" tvg-name="MTV INDIA HD" tvg-logo="" group-title="Music",MTV INDIA HD
+http://10.189.188.190:8080/7654321/1234567/305
+#EXTINF:-1 tvg-id="ext" tvg-name="V1 HD" tvg-logo="" group-title="Music",V1 HD
+http://10.189.188.190:8080/7654321/1234567/306
+
+# ==================== Islamic / Religious ====================
+#EXTINF:-1 tvg-id="ext" tvg-name="PEACE TV BANGLA HD" tvg-logo="" group-title="Bangla",PEACE TV BANGLA HD
+http://10.189.188.190:8080/7654321/1234567/307
+#EXTINF:-1 tvg-id="ext" tvg-name="SAUDI QURAN" tvg-logo="" group-title="Bangla",SAUDI QURAN
+http://10.189.188.190:8080/7654321/1234567/308
+#EXTINF:-1 tvg-id="ext" tvg-name="SAUDI SUNNAH" tvg-logo="" group-title="Bangla",SAUDI SUNNAH
+http://10.189.188.190:8080/7654321/1234567/309
