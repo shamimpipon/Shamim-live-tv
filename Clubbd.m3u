@@ -2,7 +2,7 @@
 
 # ==================== Bangla ====================
 #EXTINF:-1 tvg-id="ext" tvg-name="BTV NATIONAL HD" tvg-logo="" group-title="Bangla",BTV NATIONAL HD
-http://10.189.188.190:8080/7654321/1234567/156
+http://10.189.188.190:8080/7654321/1234567/156.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="BTV NEWS HD" tvg-logo="" group-title="Bangla",BTV NEWS HD
 http://10.189.188.190:8080/7654321/1234567/157
 #EXTINF:-1 tvg-id="ext" tvg-name="BTV CHATTAGRAM" tvg-logo="" group-title="Bangla",BTV CHATTAGRAM
