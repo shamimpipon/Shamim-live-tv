@@ -1,5 +1,17 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="ext" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",1003 jadoo
+http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",1005
+http://172.17.50.112:84/ant1005/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="112 T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",1001 JADOO
+http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",1002
+http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Toffe Live HD" tvg-logo="https://lh3.googleusercontent.com/meK_DhQSKBx93eNeK-dGIa8Dk3i4DSwAQsb1NogbZmBxP-nejpcNk69J4d_K_QiekJCDyXrdbjbzGZjgNf-JMtlgPqAKBcVjNDM=h200" group-title="Uncategorized", bioscope+
+https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
 https://cdn-tt.pages.dev/ch1.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 2
@@ -10,38 +22,6 @@ https://cdn-tt.pages.dev/ch3.m3u8
 https://cdn-tt.pages.dev/ch4.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-5ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 5
 https://cdn-tt.pages.dev/ch5.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="S Live Central B" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Sky%20Sports%20Football.jpeg" group-title="",S Live Central B
-http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/745149.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="Toffe Live HD" tvg-logo="https://lh3.googleusercontent.com/meK_DhQSKBx93eNeK-dGIa8Dk3i4DSwAQsb1NogbZmBxP-nejpcNk69J4d_K_QiekJCDyXrdbjbzGZjgNf-JMtlgPqAKBcVjNDM=h200" group-title="Uncategorized", bioscope+
-http://sm-monirul.top/ott/bioscope/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://i.ibb.co.com/ymqQ0QZd/T-Sports-HD.png" group-title="Uncategorized",T Sports HD
-https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8
-http://ubuntu.moonplex.net:8080/TSports_HD/index.m3u8
-
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",uneit8
-http://212.102.34.8:9080/AndFlixHD/video.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="",FIFA World Cup 2026
-https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
-
-
-#EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4" group-title="Sports",T Sports HD
-http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/756462
-#EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
-http://premiumtvs.space/live/jen12345/Jen54321/89.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="Fox" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/IMG_20260617_204637.png" group-title="sports",Fox
-http://mysave23.com/live/PeH5kPWFfG/infamous7funny/751355.ts
-
-#EXTINF:-1 tvg-id="ext" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",1003 jadoo
-http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",1005
-http://172.17.50.112:84/ant1005/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="112 T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",1001 JADOO
-http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",1002
-http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
 https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
