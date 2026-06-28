@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS FUL HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/BT%20Sports%201.jpeg" group-title="Sports",T SPORTS FUL HD
+#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS FUL HD" tvg-logo="https://i.ibb.co.com/ymqQ0QZd/T-Sports-HD.png" group-title="Sports",T SPORTS FUL HD
 http://10.189.188.190:8080/7654321/1234567/216?ext=mpegts
 #EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4" group-title="Sports",T Sports 1 
 http://www.clubbd.com/webplayer/webplayer/34.m3u8
@@ -9,6 +9,8 @@ http://www.clubbd.com/webplayer/webplayer/61.m3u8
 http://www.clubbd.com/webplayer/webplayer/63.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",uneit8
 http://212.102.34.8:9080/AndFlixHD/video.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="PTV" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="",PTV
+http://10.189.188.190:8080/7654321/1234567/230?ext=mpegts
 #EXTINF:-1 tvg-id="ext" tvg-name="Toffe Live HD" tvg-logo="https://lh3.googleusercontent.com/meK_DhQSKBx93eNeK-dGIa8Dk3i4DSwAQsb1NogbZmBxP-nejpcNk69J4d_K_QiekJCDyXrdbjbzGZjgNf-JMtlgPqAKBcVjNDM=h200" group-title="Uncategorized", bioscope+
 https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
