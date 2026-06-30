@@ -28,6 +28,10 @@ https://cdn-tt.pages.dev/ch4.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-5ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 5
 https://cdn-tt.pages.dev/ch5.m3u8
 
+
+#EXTINF:-1 tvg-id="ext" tvg-name="BTV NATIONAL HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/BTV%20National.png" group-title="Bangla",BTV NATIONAL HD
+http://10.189.188.190:8080/7654321/1234567/156.ts?ext=mpegts
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
 https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Zee%20Bangla%20hd.jpg" group-title="Indian Bangla",Zee Bangla
