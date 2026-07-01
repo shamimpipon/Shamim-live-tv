@@ -4,31 +4,11 @@ https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/in
 #EXTINF:-1 tvg-id="ext" tvg-name="bios" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/bios.png" group-title="sports", MIR ISP 1
 https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
 
-
-
-#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 3 HD ENG" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%203.jpeg" group-title="",BEIN SPORTS 3 HD ENG
-https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T Sports HD
 http://103.209.196.22:84/feed1001/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
-https://cdn-tt.pages.dev/ch1.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 2
-https://cdn-tt.pages.dev/ch2.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-2ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="", TOFFEE 3
-https://cdn-tt.pages.dev/ch3.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-4ᶠᴴᴰ" tvg-logo="https://www.keralatv.in/media/2026/06/Argentina-Vs-Austria-Live-on-ZEE5.jpg" group-title="",TOFFEE 4
-https://cdn-tt.pages.dev/ch4.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-5ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 5
-https://cdn-tt.pages.dev/ch5.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Toffe Live HD" tvg-logo="https://lh3.googleusercontent.com/meK_DhQSKBx93eNeK-dGIa8Dk3i4DSwAQsb1NogbZmBxP-nejpcNk69J4d_K_QiekJCDyXrdbjbzGZjgNf-JMtlgPqAKBcVjNDM=h200" group-title="Uncategorized", bioscope+
-https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
-
-
 
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T Sports HD
 http://cdn.moviemazic.xyz:8083/TSportsHD/index.m3u8?token=ecebe5db2215ce674c5514e945dc8405a9614277-e4d6ecf892d54468e5ec01fa625bf440-1782153503-1782142703
-
 
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",tsports
 http://cdn.moviemazic.xyz:8083/Feedget/beinspots_2/index.m3u8
@@ -42,6 +22,19 @@ http://cdn.moviemazic.xyz:8083/btv/tracks-v1a1/mono.m3u8
 http://cdn.moviemazic.xyz:8083/Feedget/ptv_pk/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports1
 http://cdn.moviemazic.xyz:8083/Feedget/beinspots_2/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
+https://cdn-tt.pages.dev/ch1.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 2
+https://cdn-tt.pages.dev/ch2.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-2ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="", TOFFEE 3
+https://cdn-tt.pages.dev/ch3.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-4ᶠᴴᴰ" tvg-logo="https://www.keralatv.in/media/2026/06/Argentina-Vs-Austria-Live-on-ZEE5.jpg" group-title="",TOFFEE 4
+https://cdn-tt.pages.dev/ch4.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-5ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 5
+https://cdn-tt.pages.dev/ch5.m3u
+
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Euro TV" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="",Euro TV
 http://cdn.moviemazic.xyz:8083/Feedget/EurosportHD_17/index.m3u8
 
@@ -58,7 +51,7 @@ http://cdn.moviemazic.xyz:8083/SonyTen2/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
 http://cdn.moviemazic.xyz:8083/SonyTen3/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 5 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png" group-title="Sports",SONY SPORTS 5 HD
-https://server.itcnbd.live/stream/sony_sports_5_hd.m3u8
+http://cdn.moviemazic.xyz:8083/SonyTen5/index.m3u8
 
 #EXTINF:-1 tvg-id="StarSportsSelectHD1.in" tvg-name="STAR SPORTS SELECT 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-1-hd-in.png" group-title="Sports",STAR SPORTS SELECT 1 HD
 http://cdn.moviemazic.xyz:8083/Feedget/Star-Select-Hd-1/index.m3u8
@@ -161,11 +154,6 @@ http://cdn.moviemazic.xyz:8083/Feedget/National-Geography/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Animal Planet" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Animal%20Planet.png" group-title="",Animal Planet
 http://cdn.moviemazic.xyz:8083/Feedget/AnimalPlanetHD_12/index.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="rts" tvg-logo="https://github.com/shamimpipon/Shamim-Live-TV-Update/blob/main/Rte2hdlogo.png" group-title="Sports",RTE2
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/9348.ts
-
-#EXTINF:-1 tvg-id="ext" tvg-name="tns" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-Live-TV-Update/refs/heads/main/TSN.jpg" group-title="Sports",TNP
-http://lifetvbd.xyz:8080/live/shamim3621/12345987/9477.ts
 
 
 
