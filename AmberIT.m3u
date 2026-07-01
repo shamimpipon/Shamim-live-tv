@@ -4,9 +4,6 @@ https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/in
 #EXTINF:-1 tvg-id="ext" tvg-name="bios" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/bios.png" group-title="sports", ambarit 1
 https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
 
-
-#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 3 HD ENG" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="",BEIN SPORTS 3 HD ENG
-https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS FUL HD" tvg-logo="https://i.ibb.co.com/ymqQ0QZd/T-Sports-HD.png" group-title="Sports",T SPORTS FUL HD
 http://10.189.188.190:8080/7654321/1234567/216?ext=mpegts
 #EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4" group-title="Sports",T Sports 1 
@@ -16,7 +13,7 @@ http://www.clubbd.com/webplayer/webplayer/61.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",btv
 http://www.clubbd.com/webplayer/webplayer/63.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",uneit8
-http://212.102.34.8:9080/AndFlixHD/video.m3u8
+http://180.94.28.28:8097/Fifa-2026/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="PTV" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="",PTV
 http://10.189.188.190:8080/7654321/1234567/230?ext=mpegts
 
@@ -51,14 +48,13 @@ http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/126098
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
 https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd/800.m3u8?hdnts=
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/532.ts
-https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Colours Bangla Chinema" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png" group-title="Indian Bangla",Colours Bangla Chinema
 http://180.94.28.28:8097//COLORS-BANGLA-CINEMA/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-aath-in.png" group-title="Indian Bangla",Sony Aath
-http://mysave23.com/live/PeH5kPWFfG/infamous7funny/4083.ts
+https://sm-monirul.top/toffee/play/sonyaath.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Sangeet Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sangeet-bangla-in.png" group-title="Music",Sangeet Bangla
 https://cdn-4.pishow.tv/live/1143/master.m3u8
