@@ -1,11 +1,9 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ext" tvg-name="bios" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/bios.png" group-title="sports", My link
 https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="bios" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/bios.png" group-title="sports", ambarit 1
+#EXTINF:-1 tvg-id="ext" tvg-name="bios" tvg-logo="https://raw.githubusercontent.com/shamimpipon/Shamim-live-tv/refs/heads/main/bios.png" group-title="sports", channel 
 https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="BEIN SPORTS 3 HD ENG" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%203.jpeg" group-title="",BEIN SPORTS 3 HD ENG
-https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T Sports HD
 http://103.209.196.22:84/feed1001/index.fmp4.m3u8
 
@@ -21,8 +19,7 @@ https://cdn-tt.pages.dev/ch4.m3u8
 https://cdn-tt.pages.dev/ch5.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="S Live Central B" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Sky%20Sports%20Football.jpeg" group-title="",S Live Central B
 http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/745149.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="Toffe Live HD" tvg-logo="https://lh3.googleusercontent.com/meK_DhQSKBx93eNeK-dGIa8Dk3i4DSwAQsb1NogbZmBxP-nejpcNk69J4d_K_QiekJCDyXrdbjbzGZjgNf-JMtlgPqAKBcVjNDM=h200" group-title="Uncategorized", bioscope+
-https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://i.ibb.co.com/ymqQ0QZd/T-Sports-HD.png" group-title="Uncategorized",T Sports HD
 https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8
 
@@ -74,39 +71,7 @@ https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/chunks.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Ente10 Bangla" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Enter%2010%20Bangla.jpeg" group-title="Indian Bangla",Ente10 Bangla
 https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",A SPORTS
-http://114.130.57.233:8080/A-sports-HD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
-#EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
-http://premiumtvs.space/live/jen12345/Jen54321/89.ts
 
-#EXTINF:-1 tvg-id="ext" tvg-name="Euro TV" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="",Euro TV
-https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8
-
-
-#EXTINF:-1 tvg-id="ext" tvg-name="Willow 2" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Willow%20TV.jpeg" group-title="Sports",Willow 
-http://premiumtvs.space/live/jen12345/Jen54321/5040.ts
-
-#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 JADOO" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-1-hd-in.png" group-title="Sports",STAR SPORTS 1 JADOO
-http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/9397.ts
-http://114.130.57.233:8080/StarSports1/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
-#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-2-hd-in.png" group-title="Sports",STAR SPORTS 2
-http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/9398.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 3" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-3-hd-in.png" group-title="Sports",STAR SPORTS 3
-http://premiumtvs.space/live/jen12345/Jen54321/158442.ts
-
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
-https://server.itcnbd.live/stream/sony_sports_1_hd.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
-https://server.itcnbd.live/stream/sony_sports_2_hd.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
-http://premiumtvs.space/live/jen12345/Jen54321/146.ts
-#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 5 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png" group-title="Sports",SONY SPORTS 5 HD
-https://server.itcnbd.live/stream/sony_sports_5_hd.m3u8
-
-#EXTINF:-1 tvg-id="StarSportsSelectHD1.in" tvg-name="STAR SPORTS SELECT 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-1-hd-in.png" group-title="Sports",STAR SPORTS SELECT 1 HD
-http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/238.ts
-#EXTINF:-1 tvg-id="StarSportsSelectHD2.in" tvg-name="STAR SPORTS SELECT 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-2-hd-in.png" group-title="Sports",STAR SPORTS SELECT 2 HD
-http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/148801.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Channel 1" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png" group-title="",Channel 1
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
@@ -365,5 +330,37 @@ https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Toffee {premium}" tvg-logo="https://i.postimg.cc/141tq9B1/dc092590a65fc2ac5bd58ccf59cecb51-fgraphic.png" group-title="",Toffee {premium}
 http://main.epgmaker.com/live/y49sz6KMQs/6115263489/522.ts
 
+#EXTINF:-1 tvg-id="ext" tvg-name="A SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",A SPORTS
+http://114.130.57.233:8080/A-sports-HD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Euro TV" tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="",Euro TV
+https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Willow 2" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Willow%20TV.jpeg" group-title="Sports",Willow 
+http://premiumtvs.space/live/jen12345/Jen54321/5040.ts
+
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 1 JADOO" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-1-hd-in.png" group-title="Sports",STAR SPORTS 1 JADOO
+http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/9397.ts
+http://114.130.57.233:8080/StarSports1/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 2" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-2-hd-in.png" group-title="Sports",STAR SPORTS 2
+http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/9398.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="STAR SPORTS 3" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-3-hd-in.png" group-title="Sports",STAR SPORTS 3
+http://premiumtvs.space/live/jen12345/Jen54321/158442.ts
+
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1HD
+https://server.itcnbd.live/stream/sony_sports_1_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
+https://server.itcnbd.live/stream/sony_sports_2_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
+http://premiumtvs.space/live/jen12345/Jen54321/146.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="SONY SPORTS 5 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png" group-title="Sports",SONY SPORTS 5 HD
+https://server.itcnbd.live/stream/sony_sports_5_hd.m3u8
+
+#EXTINF:-1 tvg-id="StarSportsSelectHD1.in" tvg-name="STAR SPORTS SELECT 1 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-1-hd-in.png" group-title="Sports",STAR SPORTS SELECT 1 HD
+http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/238.ts
+#EXTINF:-1 tvg-id="StarSportsSelectHD2.in" tvg-name="STAR SPORTS SELECT 2 HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-2-hd-in.png" group-title="Sports",STAR SPORTS SELECT 2 HD
+http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/148801.ts
 
 
