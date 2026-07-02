@@ -42,7 +42,11 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=213
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
 http://cdn.moviemazic.xyz:8083/colors-bangla/index.m3u8?token=db806d9d64ed3d1213538040e45741bcdc936bec-820d1638b7ba826b23fcea63c376f039-1781983112-1781972312
+#EXTINF:-1 tvg-id="ext" tvg-name="BD: JALSHA MOVIES (FHD)" tvg-logo="" group-title="",BD: JALSHA MOVIES (FHD)
+http://fastshare1.com:80/live/25711345/late8airline/23304.ts
 
+#EXTINF:-1 tvg-id="ext" tvg-name="জলসা Movie HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/jalsha-movies-hd-in.png" group-title="Indian Bangla",জলসা Movie HD
+http://180.94.28.28:8097//JALSHA-MOVIES/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-aath-in.png" group-title="Indian Bangla",Sony Aath
 https://sm-monirul.top/toffee/play/sonyaath.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="AAKASH AATH" tvg-logo="http://tv.digitalview.live:8080/images/COkEO-FWL6Un57bQno1oDDZsiBeWCSjxPVZv0hLJ3dQmW5aAA-8mIeuB88P0SUdrjBBSFEHQ2ZXiddKtVfnJCQ.png" group-title="",AAKASH AATH
