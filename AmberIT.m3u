@@ -632,8 +632,8 @@ http://10.189.188.190:8080/7654321/1234567/306?ext=mpegts
 
 # ==================== Islamic / Religious ====================
 #EXTINF:-1 tvg-id="ext" tvg-name="PEACE TV BANGLA HD" tvg-logo="" group-title="Bangla",PEACE TV BANGLA HD
-http://10.189.188.190:8080/7654321/1234567/307?ext=mpegts
+http://10.189.188.190:8080/7654321/1234567/307
 #EXTINF:-1 tvg-id="ext" tvg-name="SAUDI QURAN" tvg-logo="" group-title="Bangla",SAUDI QURAN
-http://10.189.188.190:8080/7654321/1234567/308?ext=mpegts
+http://10.189.188.190:8080/7654321/1234567/308
 #EXTINF:-1 tvg-id="ext" tvg-name="SAUDI SUNNAH" tvg-logo="" group-title="Bangla",SAUDI SUNNAH
-http://10.189.188.190:8080/7654321/1234567/309?ext=mpegts
+http://10.189.188.190:8080/7654321/1234567/309
