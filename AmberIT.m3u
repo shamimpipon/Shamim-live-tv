@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4" group-title="Sports",T Sports 1 
+#EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4" group-title="Sports", AmberIT
 http://www.clubbd.com/webplayer/webplayer/34.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name=" BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS", BTV 
 http://www.clubbd.com/webplayer/webplayer/61.m3u8
@@ -23,7 +23,7 @@ https://cdn-tt.pages.dev/ch5.m3u8
 
 
 #EXTINF:-1 tvg-id="ext" tvg-name="BTV NATIONAL HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/BTV%20National.png" group-title="Bangla",BTV NATIONAL HD
-http://10.189.188.190:8080/7654321/1234567/156.?output=ts
+http://10.189.188.190:8080/7654321/1234567/156
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
 https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
