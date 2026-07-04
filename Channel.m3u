@@ -13,10 +13,10 @@ http://180.94.28.28:8097/Fifa-2026/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="",Somoy tv
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 
-#EX#EXTINF:0 tvg-id="ext" group-title="M3U World 4K",PTV Sports
+#EXTINF:0 tvg-id="ext" group-title="M3U World 4K",PTV Sports
 http://180.94.28.28:8097//PTV-Sports/index.m3u8
 
-TINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
+#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
 https://cdn-tt.pages.dev/ch1.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 2
 https://cdn-tt.pages.dev/ch2.m3u8
