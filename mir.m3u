@@ -19,12 +19,14 @@ http://cdn.moviemazic.xyz:8083/TSportsHD/index.m3u8?token=ecebe5db2215ce674c5514
 
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",tsports
 http://cdn.moviemazic.xyz:8083/Feedget/beinspots_2/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",1005
+#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://static.wikia.nocookienet/logopedia/images/2/28/Screenshot_2026-06-09_233511png" group-title="Sports","Uneit8 Sports 1
 http://cdn.moviemazic.xyz:8083/un-sports/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports","Uneit8 Sports 2
+http://180.94.28.28:8097/Fifa-2026/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",Somoy 
 http://cdn.moviemazic.xyz:8083/SomoyTv/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",1003
+#EXTINF:-1 tvg-id="ext" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",BTV
 http://cdn.moviemazic.xyz:8083/btv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
 http://cdn.moviemazic.xyz:8083/Feedget/ptv_pk/index.m3u8
