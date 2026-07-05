@@ -1,28 +1,12 @@
 #EXTM3U
 
-#EXTINF:-1 TVG-ID="EXT" TVG-NAME="fOOTBALL wORLD cUP" TVG-LOGO="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" GROUP-TITLE="uNCATEGORIZED",fOOTBALL wORLD cUP
-http://114.130.57.233:8080/btv/VIDEO.M3U8?TOKEN=sKqUHaxzXGbAN1
-
-
-#EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",T Sports HD
-http://103.209.196.22:84/feed1001/index.fmp4.m3u8
-
+#EXTINF:0 tvg-id="ext" group-title="M3U World 4K",PTV Sports
+http://180.94.28.28:8097//PTV-Sports/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",uneit8 1
 http://180.94.28.28:8097/Fifa-2026/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="",Somoy tv
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
-
-#EXTINF:0 tvg-id="ext" group-title="M3U World 4K",PTV Sports
-http://180.94.28.28:8097//PTV-Sports/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="T Sports 1080p" tvg-logo="" group-title="Uncategorized",T Sports 1080p
-http://103.114.11.37:8081/T-Sports-HD/video.m3u8?token=bJPpluZ30rPLH3
-#EXTINF:-1 tvg-id="ext" tvg-name="BTV" tvg-logo="" group-title="Uncategorized",BTV
-http://103.114.11.37:8081/BTV/video.m3u8?token=bJPpluZ30rPLH3
-#EXTINF:-1 tvg-id="ext" tvg-name="Somoy TV" tvg-logo="" group-title="Uncategorized",Somoy TV
-http://103.114.11.37:8081/SOMOY-TV/video.m3u8?token=bJPpluZ30rPLH3
-#EXTINF:-1 tvg-id="ext" tvg-name="PTV" tvg-logo="" group-title="Uncategorized",PTV
-http://103.114.11.37:8081/PTV/video.m3u8?token=bJPpluZ30rPLH3
 
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
 https://cdn-tt.pages.dev/ch1.m3u8
