@@ -1,7 +1,13 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="ext" tvg-name="BTV" tvg-logo="https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png" group-title="",BTV
+http://180.94.28.28:8097//BTV/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Unite8 Sports 2 HD" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/IMG_20260612_084720.jpg" group-title="",Unite8 Sports 2 HD
+http://fastshare1.com:80/live/25711345/late8airline/745202.ts
+#EXTINF:-1 tvg-id="ext" tvg-name="SS World Cup Central" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Super%20Sports%20Cricket.png" group-title="",SS World Cup Central
+http://fastshare1.com:80/live/25711345/late8airline/745149.ts
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Ptv Sports" tvg-logo=https://raw.githubusercontent.com/shamimpipon/ROAR/main/Ptv.jpg" group-title="Sports",PTV Sports
-http://180.94.28.28:8097//PTV-Sports/index.m3u8
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/sps1/809398.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",uneit8 1
 http://180.94.28.28:8097/Fifa-2026/index.m3u8
 
