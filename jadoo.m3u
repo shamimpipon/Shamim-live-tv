@@ -13,19 +13,6 @@ http://172.17.50.112:84/ant1004/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",1002
 http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
 
-
-
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
-https://cdn-tt.pages.dev/ch1.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 2
-https://cdn-tt.pages.dev/ch2.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-2ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="", TOFFEE 3
-https://cdn-tt.pages.dev/ch3.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-4ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 4
-https://cdn-tt.pages.dev/ch4.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-5ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 5
-https://cdn-tt.pages.dev/ch5.m3u8
-
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
 https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Zee%20Bangla%20hd.jpg" group-title="Indian Bangla",Zee Bangla
