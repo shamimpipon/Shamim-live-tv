@@ -1,22 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="iscreenhd" tvg-name="I SCREEN HD" tvg-logo="https://platform.rockstreamer.com/platforms/iscreen.com.bd/assets/logo.png" group-title="Bangladesh",I SCREEN HD
-#EXTVLCOPT:http-referrer=https://iscreen.com.bd/
-https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/main.m3u8
-
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
-https://cdn-tt.pages.dev/ch1.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-1ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 2
-https://cdn-tt.pages.dev/ch2.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-2ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="", TOFFEE 3
-https://cdn-tt.pages.dev/ch3.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-4ᶠᴴᴰ" tvg-logo="https://www.keralatv.in/media/2026/06/Argentina-Vs-Austria-Live-on-ZEE5.jpg" group-title="",TOFFEE 4
-https://cdn-tt.pages.dev/ch4.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-5ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 5
-https://cdn-tt.pages.dev/ch5.m3u
-
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",Mir Isp
 http://cdn.moviemazic.xyz:8083/SomoyTv/index.m3u8
 
+#EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
+http://cdn.moviemazic.xyz:8083/Feedget/ptv_pk/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",tsports
 http://cdn.moviemazic.xyz:8083/Feedget/beinspots_2/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://static.wikia.nocookienet/logopedia/images/2/28/Screenshot_2026-06-09_233511png" group-title="Sports","Uneit8 Sports 1
@@ -28,8 +15,7 @@ http://180.94.28.28:8097/Fifa-2026/index.m3u8
 http://cdn.moviemazic.xyz:8083/SomoyTv/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",BTV
 http://cdn.moviemazic.xyz:8083/btv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
-http://cdn.moviemazic.xyz:8083/Feedget/ptv_pk/index.m3u8
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Being Sports" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",Being Sports1
 http://cdn.moviemazic.xyz:8083/Feedget/beinspots_2/index.m3u8
 
