@@ -15,7 +15,7 @@ https://cdn-tt.pages.dev/ch4.m3u8
 https://cdn-tt.pages.dev/ch5.m3u
 
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",Mir Isp
-http://cdn.moviemazic.xyz:8083/TSportsHD/index.m3u8?token=ecebe5db2215ce674c5514e945dc8405a9614277-e4d6ecf892d54468e5ec01fa625bf440-1782153503-1782142703
+http://cdn.moviemazic.xyz:8083/SomoyTv/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",tsports
 http://cdn.moviemazic.xyz:8083/Feedget/beinspots_2/index.m3u8
