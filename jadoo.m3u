@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports1" tvg-logo="https://static.wikia.nocookienet/logopedia/images/2/28/Screenshot_2026-06-09_233511png" group-title="Sports",Uneit8 Sports1
+#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports1" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Uneit8%20sports%201.webp" group-title="Sports",Uneit8 Sports1
 http://172.17.50.112:84/ant1002/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports2" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",Uneit8 Sports2
 http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
