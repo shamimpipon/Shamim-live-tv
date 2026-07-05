@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:0 tvg-id="ext" group-title="M3U World 4K",PTV Sports
+#EXTINF:-1 tvg-id="ext" tvg-name="Ptv Sports" tvg-logo=https://raw.githubusercontent.com/shamimpipon/ROAR/main/Ptv.jpg" group-title="Sports",PTV Sports
 http://180.94.28.28:8097//PTV-Sports/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",uneit8 1
 http://180.94.28.28:8097/Fifa-2026/index.m3u8
