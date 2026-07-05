@@ -26,12 +26,11 @@ https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Cinema" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Bangla%20Cinema%20.png" group-title="",Zee Bangla Cinema
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
 http://cdn.moviemazic.xyz:8083/colors-bangla/index.m3u8?token=db806d9d64ed3d1213538040e45741bcdc936bec-820d1638b7ba826b23fcea63c376f039-1781983112-1781972312
-#EXTINF:-1 tvg-id="ext" tvg-name="BD: JALSHA MOVIES (FHD)" tvg-logo="" group-title="",BD: JALSHA MOVIES (FHD)
-http://fastshare1.com:80/live/25711345/late8airline/23304.ts
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="জলসা Movie HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/jalsha-movies-hd-in.png" group-title="Indian Bangla",জলসা Movie HD
 http://180.94.28.28:8097//JALSHA-MOVIES/index.m3u8
