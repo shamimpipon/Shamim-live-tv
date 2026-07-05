@@ -13,8 +13,7 @@ http://172.17.50.112:84/ant1004/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",1002
 http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="ext" tvg-name="bioscope+" tvg-logo="https://lh3.googleusercontent.com/meK_DhQSKBx93eNeK-dGIa8Dk3i4DSwAQsb1NogbZmBxP-nejpcNk69J4d_K_QiekJCDyXrdbjbzGZjgNf-JMtlgPqAKBcVjNDM=h200" group-title="Uncategorized", bioscope+
-https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
+
 
 #EXTINF:-1 tvg-id="ext" tvg-name="TOFFEE-🇧🇩-3ᶠᴴᴰ" tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="",TOFFEE 1
 https://cdn-tt.pages.dev/ch1.m3u8
