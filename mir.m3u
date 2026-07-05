@@ -6,7 +6,7 @@ http://cdn.moviemazic.xyz:8083/SomoyTv/index.m3u8
 http://cdn.moviemazic.xyz:8083/Feedget/ptv_pk/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",tsports
 http://cdn.moviemazic.xyz:8083/Feedget/beinspots_2/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://static.wikia.nocookienet/logopedia/images/2/28/Screenshot_2026-06-09_233511png" group-title="Sports","Uneit8 Sports 1
+#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Uneit8%20sports%201.webp" group-title="Sports","Uneit8 Sports 1
 http://cdn.moviemazic.xyz:8083/un-sports/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports","Uneit8 Sports 2
 http://180.94.28.28:8097/Fifa-2026/index.m3u8
