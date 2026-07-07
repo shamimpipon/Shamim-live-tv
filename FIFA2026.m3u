@@ -5,5 +5,10 @@ http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/748388.ts
 #EXTINF:-1 tvg-id="iscreenhd" tvg-name="I SCREEN HD" tvg-logo="https://platform.rockstreamer.com/platforms/iscreen.com.bd/assets/logo.png" group-title="Bangladesh",I SCREEN HD
 #EXTVLCOPT:http-referrer=https://iscreen.com.bd/
 https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/main.m3u8
+#EXTINF:-1 tvg-logo="https://platform.rockstreamer.com/platforms/iscreen.com.bd/assets/logo.png" , I SCREEN HD
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://iscreen.com.bd/
+https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/main.m3u8
+
 
 
