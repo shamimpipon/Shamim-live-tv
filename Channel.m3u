@@ -1,5 +1,7 @@
 #EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://i.ibb.co.com/ymqQ0QZd/T-Sports-HD.png" group-title="Uncategorized",T Sports HD
-https://flussonic.deltainfonet.com/01_Tsports_HD/tracks-v1a1/mono.m3u8
+http://27.124.71.27/T-Sports/index.m3u8
+
+
 #EXTINF:-1 tvg-id="ext" tvg-name="BTV" tvg-logo="https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png" group-title="Uncategorized",BTV
 http://180.94.28.28:8097//BTV/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Unite8 Sports 2 HD" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/IMG_20260612_084720.jpg" group-title="Uncategorized",Unite8 Sports 2 HD
