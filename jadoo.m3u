@@ -7,11 +7,11 @@ http://172.17.50.112:84/ant1001/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="112 BTV" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1677040358634_BTVogo.png" group-title="BD NEWS",1003 jadoo
 http://172.31.235.10:8080/hls/1-btv/1_0/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="t sports" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",1005
-http://172.17.50.112:84/ant1005/tracks-v1a1/mono.m3u8
+http://172.31.235.10:8080/hls/34-tsportssd/0_1/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="112 T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",1001 JADOO
-http://172.17.50.112:84/ant1004/tracks-v1a1/mono.m3u8
+http://172.17.50.112:84/ant1009/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",1002
-http://172.17.50.112:84/ant1003/tracks-v1a1/mono.m3u8
+http://172.17.50.112:84/ant1008/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Star Jalsa" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20Jalsha.png" group-title="Indian Bangla",Star Jalsa
 https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
