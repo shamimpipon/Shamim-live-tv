@@ -1,3 +1,17 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ext" tvg-name="Sangsad" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/sangsad-television-bd.png" group-title="Uncategorized",Sangsad
 https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="https://i.ibb.co.com/ymqQ0QZd/T-Sports-HD.png" group-title="Uncategorized",T Sports HD
+https://bdixserver.tvhunter.top/ant1009/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="PTV-BDIX" tvg-logo="http://103.114.11.37:33713/down/d5j8a4dKfPJI.png" group-title="Uncategorized",PTV-BDIX
+http://103.114.11.37:8081/PTV-BDIX/index.m3u8?token=1dsfds1fsdf
+#EXTINF:-1 tvg-id="ext" tvg-name="T Sports BDIX" tvg-logo="http://103.114.11.37:33713/down/d5j8a4dKfPJI.png" group-title="Uncategorized",T Sports BDIX
+http://103.114.11.37:8081/T-Sports-BDIX/index.m3u8?token=1dsfds1fsdf
+#EXTINF:-1 tvg-id="ext" tvg-name="Somoy TV-BDIX" tvg-logo="http://103.114.11.37:33713/down/d5j8a4dKfPJI.png" group-title="Uncategorized",Somoy TV-BDIX
+http://103.114.11.37:8081/SOMOY-TV-BDIX/index.m3u8?token=1dsfds1fsdf
+#EXTINF:-1 tvg-id="ext" tvg-name="Somoy TV" tvg-logo="http://103.114.11.37:33713/down/d5j8a4dKfPJI.png" group-title="Uncategorized",Somoy TV
+http://103.114.11.37:8081/SOMOY-TV/index.m3u8?token=1dsfds1fsdf
+#EXTINF:-1 tvg-id="ext" tvg-name="BTV" tvg-logo="http://103.114.11.37:33713/down/d5j8a4dKfPJI.png" group-title="Uncategorized",BTV
+http://103.114.11.37:8081/BTV/index.m3u8?token=1dsfds1fsdf
+#EXTINF:-1 tvg-id="ext" tvg-name="T Sports HD" tvg-logo="http://103.114.11.37:33713/down/d5j8a4dKfPJI.png" group-title="Uncategorized",T Sports HD
+http://103.114.11.37:8081/T-Sports-HD/index.m3u8?token=1dsfds1fsdf
