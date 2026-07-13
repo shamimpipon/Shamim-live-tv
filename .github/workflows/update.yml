@@ -1,23 +1,27 @@
 name: Update IPTV Playlist
 on:
   schedule:
-    - cron: '0 * * * *' # প্রতি ঘণ্টায় আপডেট হবে
-  workflow_dispatch: # ম্যানুয়ালি রান করার অপশন
+    - cron: '0 * * * *' # প্রতি ঘণ্টায় অটোমেটিক চলবে
+  workflow_dispatch: # আপনি চাইলে ম্যানুয়ালি রান করতে পারবেন
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
       - name: Install dependencies
         run: pip install requests
+
       - name: Run script
         run: python update_playlist.py
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
