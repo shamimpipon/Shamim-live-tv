@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/logo.png",Channel 24
+#EXTVLCOPT:http-referrer=http://redforce.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+http://redforce.live/player.php?stream=80
