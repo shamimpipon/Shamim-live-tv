@@ -1,0 +1,103 @@
+#EXTM3U
+
+# --- BANGLA CHANNELS ---
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ATN BANGLA1745044183.png" group-title="Bangla",ATN BANGLA
+http://redforce.live/player.php?stream=80
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/CHANNEL 241745044263.png" group-title="Bangla",CHANNEL 24
+http://redforce.live/player.php?stream=82
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/CHANNEL I1745044237.png" group-title="Bangla",CHANNEL I
+http://redforce.live/player.php?stream=81
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/GTV1745042853.png" group-title="Bangla",GTV
+http://redforce.live/player.php?stream=56
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SOMOY TV1745044149.png" group-title="Bangla",SOMOY TV
+http://redforce.live/player.php?stream=79
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/JAMUNA TV1745044052.png" group-title="Bangla",JAMUNA TV
+http://redforce.live/player.php?stream=76
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/INDEPENDENT TV1745044077.png" group-title="Bangla",INDEPENDENT TV
+http://redforce.live/player.php?stream=77
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MAASRANGA HD1745044117.png" group-title="Bangla",MAASRANGA HD
+http://redforce.live/player.php?stream=78
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/NEWS.24.HD1750866866.png" group-title="Bangla",NEWS 24 HD
+http://redforce.live/player.php?stream=116
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/DBC NEWS1750866614.png" group-title="Bangla",DBC NEWS
+http://redforce.live/player.php?stream=113
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/Ekattor Tv1750866647.png" group-title="Bangla",EKATTOR TV
+http://redforce.live/player.php?stream=114
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/BTV.HD1750866438.png" group-title="Bangla",BTV HD
+http://redforce.live/player.php?stream=109
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ZEE BANGLA HD1745033633.png" group-title="Bangla",ZEE BANGLA HD
+http://redforce.live/player.php?stream=14
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STAR JALSHA HD1745033819.png" group-title="Bangla",STAR JALSHA HD
+http://redforce.live/player.php?stream=18
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/JALSHA MOVIES HD1745034005.png" group-title="Bangla",JALSHA MOVIES HD
+http://redforce.live/player.php?stream=19
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/COLORS BANGLA HD1745033576.png" group-title="Bangla",COLORS BANGLA HD
+http://redforce.live/player.php?stream=12
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONY AAT1745041124.png" group-title="Bangla",SONY AAT
+http://redforce.live/player.php?stream=44
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/NAGORIK1745042776.png" group-title="Bangla",NAGORIK
+http://redforce.live/player.php?stream=54
+
+# --- SPORTS CHANNELS ---
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/T SPORTS1744972630.png" group-title="Sports",T SPORTS
+http://redforce.live/player.php?stream=1
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/A SPORTS HD1745044782.png" group-title="Sports",A SPORTS HD
+http://redforce.live/player.php?stream=88
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STAR SPORTS 1 HD1744991778.png" group-title="Sports",STAR SPORTS 1 HD
+http://redforce.live/player.php?stream=2
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STAR SPORTS 2 HD1744991842.png" group-title="Sports",STAR SPORTS 2 HD
+http://redforce.live/player.php?stream=3
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/sony sports 1 hd.png" group-title="Sports",SONY SPORTS 1 HD
+http://redforce.live/player.php?stream=74
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/sony sports 2 hd.png" group-title="Sports",SONY SPORTS 2 HD
+http://redforce.live/player.php?stream=29
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/Sony sports 3.png" group-title="Sports",SONY SPORTS 3
+http://redforce.live/player.php?stream=30
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/sony sports 4.png" group-title="Sports",SONY SPORTS 4
+http://redforce.live/player.php?stream=72
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/sony sports 5 hd.png" group-title="Sports",SONY SPORTS 5 HD
+http://redforce.live/player.php?stream=101
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/PTV SPORTS HD1745044993.png" group-title="Sports",PTV SPORTS HD
+http://redforce.live/player.php?stream=92
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SSC SPORTS1748857273.png" group-title="Sports",SSC SPORTS
+http://redforce.live/player.php?stream=105
+
+# --- HINDI CHANNELS ---
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STAR PLUS HD1745038577.png" group-title="Hindi",STAR PLUS HD
+http://redforce.live/player.php?stream=24
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/COLORS HD1745031404.png" group-title="Hindi",COLORS HD
+http://redforce.live/player.php?stream=4
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ZEE TV HD1745033383.png" group-title="Hindi",ZEE TV HD
+http://redforce.live/player.php?stream=7
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONY ENT HD1745033553.png" group-title="Hindi",SONY ENT HD
+http://redforce.live/player.php?stream=11
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STAR GOLD HD1745034037.png" group-title="Hindi",STAR GOLD HD
+http://redforce.live/player.php?stream=20
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ZEE CINEMA HD1745033602.png" group-title="Hindi",ZEE CINEMA HD
+http://redforce.live/player.php?stream=13
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONY MAX HD1745034069.png" group-title="Hindi",SONY MAX HD
+http://redforce.live/player.php?stream=21
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MTV India1750870104.png" group-title="Hindi",MTV INDIA
+http://redforce.live/player.php?stream=119
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/9XM MUSIC1750866757.png" group-title="Hindi",9XM MUSIC
+http://redforce.live/player.php?stream=115
+
+# --- KIDS CHANNELS ---
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/CARTOON NETWORK1745033414.png" group-title="Kids",CARTOON NETWORK
+http://redforce.live/player.php?stream=8
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/POGO1745041515.png" group-title="Kids",POGO
+http://redforce.live/player.php?stream=48
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/NICK1745041451.png" group-title="Kids",NICK
+http://redforce.live/player.php?stream=46
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONIC1745041154.png" group-title="Kids",SONIC
+http://redforce.live/player.php?stream=45
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/DURANTA TV1745043400.png" group-title="Kids",DURANTA TV
+http://redforce.live/player.php?stream=68
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/DISNEY JUNIAR1750870581.png" group-title="Kids",DISNEY JUNIOR
+http://redforce.live/player.php?stream=121
+
+# --- ISLAMIC CHANNELS ---
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MADANI TV HD1745044303.png" group-title="Islamic",MADANI TV HD
+http://redforce.live/player.php?stream=83
+#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/PEACE TV BANGLA1745044480.png" group-title="Islamic",PEACE TV BANGLA
+http://redforce.live/player.php?stream=86
