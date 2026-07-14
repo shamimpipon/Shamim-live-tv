@@ -1,217 +1,217 @@
 #EXTM3U
 
 # --- BANGLA CHANNELS ---
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/AsiahTv1752498724.png" group-title="Bangla",Asiah Tv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/AsiahTv1752498724.png" group-title="Bangla",Asiah Tv
 http://redforce.live/player.php?stream=122
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ATNBANGLA1745044183.png" group-title="Bangla",ATN BANGLA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ATNBANGLA1745044183.png" group-title="Bangla",ATN BANGLA
 http://redforce.live/player.php?stream=80
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ATNNEWS1745045113.png" group-title="Bangla",ATN NEWS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ATNNEWS1745045113.png" group-title="Bangla",ATN NEWS
 http://redforce.live/player.php?stream=95
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/BTV.HD1750866438.png" group-title="Bangla",BTV HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/BTV.HD1750866438.png" group-title="Bangla",BTV HD
 http://redforce.live/player.php?stream=109
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/CHANNEL241745044263.png" group-title="Bangla",CHANNEL 24
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/CHANNEL241745044263.png" group-title="Bangla",CHANNEL 24
 http://redforce.live/player.php?stream=82
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/CHANNELI1745044237.png" group-title="Bangla",CHANNEL I
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/CHANNELI1745044237.png" group-title="Bangla",CHANNEL I
 http://redforce.live/player.php?stream=81
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/COLORSBANGLACINEMA1745041486.png" group-title="Bangla",COLORS BANGLA CINEMA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/COLORSBANGLACINEMA1745041486.png" group-title="Bangla",COLORS BANGLA CINEMA
 http://redforce.live/player.php?stream=47
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/COLORSBANGLAHD1745033576.png" group-title="Bangla",COLORS BANGLA HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/COLORSBANGLAHD1745033576.png" group-title="Bangla",COLORS BANGLA HD
 http://redforce.live/player.php?stream=12
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/DBCNEWS1750866614.png" group-title="Bangla",DBC NEWS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/DBCNEWS1750866614.png" group-title="Bangla",DBC NEWS
 http://redforce.live/player.php?stream=113
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/EkattorTv1750866647.png" group-title="Bangla",Ekattor Tv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/EkattorTv1750866647.png" group-title="Bangla",Ekattor Tv
 http://redforce.live/player.php?stream=114
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ENTERR101745044330.png" group-title="Bangla",ENTERR 10
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ENTERR101745044330.png" group-title="Bangla",ENTERR 10
 http://redforce.live/player.php?stream=84
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/GlobalTv1752498856.png" group-title="Bangla",Global Tv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/GlobalTv1752498856.png" group-title="Bangla",Global Tv
 http://redforce.live/player.php?stream=124
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/GTV1745042853.png" group-title="Bangla",GTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/GTV1745042853.png" group-title="Bangla",GTV
 http://redforce.live/player.php?stream=56
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/INDEPENDENTTV1745044077.png" group-title="Bangla",INDEPENDENT TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/INDEPENDENTTV1745044077.png" group-title="Bangla",INDEPENDENT TV
 http://redforce.live/player.php?stream=77
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/JALSHAMOVIESHD1745034005.png" group-title="Bangla",JALSHA MOVIES HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/JALSHAMOVIESHD1745034005.png" group-title="Bangla",JALSHA MOVIES HD
 http://redforce.live/player.php?stream=19
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/JAMUNATV1745044052.png" group-title="Bangla",JAMUNA TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/JAMUNATV1745044052.png" group-title="Bangla",JAMUNA TV
 http://redforce.live/player.php?stream=76
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MAASRANGAHD1745044117.png" group-title="Bangla",MAASRANGA HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MAASRANGAHD1745044117.png" group-title="Bangla",MAASRANGA HD
 http://redforce.live/player.php?stream=78
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/NAGORIK1745042776.png" group-title="Bangla",NAGORIK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NAGORIK1745042776.png" group-title="Bangla",NAGORIK
 http://redforce.live/player.php?stream=54
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/NEWS.24.HD1750866866.png" group-title="Bangla",NEWS 24 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NEWS.24.HD1750866866.png" group-title="Bangla",NEWS 24 HD
 http://redforce.live/player.php?stream=116
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SangeetBangla1750870252.png" group-title="Bangla",Sangeet Bangla
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SangeetBangla1750870252.png" group-title="Bangla",Sangeet Bangla
 http://redforce.live/player.php?stream=120
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SOMOYTV1745044149.png" group-title="Bangla",SOMOY TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SOMOYTV1745044149.png" group-title="Bangla",SOMOY TV
 http://redforce.live/player.php?stream=79
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONYAAT1745041124.png" group-title="Bangla",SONY AAT
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYAAT1745041124.png" group-title="Bangla",SONY AAT
 http://redforce.live/player.php?stream=44
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARJALSHAHD1745033819.png" group-title="Bangla",STAR JALSHA HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARJALSHAHD1745033819.png" group-title="Bangla",STAR JALSHA HD
 http://redforce.live/player.php?stream=18
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SUNBANGLAHD1745033791.png" group-title="Bangla",SUN BANGLA HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SUNBANGLAHD1745033791.png" group-title="Bangla",SUN BANGLA HD
 http://redforce.live/player.php?stream=17
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ZEEBANGLACINEMA1745040996.png" group-title="Bangla",ZEE BANGLA CINEMA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZEEBANGLACINEMA1745040996.png" group-title="Bangla",ZEE BANGLA CINEMA
 http://redforce.live/player.php?stream=43
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ZEEBANGLAHD1745033633.png" group-title="Bangla",ZEE BANGLA HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZEEBANGLAHD1745033633.png" group-title="Bangla",ZEE BANGLA HD
 http://redforce.live/player.php?stream=14
 
 # --- SPORTS CHANNELS ---
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ASPORTSHD1745044782.png" group-title="Sports",A SPORTS HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ASPORTSHD1745044782.png" group-title="Sports",A SPORTS HD
 http://redforce.live/player.php?stream=88
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/EUROSPORTSHD1745040406.png" group-title="Sports",EUROSPORTS HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/EUROSPORTSHD1745040406.png" group-title="Sports",EUROSPORTS HD
 http://redforce.live/player.php?stream=40
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/FASTSPORTSHD1745044750.png" group-title="Sports",FAST SPORTS HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/FASTSPORTSHD1745044750.png" group-title="Sports",FAST SPORTS HD
 http://redforce.live/player.php?stream=87
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/GOLFSPORTS1745043338.png" group-title="Sports",GOLF SPORTS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/GOLFSPORTS1745043338.png" group-title="Sports",GOLF SPORTS
 http://redforce.live/player.php?stream=66
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/PTVSPORTSHD1745044993.png" group-title="Sports",PTV SPORTS HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/PTVSPORTSHD1745044993.png" group-title="Sports",PTV SPORTS HD
 http://redforce.live/player.php?stream=92
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/sonysports1hd.png" group-title="Sports",SONY SPORTS 1 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/sonysports1hd.png" group-title="Sports",SONY SPORTS 1 HD
 http://redforce.live/player.php?stream=74
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/sonysports2hd.png" group-title="Sports",SONY SPORTS 2 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/sonysports2hd.png" group-title="Sports",SONY SPORTS 2 HD
 http://redforce.live/player.php?stream=29
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/Sonysports3.png" group-title="Sports",SONY SPORTS 3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/Sonysports3.png" group-title="Sports",SONY SPORTS 3
 http://redforce.live/player.php?stream=30
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/sonysports4.png" group-title="Sports",SONY SPORTS 4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/sonysports4.png" group-title="Sports",SONY SPORTS 4
 http://redforce.live/player.php?stream=72
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/sonysports5hd.png" group-title="Sports",SONY SPORTS 5 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/sonysports5hd.png" group-title="Sports",SONY SPORTS 5 HD
 http://redforce.live/player.php?stream=101
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SSCSPORTS1748857273.png" group-title="Sports",SSC SPORTS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SSCSPORTS1748857273.png" group-title="Sports",SSC SPORTS
 http://redforce.live/player.php?stream=105
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SSCSPORTS5HD1748857080.png" group-title="Sports",SSC SPORTS 5 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SSCSPORTS5HD1748857080.png" group-title="Sports",SSC SPORTS 5 HD
 http://redforce.live/player.php?stream=104
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARSELECT1HD1745038777.png" group-title="Sports",STAR SELECT 1 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARSELECT1HD1745038777.png" group-title="Sports",STAR SELECT 1 HD
 http://redforce.live/player.php?stream=28
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARSPORTS1HD1744991778.png" group-title="Sports",STAR SPORTS 1 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARSPORTS1HD1744991778.png" group-title="Sports",STAR SPORTS 1 HD
 http://redforce.live/player.php?stream=2
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARSPORTS2HD1744991842.png" group-title="Sports",STAR SPORTS 2 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARSPORTS2HD1744991842.png" group-title="Sports",STAR SPORTS 2 HD
 http://redforce.live/player.php?stream=3
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARSPORTS31745039893.png" group-title="Sports",STAR SPORTS 3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARSPORTS31745039893.png" group-title="Sports",STAR SPORTS 3
 http://redforce.live/player.php?stream=31
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARSPORTSSELECT2HD1745033722.png" group-title="Sports",STAR SPORTS SELECT 2 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARSPORTSSELECT2HD1745033722.png" group-title="Sports",STAR SPORTS SELECT 2 HD
 http://redforce.live/player.php?stream=16
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/TSPORTS1744972630.png" group-title="Sports",T SPORTS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/TSPORTS1744972630.png" group-title="Sports",T SPORTS
 http://redforce.live/player.php?stream=1
 
 # --- HINDI CHANNELS ---
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/9XMMUSIC1750866757.png" group-title="Hindi",9XM MUSIC
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/9XMMUSIC1750866757.png" group-title="Hindi",9XM MUSIC
 http://redforce.live/player.php?stream=115
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ANDPICTURSHD1745031440.png" group-title="Hindi",AND PICTURS HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ANDPICTURSHD1745031440.png" group-title="Hindi",AND PICTURS HD
 http://redforce.live/player.php?stream=5
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/COLORSCINEPLEXHD1745033519.png" group-title="Hindi",COLORS CINEPLEX HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/COLORSCINEPLEXHD1745033519.png" group-title="Hindi",COLORS CINEPLEX HD
 http://redforce.live/player.php?stream=10
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/COLORSHD1745031404.png" group-title="Hindi",COLORS HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/COLORSHD1745031404.png" group-title="Hindi",COLORS HD
 http://redforce.live/player.php?stream=4
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/GEONEWSHD1745044892.png" group-title="Hindi",GEO NEWS HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/GEONEWSHD1745044892.png" group-title="Hindi",GEO NEWS HD
 http://redforce.live/player.php?stream=90
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/HUMTV1745044837.png" group-title="Hindi",HUM TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/HUMTV1745044837.png" group-title="Hindi",HUM TV
 http://redforce.live/player.php?stream=89
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MAX11748857466.png" group-title="Hindi",MAX 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MAX11748857466.png" group-title="Hindi",MAX 1
 http://redforce.live/player.php?stream=107
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MAX21748857338.png" group-title="Hindi",MAX 2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MAX21748857338.png" group-title="Hindi",MAX 2
 http://redforce.live/player.php?stream=106
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MTVIndia1750870104.png" group-title="Hindi",MTV India
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MTVIndia1750870104.png" group-title="Hindi",MTV India
 http://redforce.live/player.php?stream=119
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MusicIndia1750867544.png" group-title="Hindi",Music India
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MusicIndia1750867544.png" group-title="Hindi",Music India
 http://redforce.live/player.php?stream=118
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONYENTHD1745033553.png" group-title="Hindi",SONY ENT HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYENTHD1745033553.png" group-title="Hindi",SONY ENT HD
 http://redforce.live/player.php?stream=11
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONYMAXHD1745034069.png" group-title="Hindi",SONY MAX HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYMAXHD1745034069.png" group-title="Hindi",SONY MAX HD
 http://redforce.live/player.php?stream=21
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARBHARATHD1745045255.png" group-title="Hindi",STAR BHARAT HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARBHARATHD1745045255.png" group-title="Hindi",STAR BHARAT HD
 http://redforce.live/player.php?stream=100
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARGOLD2HD1745043441.png" group-title="Hindi",STAR GOLD 2 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARGOLD2HD1745043441.png" group-title="Hindi",STAR GOLD 2 HD
 http://redforce.live/player.php?stream=69
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARGOLDHD1745034037.png" group-title="Hindi",STAR GOLD HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARGOLDHD1745034037.png" group-title="Hindi",STAR GOLD HD
 http://redforce.live/player.php?stream=20
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARGOLDSELECTHD1745043508.png" group-title="Hindi",STAR GOLD SELECT HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARGOLDSELECTHD1745043508.png" group-title="Hindi",STAR GOLD SELECT HD
 http://redforce.live/player.php?stream=71
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARPLUSHD1745038577.png" group-title="Hindi",STAR PLUS HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARPLUSHD1745038577.png" group-title="Hindi",STAR PLUS HD
 http://redforce.live/player.php?stream=24
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ZEECINEMAHD1745033602.png" group-title="Hindi",ZEE CINEMA HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZEECINEMAHD1745033602.png" group-title="Hindi",ZEE CINEMA HD
 http://redforce.live/player.php?stream=13
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ZEETVHD1745033383.png" group-title="Hindi",ZEE TV HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZEETVHD1745033383.png" group-title="Hindi",ZEE TV HD
 http://redforce.live/player.php?stream=7
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ZING1745042718.png" group-title="Hindi",ZING
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZING1745042718.png" group-title="Hindi",ZING
 http://redforce.live/player.php?stream=53
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ZOOM1745040961.png" group-title="Hindi",ZOOM
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZOOM1745040961.png" group-title="Hindi",ZOOM
 http://redforce.live/player.php?stream=42
 
 # --- KIDS CHANNELS ---
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/BALBHARAT1745041576.png" group-title="Kids",BAL BHARAT
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/BALBHARAT1745041576.png" group-title="Kids",BAL BHARAT
 http://redforce.live/player.php?stream=50
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/CARTOONNETWORK1745033414.png" group-title="Kids",CARTOON NETWORK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/CARTOONNETWORK1745033414.png" group-title="Kids",CARTOON NETWORK
 http://redforce.live/player.php?stream=8
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/DISNEYJUNIAR1750870581.png" group-title="Kids",DISNEY JUNIOR
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/DISNEYJUNIAR1750870581.png" group-title="Kids",DISNEY JUNIOR
 http://redforce.live/player.php?stream=121
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/DURANTATV1745043400.png" group-title="Kids",DURANTA TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/DURANTATV1745043400.png" group-title="Kids",DURANTA TV
 http://redforce.live/player.php?stream=68
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/HUNGAMA1745041551.png" group-title="Kids",HUNGAMA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/HUNGAMA1745041551.png" group-title="Kids",HUNGAMA
 http://redforce.live/player.php?stream=49
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/NICK1745041451.png" group-title="Kids",NICK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NICK1745041451.png" group-title="Kids",NICK
 http://redforce.live/player.php?stream=46
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/NICKJR1745042397.png" group-title="Kids",NICK JR
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NICKJR1745042397.png" group-title="Kids",NICK JR
 http://redforce.live/player.php?stream=51
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/POGO1745041515.png" group-title="Kids",POGO
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/POGO1745041515.png" group-title="Kids",POGO
 http://redforce.live/player.php?stream=48
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONIC1745041154.png" group-title="Kids",SONIC
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONIC1745041154.png" group-title="Kids",SONIC
 http://redforce.live/player.php?stream=45
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONYYAY1745045046.png" group-title="Kids",SONY YAY
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYYAY1745045046.png" group-title="Kids",SONY YAY
 http://redforce.live/player.php?stream=93
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SUPERHUNGAMA1745044022.png" group-title="Kids",SUPER HUNGAMA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SUPERHUNGAMA1745044022.png" group-title="Kids",SUPER HUNGAMA
 http://redforce.live/player.php?stream=75
 
 # --- ISLAMIC CHANNELS ---
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MADANITVHD1745044303.png" group-title="Islamic",MADANI TV HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MADANITVHD1745044303.png" group-title="Islamic",MADANI TV HD
 http://redforce.live/player.php?stream=83
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/PEACETVBANGLA1745044480.png" group-title="Islamic",PEACE TV BANGLA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/PEACETVBANGLA1745044480.png" group-title="Islamic",PEACE TV BANGLA
 http://redforce.live/player.php?stream=86
 
 # --- ENGLISH CHANNELS ---
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ALJAZEETAHD1745044358.png" group-title="English",ALJAZEETA HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ALJAZEETAHD1745044358.png" group-title="English",ALJAZEETA HD
 http://redforce.live/player.php?stream=85
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ANDXPLORE1745043080.png" group-title="English",AND XPLORE
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ANDXPLORE1745043080.png" group-title="English",AND XPLORE
 http://redforce.live/player.php?stream=61
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ANIMALPLANETHD1745038671.png" group-title="English",ANIMAL PLANET HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ANIMALPLANETHD1745038671.png" group-title="English",ANIMAL PLANET HD
 http://redforce.live/player.php?stream=26
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/AXNHD1745045171.png" group-title="English",AXN HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/AXNHD1745045171.png" group-title="English",AXN HD
 http://redforce.live/player.php?stream=97
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/BBCEARTHHD1745150455.png" group-title="English",BBC EARTH HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/BBCEARTHHD1745150455.png" group-title="English",BBC EARTH HD
 http://redforce.live/player.php?stream=102
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/BBCNEWS1745042816.png" group-title="English",BBC NEWS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/BBCNEWS1745042816.png" group-title="English",BBC NEWS
 http://redforce.live/player.php?stream=55
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/discoveryhd.png" group-title="English",DISCOVERY HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/discoveryhd.png" group-title="English",DISCOVERY HD
 http://redforce.live/player.php?stream=22
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/FASHION1748857805.png" group-title="English",FASHION
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/FASHION1748857805.png" group-title="English",FASHION
 http://redforce.live/player.php?stream=108
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/HISTORYTVHD1745033679.png" group-title="English",HISTORY TV HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/HISTORYTVHD1745033679.png" group-title="English",HISTORY TV HD
 http://redforce.live/player.php?stream=15
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/LOTUSTV1745044960.png" group-title="English",LOTUS TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/LOTUSTV1745044960.png" group-title="English",LOTUS TV
 http://redforce.live/player.php?stream=91
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/LOVENATURE1745043370.png" group-title="English",LOVE NATURE
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/LOVENATURE1745043370.png" group-title="English",LOVE NATURE
 http://redforce.live/player.php?stream=67
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MNPLUS1745040057.png" group-title="English",MN PLUS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MNPLUS1745040057.png" group-title="English",MN PLUS
 http://redforce.live/player.php?stream=36
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MNXHD1745039955.png" group-title="English",MNX HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MNXHD1745039955.png" group-title="English",MNX HD
 http://redforce.live/player.php?stream=33
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/MOVIESNOWHD1745040368.png" group-title="English",MOVIES NOW HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MOVIESNOWHD1745040368.png" group-title="English",MOVIES NOW HD
 http://redforce.live/player.php?stream=39
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/NATGEOHD1745038634.png" group-title="English",NATGEO HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NATGEOHD1745038634.png" group-title="English",NATGEO HD
 http://redforce.live/player.php?stream=25
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/NATGEOWILDHD1745038542.png" group-title="English",NATGEO WILD HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NATGEOWILDHD1745038542.png" group-title="English",NATGEO WILD HD
 http://redforce.live/player.php?stream=23
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ROMEDYNOW1745039988.png" group-title="English",ROMEDY NOW
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ROMEDYNOW1745039988.png" group-title="English",ROMEDY NOW
 http://redforce.live/player.php?stream=34
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONYBBCEARTHHD1745031522.png" group-title="English",SONY BBC EARTH HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYBBCEARTHHD1745031522.png" group-title="English",SONY BBC EARTH HD
 http://redforce.live/player.php?stream=6
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/SONYPIXHD1745039925.png" group-title="English",SONY PIX HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYPIXHD1745039925.png" group-title="English",SONY PIX HD
 http://redforce.live/player.php?stream=32
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARMOVIESHD1745040174.png" group-title="English",STAR MOVIES HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARMOVIESHD1745040174.png" group-title="English",STAR MOVIES HD
 http://redforce.live/player.php?stream=38
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/STARMOVIESSELECTHD1745038723.png" group-title="English",STAR MOVIES SELECT HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARMOVIESSELECTHD1745038723.png" group-title="English",STAR MOVIES SELECT HD
 http://redforce.live/player.php?stream=27
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/TLCHD1745033484.png" group-title="English",TLC HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/TLCHD1745033484.png" group-title="English",TLC HD
 http://redforce.live/player.php?stream=9
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/TRAVELXP1745043118.png" group-title="English",TRAVEL XP
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/TRAVELXP1745043118.png" group-title="English",TRAVEL XP
 http://redforce.live/player.php?stream=62
-#EXTINF:-1 tvg-logo="http://redforce.live/assets/images/ZEECAFEHD1745040102.png" group-title="English",ZEE CAFE HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZEECAFEHD1745040102.png" group-title="English",ZEE CAFE HD
 http://redforce.live/player.php?stream=37
