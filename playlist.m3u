@@ -1,0 +1,217 @@
+#EXTM3U
+
+# --- BANGLA CHANNELS ---
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/AsiahTv1752498724.png" group-title="Bangla",Asiah Tv
+https://readforce.shamim-iptv.workers.dev/rf/122
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ATNBANGLA1745044183.png" group-title="Bangla",ATN BANGLA
+https://readforce.shamim-iptv.workers.dev/rf/80
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ATNNEWS1745045113.png" group-title="Bangla",ATN NEWS
+https://readforce.shamim-iptv.workers.dev/rf/95
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/BTV.HD1750866438.png" group-title="Bangla",BTV HD
+https://readforce.shamim-iptv.workers.dev/rf/109
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/CHANNEL241745044263.png" group-title="Bangla",CHANNEL 24
+https://readforce.shamim-iptv.workers.dev/rf/82
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/CHANNELI1745044237.png" group-title="Bangla",CHANNEL I
+https://readforce.shamim-iptv.workers.dev/rf/81
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/COLORSBANGLACINEMA1745041486.png" group-title="Bangla",COLORS BANGLA CINEMA
+https://readforce.shamim-iptv.workers.dev/rf/47
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/COLORSBANGLAHD1745033576.png" group-title="Bangla",COLORS BANGLA HD
+https://readforce.shamim-iptv.workers.dev/rf/12
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/DBCNEWS1750866614.png" group-title="Bangla",DBC NEWS
+https://readforce.shamim-iptv.workers.dev/rf/113
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/EkattorTv1750866647.png" group-title="Bangla",Ekattor Tv
+https://readforce.shamim-iptv.workers.dev/rf/114
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ENTERR101745044330.png" group-title="Bangla",ENTERR 10
+https://readforce.shamim-iptv.workers.dev/rf/84
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/GlobalTv1752498856.png" group-title="Bangla",Global Tv
+https://readforce.shamim-iptv.workers.dev/rf/124
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/GTV1745042853.png" group-title="Bangla",GTV
+https://readforce.shamim-iptv.workers.dev/rf/56
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/INDEPENDENTTV1745044077.png" group-title="Bangla",INDEPENDENT TV
+https://readforce.shamim-iptv.workers.dev/rf/77
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/JALSHAMOVIESHD1745034005.png" group-title="Bangla",JALSHA MOVIES HD
+https://readforce.shamim-iptv.workers.dev/rf/19
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/JAMUNATV1745044052.png" group-title="Bangla",JAMUNA TV
+https://readforce.shamim-iptv.workers.dev/rf/76
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MAASRANGAHD1745044117.png" group-title="Bangla",MAASRANGA HD
+https://readforce.shamim-iptv.workers.dev/rf/78
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NAGORIK1745042776.png" group-title="Bangla",NAGORIK
+https://readforce.shamim-iptv.workers.dev/rf/54
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NEWS.24.HD1750866866.png" group-title="Bangla",NEWS 24 HD
+https://readforce.shamim-iptv.workers.dev/rf/116
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SangeetBangla1750870252.png" group-title="Bangla",Sangeet Bangla
+https://readforce.shamim-iptv.workers.dev/rf/120
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SOMOYTV1745044149.png" group-title="Bangla",SOMOY TV
+https://readforce.shamim-iptv.workers.dev/rf/79
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYAAT1745041124.png" group-title="Bangla",SONY AAT
+https://readforce.shamim-iptv.workers.dev/rf/44
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARJALSHAHD1745033819.png" group-title="Bangla",STAR JALSHA HD
+https://readforce.shamim-iptv.workers.dev/rf/18
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SUNBANGLAHD1745033791.png" group-title="Bangla",SUN BANGLA HD
+https://readforce.shamim-iptv.workers.dev/rf/17
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZEEBANGLACINEMA1745040996.png" group-title="Bangla",ZEE BANGLA CINEMA
+https://readforce.shamim-iptv.workers.dev/rf/43
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZEEBANGLAHD1745033633.png" group-title="Bangla",ZEE BANGLA HD
+https://readforce.shamim-iptv.workers.dev/rf/14
+
+# --- SPORTS CHANNELS ---
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ASPORTSHD1745044782.png" group-title="Sports",A SPORTS HD
+https://readforce.shamim-iptv.workers.dev/rf/88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/EUROSPORTSHD1745040406.png" group-title="Sports",EUROSPORTS HD
+https://readforce.shamim-iptv.workers.dev/rf/40
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/FASTSPORTSHD1745044750.png" group-title="Sports",FAST SPORTS HD
+https://readforce.shamim-iptv.workers.dev/rf/87
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/GOLFSPORTS1745043338.png" group-title="Sports",GOLF SPORTS
+https://readforce.shamim-iptv.workers.dev/rf/66
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/PTVSPORTSHD1745044993.png" group-title="Sports",PTV SPORTS HD
+https://readforce.shamim-iptv.workers.dev/rf/92
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/sonysports1hd.png" group-title="Sports",SONY SPORTS 1 HD
+https://readforce.shamim-iptv.workers.dev/rf/74
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/sonysports2hd.png" group-title="Sports",SONY SPORTS 2 HD
+https://readforce.shamim-iptv.workers.dev/rf/29
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/Sonysports3.png" group-title="Sports",SONY SPORTS 3
+https://readforce.shamim-iptv.workers.dev/rf/30
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/sonysports4.png" group-title="Sports",SONY SPORTS 4
+https://readforce.shamim-iptv.workers.dev/rf/72
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/sonysports5hd.png" group-title="Sports",SONY SPORTS 5 HD
+https://readforce.shamim-iptv.workers.dev/rf/101
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SSCSPORTS1748857273.png" group-title="Sports",SSC SPORTS
+https://readforce.shamim-iptv.workers.dev/rf/105
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SSCSPORTS5HD1748857080.png" group-title="Sports",SSC SPORTS 5 HD
+https://readforce.shamim-iptv.workers.dev/rf/104
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARSELECT1HD1745038777.png" group-title="Sports",STAR SELECT 1 HD
+https://readforce.shamim-iptv.workers.dev/rf/28
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARSPORTS1HD1744991778.png" group-title="Sports",STAR SPORTS 1 HD
+https://readforce.shamim-iptv.workers.dev/rf/2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARSPORTS2HD1744991842.png" group-title="Sports",STAR SPORTS 2 HD
+https://readforce.shamim-iptv.workers.dev/rf/3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARSPORTS31745039893.png" group-title="Sports",STAR SPORTS 3
+https://readforce.shamim-iptv.workers.dev/rf/31
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARSPORTSSELECT2HD1745033722.png" group-title="Sports",STAR SPORTS SELECT 2 HD
+https://readforce.shamim-iptv.workers.dev/rf/16
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/TSPORTS1744972630.png" group-title="Sports",T SPORTS
+https://readforce.shamim-iptv.workers.dev/rf/1
+
+# --- HINDI CHANNELS ---
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/9XMMUSIC1750866757.png" group-title="Hindi",9XM MUSIC
+https://readforce.shamim-iptv.workers.dev/rf/115
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ANDPICTURSHD1745031440.png" group-title="Hindi",AND PICTURS HD
+https://readforce.shamim-iptv.workers.dev/rf/5
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/COLORSCINEPLEXHD1745033519.png" group-title="Hindi",COLORS CINEPLEX HD
+https://readforce.shamim-iptv.workers.dev/rf/10
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/COLORSHD1745031404.png" group-title="Hindi",COLORS HD
+https://readforce.shamim-iptv.workers.dev/rf/4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/GEONEWSHD1745044892.png" group-title="Hindi",GEO NEWS HD
+https://readforce.shamim-iptv.workers.dev/rf/90
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/HUMTV1745044837.png" group-title="Hindi",HUM TV
+https://readforce.shamim-iptv.workers.dev/rf/89
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MAX11748857466.png" group-title="Hindi",MAX 1
+https://readforce.shamim-iptv.workers.dev/rf/107
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MAX21748857338.png" group-title="Hindi",MAX 2
+https://readforce.shamim-iptv.workers.dev/rf/106
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MTVIndia1750870104.png" group-title="Hindi",MTV India
+https://readforce.shamim-iptv.workers.dev/rf/119
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MusicIndia1750867544.png" group-title="Hindi",Music India
+https://readforce.shamim-iptv.workers.dev/rf/118
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYENTHD1745033553.png" group-title="Hindi",SONY ENT HD
+https://readforce.shamim-iptv.workers.dev/rf/11
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYMAXHD1745034069.png" group-title="Hindi",SONY MAX HD
+https://readforce.shamim-iptv.workers.dev/rf/21
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARBHARATHD1745045255.png" group-title="Hindi",STAR BHARAT HD
+https://readforce.shamim-iptv.workers.dev/rf/100
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARGOLD2HD1745043441.png" group-title="Hindi",STAR GOLD 2 HD
+https://readforce.shamim-iptv.workers.dev/rf/69
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARGOLDHD1745034037.png" group-title="Hindi",STAR GOLD HD
+https://readforce.shamim-iptv.workers.dev/rf/20
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARGOLDSELECTHD1745043508.png" group-title="Hindi",STAR GOLD SELECT HD
+https://readforce.shamim-iptv.workers.dev/rf/71
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARPLUSHD1745038577.png" group-title="Hindi",STAR PLUS HD
+https://readforce.shamim-iptv.workers.dev/rf/24
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZEECINEMAHD1745033602.png" group-title="Hindi",ZEE CINEMA HD
+https://readforce.shamim-iptv.workers.dev/rf/13
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZEETVHD1745033383.png" group-title="Hindi",ZEE TV HD
+https://readforce.shamim-iptv.workers.dev/rf/7
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZING1745042718.png" group-title="Hindi",ZING
+https://readforce.shamim-iptv.workers.dev/rf/53
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZOOM1745040961.png" group-title="Hindi",ZOOM
+https://readforce.shamim-iptv.workers.dev/rf/42
+
+# --- KIDS CHANNELS ---
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/BALBHARAT1745041576.png" group-title="Kids",BAL BHARAT
+https://readforce.shamim-iptv.workers.dev/rf/50
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/CARTOONNETWORK1745033414.png" group-title="Kids",CARTOON NETWORK
+https://readforce.shamim-iptv.workers.dev/rf/8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/DISNEYJUNIAR1750870581.png" group-title="Kids",DISNEY JUNIOR
+https://readforce.shamim-iptv.workers.dev/rf/121
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/DURANTATV1745043400.png" group-title="Kids",DURANTA TV
+https://readforce.shamim-iptv.workers.dev/rf/68
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/HUNGAMA1745041551.png" group-title="Kids",HUNGAMA
+https://readforce.shamim-iptv.workers.dev/rf/49
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NICK1745041451.png" group-title="Kids",NICK
+https://readforce.shamim-iptv.workers.dev/rf/46
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NICKJR1745042397.png" group-title="Kids",NICK JR
+https://readforce.shamim-iptv.workers.dev/rf/51
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/POGO1745041515.png" group-title="Kids",POGO
+https://readforce.shamim-iptv.workers.dev/rf/48
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONIC1745041154.png" group-title="Kids",SONIC
+https://readforce.shamim-iptv.workers.dev/rf/45
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYYAY1745045046.png" group-title="Kids",SONY YAY
+https://readforce.shamim-iptv.workers.dev/rf/93
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SUPERHUNGAMA1745044022.png" group-title="Kids",SUPER HUNGAMA
+https://readforce.shamim-iptv.workers.dev/rf/75
+
+# --- ISLAMIC CHANNELS ---
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MADANITVHD1745044303.png" group-title="Islamic",MADANI TV HD
+https://readforce.shamim-iptv.workers.dev/rf/83
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/PEACETVBANGLA1745044480.png" group-title="Islamic",PEACE TV BANGLA
+https://readforce.shamim-iptv.workers.dev/rf/86
+
+# --- ENGLISH CHANNELS ---
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ALJAZEETAHD1745044358.png" group-title="English",ALJAZEETA HD
+https://readforce.shamim-iptv.workers.dev/rf/85
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ANDXPLORE1745043080.png" group-title="English",AND XPLORE
+https://readforce.shamim-iptv.workers.dev/rf/61
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ANIMALPLANETHD1745038671.png" group-title="English",ANIMAL PLANET HD
+https://readforce.shamim-iptv.workers.dev/rf/26
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/AXNHD1745045171.png" group-title="English",AXN HD
+https://readforce.shamim-iptv.workers.dev/rf/97
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/BBCEARTHHD1745150455.png" group-title="English",BBC EARTH HD
+https://readforce.shamim-iptv.workers.dev/rf/102
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/BBCNEWS1745042816.png" group-title="English",BBC NEWS
+https://readforce.shamim-iptv.workers.dev/rf/55
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/discoveryhd.png" group-title="English",DISCOVERY HD
+https://readforce.shamim-iptv.workers.dev/rf/22
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/FASHION1748857805.png" group-title="English",FASHION
+https://readforce.shamim-iptv.workers.dev/rf/108
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/HISTORYTVHD1745033679.png" group-title="English",HISTORY TV HD
+https://readforce.shamim-iptv.workers.dev/rf/15
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/LOTUSTV1745044960.png" group-title="English",LOTUS TV
+https://readforce.shamim-iptv.workers.dev/rf/91
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/LOVENATURE1745043370.png" group-title="English",LOVE NATURE
+https://readforce.shamim-iptv.workers.dev/rf/67
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MNPLUS1745040057.png" group-title="English",MN PLUS
+https://readforce.shamim-iptv.workers.dev/rf/36
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MNXHD1745039955.png" group-title="English",MNX HD
+https://readforce.shamim-iptv.workers.dev/rf/33
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/MOVIESNOWHD1745040368.png" group-title="English",MOVIES NOW HD
+https://readforce.shamim-iptv.workers.dev/rf/39
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NATGEOHD1745038634.png" group-title="English",NATGEO HD
+https://readforce.shamim-iptv.workers.dev/rf/25
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/NATGEOWILDHD1745038542.png" group-title="English",NATGEOWILD HD
+https://readforce.shamim-iptv.workers.dev/rf/23
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ROMEDYNOW1745039988.png" group-title="English",ROMEDY NOW
+https://readforce.shamim-iptv.workers.dev/rf/34
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYBBCEARTHHD1745031522.png" group-title="English",SONY BBC EARTH HD
+https://readforce.shamim-iptv.workers.dev/rf/6
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/SONYPIXHD1745039925.png" group-title="English",SONY PIX HD
+https://readforce.shamim-iptv.workers.dev/rf/32
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARMOVIESHD1745040174.png" group-title="English",STAR MOVIES HD
+https://readforce.shamim-iptv.workers.dev/rf/38
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/STARMOVIESSELECTHD1745038723.png" group-title="English",STAR MOVIES SELECT HD
+https://readforce.shamim-iptv.workers.dev/rf/27
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/TLCHD1745033484.png" group-title="English",TLC HD
+https://readforce.shamim-iptv.workers.dev/rf/9
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/TRAVELXP1745043118.png" group-title="English",TRAVEL XP
+https://readforce.shamim-iptv.workers.dev/rf/62
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/redforce-logo/refs/heads/main/ZEECAFEHD1745040102.png" group-title="English",ZEE CAFE HD
+https://readforce.shamim-iptv.workers.dev/rf/37
