@@ -1,0 +1,76 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Sony%20Sab.jpeg" group-title="Entertainment",SONY TV
+http://cdn.moviemazic.xyz:8083/Feedget/SonyEntertainmentTelevisionHD_9/tracks-v1a1/mono.m3u8?
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-2-hd-in.png" group-title="Sports",STAR SPORTS SELECT 2 HD
+http://cdn.moviemazic.xyz:8083/Feedget/Star-Select-Hd-2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-select-1-hd-in.png" group-title="Sports",STAR SPORTS SELECT 1 HD
+http://cdn.moviemazic.xyz:8083/Feedget/Star-Select-Hd-1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports",SONY SPORTS 3 HD
+http://cdn.moviemazic.xyz:8083/SonyTen3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports",SONY SPORTS 2 HD
+http://cdn.moviemazic.xyz:8083/SonyTen2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports",SONY SPORTS 1 HD
+http://cdn.moviemazic.xyz:8083/SonyTen1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Uneit8%20sports%201.webp" group-title="Sports",Uneit8 Sports 1
+http://cdn.moviemazic.xyz:8083/un-sports/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-2-hd-in.png" group-title="Sports",STAR SPORTS 2
+http://cdn.moviemazic.xyz:8083/StarSports2HD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-sports-1-hd-in.png" group-title="Sports",STAR SPORTS 1
+http://cdn.moviemazic.xyz:8083/StarSports1HD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
+http://cdn.moviemazic.xyz:8083/Feedget/ptv_pk/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NMgSxc0P/1000113679.png" group-title="Sports",Euro TV
+http://cdn.moviemazic.xyz:8083/Feedget/EurosportHD_17/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/National%20Geographic%20Channel.png" group-title="Documentary",Nat Geo HD
+http://cdn.moviemazic.xyz:8083/Feedget/National-Geography/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Animal%20Planet.png" group-title="Documentary",Animal Planet
+http://cdn.moviemazic.xyz:8083/Feedget/AnimalPlanetHD_12/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Discovery%20.png" group-title="Documentary",Discovery
+http://cdn.moviemazic.xyz:8083/Feedget/Discovery/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/POGO.jpeg" group-title="Kids",Pogo
+http://cdn.moviemazic.xyz:8083/Feedget/POGO_5/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Bein%20Sports%201.jpeg" group-title="Sports",BeIN Sports 1
+http://cdn.moviemazic.xyz:8083/Feedget/beinspots_2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/And%20Pictures%20.png" group-title="Hindi Movie",& Pictures
+http://cdn.moviemazic.xyz:8083/andpictureHD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Movies.png" group-title="English Movie",Star Movies HD
+http://cdn.moviemazic.xyz:8083/Feedget/Star-Movies/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="English Movie",Sony Pix HD
+http://cdn.moviemazic.xyz:8083/Feedget/SonyPIXHD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/zee-cinema-hd-in.png" group-title="Hindi Movie",Zee Cinema HD
+http://cdn.moviemazic.xyz:8083/Feedget/ZeeCinemaHD_38/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/sony-max-hd-in.png" group-title="Hindi Movie",Sony MAX
+http://cdn.moviemazic.xyz:8083/Feedget/SonyMAX_37/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Gold.png" group-title="Hindi Movie",Star Gold
+http://cdn.moviemazic.xyz:8083/Star-Gold/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Nagorik%20TV.png" group-title="Bangla",Nagorik TV
+http://cdn.moviemazic.xyz:8083/NagorikTV/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/gtv-hd-bd.png" group-title="Bangla",G TV
+http://cdn.moviemazic.xyz:8083/GaziTV/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-aath-in.png" group-title="Indian Bangla",Sony Aath
+http://cdn.moviemazic.xyz:8083/Feedget/SonyAath_7/tracks-v1a1/mono.m3u8
